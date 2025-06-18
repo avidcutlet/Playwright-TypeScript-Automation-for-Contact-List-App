@@ -1,0 +1,23 @@
+{
+  "name": "contact_list_playwright_typescript_automation",
+  "version": "1.0.0",
+  "description": "This is an automation using Playwright Typescript on Contact List Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "test:dev": "cross-env NODE_ENV=dev playwright test",
+    "test:prod": "cross-env NODE_ENV=prod playwright test",
+    "test:staging": "cross-env NODE_ENV=staging playwright test",
+    "test-ui:staging": "cross-env NODE_ENV=staging playwright test --project=chromium --ui",
+    "test:staging:chromium": "cross-env NODE_ENV=staging playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.3",
+    "cross-env": "^7.0.3"
+  }
+}
