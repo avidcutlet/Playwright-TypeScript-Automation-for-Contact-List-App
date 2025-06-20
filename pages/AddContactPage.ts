@@ -1,7 +1,7 @@
 import { Page, Locator } from '@playwright/test';
+import { BasePage } from '@pages/BasePage';
 
-export class AddContactPage {
-    super(page);
+export class AddContactPage extends BasePage {
     protected readonly CONTACT_LIST_HEADER: Locator;
 
     protected readonly FIRSTNAME_TXT: Locator;

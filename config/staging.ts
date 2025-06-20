@@ -1,18 +1,19 @@
-// config/staging.ts
-import { defaultConfig } from './config';
+import { defaultConfig } from '@config/config';
 
 export const stagingConfig = {
   ...defaultConfig,
-  baseUrl: 'https://thinking-tester-contact-list.herokuapp.com',
+  baseUrl: process.env.BASE_URL || 'https://thinking-tester-contact-list.herokuapp.com',
   timeout: 60000,
   users: {
     ...defaultConfig.users,
-    admin: { username: 'vonwebster@gmail.com', password: 'pass123' },
+    admin: {
+      username: process.env.ADMIN_USERNAME || 'default_staging_user@example.com',
+      password: process.env.ADMIN_PASSWORD || 'default_staging_password',
+    },
   },
   api: {
     ...defaultConfig.api,
-    baseUrl: 'https://thinking-tester-contact-list.herokuapp.com',
+    baseUrl: process.env.API_BASE_URL || 'https://thinking-tester-contact-list.herokuapp.com',
   },
-  // Add any staging-specific settings here
   performanceLogging: true,
 };

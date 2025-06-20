@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "target": "es2016",
+    "module": "commonjs",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true,
+
+    /* Aliases and Paths */
+    "baseUrl": "./", // This is correct, as your project root is the base
+    "paths": {
+      "@pages/*": ["pages/*"],       // Alias @pages points directly to the 'pages' folder
+      "@config/*": ["config/*"],     // Alias @config points directly to the 'config' folder
+      "@utils/*": ["utils/*"],        // If you have a 'utils' folder at the root
+    }
+  },
+  "include": [
+    "pages/**/*",
+    "config/**/*", // <--- CHANGE THIS: Include all files in the 'config' directory
+    "utils/**/*",      // <--- ADD THIS if you have a 'utils' folder at the root
+    "tests/**/*"       // <--- ADD THIS if you have a 'tests' folder at the root
+  ],
+  "exclude": [
+    "node_modules",
+    // "**/*.spec.ts", // Example: Exclude test files if you wish
+    // "**/*.test.ts"
+  ]
+}

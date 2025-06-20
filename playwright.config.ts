@@ -1,22 +1,28 @@
-// playwright.config.ts
+require('tsconfig-paths/register');
+
 import { defineConfig, devices } from '@playwright/test';
-import { config, EnvironmentConfig } from './config'; // Import your config utility
+import dotenv from 'dotenv';
+import path from 'path';
 
-/**
- * Read environment variables from .env file.
- * Not recommended for production environments.
- * For local development, you might use dotenv to load .env files.
- * require('dotenv').config();
- */
 
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
-export default defineConfig<EnvironmentConfig>({
+// Determine which environment file to load
+const environment = process.env.NODE_ENV || 'staging'; // Default to 'staging' if not specified
+const dotenvResult = dotenv.config({ path: path.resolve(__dirname, `config/.env.${environment}`) });
+
+
+// LINES FOR MORE DETAILED DEBUGGING
+if (dotenvResult.error) {
+    console.error(`[DOTENV ERROR] Failed to load .env file: ${dotenvResult.error.message}`);
+} else {
+    console.log(`[DOTENV DEBUG] Successfully loaded .env file. Parsed variables:`, dotenvResult.parsed);
+}
+console.log(`[DEBUG] Loaded BASE_URL from .env: ${process.env.BASE_URL}`);
+
+
+export default defineConfig({
   testDir: './tests',
   testMatch: '**/*.@(spec|test).ts',
-  /* Maximum time one test can run for. */
-  timeout: config.timeout, // Use timeout from your loaded config
+
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -36,14 +42,14 @@ export default defineConfig<EnvironmentConfig>({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: config.baseUrl, // Use baseURL from your loaded config
+    // Use the base URL loaded from the .env file for all tests
+    baseURL: process.env.BASE_URL,
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    // Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer
     trace: 'on-first-retry',
 
-    // You can also pass the full config object as a test option if needed
-    // testConfig: config, // Uncomment if you need to access full config in tests
+    // Set to true for headless mode, false for headed mode
+    headless: false, 
   },
 
   /* Configure projects for major browsers */
@@ -85,10 +91,4 @@ export default defineConfig<EnvironmentConfig>({
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   outputDir: 'test-results/',
 
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://127.0.0.1:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
 });

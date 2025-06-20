@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { config, EnvironmentConfig } from '../../config'; // Import your config utility
+// import { defaultConfig } from '../../config/config'; // Import your config utility
+import { defaultConfig } from '@config/config'; // Import your config utility
+
 
 // Use a describe block to group tests related to a specific feature or component.
 // This mirrors your "Feature Name: Account Setup - New User Account via UI"
@@ -34,7 +36,7 @@ test.describe('Account Setup - New User Account via UI', () => {
     /******************************/
     /** Given: User is logged in **/
     // You might have a beforeEach hook for common login steps, or include it here if specific to this test.
-    await page.goto(config.baseUrl);
+    await page.goto('/');
 
     // Expect a title to contain "Contact List App".
     await expect(page.locator('h1')).toBeVisible();
@@ -42,13 +44,14 @@ test.describe('Account Setup - New User Account via UI', () => {
     await expect(page).toHaveTitle(/Contact List App/);
 
     // Login to contact list
-    await EMAIL_TXT.fill(config.users.admin.username);
-    await PASSWORD_TXT.fill(config.users.admin.password);
+    await EMAIL_TXT.fill(defaultConfig.users.admin.username);
+    await PASSWORD_TXT.fill(defaultConfig.users.admin.password);
     await SUBMIT_BTN.click();
 
     /**********************************************/
     /** When: User is on create new account page **/
     // Navigate to the create account page
+    await expect(page.locator('#add-contact')).toBeVisible();
     await ADD_NEW_CONTACT_BTN.click();
     await expect(page).toHaveTitle(/Add Contact/); 
     await expect(page.locator('h1')).toHaveText(/Add Contact/);

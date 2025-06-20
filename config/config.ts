@@ -1,51 +1,14 @@
-// config/config.ts
-
-interface AppConfig {
-  baseUrl: string;
-  timeout: number; // Default timeout for tests/actions
+export const defaultConfig = {
+  baseUrl: process.env.BASE_URL, // Will be overridden by environment-specific config or .env
+  timeout: process.env.DEFAULT_TIMEOUT ? parseInt(process.env.DEFAULT_TIMEOUT) : 30000,
   users: {
-    admin: { username: string; password: string };
-  };
-  api: {
-    baseUrl: string;
-    endpoints: {
-      login: string;
-      logout: string;
-      addUser: string;
-      user: string; 
-      contactList: string;
-      contact: string;
-
-    };
-  };
-  // Add any other common configuration properties here
-}
-
-export const defaultConfig: AppConfig = {
-  baseUrl: 'https://thinking-tester-contact-list.herokuapp.com', // Default local development URL
-  timeout: 30000, // 30 seconds
-  users: {
-    admin: { username: 'vonwebster@gmail.com', password: 'pass123' },
+    admin: { 
+      username: process.env.ADMIN_USERNAME,
+      password: process.env.ADMIN_PASSWORD }, // Will be overridden
   },
   api: {
-    baseUrl: 'https://thinking-tester-contact-list.herokuapp.com',
-    endpoints: {
-      /** Endpoints for Users **/
-      login: '/users/login',
-      logout: '/users/logout',
-      addUser: '/users',
-
-      //   Endpoint for Read, Update, and Delete
-      user: '/users/me',
-      
-      /** Endpoints for Contacts **/
-
-      // Contact List
-      contactList: '/contacts',
-
-      // Endpoint for Read Contact, Update, and Delete
-      contact: '/contacts/',
-
-    },
+    baseUrl: process.env.API_BASE_URL, // Will be overridden
   },
+  performanceLogging: process.env.PERFORMANCE_LOGGING === 'true',
 };
+console.log('defaultConfig loaded:', defaultConfig);
