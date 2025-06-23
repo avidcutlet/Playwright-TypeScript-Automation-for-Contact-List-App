@@ -1,93 +1,80 @@
 import { test, expect } from '@playwright/test';
-// import { defaultConfig } from '../../config/config'; // Import your config utility
-import { defaultConfig } from '@config/config'; // Import your config utility
-
+import { defaultConfig } from '@config/config';
+import { LoginPage } from '@pages/LoginPage';
+import { ContactListPage } from '@pages/ContactListPage';
+import { AddContactPage } from '@pages/AddContactPage';
+import { generateContactData } from '@testData/TestDataGenerator';
 
 // Use a describe block to group tests related to a specific feature or component.
-// This mirrors your "Feature Name: Account Setup - New User Account via UI"
-test.describe('Account Setup - New User Account via UI', () => {
+// This mirrors your "Feature Name: Contact Management - Add New Contact via UI" 
+test.describe('Contact Management - Add New Contact via UI', () => {
+   let loginPageInstance: LoginPage;
+   let contactListPageInstance: ContactListPage;
+   let addContactPageInstance: AddContactPage;
 
-  // Each 'test' block represents a scenario.
-  // This mirrors your "Scenario Name: Create User Account in UI"
-  test('Create User Account in UI', async ({ page }) => {
+   let contactData: ReturnType<typeof generateContactData>;
 
-    // Login page locators
-    const EMAIL_TXT = page.locator('#email');
-    const PASSWORD_TXT = page.locator('#password');
-    const SUBMIT_BTN = page.locator('#submit');
-    const ADD_NEW_CONTACT_BTN = page.locator('#add-contact');
+    test.beforeEach(async ({ page }) => {
+      loginPageInstance = new LoginPage(page);
+      contactListPageInstance = new ContactListPage(page);
+      addContactPageInstance = new AddContactPage(page);
 
-    // Add new contact locators
-    const FIRSTNAME_TXT = page.locator("#firstName");
-    const LASTNAME_TXT = page.locator("#lastName");
-    const BIRTHDATE_TXT = page.locator("#birthdate");
-    // const EMAIL_TXT = page.locator("#email");
-    const PHONE_TXT = page.locator("#phone");
-    const STREET1_TXT = page.locator("#street1");
-    const STREET2_TXT = page.locator("#street2");
-    const CITY_TXT = page.locator("#city");
-    const STATEPROVINCE_TXT = page.locator("#stateProvince");
-    const POSTALCODE_TXT = page.locator("#postalCode");
-    const COUNTRY_TXT = page.locator("#country");
-    
-    // const SUBMIT_BTN = page.locator("#submit");
-    const CANCEL_BTN = page.locator("#cancel");
+      // Assign contactData here, so each test gets new, unique data
+      contactData = generateContactData();
 
-    /******************************/
-    /** Given: User is logged in **/
-    // You might have a beforeEach hook for common login steps, or include it here if specific to this test.
-    await page.goto('/');
+      /******************************/
+      /** Given: User is logged in **/
+      await page.goto('/');
+      await loginPageInstance.isDomContentLoaded(); // Wait for DOM on initial load
+      const loginHeaderTextContent = await loginPageInstance.loginHeaderTextContent();
+      await expect(loginHeaderTextContent).toBe('Contact List App');
 
-    // Expect a title to contain "Contact List App".
-    await expect(page.locator('h1')).toBeVisible();
-    await expect(page.locator('h1')).toHaveText(/Contact List App/);
-    await expect(page).toHaveTitle(/Contact List App/);
+      // Login to Contact List
+      await loginPageInstance.enterEmail(defaultConfig.users.admin.username);
+      await loginPageInstance.enterPassword(defaultConfig.users.admin.password);
+      await loginPageInstance.clickSubmit();
+    });
 
-    // Login to contact list
-    await EMAIL_TXT.fill(defaultConfig.users.admin.username);
-    await PASSWORD_TXT.fill(defaultConfig.users.admin.password);
-    await SUBMIT_BTN.click();
+  // This mirrors your "Scenario Name: @TC17 Add New Contact in UI"
+  test('Add New Contact in UI', async ({ page }) => {
 
     /**********************************************/
-    /** When: User is on create new account page **/
+    /** When: User is on Add Contact page **/
     // Navigate to the create account page
-    await expect(page.locator('#add-contact')).toBeVisible();
-    await ADD_NEW_CONTACT_BTN.click();
-    await expect(page).toHaveTitle(/Add Contact/); 
-    await expect(page.locator('h1')).toHaveText(/Add Contact/);
+    await contactListPageInstance.isDomContentLoaded();
+
+    let contactListHeaderTextContent = await contactListPageInstance.contactListHeaderTextContent();
+    await expect(contactListHeaderTextContent).toBe('Contact List');
+
+    await contactListPageInstance.clickAddContactButton();
 
     /**********************************************/
-    // And: Populate required fields with valid data
-    await FIRSTNAME_TXT.fill('Jimmy');
-    await LASTNAME_TXT.fill('Neutron');
-    await BIRTHDATE_TXT.fill('1990-05-12');
-    await EMAIL_TXT.fill('jimmyNeutron@Ranches.com');
-    await PHONE_TXT.fill('0000111');
-    await STREET1_TXT.fill('Ranches');
-    await STREET2_TXT.fill('Fictional');
-    await CITY_TXT.fill('Retroville');
-    await STATEPROVINCE_TXT.fill('Texas');
-    await POSTALCODE_TXT.fill('214');
-    await COUNTRY_TXT.fill('United States');
+    // And: Fill in the required fields with valid data
+    await addContactPageInstance.enterFirstName(contactData.firstName);
+    await addContactPageInstance.enterLastName(contactData.lastName);
+    await addContactPageInstance.enterBirthdate(contactData.birthdate);
+    await addContactPageInstance.enterEmail(contactData.email);
+    await addContactPageInstance.enterPhone(contactData.phone);
+    await addContactPageInstance.enterStreet1(contactData.street1);
+    await addContactPageInstance.enterStreet2(contactData.street2);
+    await addContactPageInstance.enterCity(contactData.city);
+    await addContactPageInstance.enterStateProvince(contactData.stateProvince);
+    await addContactPageInstance.enterPostalCode(contactData.postalCode);
+    await addContactPageInstance.enterCountry(contactData.country);
 
     /**********************************************/
-    // And: Click on submit button
-    await SUBMIT_BTN.click();
+    // And: Click on "Submit"
+    await addContactPageInstance.clickSubmit();
 
     /**********************************************/
-    // Then User should successfully create new account
-    // Verify success by checking:
-    // 1. URL change:
-    await expect(page).toHaveURL(/contactList/); // Or a dashboard/profile page
+    // Then: User should successfully add a new contact
 
+    await contactListPageInstance.isDomContentLoaded();
 
-    // 4. (Optional) Verify data in a table/list if immediately visible, or navigate to it
-    await expect(page.locator('text=Jimmy Neutron')).toBeVisible();
+    contactListHeaderTextContent = await contactListPageInstance.contactListHeaderTextContent();
+    await expect(contactListHeaderTextContent).toBe('Contact List');
+
+    // Verify data in a table if immediately visible
+    await expect(page.locator(`text=${contactData.firstName} ${contactData.lastName}`)).toBeVisible();
   });
-
-  // You can add more 'test' blocks for other scenarios related to "Account Setup - New User Account via UI"
-  // test('Attempt to create account with existing email', async ({ page }) => {
-  //   // ... test steps for this scenario
-  // });
-
 });

@@ -4,11 +4,9 @@ import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 
-
 // Determine which environment file to load
 const environment = process.env.NODE_ENV || 'staging'; // Default to 'staging' if not specified
 const dotenvResult = dotenv.config({ path: path.resolve(__dirname, `config/.env.${environment}`) });
-
 
 // LINES FOR MORE DETAILED DEBUGGING
 if (dotenvResult.error) {
@@ -17,7 +15,6 @@ if (dotenvResult.error) {
     console.log(`[DOTENV DEBUG] Successfully loaded .env file. Parsed variables:`, dotenvResult.parsed);
 }
 console.log(`[DEBUG] Loaded BASE_URL from .env: ${process.env.BASE_URL}`);
-
 
 export default defineConfig({
   testDir: './tests',
@@ -48,23 +45,38 @@ export default defineConfig({
     // Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer
     trace: 'on-first-retry',
 
-    // Set to true for headless mode, false for headed mode
-    headless: false, 
+    launchOptions: {
+      headless: false,
+      slowMo: 1000,
+      args: ['--start-fullscreen'],
+    },
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1536, height: 864 },
+        deviceScaleFactor: 1,
+      },
     },
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { 
+        ...devices['Desktop Firefox'],
+        viewport: { width: 1536, height: 864 },
+        deviceScaleFactor: 1,
+      },
     },
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: { 
+        ...devices['Desktop Safari'],
+        viewport: { width: 1536, height: 864 },
+        deviceScaleFactor: 1,
+      },
     },
 
     /* Test against mobile viewports. */

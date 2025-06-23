@@ -1,42 +1,111 @@
 import { Page, Locator } from '@playwright/test';
 import { BasePage } from '@pages/BasePage';
+import { ElementMouseActionUtil } from '@utils/ElementMouseActionUtil';
+import { ElementKeyboardActionUtil } from '@utils/ElementKeyboardActionUtil';
+import { ElementAssertionUtil } from '@utils/ElementAssertionUtil';
 
 export class AddContactPage extends BasePage {
-    protected readonly CONTACT_LIST_HEADER: Locator;
+    protected readonly elementMouseActionUtil: ElementMouseActionUtil;
+    protected readonly elementKeyboardActionUtil: ElementKeyboardActionUtil;
+    protected readonly elementAssertionUtil: ElementAssertionUtil;
 
-    protected readonly FIRSTNAME_TXT: Locator;
-    protected readonly LASTNAME_TXT: Locator;
-    protected readonly BIRTHDATE_TXT: Locator;
-    protected readonly EMAIL_TXT: Locator;
-    protected readonly PHONE_TXT: Locator;
-    protected readonly STREET1_TXT: Locator;
-    protected readonly STREET2_TXT: Locator;
-    protected readonly CITY_TXT: Locator;
-    protected readonly STATEPROVINCE_TXT: Locator;
-    protected readonly POSTALCODE_TXT: Locator;
-    protected readonly COUNTRY_TXT: Locator;
-    
-    protected readonly SUBMIT_BTN: Locator;
-    protected readonly CANCEL_BTN: Locator;
+    protected readonly contactListHeader: Locator;
+    protected readonly firstNameTxt: Locator;
+    protected readonly lastNameTxt: Locator;
+    protected readonly birthdateTxt: Locator;
+    protected readonly emailTxt: Locator;
+    protected readonly phoneTxt: Locator;
+    protected readonly street1Txt: Locator;
+    protected readonly street2Txt: Locator;
+    protected readonly cityTxt: Locator;
+    protected readonly stateProvinceTxt: Locator;
+    protected readonly postalCodeTxt: Locator;
+    protected readonly countryTxt: Locator;
+
+    protected readonly submitBtn: Locator;
+    protected readonly cancelBtn: Locator;
 
     constructor(page: Page) {
         super(page); // Call the constructor of BasePage
+        this.elementMouseActionUtil = new ElementMouseActionUtil(page);
+        this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
+        this.elementAssertionUtil = new ElementAssertionUtil(page);
 
-        this.CONTACT_LIST_HEADER = page.locator('h1:has-text("Contact List")');
+        this.contactListHeader = page.getByRole('heading', { name: 'Add Contact' });
 
-        this.FIRSTNAME_TXT = page.locator("#firstName");
-        this.LASTNAME_TXT = page.locator("#lastName");
-        this.BIRTHDATE_TXT = page.locator("#birthdate");
-        this.EMAIL_TXT = page.locator("#email");
-        this.PHONE_TXT = page.locator("#phone");
-        this.STREET1_TXT = page.locator("#street1");
-        this.STREET2_TXT = page.locator("#street2");
-        this.CITY_TXT = page.locator("#city");
-        this.STATEPROVINCE_TXT = page.locator("#stateProvince");
-        this.POSTALCODE_TXT = page.locator("#postalCode");
-        this.COUNTRY_TXT = page.locator("#country");
-        
-        this.SUBMIT_BTN = page.locator("#submit");
-        this.CANCEL_BTN = page.locator("#cancel");
+        this.firstNameTxt = page.getByRole('textbox', { name: '* First Name:' });
+        this.lastNameTxt = page.getByRole('textbox', { name: '* Last Name:' });
+        this.birthdateTxt = page.getByRole('textbox', { name: 'Date of Birth:' });
+        this.emailTxt = page.getByRole('textbox', { name: 'Email:' });
+        this.phoneTxt = page.getByRole('textbox', { name: 'Phone:' });
+        this.street1Txt = page.getByRole('textbox', { name: 'Street Address 1:' });
+        this.street2Txt = page.getByRole('textbox', { name: 'Street Address 2:' });
+        this.cityTxt = page.getByRole('textbox', { name: 'City:' });
+        this.stateProvinceTxt = page.getByRole('textbox', { name: 'State or Province:' });
+        this.postalCodeTxt = page.getByRole('textbox', { name: 'Postal Code:' });
+        this.countryTxt = page.locator("#country");
+
+        this.submitBtn = page.locator("#submit");
+        this.cancelBtn = page.locator("#cancel");
+    }
+
+    async isDomContentLoaded() {
+        await this.elementAssertionUtil.isDomContentLoaded();
+    }
+
+    async isAddContactHeaderVisible() {
+        await this.elementAssertionUtil.assertElementTextContent(this.contactListHeader, 'Add Contact');
+    }
+
+    async enterFirstName(firstName: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.firstNameTxt, firstName);
+    }
+
+    async enterLastName(lastName: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.lastNameTxt, lastName);
+    }
+
+    async enterBirthdate(birthdate: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.birthdateTxt, birthdate);
+    }
+
+    async enterEmail(email: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.emailTxt, email);
+    }
+
+    async enterPhone(phone: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.phoneTxt, phone);
+    }
+
+    async enterStreet1(street1: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.street1Txt, street1);
+    }
+
+    async enterStreet2(street2: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.street2Txt, street2);
+    }
+
+    async enterCity(city: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.cityTxt, city);
+    }
+
+    async enterStateProvince(stateProvince: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.stateProvinceTxt, stateProvince);
+    }
+
+    async enterPostalCode(postalCode: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.postalCodeTxt, postalCode);
+    }
+
+    async enterCountry(country: string) {
+        await this.elementKeyboardActionUtil.inputElementText(this.countryTxt, country);
+    }
+
+    async clickSubmit() {
+        await this.elementMouseActionUtil.clickElement(this.submitBtn);
+    }
+
+    async clickCancel() {
+        await this.elementMouseActionUtil.clickElement(this.cancelBtn);
     }
 }

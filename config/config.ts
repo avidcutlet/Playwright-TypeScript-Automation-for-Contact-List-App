@@ -3,8 +3,8 @@ export const defaultConfig = {
   timeout: process.env.DEFAULT_TIMEOUT ? parseInt(process.env.DEFAULT_TIMEOUT) : 30000,
   users: {
     admin: { 
-      username: process.env.ADMIN_USERNAME,
-      password: process.env.ADMIN_PASSWORD }, // Will be overridden
+      username: process.env.ADMIN_USERNAME || "fallbackAdmin", // Will be overridden
+      password: process.env.ADMIN_PASSWORD || "fallbackPassword"}, // Will be overridden
   },
   api: {
     baseUrl: process.env.API_BASE_URL, // Will be overridden
