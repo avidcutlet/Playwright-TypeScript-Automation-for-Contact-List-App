@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { defaultConfig } from '@config/config';
-import { LoginPage } from '@pages/LoginPage';
-import { ContactListPage } from '@pages/ContactListPage';
-import { AddContactPage } from '@pages/AddContactPage';
-import { generateContactData } from '@testData/TestDataGenerator';
+import { LoginPage } from '@pages/login-page';
+import { ContactListPage } from '@pages/contact-list-page';
+import { AddContactPage } from '@pages/add-contact-page';
+import { generateContactData } from '@testData/test-data-generator';
 
 // Use a describe block to group tests related to a specific feature or component.
 // This mirrors your "Feature Name: Contact Management - Add New Contact via UI" 
@@ -43,8 +43,8 @@ test.describe('Contact Management - Add New Contact via UI', () => {
     // Navigate to the create account page
     await contactListPageInstance.isDomContentLoaded();
 
-    let contactListHeaderTextContent = await contactListPageInstance.contactListHeaderTextContent();
-    await expect(contactListHeaderTextContent).toBe('Contact List');
+    let contactListHeaderTextContent = await addContactPageInstance.addContactListHeaderTextContent();
+    await expect(contactListHeaderTextContent).toBe('Add Contact');
 
     await contactListPageInstance.clickAddContactButton();
 

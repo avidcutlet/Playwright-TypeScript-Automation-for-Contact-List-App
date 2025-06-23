@@ -1,8 +1,8 @@
 import { Page, Locator } from '@playwright/test';
-import { BasePage } from '@pages/BasePage';
-import { ElementMouseActionUtil } from '@utils/ElementMouseActionUtil';
-import { ElementKeyboardActionUtil } from '@utils/ElementKeyboardActionUtil';
-import { ElementAssertionUtil } from '@utils/ElementAssertionUtil';
+import { BasePage } from '@pages/base-page';
+import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
+import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
+import { ElementAssertionUtil } from '@utils/element-assertion-util';
 
 export class AddContactPage extends BasePage {
     protected readonly elementMouseActionUtil: ElementMouseActionUtil;
@@ -53,8 +53,8 @@ export class AddContactPage extends BasePage {
         await this.elementAssertionUtil.isDomContentLoaded();
     }
 
-    async isAddContactHeaderVisible() {
-        await this.elementAssertionUtil.assertElementTextContent(this.contactListHeader, 'Add Contact');
+    async addContactListHeaderTextContent(): Promise<string | null> {
+        return this.contactListHeader.textContent();
     }
 
     async enterFirstName(firstName: string) {

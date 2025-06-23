@@ -1,7 +1,7 @@
 import { Page, Locator } from '@playwright/test';
-import { ElementMouseActionUtil } from '@utils/ElementMouseActionUtil';
-import { ElementKeyboardActionUtil } from '../utils/ElementKeyboardActionUtil';
-import { ElementAssertionUtil } from '../utils/ElementAssertionUtil';
+import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
+import { ElementKeyboardActionUtil } from '../utils/element-keyboard-action-util';
+import { ElementAssertionUtil } from '../utils/element-assertion-util';
 
 export class LoginPage {
     protected readonly page: Page;

@@ -1,8 +1,8 @@
 import { Page, Locator } from '@playwright/test';
-import { BasePage } from '@pages/BasePage';
-import { ElementMouseActionUtil } from '@utils/ElementMouseActionUtil';
-import { ElementKeyboardActionUtil } from '@utils/ElementKeyboardActionUtil';
-import { ElementAssertionUtil } from '@utils/ElementAssertionUtil';
+import { BasePage } from '@pages/base-page';
+import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
+import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
+import { ElementAssertionUtil } from '@utils/element-assertion-util';
 
 export class ContactListPage extends BasePage {
     protected readonly elementMouseActionUtil: ElementMouseActionUtil; 

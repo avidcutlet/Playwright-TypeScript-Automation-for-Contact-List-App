@@ -1,5 +1,5 @@
 import { Page, Locator } from '@playwright/test';
-import { ElementMouseActionUtil } from '@utils/ElementMouseActionUtil';
+import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
 export class BasePage {
     protected readonly page: Page;
