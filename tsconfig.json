@@ -23,6 +23,7 @@
       "@config/*": ["config/*"],
       "@utils/*": ["utils/*"],
       "@testData/*": ["test-data/*"],
+      "@hooks/*": ["hooks/*"],
     }
   },
   "include": [
@@ -30,12 +31,11 @@
     "config/**/*",
     "utils/**/*",
     "tests/**/*",
-    "tests-examples/backup.ts",
     "test-data/**/*"
   ],
   "exclude": [
     "node_modules",
-    // "**/*.spec.ts", // Example: Exclude test files if you wish
+    // "**/*.spec.ts", 
     // "**/*.test.ts"
   ]
 }

@@ -10,7 +10,7 @@
     "test:prod": "cross-env NODE_ENV=prod TS_NODE_PROJECT=./tsconfig.json playwright test",
     "test:staging": "cross-env NODE_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test",
     "test-ui:staging": "cross-env NODE_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test --project=chromium --ui",
-    "test:staging:chromium": "cross-env NODE_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test --project=chromium",
+    "test:staging:chromium": "cross-env TEST_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test --project=chromium",
     "test:staging:firefox": "cross-env NODE_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test --project=firefox",
     "test:staging:webkit": "cross-env NODE_ENV=staging TS_NODE_PROJECT=./tsconfig.json playwright test --project=webkit"
   },

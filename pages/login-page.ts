@@ -1,13 +1,11 @@
 import { Page, Locator } from '@playwright/test';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 import { ElementKeyboardActionUtil } from '../utils/element-keyboard-action-util';
-import { ElementAssertionUtil } from '../utils/element-assertion-util';
 
 export class LoginPage {
     protected readonly page: Page;
     protected readonly elementMouseActionUtil: ElementMouseActionUtil;
     protected readonly elementKeyboardActionUtil: ElementKeyboardActionUtil;
-    protected readonly elementAssertionUtil: ElementAssertionUtil;
 
     protected readonly loginHeader: Locator;
     protected readonly emailTxt: Locator;
@@ -20,7 +18,6 @@ export class LoginPage {
         this.page = page; // Assign the page instance
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
-        this.elementAssertionUtil = new ElementAssertionUtil(page);
 
         // Using getByRole locators from Playwright codegen
         this.loginHeader = page.getByRole('heading', { name: 'Contact List App' });
@@ -29,10 +26,6 @@ export class LoginPage {
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
         this.signUpBtn = page.getByRole('button', { name: 'Sign up' });
-    }
-
-    async isDomContentLoaded() {
-        await this.elementAssertionUtil.isDomContentLoaded();
     }
 
     async loginHeaderTextContent(): Promise<string | null> {

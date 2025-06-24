@@ -1,30 +1,17 @@
 require('tsconfig-paths/register');
 
 import { defineConfig, devices } from '@playwright/test';
-import dotenv from 'dotenv';
 import path from 'path';
 
-// Determine which environment file to load
-const environment = process.env.NODE_ENV || 'staging'; // Default to 'staging' if not specified
-const dotenvResult = dotenv.config({ path: path.resolve(__dirname, `config/.env.${environment}`) });
-
-// LINES FOR MORE DETAILED DEBUGGING
-if (dotenvResult.error) {
-    console.error(`[DOTENV ERROR] Failed to load .env file: ${dotenvResult.error.message}`);
-} else {
-    console.log(`[DOTENV DEBUG] Successfully loaded .env file. Parsed variables:`, dotenvResult.parsed);
-}
-console.log(`[DEBUG] Loaded BASE_URL from .env: ${process.env.BASE_URL}`);
+const globalSetupPath = path.resolve(__dirname, 'hooks', 'env-setup.ts');
 
 export default defineConfig({
+  globalSetup: globalSetupPath,
   testDir: './tests',
   testMatch: '**/*.@(spec|test).ts',
 
   expect: {
-    /**
-     * Maximum time expect() should wait for the condition to be met.
-     * For example in `await expect(locator).toHaveText();`
-     */
+
     timeout: 5000,
   },
   /* Run tests in files in parallel */
@@ -72,7 +59,7 @@ export default defineConfig({
     },
     {
       name: 'webkit',
-      use: { 
+      use: {
         ...devices['Desktop Safari'],
         viewport: { width: 1536, height: 864 },
         deviceScaleFactor: 1,

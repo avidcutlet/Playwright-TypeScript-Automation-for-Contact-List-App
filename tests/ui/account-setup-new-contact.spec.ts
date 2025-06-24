@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { defaultConfig } from '@config/config';
 import { LoginPage } from '@pages/login-page';
 import { ContactListPage } from '@pages/contact-list-page';
 import { AddContactPage } from '@pages/add-contact-page';
@@ -24,14 +23,15 @@ test.describe('Contact Management - Add New Contact via UI', () => {
 
       /******************************/
       /** Given: User is logged in **/
+      // hooks
       await page.goto('/');
-      await loginPageInstance.isDomContentLoaded(); // Wait for DOM on initial load
       const loginHeaderTextContent = await loginPageInstance.loginHeaderTextContent();
       await expect(loginHeaderTextContent).toBe('Contact List App');
 
       // Login to Contact List
-      await loginPageInstance.enterEmail(defaultConfig.users.admin.username);
-      await loginPageInstance.enterPassword(defaultConfig.users.admin.password);
+      // json file for test data
+      await loginPageInstance.enterEmail(process.env.ADMIN_USERNAME! || "not working");
+      await loginPageInstance.enterPassword(process.env.ADMIN_PASSWORD! || "not working");
       await loginPageInstance.clickSubmit();
     });
 
@@ -41,12 +41,15 @@ test.describe('Contact Management - Add New Contact via UI', () => {
     /**********************************************/
     /** When: User is on Add Contact page **/
     // Navigate to the create account page
-    await contactListPageInstance.isDomContentLoaded();
-
-    let contactListHeaderTextContent = await addContactPageInstance.addContactListHeaderTextContent();
-    await expect(contactListHeaderTextContent).toBe('Add Contact');
+    // start reusable scripts
+    let contactListHeaderTextContent = await contactListPageInstance.contactListHeaderTextContent();
+    await expect(contactListHeaderTextContent).toBe('Contact List');
 
     await contactListPageInstance.clickAddContactButton();
+    
+    let addContactHeaderTextContent = await addContactPageInstance.addContactHeaderTextContent();
+    await expect(addContactHeaderTextContent).toBe('Add Contact');
+
 
     /**********************************************/
     // And: Fill in the required fields with valid data
@@ -65,12 +68,12 @@ test.describe('Contact Management - Add New Contact via UI', () => {
     /**********************************************/
     // And: Click on "Submit"
     await addContactPageInstance.clickSubmit();
+    // end reusable scripts
 
     /**********************************************/
     // Then: User should successfully add a new contact
 
-    await contactListPageInstance.isDomContentLoaded();
-
+    //retain
     contactListHeaderTextContent = await contactListPageInstance.contactListHeaderTextContent();
     await expect(contactListHeaderTextContent).toBe('Contact List');
 

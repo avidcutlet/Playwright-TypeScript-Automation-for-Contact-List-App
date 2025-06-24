@@ -2,14 +2,12 @@ import { Page, Locator } from '@playwright/test';
 import { BasePage } from '@pages/base-page';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
-import { ElementAssertionUtil } from '@utils/element-assertion-util';
 
 export class AddContactPage extends BasePage {
     protected readonly elementMouseActionUtil: ElementMouseActionUtil;
     protected readonly elementKeyboardActionUtil: ElementKeyboardActionUtil;
-    protected readonly elementAssertionUtil: ElementAssertionUtil;
 
-    protected readonly contactListHeader: Locator;
+    protected readonly addContactHeader: Locator;
     protected readonly firstNameTxt: Locator;
     protected readonly lastNameTxt: Locator;
     protected readonly birthdateTxt: Locator;
@@ -29,9 +27,8 @@ export class AddContactPage extends BasePage {
         super(page); // Call the constructor of BasePage
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
-        this.elementAssertionUtil = new ElementAssertionUtil(page);
 
-        this.contactListHeader = page.getByRole('heading', { name: 'Add Contact' });
+        this.addContactHeader = page.getByRole('heading', { name: 'Add Contact' });
 
         this.firstNameTxt = page.getByRole('textbox', { name: '* First Name:' });
         this.lastNameTxt = page.getByRole('textbox', { name: '* Last Name:' });
@@ -49,12 +46,8 @@ export class AddContactPage extends BasePage {
         this.cancelBtn = page.locator("#cancel");
     }
 
-    async isDomContentLoaded() {
-        await this.elementAssertionUtil.isDomContentLoaded();
-    }
-
-    async addContactListHeaderTextContent(): Promise<string | null> {
-        return this.contactListHeader.textContent();
+    async addContactHeaderTextContent(): Promise<string | null> {
+        return this.addContactHeader.textContent();
     }
 
     async enterFirstName(firstName: string) {
