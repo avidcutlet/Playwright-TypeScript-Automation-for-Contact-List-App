@@ -1,4 +1,12 @@
 import { Page, Locator } from '@playwright/test';
+import ReporterUtil from '@utils/reporter-util';
+import {
+  MSG_CLICK_MESSAGE
+} from '@utils/messages-util';
+ 
+import {
+  EXCEPTION_ERROR_CLICK_ELEMENT
+} from '@utils/exception-messages-util';
 
 export class ElementMouseActionUtil {
     private page: Page;
@@ -10,11 +18,11 @@ export class ElementMouseActionUtil {
     async clickElement(locator: Locator): Promise<void> {
         try {
             await locator.click();
-            console.log(`Element at locator '${locator}' clicked successfully.`);
+            ReporterUtil.report(this.page, MSG_CLICK_MESSAGE(locator.toString()), 'info');
 
         } catch (error) {
-            console.error(`Error clicking element at locator '${locator}':`, error);
-            throw error; // Rethrow the error after logging
+            ReporterUtil.report(this.page, EXCEPTION_ERROR_CLICK_ELEMENT(locator.toString(), error as Error), 'error');
+            throw error;
         }
     }
 }

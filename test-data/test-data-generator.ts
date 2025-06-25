@@ -18,6 +18,7 @@ export function generateContactData() {
   const stateProvince = faker.location.state();
   const postalCode = faker.location.zipCode();
   const country = faker.location.country();
+  const password = faker.internet.password({ length: 12 });
 
   return {
     firstName,
@@ -31,5 +32,6 @@ export function generateContactData() {
     stateProvince,
     postalCode,
     country,
+    password,
   };
 }

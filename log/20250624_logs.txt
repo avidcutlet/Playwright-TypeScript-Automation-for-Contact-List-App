@@ -1,0 +1,28 @@
+2025-06-24T06:49:24.390Z - INFO - Test Suite is Starting
+2025-06-24T06:49:26.169Z - INFO - The test is running: Add New User in UI
+2025-06-24T06:49:55.231Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T06:49:55.298Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:17:34.538Z - INFO - Test Suite is Starting
+2025-06-24T07:17:36.106Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:18:03.466Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:18:03.533Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:31:33.495Z - INFO - Test Suite is Starting
+2025-06-24T07:31:34.461Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:31:40.148Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:31:40.185Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:31:55.169Z - INFO - Test Suite is Starting
+2025-06-24T07:31:55.984Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:32:00.523Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:32:00.622Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:34:19.348Z - INFO - Test Suite is Starting
+2025-06-24T07:34:20.364Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:34:27.583Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:34:27.670Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:34:41.300Z - INFO - Test Suite is Starting
+2025-06-24T07:34:42.090Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:34:49.001Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:34:49.070Z - INFO - The Suite is completed: Add New User in UI
+2025-06-24T07:35:53.206Z - INFO - Test Suite is Starting
+2025-06-24T07:35:54.177Z - INFO - The test is running: Add New User in UI
+2025-06-24T07:36:23.669Z - INFO - The test completed successfully: Add New User in UI
+2025-06-24T07:36:23.721Z - INFO - The Suite is completed: Add New User in UI

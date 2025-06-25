@@ -1,18 +1,21 @@
-require('tsconfig-paths/register');
-
 import { defineConfig, devices } from '@playwright/test';
 import path from 'path';
 
-const globalSetupPath = path.resolve(__dirname, 'hooks', 'env-setup.ts');
+if (!process.env.NODE_ENV) {
+  require("dotenv").config({ path: `${__dirname}//config//.env.staging` });
+} else {
+  require("dotenv").config({
+    path: `${__dirname}//config//.env.${process.env.NODE_ENV}`,
+  });
+}
 
 export default defineConfig({
-  globalSetup: globalSetupPath,
   testDir: './tests',
   testMatch: '**/*.@(spec|test).ts',
-
+  
+  timeout: 300000,
   expect: {
-
-    timeout: 5000,
+    timeout: 20000,
   },
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -23,7 +26,13 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [['html'], ['allure-playwright', {
+    detail: false,
+    suiteTitle: false,
+    stdout: false,  
+    //outputFolder: 'report/allure-results',
+    resultsDir: 'reports/allure-results',
+  }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     // Use the base URL loaded from the .env file for all tests
@@ -31,6 +40,7 @@ export default defineConfig({
 
     // Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer
     trace: 'on-first-retry',
+    video:"off",
 
     launchOptions: {
       headless: false,
@@ -43,18 +53,38 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-        viewport: { width: 1536, height: 864 },
-        deviceScaleFactor: 1,
+      use: { 
+        browserName: 'chromium',
+        headless: false,
+        launchOptions:{
+          args: ["--start-maximized"],
+          slowMo: 1000
+        },
+      viewport: null
       },
     },
     {
       name: 'firefox',
       use: { 
-        ...devices['Desktop Firefox'],
-        viewport: { width: 1536, height: 864 },
-        deviceScaleFactor: 1,
+        browserName: 'firefox',
+        headless: false,
+        launchOptions:{
+          args: ["--start-fullscreen"],
+          slowMo: 1000,
+        },
+      viewport: {width:1920, height:1080}
+      },
+    },
+    {
+      name: 'edge',
+      use: {
+        browserName: 'chromium',
+        channel: 'msedge',
+        launchOptions: {
+          args: ['--start-maximized'],
+          slowMo: 1000,
+        },
+        viewport: null
       },
     },
     {
@@ -65,29 +95,7 @@ export default defineConfig({
         deviceScaleFactor: 1,
       },
     },
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
   ],
 
-  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
-  outputDir: 'test-results/',
-
+  globalSetup: path.resolve(__dirname, './global-setup.ts'),
 });

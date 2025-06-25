@@ -1,0 +1,36 @@
+2025-06-25T09:21:27.800Z - INFO - Test Suite is Starting
+
+2025-06-25T09:21:29.162Z - INFO - The test is running: Account Creation 
+
+Base URL: https://thinking-tester-contact-list.herokuapp.com
+2025-06-25T09:21:35.911Z - INFO - User data: {
+  "user": {
+    "_id": "685bbf9f18142400152b19ec",
+    "firstName": "Jeremy",
+    "lastName": "Johnston",
+    "email": "jeremy_johnston@yahoo.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODViYmY5ZjE4MTQyNDAwMTUyYjE5ZWMiLCJpYXQiOjE3NTA4NDMyOTV9.Alu_tNGvhuJ7YPZzWjw6HshWkVUV_ViPHaH-LIQ05nI"
+}
+
+#5 <<<<<<<<<<<<<<< User created with email: jeremy_johnston@yahoo.com
+2025-06-25T09:21:37.011Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+#6 <<<<<<<<<<<<<<< User created with email: jeremy_johnston@yahoo.com
+#7 <<<<<<<<<<<<<<< User created with password: 1NcEjDnAWnOm
+2025-06-25T09:21:37.200Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Create User Account in API\Account Creation \2025-06-25_17-21-37-013.png
+
+2025-06-25T09:21:38.067Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+#8 <<<<<<<<<<<<<<< User created with password: 1NcEjDnAWnOm
+2025-06-25T09:21:38.225Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Create User Account in API\Account Creation \2025-06-25_17-21-38-068.png
+
+2025-06-25T09:21:39.433Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-25T09:21:39.887Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Create User Account in API\Account Creation \2025-06-25_17-21-39-435.png
+
+2025-06-25T09:21:40.180Z - INFO - The test completed successfully: Account Creation 
+
+2025-06-25T09:21:40.243Z - INFO - The Suite is completed: Account Creation 
+

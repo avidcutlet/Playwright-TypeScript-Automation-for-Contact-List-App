@@ -1,0 +1,10 @@
+{
+  "user": {
+    "_id": "685bbf9f18142400152b19ec",
+    "firstName": "Jeremy",
+    "lastName": "Johnston",
+    "email": "jeremy_johnston@yahoo.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODViYmY5ZjE4MTQyNDAwMTUyYjE5ZWMiLCJpYXQiOjE3NTA4NDMyOTV9.Alu_tNGvhuJ7YPZzWjw6HshWkVUV_ViPHaH-LIQ05nI"
+}

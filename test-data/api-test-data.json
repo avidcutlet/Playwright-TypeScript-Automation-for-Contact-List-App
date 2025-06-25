@@ -1,0 +1,119 @@
+{
+    "Credential": {
+        "password": "test1234"
+    },
+
+    "AddContact": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1970-01-01",
+        "email": "jdoe@fake.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "USA"
+    },
+    
+    "EditContact": {
+        "firstName": "First Edited"
+    },
+
+    "AdditionalContact": {
+        "firstName": "Test",
+        "lastName": "Last",
+        "birthdate": "1970-01-01",
+        "email": "james@fake.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "PH"
+    },
+
+    "CreateAccountInvalidData": [
+        {
+        "firstName": "Test First Name",
+        "lastName": "",
+        "email": "testinginvalid123@yopmail.com",
+        "password": "test1234"
+        },
+        {
+        "firstName": "Test First Name",
+        "lastName": "Test Last Name",
+        "email": "testinginvalid123",
+        "password": "test1234"
+        },
+        {
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": ""
+        }
+    ],
+
+    "AddContactInvalidData": [
+        { 
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "19700101",
+        "email": "jdoe",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "USA"
+        },
+        { 
+        "firstName": "John",
+        "lastName": "",
+        "birthdate": "",
+        "email": "",
+        "phone": "",
+        "street1": "",
+        "street2": "",
+        "city": "",
+        "stateProvince": "",
+        "postalCode": "",
+        "country": ""
+        },
+        { 
+        "firstName": "",
+        "lastName": "",
+        "birthdate": "",
+        "email": "",
+        "phone": "",
+        "street1": "",
+        "street2": "",
+        "city": "",
+        "stateProvince": "",
+        "postalCode": "",
+        "country": ""
+        }
+    ],
+    "EditContactInvalidData": [
+        { 
+        "firstName": "Test Edit",
+        "lastName": ""
+        },
+        { 
+        "firstName": "",
+        "lastName": ""
+        }
+    ],
+
+    "InvalidContactID": {
+        "ContactID": "Invalidtest"
+    },
+
+    "URL": {
+        "URL": "https://thinking-tester-contact-list.herokuapp.com"
+    }
+
+}

@@ -1,0 +1,85 @@
+2025-06-25T09:21:27.736Z - INFO - Test Suite is Starting
+
+2025-06-25T09:21:28.951Z - INFO - The test is running: Add New Contact in UI
+
+Base URL: https://thinking-tester-contact-list.herokuapp.com
+2025-06-25T09:21:34.996Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-06-25T09:21:35.189Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-34-997.png
+
+2025-06-25T09:21:36.101Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-06-25T09:21:36.261Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-36-102.png
+
+2025-06-25T09:21:37.149Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-06-25T09:21:37.291Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-37-151.png
+
+2025-06-25T09:21:38.181Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-06-25T09:21:38.331Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-38-183.png
+
+2025-06-25T09:21:39.215Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-06-25T09:21:39.356Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-39-216.png
+
+2025-06-25T09:21:40.283Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-25T09:21:40.446Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-40-285.png
+
+2025-06-25T09:21:41.975Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+
+2025-06-25T09:21:42.123Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-41-976.png
+
+2025-06-25T09:21:43.428Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+
+2025-06-25T09:21:43.569Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-43-429.png
+
+2025-06-25T09:21:44.460Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+
+2025-06-25T09:21:44.599Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-44-462.png
+
+2025-06-25T09:21:45.493Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+
+2025-06-25T09:21:45.633Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-45-495.png
+
+2025-06-25T09:21:46.524Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+
+2025-06-25T09:21:46.664Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-46-527.png
+
+2025-06-25T09:21:47.559Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+
+2025-06-25T09:21:47.696Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-47-562.png
+
+2025-06-25T09:21:48.591Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+
+2025-06-25T09:21:48.729Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-48-594.png
+
+2025-06-25T09:21:49.623Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+
+2025-06-25T09:21:49.756Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-49-625.png
+
+2025-06-25T09:21:50.656Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+
+2025-06-25T09:21:50.793Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-50-658.png
+
+2025-06-25T09:21:51.688Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+
+2025-06-25T09:21:51.825Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-51-689.png
+
+2025-06-25T09:21:52.721Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+
+2025-06-25T09:21:52.858Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-52-723.png
+
+2025-06-25T09:21:53.755Z - INFO - FILLED DATA INTO locator('#country')
+
+2025-06-25T09:21:53.897Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-53-757.png
+
+2025-06-25T09:21:55.065Z - INFO - CLICKED ON ELEMENT locator('#submit')
+
+2025-06-25T09:21:55.210Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-25_17-21-55-067.png
+
+2025-06-25T09:21:55.475Z - INFO - The test completed successfully: Add New Contact in UI
+
+2025-06-25T09:21:55.537Z - INFO - The Suite is completed: Add New Contact in UI
+

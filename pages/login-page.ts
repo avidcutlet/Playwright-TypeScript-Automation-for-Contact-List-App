@@ -28,27 +28,32 @@ export class LoginPage {
         this.signUpBtn = page.getByRole('button', { name: 'Sign up' });
     }
 
-    async loginHeaderTextContent(): Promise<string | null> {
+    async verifyLoginHeader(): Promise<string | null> {
         return this.loginHeader.textContent();
     }
  
-    async enterEmail(email: string) {
+    // add promise void
+    async enterEmail(email: string): Promise<void> {
+        console.log(`#5 <<<<<<<<<<<<<<< User created with email: ${email}`);
         await this.elementKeyboardActionUtil.inputElementText(this.emailTxt, email);
+        console.log(`#6 <<<<<<<<<<<<<<< User created with email: ${email}`);
     }
 
-    async enterPassword(password: string) {
-        await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
+    async enterPassword(password: string): Promise<void> {
+    console.log(`#7 <<<<<<<<<<<<<<< User created with password: ${password}`);
+    await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
+    console.log(`#8 <<<<<<<<<<<<<<< User created with password: ${password}`);
     }
 
-    async clickSubmit() {
+    async clickSubmit(): Promise<void> {
         await this.elementMouseActionUtil.clickElement(this.submitBtn);
     }
 
-    async clickCancel() {
+    async clickCancel(): Promise<void> {
         await this.elementMouseActionUtil.clickElement(this.cancelBtn);
     }
 
-    async clickSignUp() {
+    async clickSignUp(): Promise<void> {
         await this.elementMouseActionUtil.clickElement(this.signUpBtn);
     }
 

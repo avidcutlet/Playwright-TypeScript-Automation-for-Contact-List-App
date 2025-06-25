@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-
     /* Language and Environment */
     "target": "es2016",
     "module": "commonjs",
@@ -17,12 +15,15 @@
     "skipLibCheck": true,
 
     /* Aliases and Paths */
-    "baseUrl": "./", // This is correct, as your project root is the base
+    "baseUrl": ".", // This is correct, as your project root is the base
     "paths": {
       "@pages/*": ["pages/*"],
       "@config/*": ["config/*"],
       "@utils/*": ["utils/*"],
       "@testData/*": ["test-data/*"],
+      "@api/*": ["api/*"],
+      "@reusableScripts/*": ["tests/reusable-scripts/*"],
+      "@ui/*": ["tests/ui/*"],
       "@hooks/*": ["hooks/*"],
     }
   },
@@ -31,7 +32,9 @@
     "config/**/*",
     "utils/**/*",
     "tests/**/*",
-    "test-data/**/*"
+    "test-data/**/*",
+    "hooks/**/*",
+    
   ],
   "exclude": [
     "node_modules",

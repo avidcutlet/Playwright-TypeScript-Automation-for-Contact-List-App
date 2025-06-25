@@ -1,0 +1,33 @@
+2025-06-25T09:21:27.677Z - INFO - Test Suite is Starting
+
+2025-06-25T09:21:29.156Z - INFO - The test is running: Add New User in UI
+
+Base URL: https://thinking-tester-contact-list.herokuapp.com
+2025-06-25T09:21:35.012Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-06-25T09:21:35.207Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-35-017.png
+
+2025-06-25T09:21:36.500Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-06-25T09:21:36.641Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-36-501.png
+
+2025-06-25T09:21:37.527Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-06-25T09:21:37.656Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-37-528.png
+
+2025-06-25T09:21:38.548Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-06-25T09:21:38.688Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-38-549.png
+
+2025-06-25T09:21:39.597Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-06-25T09:21:39.741Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-39-598.png
+
+2025-06-25T09:21:40.931Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-25T09:21:41.087Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-25_17-21-25\Contact Management - Add New Contact via UI\Add New User in UI\2025-06-25_17-21-40-932.png
+
+2025-06-25T09:21:41.368Z - INFO - The test completed successfully: Add New User in UI
+
+2025-06-25T09:21:41.408Z - INFO - The Suite is completed: Add New User in UI
+

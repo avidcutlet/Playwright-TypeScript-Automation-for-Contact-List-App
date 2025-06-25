@@ -1,4 +1,13 @@
-import { Page, expect, Locator } from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
+
+import ReporterUtil from '@utils/reporter-util';
+import {
+  MSG_FILL_DATA
+} from '@utils/messages-util';
+
+import {
+  EXCEPTION_ERROR_FILL_DATA
+} from '@utils/exception-messages-util';
 
 export class ElementKeyboardActionUtil {
     private page: Page;
@@ -10,22 +19,26 @@ export class ElementKeyboardActionUtil {
     async inputElementText(locator: Locator, text: string): Promise<void> {
         try {
             await locator.fill(text);
-            console.log(`Text '${text}' inputted into element at locator '${locator}' successfully.`);
-
+            ReporterUtil.report(this.page, MSG_FILL_DATA(locator.toString()), 'info');
         } catch (error) {
-            console.error(`Error inputting text '${text}' into element at locator '${locator}':`, error);
-            throw error; // Rethrow the error after logging
+            if (error instanceof Error) {
+                ReporterUtil.report(this.page, EXCEPTION_ERROR_FILL_DATA(locator.toString(), error), 'error');
+            } else {
+                ReporterUtil.report(this.page, EXCEPTION_ERROR_FILL_DATA(locator.toString(), new Error(String(error))), 'error');
+            }
         }
     }
 
     async removeElementText(locator: Locator): Promise<void> {
         try {
             await locator.fill('');
-            console.log(`Text removed from element at locator '${locator}' successfully.`);
-
+            ReporterUtil.report(this.page, MSG_FILL_DATA(locator.toString()), 'info');
         } catch (error) {
-            console.error(`Error removing text from element at locator '${locator}':`, error);
-            throw error; // Rethrow the error after logging
+            if (error instanceof Error) {
+                ReporterUtil.report(this.page, EXCEPTION_ERROR_FILL_DATA(locator.toString(), error), 'error');
+            } else {
+                ReporterUtil.report(this.page, EXCEPTION_ERROR_FILL_DATA(locator.toString(), new Error(String(error))), 'error');
+            }
         }
     }
 }

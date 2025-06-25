@@ -1,0 +1,90 @@
+{
+    "Screenshot": {
+        "ScreenshotSetting": "Yes" 
+    },
+
+    "Credential": {
+        "password": "test1234"
+    },
+
+    "ContactDetails": {
+        "phone": "09928322231"
+    },
+
+    "EditContactDetails": {
+        "firstName": "Test Edited",
+        "lastName": "Last Edited"
+    },
+
+    "InvalidUserCreation": [
+        { 
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "testing123622@yopmail.com",
+        "password": "test1234"
+        },
+        { 
+        "firstName": "Test1",
+        "lastName": "User2",
+        "email": "testing1236",
+        "password": "test1234"
+        },
+        { 
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": ""
+        }    
+    ],
+
+    "AddContactInvalidData": [
+        { 
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "19700101",
+        "email": "jdoe",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "USA"
+        },
+        { 
+        "firstName": "John",
+        "lastName": "",
+        "birthdate": "",
+        "email": "",
+        "phone": "",
+        "street1": "",
+        "street2": "",
+        "city": "",
+        "stateProvince": "",
+        "postalCode": "",
+        "country": ""
+        },
+        { 
+        "firstName": "",
+        "lastName": "",
+        "birthdate": "",
+        "email": "",
+        "phone": "",
+        "street1": "",
+        "street2": "",
+        "city": "",
+        "stateProvince": "",
+        "postalCode": "",
+        "country": ""
+        }
+    ],
+
+    "InvalidEditContactDetails": [
+        {
+        "firstName": "First Edited",
+        "lastName": "",
+        "errorMsg": "firstName: Path `firstName` is required"}
+       
+    ]
+
+}
