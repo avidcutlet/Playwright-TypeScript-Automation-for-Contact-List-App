@@ -28,21 +28,17 @@ export class LoginPage {
         this.signUpBtn = page.getByRole('button', { name: 'Sign up' });
     }
 
-    async verifyLoginHeader(): Promise<string | null> {
-        return this.loginHeader.textContent();
+    async verifyLoginHeader(): Promise<Locator> {
+        return this.loginHeader;
     }
  
     // add promise void
     async enterEmail(email: string): Promise<void> {
-        console.log(`#5 <<<<<<<<<<<<<<< User created with email: ${email}`);
         await this.elementKeyboardActionUtil.inputElementText(this.emailTxt, email);
-        console.log(`#6 <<<<<<<<<<<<<<< User created with email: ${email}`);
     }
 
     async enterPassword(password: string): Promise<void> {
-    console.log(`#7 <<<<<<<<<<<<<<< User created with password: ${password}`);
-    await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
-    console.log(`#8 <<<<<<<<<<<<<<< User created with password: ${password}`);
+        await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
     }
 
     async clickSubmit(): Promise<void> {

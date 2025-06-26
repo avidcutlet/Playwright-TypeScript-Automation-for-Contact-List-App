@@ -1,10 +1,10 @@
 {
   "user": {
-    "_id": "685bbf9f18142400152b19ec",
-    "firstName": "Jeremy",
-    "lastName": "Johnston",
-    "email": "jeremy_johnston@yahoo.com",
+    "_id": "685cd1a2a70149001560b55a",
+    "firstName": "Una",
+    "lastName": "Parisian",
+    "email": "una.parisian@hotmail.com",
     "__v": 1
   },
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODViYmY5ZjE4MTQyNDAwMTUyYjE5ZWMiLCJpYXQiOjE3NTA4NDMyOTV9.Alu_tNGvhuJ7YPZzWjw6HshWkVUV_ViPHaH-LIQ05nI"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODVjZDFhMmE3MDE0OTAwMTU2MGI1NWEiLCJpYXQiOjE3NTA5MTM0NDJ9.exTMZBMUqQSROQFIrPq5xSIEGARSMG8yuXGzVadD_zM"
 }

@@ -19,8 +19,8 @@ export class ContactListPage extends BasePage {
         this.addContactBtn = page.getByRole('button', { name: 'Add a New Contact' });
     }
 
-    async verifyContactListHeader(): Promise<string | null> {
-        return this.contactListHeader.textContent();
+    async verifyContactListHeader(): Promise<Locator> {
+        return this.contactListHeader;
     }
 
     async clickAddContactButton() {

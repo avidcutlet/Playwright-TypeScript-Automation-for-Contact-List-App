@@ -46,8 +46,8 @@ export class AddContactPage extends BasePage {
         this.cancelBtn = page.locator("#cancel");
     }
 
-    async verifyAddContactHeader(): Promise<string | null> {
-        return this.addContactHeader.textContent();
+    async verifyAddContactHeader(): Promise<Locator> {
+        return this.addContactHeader;
     }
 
     async enterFirstName(firstName: string) {

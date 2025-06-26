@@ -29,8 +29,8 @@ export class SignUpPage {
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
     }
 
-    async verifyAddUserHeader(): Promise<string | null> {
-        return await this.addUserHeader.textContent();
+    async verifyAddUserHeader(): Promise<Locator> {
+        return this.addUserHeader;
     }
 
     async enterFirstName(firstName: string): Promise<void> {

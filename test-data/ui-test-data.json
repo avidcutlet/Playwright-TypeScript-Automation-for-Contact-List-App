@@ -85,6 +85,12 @@
         "lastName": "",
         "errorMsg": "firstName: Path `firstName` is required"}
        
-    ]
+    ],
 
+    "Header": {
+        "LoginPageHeader": "Contact List App",
+        "SignUpPageHeader": "Add User",
+        "ContactListPageHeader": "Contact List",
+        "AddContactPageHeader": "Add Contact"
+    }
 }
