@@ -14,12 +14,14 @@ export class DatasetUtil {
         this.CHECK_PATH_EXIST = false;
     }
 
+    // Get test data path
     private getTestDataPath(): string {
         /** Dynamically resolve the test data path based on the type (UI or API). */
         const FILE_NAME = this.testDataType === 'api' ? 'api-test-data.json' : 'ui-test-data.json';
         return path.join(process.cwd(), 'test-data', FILE_NAME);
     }
 
+    // Check test data path
     private checkTestDataPath(): boolean {
         /** Check if the test data path exists. */
         if (!this.CHECK_PATH_EXIST) {
@@ -31,6 +33,7 @@ export class DatasetUtil {
         return true;
     }
 
+    // Load data
     private loadData(): any {
         /** Load test data from the JSON file. */
         if (!this.DATA) {
@@ -47,6 +50,7 @@ export class DatasetUtil {
         return this.DATA;
     }
 
+    // Get test data
     public getTestData(key: string, subKey: string | null = null): any {
         /** Retrieve data for a given key and optional subKey from the loaded test data. */
         const JSON_DATA = this.loadData();

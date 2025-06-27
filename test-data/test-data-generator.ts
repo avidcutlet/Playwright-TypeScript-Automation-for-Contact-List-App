@@ -1,6 +1,7 @@
 // testDataUtils.ts
 import { faker } from '@faker-js/faker';
 
+// Creates random data
 export function generateContactData() {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
@@ -11,7 +12,7 @@ export function generateContactData() {
     provider: 'example.com',
     allowSpecialCharacters: false,
   });
-  const phone = faker.string.numeric(10); // Generates a 10-digit number
+  const phone = faker.string.numeric(10);
   const street1 = faker.location.streetAddress();
   const street2 = faker.location.secondaryAddress();
   const city = faker.location.city();

@@ -1,0 +1,168 @@
+2025-06-27T05:47:02.337Z - INFO - Test Suite is Starting
+
+2025-06-27T05:47:04.805Z - INFO - The test is running: Add New Contact in UI
+
+2025-06-27T05:47:10.284Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('heading', { name: 'Contact List App' })
+
+2025-06-27T05:47:10.521Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('button', { name: 'Sign up' })
+
+2025-06-27T05:47:10.823Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-10-289.png
+
+2025-06-27T05:47:11.450Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-10-542.png
+
+2025-06-27T05:47:11.997Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-06-27T05:47:12.047Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('heading', { name: 'Add User' })
+
+2025-06-27T05:47:12.091Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'First Name' })
+
+2025-06-27T05:47:12.286Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-12-002.png
+
+2025-06-27T05:47:12.469Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-12-049.png
+
+2025-06-27T05:47:12.613Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-12-093.png
+
+2025-06-27T05:47:13.155Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-06-27T05:47:13.181Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Last Name' })
+
+2025-06-27T05:47:13.367Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-13-158.png
+
+2025-06-27T05:47:13.514Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-13-182.png
+
+2025-06-27T05:47:14.213Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-06-27T05:47:14.258Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Email' })
+
+2025-06-27T05:47:14.466Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-14-217.png
+
+2025-06-27T05:47:14.646Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-14-263.png
+
+2025-06-27T05:47:15.342Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-06-27T05:47:15.362Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Password' })
+
+2025-06-27T05:47:15.544Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-15-345.png
+
+2025-06-27T05:47:15.780Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-15-365.png
+
+2025-06-27T05:47:16.403Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-06-27T05:47:16.425Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('button', { name: 'Submit' })
+
+2025-06-27T05:47:16.601Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-16-405.png
+
+2025-06-27T05:47:16.748Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-16-427.png
+
+2025-06-27T05:47:17.507Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-27T05:47:17.818Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-17-510.png
+
+2025-06-27T05:47:18.009Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('button', { name: 'Add a New Contact' })
+
+2025-06-27T05:47:18.203Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-18-010.png
+
+2025-06-27T05:47:19.357Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+
+2025-06-27T05:47:19.648Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-19-361.png
+
+2025-06-27T05:47:20.027Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: '* First Name:' })
+
+2025-06-27T05:47:20.198Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-20-028.png
+
+2025-06-27T05:47:21.063Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+
+2025-06-27T05:47:21.099Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: '* Last Name:' })
+
+2025-06-27T05:47:21.297Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-21-065.png
+
+2025-06-27T05:47:21.464Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-21-103.png
+
+2025-06-27T05:47:22.162Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+
+2025-06-27T05:47:22.187Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Date of Birth:' })
+
+2025-06-27T05:47:22.412Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-22-164.png
+
+2025-06-27T05:47:22.574Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-22-189.png
+
+2025-06-27T05:47:23.237Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+
+2025-06-27T05:47:23.307Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Email:' })
+
+2025-06-27T05:47:23.494Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-23-240.png
+
+2025-06-27T05:47:23.659Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-23-310.png
+
+2025-06-27T05:47:24.367Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+
+2025-06-27T05:47:24.407Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Phone:' })
+
+2025-06-27T05:47:24.607Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-24-373.png
+
+2025-06-27T05:47:24.765Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-24-408.png
+
+2025-06-27T05:47:25.472Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+
+2025-06-27T05:47:25.524Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Street Address 1:' })
+
+2025-06-27T05:47:25.706Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-25-475.png
+
+2025-06-27T05:47:25.889Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-25-527.png
+
+2025-06-27T05:47:26.609Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+
+2025-06-27T05:47:26.631Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Street Address 2:' })
+
+2025-06-27T05:47:26.821Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-26-612.png
+
+2025-06-27T05:47:26.987Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-26-634.png
+
+2025-06-27T05:47:27.673Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+
+2025-06-27T05:47:27.694Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'City:' })
+
+2025-06-27T05:47:27.867Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-27-676.png
+
+2025-06-27T05:47:28.059Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-27-697.png
+
+2025-06-27T05:47:28.740Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+
+2025-06-27T05:47:28.773Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'State or Province:' })
+
+2025-06-27T05:47:28.966Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-28-743.png
+
+2025-06-27T05:47:29.119Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-28-775.png
+
+2025-06-27T05:47:29.837Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+
+2025-06-27T05:47:29.884Z - INFO - THIS ELEMENT IS VISIBLE: getByRole('textbox', { name: 'Postal Code:' })
+
+2025-06-27T05:47:30.061Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-29-839.png
+
+2025-06-27T05:47:30.219Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-29-886.png
+
+2025-06-27T05:47:30.939Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+
+2025-06-27T05:47:30.982Z - INFO - THIS ELEMENT IS VISIBLE: locator('#country')
+
+2025-06-27T05:47:31.199Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-30-946.png
+
+2025-06-27T05:47:31.362Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-30-984.png
+
+2025-06-27T05:47:32.039Z - INFO - FILLED DATA INTO locator('#country')
+
+2025-06-27T05:47:32.221Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-32-042.png
+
+2025-06-27T05:47:32.447Z - INFO - THIS ELEMENT IS VISIBLE: locator('#submit')
+
+2025-06-27T05:47:32.712Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-32-448.png
+
+2025-06-27T05:47:33.520Z - INFO - CLICKED ON ELEMENT locator('#submit')
+
+2025-06-27T05:47:33.719Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-27_13-46-58\Contact Management - Add New Contact via UI\Add New Contact in UI\2025-06-27_13-47-33-523.png
+
+2025-06-27T05:47:34.212Z - INFO - The test completed successfully: Add New Contact in UI
+
+2025-06-27T05:47:34.301Z - INFO - The Suite is completed: Add New Contact in UI
+

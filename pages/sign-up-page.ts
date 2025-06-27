@@ -1,24 +1,23 @@
 import { Page, Locator } from '@playwright/test';
+
 import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
 export class SignUpPage {
-    protected readonly page: Page;
-    protected readonly elementMouseActionUtil: ElementMouseActionUtil;
-    protected readonly elementKeyboardActionUtil: ElementKeyboardActionUtil; // Assuming this is defined elsewhere, as it's not in the original code
+    private elementKeyboardActionUtil: ElementKeyboardActionUtil; // Assuming this is defined elsewhere, as it's not in the original code
+    private elementMouseActionUtil: ElementMouseActionUtil;
 
-    protected readonly addUserHeader: Locator;
-    protected readonly firstNameTxt: Locator;
-    protected readonly lastNameTxt: Locator;
-    protected readonly emailTxt: Locator;
-    protected readonly passwordTxt: Locator;
-    protected readonly submitBtn: Locator;
-    protected readonly cancelBtn: Locator;
+    private addUserHeader: Locator;
+    private firstNameTxt: Locator;
+    private lastNameTxt: Locator;
+    private emailTxt: Locator;
+    private passwordTxt: Locator;
+    private submitBtn: Locator;
+    private cancelBtn: Locator;
 
     constructor(page: Page) {
-        this.page = page;
-        this.elementMouseActionUtil = new ElementMouseActionUtil(page);
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
+        this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
         this.addUserHeader = page.getByRole('heading', { name: 'Add User' });
         this.firstNameTxt = page.getByRole('textbox', { name: 'First Name' });
@@ -29,30 +28,37 @@ export class SignUpPage {
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
     }
 
+    // Return add user header locator
     async verifyAddUserHeader(): Promise<Locator> {
         return this.addUserHeader;
     }
 
+    // Input firstname
     async enterFirstName(firstName: string): Promise<void> {
         await this.elementKeyboardActionUtil.inputElementText(this.firstNameTxt, firstName);
     }
 
+    // Input lastname
     async enterLastName(lastName: string): Promise<void> {
         await this.elementKeyboardActionUtil.inputElementText(this.lastNameTxt, lastName);
     }
 
+    // Input email
     async enterEmail(email: string): Promise<void> {
         await this.elementKeyboardActionUtil.inputElementText(this.emailTxt, email);
     }
 
+    // Input password
     async enterPassword(password: string): Promise<void> {
         await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
     }
 
+    // Click submit
     async clickSubmit(): Promise<void> {
         await this.elementMouseActionUtil.clickElement(this.submitBtn);
     }
 
+    // Click cancel
     async clickCancel(): Promise<void> {
         await this.elementMouseActionUtil.clickElement(this.cancelBtn);
     }

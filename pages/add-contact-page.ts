@@ -1,32 +1,31 @@
 import { Page, Locator } from '@playwright/test';
-import { BasePage } from '@pages/base-page';
-import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
+
 import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
+import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
-export class AddContactPage extends BasePage {
-    protected readonly elementMouseActionUtil: ElementMouseActionUtil;
-    protected readonly elementKeyboardActionUtil: ElementKeyboardActionUtil;
+export class AddContactPage {
+    private elementKeyboardActionUtil: ElementKeyboardActionUtil;
+    private elementMouseActionUtil: ElementMouseActionUtil;
 
-    protected readonly addContactHeader: Locator;
-    protected readonly firstNameTxt: Locator;
-    protected readonly lastNameTxt: Locator;
-    protected readonly birthdateTxt: Locator;
-    protected readonly emailTxt: Locator;
-    protected readonly phoneTxt: Locator;
-    protected readonly street1Txt: Locator;
-    protected readonly street2Txt: Locator;
-    protected readonly cityTxt: Locator;
-    protected readonly stateProvinceTxt: Locator;
-    protected readonly postalCodeTxt: Locator;
-    protected readonly countryTxt: Locator;
+    private addContactHeader: Locator;
+    private firstNameTxt: Locator;
+    private lastNameTxt: Locator;
+    private birthdateTxt: Locator;
+    private emailTxt: Locator;
+    private phoneTxt: Locator;
+    private street1Txt: Locator;
+    private street2Txt: Locator;
+    private cityTxt: Locator;
+    private stateProvinceTxt: Locator;
+    private postalCodeTxt: Locator;
+    private countryTxt: Locator;
 
-    protected readonly submitBtn: Locator;
-    protected readonly cancelBtn: Locator;
+    private submitBtn: Locator;
+    private cancelBtn: Locator;
 
     constructor(page: Page) {
-        super(page); // Call the constructor of BasePage
-        this.elementMouseActionUtil = new ElementMouseActionUtil(page);
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
+        this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
         this.addContactHeader = page.getByRole('heading', { name: 'Add Contact' });
 
@@ -46,58 +45,72 @@ export class AddContactPage extends BasePage {
         this.cancelBtn = page.locator("#cancel");
     }
 
+    // Return Add Contact Header Locator
     async verifyAddContactHeader(): Promise<Locator> {
         return this.addContactHeader;
     }
 
+    // Input firstname
     async enterFirstName(firstName: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.firstNameTxt, firstName);
     }
 
+    // Input lastname
     async enterLastName(lastName: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.lastNameTxt, lastName);
     }
 
+    // Input birthdate
     async enterBirthdate(birthdate: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.birthdateTxt, birthdate);
     }
 
+    // Input email
     async enterEmail(email: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.emailTxt, email);
     }
 
+    // Input phone
     async enterPhone(phone: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.phoneTxt, phone);
     }
 
+    // Input street1
     async enterStreet1(street1: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.street1Txt, street1);
     }
 
+    // Input street2
     async enterStreet2(street2: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.street2Txt, street2);
     }
 
+    // Input city
     async enterCity(city: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.cityTxt, city);
     }
 
+    // Input state or province
     async enterStateProvince(stateProvince: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.stateProvinceTxt, stateProvince);
     }
 
+    // Input postal code
     async enterPostalCode(postalCode: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.postalCodeTxt, postalCode);
     }
 
+    // Input country
     async enterCountry(country: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.countryTxt, country);
     }
 
+    // Click submit
     async clickSubmit() {
         await this.elementMouseActionUtil.clickElement(this.submitBtn);
     }
 
+    // Click cancel
     async clickCancel() {
         await this.elementMouseActionUtil.clickElement(this.cancelBtn);
     }

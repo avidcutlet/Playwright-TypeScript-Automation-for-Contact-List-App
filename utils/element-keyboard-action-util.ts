@@ -15,6 +15,7 @@ export class ElementKeyboardActionUtil {
         this.elementWaitForElement = new ElementWaitUtil(page);
     }
 
+    // Input Element by locator
     async inputElementText(locator: Locator, text: string): Promise<void> {
         await this.elementWaitForElement.waitForElement(locator, 'visible');
         try {
@@ -29,6 +30,7 @@ export class ElementKeyboardActionUtil {
         }
     }
 
+    // Remove Element by locator
     async removeElementText(locator: Locator): Promise<void> {
         await this.elementWaitForElement.waitForElement(locator, 'visible');
         try {

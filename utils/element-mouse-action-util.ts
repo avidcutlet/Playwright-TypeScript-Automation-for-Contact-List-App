@@ -15,6 +15,7 @@ export class ElementMouseActionUtil {
         this.elementWaitForElement = new ElementWaitUtil(page);
     }
 
+    // Click element by locator
     async clickElement(locator: Locator): Promise<void> {
         await this.elementWaitForElement.waitForElement(locator, 'visible');
         try {

@@ -9,6 +9,7 @@ export class ElementWaitUtil {
         this.page = page;
     }
 
+    // Wait for element to load
     async waitForElement(selector: Locator, state: 'visible' | 'hidden' | 'attached' | 'detached'): Promise<void> {
         try {
             await selector.waitFor({ state: state });

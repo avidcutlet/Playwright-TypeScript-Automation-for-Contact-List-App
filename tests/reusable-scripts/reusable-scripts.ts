@@ -1,38 +1,36 @@
 import { Page, Locator } from '@playwright/test';
 
-import { LoginPage } from '@pages/login-page';
-import { ContactListPage } from '@pages/contact-list-page';
-import { AddContactPage } from '@pages/add-contact-page';
-import { SignUpPage } from '@pages/sign-up-page';
 import { ElementWaitUtil } from '@utils/element-wait-util';
-import DatasetUtil from '@utils/test-data-util';
 
-const DATASET_UI = new DatasetUtil('ui');
+import { AddContactPage } from '@pages/add-contact-page';
+import { ContactListPage } from '@pages/contact-list-page';
+import { LoginPage } from '@pages/login-page';
+import { SignUpPage } from '@pages/sign-up-page';
 
 export class ReusableHelpers {
-    private page: Page;
     private elementWaitUtil: ElementWaitUtil;
-    private loginPageInstance: LoginPage;
     private addUserPageInstance: SignUpPage;
     private contactListPageInstance: ContactListPage;
     private addContactPageInstance: AddContactPage;
+    private loginPageInstance: LoginPage;
     private signUpPageInstance: SignUpPage;
 
     constructor(page: Page) {
-        this.page = page;
         this.elementWaitUtil = new ElementWaitUtil(page);
-        this.loginPageInstance = new LoginPage(page);
         this.addUserPageInstance = new SignUpPage(page);
         this.contactListPageInstance = new ContactListPage(page);
         this.addContactPageInstance = new AddContactPage(page);
+        this.loginPageInstance = new LoginPage(page);
         this.signUpPageInstance = new SignUpPage(page);
     }
 
+    // Fill in login fields
     async enterLoginCredentials(email: string, password: string): Promise<void> {
         await this.loginPageInstance.enterEmail(email);
         await this.loginPageInstance.enterPassword(password);
     }
     
+    // Fill in login fields, submit, and return contact list header locator
     async loginAndVerify(email: string, password: string): Promise<Locator> {
         await this.loginPageInstance.enterEmail(email);
         await this.loginPageInstance.enterPassword(password);
@@ -40,6 +38,7 @@ export class ReusableHelpers {
         return this.contactListPageInstance.verifyContactListHeader();
     }
 
+    // Fill in add contact fields
     async enterAddContactCredentials(
         firstName: string,
         lastName: string,
@@ -66,6 +65,7 @@ export class ReusableHelpers {
         await this.addContactPageInstance.enterCountry(country);
     }
 
+    // Go to add contact page, fill in fields and submit, and return contact list header locator
     async addContactAndVerify(
         firstName: string,
         lastName: string,
@@ -79,6 +79,9 @@ export class ReusableHelpers {
         postalCode: string,
         country: string
     ): Promise<Locator> {
+        await this.contactListPageInstance.clickAddContact();
+        const ADD_CONTACT_PAGE_INSTANCE = await this.addContactPageInstance.verifyAddContactHeader();
+        await this.elementWaitUtil.waitForElement(ADD_CONTACT_PAGE_INSTANCE, 'visible');
         await this.addContactPageInstance.enterFirstName(firstName);
         await this.addContactPageInstance.enterLastName(lastName);
         await this.addContactPageInstance.enterBirthdate(birthday);
@@ -94,6 +97,7 @@ export class ReusableHelpers {
         return this.contactListPageInstance.verifyContactListHeader();
     }
 
+    // Fill in sign up fields
     async enterSignUpCredentials(firstName: string, lastName: string, email: string, password: string): Promise<void> {
         await this.signUpPageInstance.enterFirstName(firstName);
         await this.signUpPageInstance.enterLastName(lastName);
@@ -101,6 +105,7 @@ export class ReusableHelpers {
         await this.signUpPageInstance.enterPassword(password);
     }
 
+    // Go to add user page, fill in fields and submit, and return contact list header locator
     async signUpAndVerify(firstName: string, lastName: string, email: string, password: string): Promise<Locator> {
         const LOGIN_PAGE_HEADER_LOCATOR = await this.loginPageInstance.verifyLoginHeader();
         await this.elementWaitUtil.waitForElement(LOGIN_PAGE_HEADER_LOCATOR, 'visible');

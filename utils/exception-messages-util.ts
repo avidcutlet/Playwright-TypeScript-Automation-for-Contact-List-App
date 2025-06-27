@@ -19,6 +19,10 @@ export const EXCEPTION_SCREENSHOT_MESSAGE = (error: Error) => `Failed to capture
  
 // Screenshot Error
 export const EXCEPTION_TEST_DATA_LOADER_MESSAGE = (error: Error) => `File not found: ${error?.message}`;
+
+// Screenshot Folder Error
+export const EXCEPTION_FOLDER_MESSAGE = (error: Error) => `Error during folder creation: ${error?.message}`;
+
  
  
  

@@ -1,18 +1,22 @@
+import { label, LabelName, displayName, feature } from 'allure-js-commons';
+
 import { test, expect } from '@playwright/test';
 
 import { initializeTestHooks } from '@hooks/web-hook';
+
+import AllureAttachScreenshot from '@utils/allure-report-util';
+import DatasetUtil from '@utils/test-data-util';
+
 import { creationofUser } from '@api/api-create-user-account';
 import { ContactListPage } from '@pages/contact-list-page';
 import { LoginPage } from '@pages/login-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
-import DatasetUtil from '@utils/test-data-util';
-import AllureAttachScreenshot from '@utils/allure-report-util';
-import { label, LabelName, displayName, feature } from 'allure-js-commons';
 
-const DATASET_UI = new DatasetUtil('ui');
-const ATTACH = new AllureAttachScreenshot();
+const datasetUI = new DatasetUtil('ui');
+const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
- 
+
+// Create User Account in API TC
 test.describe('Create User Account in API @ALL @API @APIcreateuseraccount', () => {
 
     test.beforeEach(async () => {
@@ -25,32 +29,33 @@ test.describe('Create User Account in API @ALL @API @APIcreateuseraccount', () =
         await displayName(`Add New User - Success`);
         await feature("API");
 
-        const LOGIN_PAGE_INSTANCE = new LoginPage(page);
-        const CONTACT_LIST_PAGE_INSTANCE = new ContactListPage(page);
-        const REUSABLE_SCRIPTS = new ReusableHelpers(page);
+        const loginPageInstance = new LoginPage(page);
+        const contactListPageInstance = new ContactListPage(page);
+        const reusableScripts = new ReusableHelpers(page);
 
-        const LOGIN_PAGE_HEADER: string = DATASET_UI.getTestData('Header', 'LoginPageHeader');
-        const CONTACT_LIST_PAGE_HEADER: string = DATASET_UI.getTestData('Header', 'ContactListPageHeader');
+        const loginPageHeader: string = datasetUI.getTestData('Header', 'LoginPageHeader');
+        const contactListPageHeader: string = datasetUI.getTestData('Header', 'ContactListPageHeader');
         
-        const CREATE_USER_RESULT = await creationofUser();
+        const { email, password, responseData } = await creationofUser();
 
-        const LOGIN_PAGE_HEADER_LOCATOR = await LOGIN_PAGE_INSTANCE.verifyLoginHeader();
-        const LOGIN_PAGE_HEADER_TXT = await LOGIN_PAGE_HEADER_LOCATOR.textContent();
-        await expect(LOGIN_PAGE_HEADER_TXT).toBe(LOGIN_PAGE_HEADER);
+        await attach.withAllureStep(page, 'Creation of Valid User', async () => {}, responseData ?? {});
 
-        // Change verification of user creation through API
-        await ATTACH.withAllureStep(page, 'Step 1 - Fill in Login Credentials', async () => {
-            await REUSABLE_SCRIPTS.enterLoginCredentials(CREATE_USER_RESULT.EMAIL, CREATE_USER_RESULT.PASSWORD);
+        const loginPageHeaderLocator = await loginPageInstance.verifyLoginHeader();
+        const loginPageHeaderTxt = await loginPageHeaderLocator.textContent();
+        await expect(loginPageHeaderTxt).toBe(loginPageHeader);
+
+        await attach.withAllureStep(page, 'Step 1 - Fill in Login Credentials', async () => {
+            await reusableScripts.enterLoginCredentials(email, password);
         });
         
-        await ATTACH.withAllureStep(page, 'Step 2 - Click Submit Button', async () => {
-            await LOGIN_PAGE_INSTANCE.clickSubmit();
+        await attach.withAllureStep(page, 'Step 2 - Click Submit Button', async () => {
+            await loginPageInstance.clickSubmit();
         });
         
-        await ATTACH.withAllureStep(page, 'Step 3 - Verify Successful Login', async () => {
-            const CONTACT_LIST_PAGE_HEADER_LOCATOR = await CONTACT_LIST_PAGE_INSTANCE.verifyContactListHeader();
-            const CONTACT_LIST_PAGE_HEADER_TXT = await CONTACT_LIST_PAGE_HEADER_LOCATOR.textContent();
-            await expect(CONTACT_LIST_PAGE_HEADER_TXT).toBe(CONTACT_LIST_PAGE_HEADER);
+        await attach.withAllureStep(page, 'Step 3 - Verify Successful Login', async () => {
+            const contactListPageHeaderLocator = await contactListPageInstance.verifyContactListHeader();
+            const contactListPageHeaderTxt = await contactListPageHeaderLocator.textContent();
+            await expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
         });
     });
 }); 

@@ -12,6 +12,7 @@ class ScreenshotUtil {
     static executionFolder: string | null = null;
     static isInitialized: boolean = false;
 
+    // Setup latest folder
     static getLatestFolder(): string | null {
         try {
             // Ensure the base directory exists

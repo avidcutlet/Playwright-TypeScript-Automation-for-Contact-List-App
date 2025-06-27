@@ -1,21 +1,12 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
     "target": "es2016",
     "module": "commonjs",
-
-    /* Interop Constraints */
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
     "strict": true,
-
-    /* Completeness */
     "skipLibCheck": true,
-
-    /* Aliases and Paths */
-    "baseUrl": ".", // This is correct, as your project root is the base
+    "baseUrl": ".", 
     "paths": {
       "@pages/*": ["pages/*"],
       "@config/*": ["config/*"],
@@ -34,11 +25,9 @@
     "tests/**/*",
     "test-data/**/*",
     "hooks/**/*",
-    
+    "global-setup.ts"
   ],
   "exclude": [
     "node_modules",
-    // "**/*.spec.ts", 
-    // "**/*.test.ts"
   ]
 }

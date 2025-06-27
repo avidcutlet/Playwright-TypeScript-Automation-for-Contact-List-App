@@ -15,6 +15,7 @@ export class LoggingUtility {
         this.fileStream = fs.createWriteStream(LOG_FILE_PATH, { flags: 'a' });
     }
  
+    // Setup log file
     initializeLogFile() {
         const LOG_DIRECTORY = path.join(process.cwd(), 'log');
         if (!fs.existsSync(LOG_DIRECTORY)) {
@@ -27,6 +28,7 @@ export class LoggingUtility {
         return LOG_FILE_PATH;
     }
  
+    // Setup log message
     logMessage(logLevel: 'debug' | 'info' | 'warn' | 'error' | 'critical', message: string) {
         const TIME_STAMP = new Date().toISOString();
         const LOG_LINE = `${TIME_STAMP} - ${logLevel.toUpperCase()} - ${message}\n`;

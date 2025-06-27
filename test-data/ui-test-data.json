@@ -91,6 +91,8 @@
         "LoginPageHeader": "Contact List App",
         "SignUpPageHeader": "Add User",
         "ContactListPageHeader": "Contact List",
-        "AddContactPageHeader": "Add Contact"
+        "AddContactPageHeader": "Add Contact",
+        "EditContactPageHeader": "Edit Contact",
+        "ContactDetailsPageHeader": "Contact Details"
     }
 }

@@ -4,6 +4,7 @@ import path from 'path';
 
 import { test, Page } from '@playwright/test';
 
+// Setup Allure Screenshot
 class AllureAttachScreenshot {
     async withAllureStep(
         page: Page,
@@ -37,17 +38,14 @@ class AllureAttachScreenshot {
                     test.info().attach(`${stepName} Data`, { body: RESPONSE_STRING, contentType: 'application/json' });
                 }
             } catch (error) {
-                // On failure, take a screenshot and attach it
                 const TEMP_FILE_PATH = path.join(os.tmpdir(), `${stepName}-failure.png`);
                 await page.screenshot({ path: TEMP_FILE_PATH });
 
                 const screenshot = fs.readFileSync(TEMP_FILE_PATH);
                 test.info().attach(`${stepName} Failure Screenshot`, { body: screenshot, contentType: 'image/png' });
 
-                // Delete the temporary file
                 await fs.promises.unlink(TEMP_FILE_PATH);
 
-                // Rethrow the error to let Playwright handle it
                 throw error;
             }
         });
