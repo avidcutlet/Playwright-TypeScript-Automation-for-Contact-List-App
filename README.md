@@ -23,6 +23,7 @@ The framework is scalable and adaptable for both development and production test
 - Screenshot capture on test failure
 - Test data management
 - Comprehensive reports and logs
+- Code generation using `codegen` utility
 - Interactive test debugging with Playwright UI mode
 
 ## Installation
@@ -51,7 +52,7 @@ cd Contact_List_Playwright_Typescript_Automation
 
 3. Install dependencies:
 ```bash
-npm install @playwright/test@1.52.0 allure-playwright@3.2.1 allure-js-commons@3.2.1 --save-dev 
+npm install 
 ```
 
 ### Configuration
@@ -61,25 +62,25 @@ npm install @playwright/test@1.52.0 allure-playwright@3.2.1 allure-js-commons@3.
 ## Folder Structure
 ```
 Main Project Folder
-├── api                     # API-related files
+├── api                     # API Setup related files
 ├── api-tokens              # API tokens or auth logic
-├── config                  # Configuration files
-├── hooks                   # Lifecycle event hooks
-├── log                     # Log files
+├── config                  # Environment and Configuration (ex. Base URL and Enabling Screenshot)
+├── hooks                   # Web-Hooks (Initialize and Teardown)
+├── log                     # Log Files for test execution
 ├── pages                   # Page Object Models
-├── reports                 # Test execution reports
+├── reports                 # Allure-report, allure-results and screenshots are saved
 ├── test
 │   ├── api                 # API test scripts
 │   ├── reusable-scripts    # Reusable test functions
 │   └── ui                  # UI test scripts
-├── test-data               # Test input data
-├── utils                   # Utility functions
-├── global-setup.ts         # Global setup file
+├── test-data               # Test Data for execution 
+├── utils                   # Utilities function (logging text file, take screenshot, reporter utils and etc.)
+├── global-setup.ts         # Setup for creating a screenshot folder for every execution
 ├── package.json            # Project metadata and scripts
 ├── package-lock.json       # Dependency versions
-├── playwright.config.ts    # Playwright configuration
+├── playwright.config.ts    # Playwright configuration (Browsers to test against, Test timeout settings, etc.)
 ├── README.md               # Project documentation
-└── tsconfig.json           # TypeScript configuration
+└── tsconfig.json           # Configuration file for TypeScript. (Compiler options, Files to include/exclude, etc.)
 ```
 
 ## Running Tests
@@ -105,99 +106,43 @@ npm run test
 
 To run a specific test spec using chromium, use the following commands:
 ```bash
-npm run test:chromium <path-to-spec-file>
+npm run test:chromium /api/create-contact-api.spec.ts
 ```
 
 To run a specific test spec using firefox, use the following commands:
 ```bash
-npm run test:firefox <path-to-spec-file>
+npm run test:firefox /api/create-user-account-api.spec.ts
 ```
 
 To run a specific test spec using edge, use the following commands:
 ```bash
-npm run test:edge <path-to-spec-file>
+npm run test:edge /ui/add-new-contact-ui.spec.ts
 ```
 
 To run a specific test spec using webkit, use the following commands:
 ```bash
-npm run test:webkit <path-to-spec-file>
+npm run test:webkit /ui/delete-contact-ui.spec.ts
 ```
-
-#### List of path-to-spec-file:
-```bash
-/api/create-contact-api.spec.ts
-```
-```bash
-/api/create-user-account-api.spec.ts
-```
-```bash
-/ui/add-new-contact-ui.spec.ts
-```
-```bash
-/ui/delete-contact-ui.spec.ts
-```
-```bash
-/ui/edit-contact-ui.spec.ts
-```
-
 
 ### Run Specific Tag File by Browser
 To run a specific tag using chromium, use the following commands:
 ```bash
-npm run test:chromium:tag <tag>
+npm run test:chromium:tag @ALL
 ```
 
 To run a specific tag using firefox, use the following commands:
 ```bash
-npm run test:firefox:tag <tag>
+npm run test:firefox:tag @ALL
 ```
 
 To run a specific tag using edge, use the following commands:
 ```bash
-npm run test:edge:tag <tag>
+npm run test:edge:tag @ALL
 ```
 
 To run a specific tag using webkit, use the following commands:
 ```bash
-npm run test:webkit:tag <tag>
-```
-
-List of specific tags:
-```bash
-@Regression
-```
-```bash
-@ALL
-```
-```bash
-@API
-```
-```bash
-@UI
-```
-```bash
-@UIUserCreation
-```
-```bash
-@UIContactCreation
-```
-```bash
-@UIContactDeletion
-```
-```bash
-@APIUserCreation
-```
-```bash
-@APIContactCreation
-```
-
-```bash
-@APIInvalidContactCreation
-```
-
-### All Browsers and Specific Tag
-```bash
-npm run test:browser-all:tag
+npm run test:webkit:tag @ALL
 ```
 
 ## Running Tests in UI Mode

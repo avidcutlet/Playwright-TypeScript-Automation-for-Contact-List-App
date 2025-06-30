@@ -230,3 +230,147 @@
 2025-06-30T02:24:56.479Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Edit Contact via UI\Edit Contact in UI\2025-06-30_10-24-56-342.png
 2025-06-30T02:24:56.728Z - INFO - The test completed successfully: Edit Contact in UI
 2025-06-30T02:24:56.780Z - INFO - The Suite is completed: Edit Contact in UI
+2025-06-30T04:00:45.680Z - INFO - Test Suite is Starting
+2025-06-30T04:00:45.708Z - INFO - Test Suite is Starting
+2025-06-30T04:00:45.709Z - INFO - Test Suite is Starting
+2025-06-30T04:00:47.513Z - INFO - The test is running: Account Creation
+2025-06-30T04:00:47.520Z - INFO - The test is running: Invalid Contact Creation
+2025-06-30T04:00:47.537Z - INFO - The test is running: Contact Creation
+2025-06-30T04:00:53.265Z - INFO - User data: {
+  "user": {
+    "_id": "68620bf408257200151e0390",
+    "firstName": "Alfredo",
+    "lastName": "Schmitt",
+    "email": "alfredo.schmitt@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGJmNDA4MjU3MjAwMTUxZTAzOTAiLCJpYXQiOjE3NTEyNTYwNTJ9.Y6HdqIUMmJs-Zc9AVoqIrw3qQEixyJvUD_geAm8Hx6A"
+}
+2025-06-30T04:00:53.676Z - INFO - User data: {
+  "_id": "68620bf408257200151e0392",
+  "firstName": "Alfredo",
+  "lastName": "Schmitt",
+  "birthdate": "1959-06-17",
+  "email": "alfredo.schmitt@example.com",
+  "phone": "9512448513",
+  "street1": "659 12th Street",
+  "street2": "Apt. 834",
+  "city": "West Fredericburgh",
+  "stateProvince": "Maine",
+  "postalCode": "14860",
+  "country": "El Salvador",
+  "owner": "68620bf408257200151e0390",
+  "__v": 0
+}
+2025-06-30T04:00:54.102Z - INFO - User data: {
+  "user": {
+    "_id": "68620bf408257200151e0393",
+    "firstName": "Sarah",
+    "lastName": "VonRueden",
+    "email": "sarah.vonrueden42@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGJmNDA4MjU3MjAwMTUxZTAzOTMiLCJpYXQiOjE3NTEyNTYwNTJ9.Zbue-q4K6lAdwDb6gWEHHLZeXEiuJjq4pCzvPMoQQPM"
+}
+2025-06-30T04:00:54.103Z - INFO - User data: {
+  "user": {
+    "_id": "68620bf4e821bb0015710df1",
+    "firstName": "Vaughn",
+    "lastName": "Heaney",
+    "email": "vaughn_heaney38@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGJmNGU4MjFiYjAwMTU3MTBkZjEiLCJpYXQiOjE3NTEyNTYwNTJ9.Aze_1Bkmshd6G1wYpRb8o6qUsstDgwPax58snidXBy8"
+}
+2025-06-30T04:00:54.446Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-06-30T04:00:54.453Z - INFO - The test completed successfully: Invalid Contact Creation
+2025-06-30T04:00:54.446Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-06-30T04:00:54.514Z - INFO - The Suite is completed: Invalid Contact Creation
+2025-06-30T04:00:54.752Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-06-30T04:00:54.957Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create Contact Account in API\Contact Creation\2025-06-30_12-00-54-754.png
+2025-06-30T04:00:55.178Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-06-30T04:00:55.354Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create User Account in API\Account Creation\2025-06-30_12-00-55-180.png
+2025-06-30T04:00:55.800Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-06-30T04:00:55.964Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create Contact Account in API\Contact Creation\2025-06-30_12-00-55-802.png
+2025-06-30T04:00:56.212Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-06-30T04:00:56.348Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create User Account in API\Account Creation\2025-06-30_12-00-56-213.png
+2025-06-30T04:00:56.897Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-06-30T04:00:57.093Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create Contact Account in API\Contact Creation\2025-06-30_12-00-56-898.png
+2025-06-30T04:00:57.365Z - INFO - The test completed successfully: Contact Creation
+2025-06-30T04:00:57.402Z - INFO - The Suite is completed: Contact Creation
+2025-06-30T04:00:57.533Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-06-30T04:00:57.820Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-00-43\Create User Account in API\Account Creation\2025-06-30_12-00-57-534.png
+2025-06-30T04:00:58.079Z - INFO - The test completed successfully: Account Creation
+2025-06-30T04:00:58.134Z - INFO - The Suite is completed: Account Creation
+2025-06-30T04:09:21.751Z - INFO - Test Suite is Starting
+2025-06-30T04:09:21.796Z - INFO - Test Suite is Starting
+2025-06-30T04:09:21.877Z - INFO - Test Suite is Starting
+2025-06-30T04:09:23.823Z - INFO - The test is running: Invalid Contact Creation
+2025-06-30T04:09:23.825Z - INFO - The test is running: Account Creation
+2025-06-30T04:09:23.823Z - INFO - The test is running: Contact Creation
+2025-06-30T04:09:29.213Z - INFO - User data: {
+  "user": {
+    "_id": "68620df708257200151e03b0",
+    "firstName": "Elwin",
+    "lastName": "Walker",
+    "email": "elwin_walker12@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGRmNzA4MjU3MjAwMTUxZTAzYjAiLCJpYXQiOjE3NTEyNTY1Njh9.zRsCU2XDvKHthTncBs8HNNjD5IN1W3AlGDpTBvsqBbw"
+}
+2025-06-30T04:09:29.337Z - INFO - User data: {
+  "user": {
+    "_id": "68620df8e821bb0015710e12",
+    "firstName": "Hunter",
+    "lastName": "Strosin",
+    "email": "hunter_strosin@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGRmOGU4MjFiYjAwMTU3MTBlMTIiLCJpYXQiOjE3NTEyNTY1Njh9.a_exctvJGY2vfY2DxXauFfxCH7J8o4StOxUA7SMSQxc"
+}
+2025-06-30T04:09:29.359Z - INFO - User data: {
+  "user": {
+    "_id": "68620df8e821bb0015710e13",
+    "firstName": "Matilda",
+    "lastName": "Herzog",
+    "email": "matilda.herzog@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYyMGRmOGU4MjFiYjAwMTU3MTBlMTMiLCJpYXQiOjE3NTEyNTY1Njh9.odrUX4DeUTpYBa7ddh2ODC9rHwrX5gztAsObl57_FG4"
+}
+2025-06-30T04:09:29.579Z - INFO - User data: {
+  "_id": "68620df8e821bb0015710e16",
+  "firstName": "Harmony",
+  "lastName": "Auer",
+  "birthdate": "1976-04-02",
+  "email": "harmony.auer@example.com",
+  "phone": "9136429196",
+  "street1": "53245 Susie Bridge",
+  "street2": "Apt. 572",
+  "city": "Plano",
+  "stateProvince": "Virginia",
+  "postalCode": "28006",
+  "country": "Guatemala",
+  "owner": "68620df708257200151e03b0",
+  "__v": 0
+}
+2025-06-30T04:09:29.652Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-06-30T04:09:29.657Z - INFO - The test completed successfully: Invalid Contact Creation
+2025-06-30T04:09:29.653Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-06-30T04:09:29.732Z - INFO - The Suite is completed: Invalid Contact Creation
+2025-06-30T04:09:30.458Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-06-30T04:09:30.616Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-06-30T04:09:30.642Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create User Account in API\Account Creation\2025-06-30_12-09-30-461.png
+2025-06-30T04:09:30.767Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create Contact Account in API\Contact Creation\2025-06-30_12-09-30-618.png
+2025-06-30T04:09:31.507Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-06-30T04:09:31.645Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create User Account in API\Account Creation\2025-06-30_12-09-31-509.png
+2025-06-30T04:09:31.649Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-06-30T04:09:31.815Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create Contact Account in API\Contact Creation\2025-06-30_12-09-31-651.png
+2025-06-30T04:09:32.751Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-06-30T04:09:32.835Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-06-30T04:09:33.633Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create Contact Account in API\Contact Creation\2025-06-30_12-09-32-752.png
+2025-06-30T04:09:33.742Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_12-09-19\Create User Account in API\Account Creation\2025-06-30_12-09-32-836.png
+2025-06-30T04:09:33.936Z - INFO - The test completed successfully: Contact Creation
+2025-06-30T04:09:33.970Z - INFO - The Suite is completed: Contact Creation
+2025-06-30T04:09:34.040Z - INFO - The test completed successfully: Account Creation
+2025-06-30T04:09:34.111Z - INFO - The Suite is completed: Account Creation

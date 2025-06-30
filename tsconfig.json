@@ -25,6 +25,7 @@
     "tests/**/*",
     "test-data/**/*",
     "hooks/**/*",
+    "api/*",
     "global-setup.ts"
   ],
   "exclude": [

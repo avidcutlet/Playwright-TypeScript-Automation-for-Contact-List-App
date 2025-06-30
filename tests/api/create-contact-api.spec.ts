@@ -5,7 +5,8 @@ import { initializeTestHooks } from '@hooks/web-hook';
 import AllureAttachScreenshot from '@utils/allure-report-util';
 import DatasetUtil from '@utils/test-data-util';
 
-import { creationOfContact, creationOfUser, invalidCreationOfContact } from '@api/api-create-user-account';
+import { creationOfUser } from '@api/api-create-user-account';
+import { creationOfContact, invalidCreationOfContact } from '@api/api-create-contact';
 import { ContactListPage } from '@pages/contact-list-page';
 import { LoginPage } from '@pages/login-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
@@ -34,7 +35,7 @@ test.describe('Create Contact Account in API @Regression @ALL @API', () => {
         
         const loginPageHeader: string = datasetUI.getTestData('Header', 'LoginPageHeader');
         const contactListPageHeader: string = datasetUI.getTestData('Header', 'ContactListPageHeader');
-        const created: string = datasetAPI.getTestData('Response', 'Created');
+        const createdStatus: string = datasetAPI.getTestData('Response', 'CreatedStatus');
         const createContact: string = datasetAPI.getTestData('jsonFileName', 'CreateContact');
         
         const {
@@ -43,11 +44,10 @@ test.describe('Create Contact Account in API @Regression @ALL @API', () => {
             responseStatus: createUserResponseStatus
         } = await creationOfUser(createContact);
         
-        expect(createUserResponseStatus).toBe(created);
+        expect(createUserResponseStatus).toBe(createdStatus);
         
         const loginPageHeaderLocator = await loginPageInstance.verifyLoginHeader();
         const loginPageHeaderTxt = await loginPageHeaderLocator.textContent();
-        
         
         const {
             fullName,
@@ -56,7 +56,7 @@ test.describe('Create Contact Account in API @Regression @ALL @API', () => {
         } = await creationOfContact();
         
         await attach.withAllureStep(page, 'Step 1 - Creation of Valid Contact in API', async () => {
-            expect(createContactResponseStatus).toBe(created);
+            expect(createContactResponseStatus).toBe(createdStatus);
         }, createContactResponseData ?? {});
         
         await attach.withAllureStep(page, 'Step 2 - User is Loggedin in UI', async () => {
@@ -79,22 +79,22 @@ test.describe('Create Contact Account in API @Regression @ALL @API', () => {
         await displayName(`Add New Invalid Contact - Failed`);
         await feature("API");
         
-        const created: string = datasetAPI.getTestData('Response', 'Created');
-        const badRequest: string = datasetAPI.getTestData('Response', 'BadRequest');
+        const createdStatus: string = datasetAPI.getTestData('Response', 'CreatedStatus');
+        const invalidRequest: string = datasetAPI.getTestData('Response', 'InvalidRequest');
         const createInvalidContact: string = datasetAPI.getTestData('jsonFileName', 'CreateInvalidContact');
         
         const {
             responseStatus: createUserResponseStatus
         } = await creationOfUser(createInvalidContact);
 
-        expect(createUserResponseStatus).toBe(created);
+        expect(createUserResponseStatus).toBe(createdStatus);
         
         const invalidContactResult = await invalidCreationOfContact();
         const responseData = invalidContactResult?.responseData;
         const responseStatus = invalidContactResult?.responseStatus;
         
         await attach.withAllureStep(page, 'Step 1 - Creation of Invalid Contact in API', async () => {
-            expect(responseStatus).toBe(badRequest);
+            expect(responseStatus).toBe(invalidRequest);
         }, responseData ?? {});
     });
 }); 

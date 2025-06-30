@@ -29,8 +29,8 @@
     },
 
     "Response": {
-        "Created": "201",
-        "BadRequest": "400"
+        "CreatedStatus": "201",
+        "InvalidRequest": "400"
     },
 
     "jsonFileName": {

@@ -32,13 +32,13 @@ test.describe('Create User Account in API @Regression @ALL @API', () => {
         const contactListPageInstance = new ContactListPage(page);
         const reusableScripts = new ReusableHelpers(page);
 
-        const created: string = datasetAPI.getTestData('Response', 'Created');
+        const createdStatus: string = datasetAPI.getTestData('Response', 'CreatedStatus');
         const loginPageHeader: string = datasetUI.getTestData('Header', 'LoginPageHeader');
         const contactListPageHeader: string = datasetUI.getTestData('Header', 'ContactListPageHeader');
         
         const { email, password, responseData, responseStatus } = await creationOfUser(null);
 
-        expect(responseStatus).toBe(created);
+        expect(responseStatus).toBe(createdStatus);
 
         await attach.withAllureStep(page, 'Creation of Valid User', async () => {}, responseData ?? {});
 
