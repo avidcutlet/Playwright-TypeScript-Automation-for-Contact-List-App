@@ -20,19 +20,19 @@ class ScreenshotUtil {
                 fs.mkdirSync(this.screenshotBasePath, { recursive: true });
             }
     
-            const DIRECTORY_CONTENTS = fs.readdirSync(this.screenshotBasePath, { withFileTypes: true });
+            const directoryContents = fs.readdirSync(this.screenshotBasePath, { withFileTypes: true });
     
-            const FOLDER_DETAILS = DIRECTORY_CONTENTS
+            const folderDetails = directoryContents
                 .filter(entry => entry.isDirectory())
                 .map(folder => ({
                     folderName: folder.name,
                     modificationTime: fs.statSync(path.join(this.screenshotBasePath, folder.name)).mtime,
                 }));
     
-            FOLDER_DETAILS.sort((folderA, folderB) => folderB.modificationTime.getTime() - folderA.modificationTime.getTime());
+            folderDetails.sort((folderA, folderB) => folderB.modificationTime.getTime() - folderA.modificationTime.getTime());
     
-            if (FOLDER_DETAILS.length > 0) {
-                return path.join(this.screenshotBasePath, FOLDER_DETAILS[0].folderName);
+            if (folderDetails.length > 0) {
+                return path.join(this.screenshotBasePath, folderDetails[0].folderName);
             } else {
                 loggingUtility.logMessage('error', `No folders found`);
                 throw new Error('No folders found in the specified directory.');
@@ -55,24 +55,24 @@ class ScreenshotUtil {
             return;
         }
 
-        const LATEST_FOLDER = this.getLatestFolder();
-        if (!LATEST_FOLDER) {
+        const latestFolder = this.getLatestFolder();
+        if (!latestFolder) {
             loggingUtility.logMessage('error', 'Unable to determine the latest folder for screenshots.');
             return;
         }
 
-        const SCENARIO_FOLDER = path.join(LATEST_FOLDER, scenario);
-        const TEST_CASE_FOLDER = path.join(SCENARIO_FOLDER, testCase);
+        const scenarioFolder = path.join(latestFolder, scenario);
+        const testCaseFolder = path.join(scenarioFolder, testCase);
 
-        fs.mkdirSync(SCENARIO_FOLDER, { recursive: true });
-        fs.mkdirSync(TEST_CASE_FOLDER, { recursive: true });
+        fs.mkdirSync(scenarioFolder, { recursive: true });
+        fs.mkdirSync(testCaseFolder, { recursive: true });
 
-        const SCREENSHOT_FILE_NAME = `${iteration ? `iteration_${iteration}_` : ''}${format(new Date(), 'yyyy-MM-dd_HH-mm-ss-SSS')}.png`;
-        const SCREENSHOT_PATH = path.join(TEST_CASE_FOLDER, SCREENSHOT_FILE_NAME);
+        const screenshotFileName = `${iteration ? `iteration_${iteration}_` : ''}${format(new Date(), 'yyyy-MM-dd_HH-mm-ss-SSS')}.png`;
+        const screenshotPath = path.join(testCaseFolder, screenshotFileName);
 
         try {
-            await page.screenshot({ path: SCREENSHOT_PATH });
-            loggingUtility.logMessage('info', `Screenshot saved at: ${SCREENSHOT_PATH}`);
+            await page.screenshot({ path: screenshotPath });
+            loggingUtility.logMessage('info', `Screenshot saved at: ${screenshotPath}`);
         } catch (error) {
             loggingUtility.logMessage('error', `Error capturing screenshot`);
         }

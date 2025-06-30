@@ -1,7 +1,7 @@
 import { Page } from '@playwright/test';
+
 import { LoggingUtility } from '@utils/logger-util';
 import ScreenshotUtil from '@utils/screenshot-util';
-
 
 const loggingUtility = new LoggingUtility();
 

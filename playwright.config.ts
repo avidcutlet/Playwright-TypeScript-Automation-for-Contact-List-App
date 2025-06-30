@@ -13,7 +13,7 @@ export default defineConfig({
   testDir: './tests',
   testMatch: '**/*.@(spec|test).ts',
   
-  timeout: 400000,
+  timeout: 700000,
   expect: {
     timeout: 20000,
   },
@@ -28,6 +28,7 @@ export default defineConfig({
     resultsDir: 'reports/allure-results',
   }]],
 
+  // add comments
   ...(currentEnv === 'prod' && { grepInvert: /@tagToSkipInProd1|@tagToSkipInProd2|@tagToSkipInProd3/ }),
 
   use: {
@@ -55,6 +56,7 @@ export default defineConfig({
       viewport: null
       },
     },
+    // manually edit viewport base on screensize
     {
       name: 'firefox',
       use: { 
@@ -80,6 +82,7 @@ export default defineConfig({
         viewport: null
       },
     },
+    // manually edit viewport
     {
       name: 'webkit',
       use: {

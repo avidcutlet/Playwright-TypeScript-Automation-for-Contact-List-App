@@ -1,23 +1,18 @@
 import { Page, Locator } from '@playwright/test';
+
 import { MSG_FILL_DATA } from '@utils/messages-util';
 import { EXCEPTION_ERROR_FILL_DATA } from '@utils/exception-messages-util';
-import { ElementWaitUtil } from '@utils/element-wait-util';
 import ReporterUtil from '@utils/reporter-util';
 
 export class ElementKeyboardActionUtil {
     private page: Page;
 
-    protected readonly elementWaitForElement: ElementWaitUtil;
-
     constructor(page: Page) {
         this.page = page;
-
-        this.elementWaitForElement = new ElementWaitUtil(page);
     }
 
     // Input Element by locator
     async inputElementText(locator: Locator, text: string): Promise<void> {
-        await this.elementWaitForElement.waitForElement(locator, 'visible');
         try {
             await locator.fill(text);
             ReporterUtil.report(this.page, MSG_FILL_DATA(locator.toString()), 'info');
@@ -30,9 +25,8 @@ export class ElementKeyboardActionUtil {
         }
     }
 
-    // Remove Element by locator
+    // Remove Element Text by locator
     async removeElementText(locator: Locator): Promise<void> {
-        await this.elementWaitForElement.waitForElement(locator, 'visible');
         try {
             await locator.fill('');
             ReporterUtil.report(this.page, MSG_FILL_DATA(locator.toString()), 'info');

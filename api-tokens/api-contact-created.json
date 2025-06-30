@@ -1,0 +1,16 @@
+{
+  "_id": "6861f55108257200151e0286",
+  "firstName": "Adela",
+  "lastName": "Mueller",
+  "birthdate": "1986-05-08",
+  "email": "adela.mueller94@example.com",
+  "phone": "2484484785",
+  "street1": "52314 Woodside",
+  "street2": "Suite 372",
+  "city": "Bednarcester",
+  "stateProvince": "Vermont",
+  "postalCode": "13245-0161",
+  "country": "Antarctica",
+  "owner": "6861f55108257200151e0283",
+  "__v": 0
+}

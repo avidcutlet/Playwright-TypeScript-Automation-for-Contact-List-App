@@ -4,7 +4,7 @@ import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
 export class SignUpPage {
-    private elementKeyboardActionUtil: ElementKeyboardActionUtil; // Assuming this is defined elsewhere, as it's not in the original code
+    private elementKeyboardActionUtil: ElementKeyboardActionUtil; 
     private elementMouseActionUtil: ElementMouseActionUtil;
 
     private addUserHeader: Locator;

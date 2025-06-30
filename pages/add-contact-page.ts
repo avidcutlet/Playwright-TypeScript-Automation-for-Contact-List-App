@@ -19,7 +19,6 @@ export class AddContactPage {
     private stateProvinceTxt: Locator;
     private postalCodeTxt: Locator;
     private countryTxt: Locator;
-
     private submitBtn: Locator;
     private cancelBtn: Locator;
 
@@ -28,7 +27,6 @@ export class AddContactPage {
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
         this.addContactHeader = page.getByRole('heading', { name: 'Add Contact' });
-
         this.firstNameTxt = page.getByRole('textbox', { name: '* First Name:' });
         this.lastNameTxt = page.getByRole('textbox', { name: '* Last Name:' });
         this.birthdateTxt = page.getByRole('textbox', { name: 'Date of Birth:' });
@@ -40,7 +38,6 @@ export class AddContactPage {
         this.stateProvinceTxt = page.getByRole('textbox', { name: 'State or Province:' });
         this.postalCodeTxt = page.getByRole('textbox', { name: 'Postal Code:' });
         this.countryTxt = page.locator("#country");
-
         this.submitBtn = page.locator("#submit");
         this.cancelBtn = page.locator("#cancel");
     }

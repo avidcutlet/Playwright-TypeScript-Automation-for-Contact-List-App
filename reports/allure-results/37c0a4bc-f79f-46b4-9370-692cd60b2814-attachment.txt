@@ -1,0 +1,31 @@
+2025-06-30T02:24:09.025Z - INFO - Test Suite is Starting
+
+2025-06-30T02:24:10.719Z - INFO - The test is running: Account Creation
+
+2025-06-30T02:24:18.472Z - INFO - User data: {
+  "user": {
+    "_id": "6861f551e821bb0015710d09",
+    "firstName": "Vivianne",
+    "lastName": "Prohaska",
+    "email": "vivianne.prohaska80@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYxZjU1MWU4MjFiYjAwMTU3MTBkMDkiLCJpYXQiOjE3NTEyNTAyNTd9.idoYqgiplV4HprhD_98bNN0A5Y5ZzZvexuTnln1OzkY"
+}
+
+2025-06-30T02:24:19.573Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-06-30T02:24:19.743Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Create User Account in API\Account Creation\2025-06-30_10-24-19-575.png
+
+2025-06-30T02:24:20.615Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-06-30T02:24:20.761Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Create User Account in API\Account Creation\2025-06-30_10-24-20-616.png
+
+2025-06-30T02:24:21.956Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-30T02:24:22.140Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Create User Account in API\Account Creation\2025-06-30_10-24-21-958.png
+
+2025-06-30T02:24:22.471Z - INFO - The test completed successfully: Account Creation
+
+2025-06-30T02:24:22.517Z - INFO - The Suite is completed: Account Creation
+

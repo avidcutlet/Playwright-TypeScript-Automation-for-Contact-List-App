@@ -1,0 +1,10 @@
+{
+  "user": {
+    "_id": "6861f55108257200151e0283",
+    "firstName": "Adela",
+    "lastName": "Mueller",
+    "email": "adela.mueller94@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODYxZjU1MTA4MjU3MjAwMTUxZTAyODMiLCJpYXQiOjE3NTEyNTAyNTd9.8ywC5zLMVP-T10nZhHcyw7UWSLFPLpmpdP1qLFukhHY"
+}

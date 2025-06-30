@@ -19,7 +19,6 @@ export class EditContactPage {
     private stateProvinceTxt: Locator;
     private postalCodeTxt: Locator;
     private countryTxt: Locator;
-
     private submitBtn: Locator;
     private cancelBtn: Locator;
 
@@ -39,7 +38,6 @@ export class EditContactPage {
         this.stateProvinceTxt = page.getByRole('textbox', { name: 'State or Province:' });
         this.postalCodeTxt = page.getByRole('textbox', { name: 'Postal Code:' });
         this.countryTxt = page.getByRole('textbox', { name: 'Country:' });
-
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
     }

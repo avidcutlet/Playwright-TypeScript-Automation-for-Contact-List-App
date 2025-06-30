@@ -1,0 +1,92 @@
+2025-06-30T02:24:22.594Z - INFO - Test Suite is Starting
+
+2025-06-30T02:24:22.803Z - INFO - The test is running: Delete Contact in UI
+
+2025-06-30T02:24:28.973Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-06-30T02:24:29.130Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-28-974.png
+
+2025-06-30T02:24:30.012Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-06-30T02:24:30.151Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-30-013.png
+
+2025-06-30T02:24:31.046Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-06-30T02:24:31.187Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-31-047.png
+
+2025-06-30T02:24:32.067Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-06-30T02:24:32.209Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-32-068.png
+
+2025-06-30T02:24:33.090Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-06-30T02:24:33.213Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-33-091.png
+
+2025-06-30T02:24:34.148Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-06-30T02:24:34.304Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-34-149.png
+
+2025-06-30T02:24:35.497Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+
+2025-06-30T02:24:35.653Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-35-498.png
+
+2025-06-30T02:24:36.547Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+
+2025-06-30T02:24:36.683Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-36-548.png
+
+2025-06-30T02:24:37.566Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+
+2025-06-30T02:24:37.688Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-37-567.png
+
+2025-06-30T02:24:38.595Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+
+2025-06-30T02:24:38.735Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-38-596.png
+
+2025-06-30T02:24:39.626Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+
+2025-06-30T02:24:39.806Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-39-627.png
+
+2025-06-30T02:24:40.651Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+
+2025-06-30T02:24:40.773Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-40-652.png
+
+2025-06-30T02:24:41.679Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+
+2025-06-30T02:24:41.804Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-41-680.png
+
+2025-06-30T02:24:42.698Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+
+2025-06-30T02:24:42.821Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-42-699.png
+
+2025-06-30T02:24:43.725Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+
+2025-06-30T02:24:43.859Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-43-726.png
+
+2025-06-30T02:24:44.755Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+
+2025-06-30T02:24:44.895Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-44-756.png
+
+2025-06-30T02:24:45.782Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+
+2025-06-30T02:24:45.963Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-45-785.png
+
+2025-06-30T02:24:46.829Z - INFO - FILLED DATA INTO locator('#country')
+
+2025-06-30T02:24:46.959Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-46-830.png
+
+2025-06-30T02:24:47.880Z - INFO - CLICKED ON ELEMENT locator('#submit')
+
+2025-06-30T02:24:48.023Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-47-881.png
+
+2025-06-30T02:24:49.176Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Paxton Jakubowski' })
+
+2025-06-30T02:24:49.329Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-49-177.png
+
+2025-06-30T02:24:50.663Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Delete Contact' })
+
+2025-06-30T02:24:50.805Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-06-30_10-24-06\Contact Management - Delete Contact via UI\Delete Contact in UI\2025-06-30_10-24-50-664.png
+
+2025-06-30T02:24:51.090Z - INFO - The test completed successfully: Delete Contact in UI
+
+2025-06-30T02:24:51.126Z - INFO - The Suite is completed: Delete Contact in UI
+

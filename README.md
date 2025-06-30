@@ -12,7 +12,9 @@
 - [Exclude Test Tags in Production Environment](#exclude-test-tags-in-production-environment)
 
 ## Introduction
-This is an automation project using Playwright with TypeScript for testing the Contact List Website.
+This is an automation project using Playwright with TypeScript for testing the Contact List Website.  
+It offers a complete setup for UI and API testing, cross-browser support, and detailed reporting.  
+The framework is scalable and adaptable for both development and production testing needs.
 
 ## Features
 - Cross-browser support (Chromium, Firefox, WebKit, Edge)
@@ -21,13 +23,14 @@ This is an automation project using Playwright with TypeScript for testing the C
 - Screenshot capture on test failure
 - Test data management
 - Comprehensive reports and logs
+- Interactive test debugging with Playwright UI mode
 
 ## Installation
 
 ### Prerequisites
-- Node.js and npm
-- Visual Studio Code
-- Git for Windows
+- Node.js
+- npm
+
 
 ### Verify Installations
 ```bash
@@ -39,21 +42,17 @@ npm -v
 1. Clone the repository:
 ```bash
 git clone https://github.com/avidcutlet/Contact_List_Playwright_Typescript_Automation.git
+```
+
+2. Go to project directory:
+```bash
 cd Contact_List_Playwright_Typescript_Automation
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
-npm install
+npm install @playwright/test@1.52.0 allure-playwright@3.2.1 allure-js-commons@3.2.1 --save-dev 
 ```
-
-### Project Dependencies and Versions
-
-This project uses the following core dependencies:
-
-- `@playwright/test` version: **1.52.0**
-- `allure-playwright` version: **3.2.1**
-- `allure-js-common` version: **3.2.1**
 
 ### Configuration
 - Modify `playwright.config.ts` for timeout, retries, and other settings.
@@ -67,16 +66,13 @@ Main Project Folder
 ├── config                  # Configuration files
 ├── hooks                   # Lifecycle event hooks
 ├── log                     # Log files
-├── node_modules            # Dependencies
 ├── pages                   # Page Object Models
-├── playwright-report       # Playwright test reports
 ├── reports                 # Test execution reports
 ├── test
 │   ├── api                 # API test scripts
 │   ├── reusable-scripts    # Reusable test functions
 │   └── ui                  # UI test scripts
 ├── test-data               # Test input data
-├── test-results            # Raw test results
 ├── utils                   # Utility functions
 ├── global-setup.ts         # Global setup file
 ├── package.json            # Project metadata and scripts
@@ -105,55 +101,103 @@ export NODE_ENV=staging
 npm run test
 ```
 
-## Run Specific Tests
+## Run Specific Tests File by Browser
 
-### Chromium
+To run a specific test spec using chromium, use the following commands:
 ```bash
-npm run test:chromium:add-new-contact-ui
-npm run test:chromium:delete-contact-ui
-npm run test:chromium:edit-contact-ui
-npm run test:chromium:create-user-account-api
-npm run test:chromium:tag-ui
-npm run test:chromium:tag-api
-npm run test:chromium:tag-all
+npm run test:chromium <path-to-spec-file>
 ```
 
-### Firefox
+To run a specific test spec using firefox, use the following commands:
 ```bash
-npm run test:firefox:add-new-contact-ui
-npm run test:firefox:delete-contact-ui
-npm run test:firefox:edit-contact-ui
-npm run test:firefox:create-user-account-api
-npm run test:firefox:tag-ui
-npm run test:firefox:tag-api
-npm run test:firefox:tag-all
+npm run test:firefox <path-to-spec-file>
 ```
 
-### Edge
+To run a specific test spec using edge, use the following commands:
 ```bash
-npm run test:edge:add-new-contact-ui
-npm run test:edge:delete-contact-ui
-npm run test:edge:edit-contact-ui
-npm run test:edge:create-user-account-api
-npm run test:edge:tag-ui
-npm run test:edge:tag-api
-npm run test:edge:tag-all
+npm run test:edge <path-to-spec-file>
 ```
 
-### WebKit
+To run a specific test spec using webkit, use the following commands:
 ```bash
-npm run test:webkit:add-new-contact-ui
-npm run test:webkit:delete-contact-ui
-npm run test:webkit:edit-contact-ui
-npm run test:webkit:create-user-account-api
-npm run test:webkit:tag-ui
-npm run test:webkit:tag-api
-npm run test:webkit:tag-all
+npm run test:webkit <path-to-spec-file>
 ```
 
-### All Browsers and All Tags
+#### List of path-to-spec-file:
 ```bash
-npm run test:browser-all:tag-all
+/api/create-contact-api.spec.ts
+```
+```bash
+/api/create-user-account-api.spec.ts
+```
+```bash
+/ui/add-new-contact-ui.spec.ts
+```
+```bash
+/ui/delete-contact-ui.spec.ts
+```
+```bash
+/ui/edit-contact-ui.spec.ts
+```
+
+
+### Run Specific Tag File by Browser
+To run a specific tag using chromium, use the following commands:
+```bash
+npm run test:chromium:tag <tag>
+```
+
+To run a specific tag using firefox, use the following commands:
+```bash
+npm run test:firefox:tag <tag>
+```
+
+To run a specific tag using edge, use the following commands:
+```bash
+npm run test:edge:tag <tag>
+```
+
+To run a specific tag using webkit, use the following commands:
+```bash
+npm run test:webkit:tag <tag>
+```
+
+List of specific tags:
+```bash
+@Regression
+```
+```bash
+@ALL
+```
+```bash
+@API
+```
+```bash
+@UI
+```
+```bash
+@UIUserCreation
+```
+```bash
+@UIContactCreation
+```
+```bash
+@UIContactDeletion
+```
+```bash
+@APIUserCreation
+```
+```bash
+@APIContactCreation
+```
+
+```bash
+@APIInvalidContactCreation
+```
+
+### All Browsers and Specific Tag
+```bash
+npm run test:browser-all:tag
 ```
 
 ## Running Tests in UI Mode
@@ -229,5 +273,5 @@ Defined in `package.json`:
 ## Exclude Test Tags in Production Environment
 To exclude specific tests in the production environment, update `playwright.config.ts` as follows:
 ```ts
-grepInvert: currentEnv === 'prod' ? /@tagToSkipInProd1|@tagToSkipInProd2|@tagToSkipInProd3/ : undefined
+grepInvert: currentEnv === 'prod' ? /@tagToSkipInProd1|@tagToSkipInProd2|@tagToSkipInProd3/
 ```

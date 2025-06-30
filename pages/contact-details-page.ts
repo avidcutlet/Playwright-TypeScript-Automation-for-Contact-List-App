@@ -10,7 +10,6 @@ export class ContactDetailsPage {
     private deleteContactBtn: Locator;
     private returnBtn: Locator;
 
-
     constructor(page: Page) {
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 

@@ -3,32 +3,44 @@ import path from 'path';
 
 export class DatasetUtil {
     private testDataType: string;
-    private TESTDATA_PATH: string;
-    private DATA: any;
-    private CHECK_PATH_EXIST: boolean;
+    private testDataPath: string;
+    private data: any;
+    private checkPathExist: boolean;
 
     constructor(testDataType: string = 'ui') {
-        this.testDataType = testDataType.toLowerCase(); // 'ui' or 'api'
-        this.TESTDATA_PATH = this.getTestDataPath();
-        this.DATA = null;
-        this.CHECK_PATH_EXIST = false;
+        this.testDataType = testDataType.toLowerCase(); // 'ui', 'api' or, 'api tokens'
+        this.testDataPath = this.getTestDataPath();
+        this.data = null;
+        this.checkPathExist = false;
     }
 
     // Get test data path
     private getTestDataPath(): string {
         /** Dynamically resolve the test data path based on the type (UI or API). */
-        const FILE_NAME = this.testDataType === 'api' ? 'api-test-data.json' : 'ui-test-data.json';
-        return path.join(process.cwd(), 'test-data', FILE_NAME);
+        let fileName: string;
+        if (this.testDataType === 'api'){
+            fileName = 'api-test-data.json';
+        
+        }else if(this.testDataType === 'ui'){
+            fileName = 'ui-test-data.json';
+
+        }else if (this.testDataType === 'tokenforcreatecontact') {
+            fileName = '../api-tokens/api-user-for-create-contact.json';
+            
+        }else if (this.testDataType === 'tokenforcreateinvalidcontact'){
+            fileName = '../api-tokens/api-user-for-create-invalid-contact.json';
+        }
+        return path.join(process.cwd(), 'test-data', fileName!);
     }
 
     // Check test data path
     private checkTestDataPath(): boolean {
         /** Check if the test data path exists. */
-        if (!this.CHECK_PATH_EXIST) {
-            if (!fs.existsSync(this.TESTDATA_PATH)) {
+        if (!this.checkPathExist) {
+            if (!fs.existsSync(this.testDataPath)) {
                 return false;
             }
-            this.CHECK_PATH_EXIST = true;
+            this.checkPathExist = true;
         }
         return true;
     }
@@ -36,27 +48,27 @@ export class DatasetUtil {
     // Load data
     private loadData(): any {
         /** Load test data from the JSON file. */
-        if (!this.DATA) {
+        if (!this.data) {
             if (!this.checkTestDataPath()) {
                 return null; // Return null if the path doesn't exist
             }
             try {
-                const FILE_DATA = fs.readFileSync(this.TESTDATA_PATH, 'utf-8');
-                this.DATA = JSON.parse(FILE_DATA);
+                const fileData = fs.readFileSync(this.testDataPath, 'utf-8');
+                this.data = JSON.parse(fileData);
             } catch (error) {
                 return null;
             }
         }
-        return this.DATA;
+        return this.data;
     }
 
     // Get test data
     public getTestData(key: string, subKey: string | null = null): any {
         /** Retrieve data for a given key and optional subKey from the loaded test data. */
-        const JSON_DATA = this.loadData();
-        if (!JSON_DATA) return null;
+        const jsonData = this.loadData();
+        if (!jsonData) return null;
 
-        const result = subKey ? JSON_DATA[key][subKey] : JSON_DATA[key];
+        const result = subKey ? jsonData[key][subKey] : jsonData[key];
 
         if (result === undefined) {
             throw new Error(`Key "${key}"${subKey ? ` and subKey "${subKey}"` : ''} not found in test data.`);

@@ -1,4 +1,3 @@
-// testDataUtils.ts
 import { faker } from '@faker-js/faker';
 
 // Creates random data
