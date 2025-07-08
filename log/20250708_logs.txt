@@ -1,0 +1,654 @@
+2025-07-08T07:11:34.720Z - INFO - Test Suite is Starting
+2025-07-08T07:11:35.849Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T07:11:42.615Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:11:42.776Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-42-621.png
+2025-07-08T07:11:44.074Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:11:44.224Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-44-075.png
+2025-07-08T07:11:45.108Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:11:45.229Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-45-109.png
+2025-07-08T07:11:46.136Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:11:46.272Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-46-138.png
+2025-07-08T07:11:47.174Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:11:47.304Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-47-175.png
+2025-07-08T07:11:48.440Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:11:48.568Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-11-32\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-11-48-442.png
+2025-07-08T07:11:48.839Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T07:11:48.881Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T07:15:44.764Z - INFO - Test Suite is Starting
+2025-07-08T07:15:45.479Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T07:15:49.937Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:15:50.097Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-49-941.png
+2025-07-08T07:15:51.390Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:15:51.535Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-51-391.png
+2025-07-08T07:15:52.421Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:15:52.554Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-52-423.png
+2025-07-08T07:15:53.451Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:15:53.574Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-53-453.png
+2025-07-08T07:15:54.475Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:15:54.594Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-54-476.png
+2025-07-08T07:15:55.775Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:15:55.895Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-15-42\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-15-55-776.png
+2025-07-08T07:15:56.178Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T07:15:56.252Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T07:18:38.073Z - INFO - Test Suite is Starting
+2025-07-08T07:18:39.412Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T07:18:43.766Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:18:43.930Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-43-768.png
+2025-07-08T07:18:45.227Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:18:45.350Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-45-228.png
+2025-07-08T07:18:46.251Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:18:46.383Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-46-252.png
+2025-07-08T07:18:47.275Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:18:47.409Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-47-277.png
+2025-07-08T07:18:48.305Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:18:48.433Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-48-306.png
+2025-07-08T07:18:49.605Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:18:49.731Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-18-35\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-18-49-607.png
+2025-07-08T07:18:49.965Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T07:18:50.025Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T07:18:59.462Z - INFO - Test Suite is Starting
+2025-07-08T07:18:59.514Z - INFO - Test Suite is Starting
+2025-07-08T07:18:59.533Z - INFO - Test Suite is Starting
+2025-07-08T07:18:59.581Z - INFO - Test Suite is Starting
+2025-07-08T07:19:00.424Z - INFO - The test is running: Add New User in UI
+2025-07-08T07:19:00.429Z - INFO - The test is running: Account Creation
+2025-07-08T07:19:00.818Z - INFO - The test is running: Invalid Contact Creation
+2025-07-08T07:19:01.648Z - INFO - The test is running: Contact Creation
+2025-07-08T07:19:19.743Z - INFO - Test Suite is Starting
+2025-07-08T07:19:20.381Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T07:19:25.290Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:19:25.439Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-25-294.png
+2025-07-08T07:19:26.721Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:19:26.851Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-26-722.png
+2025-07-08T07:19:27.745Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:19:27.882Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-27-746.png
+2025-07-08T07:19:28.774Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:19:28.908Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-28-777.png
+2025-07-08T07:19:29.808Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:19:29.933Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-29-811.png
+2025-07-08T07:19:31.075Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:19:31.210Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-19-17\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-19-31-077.png
+2025-07-08T07:19:31.482Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T07:19:31.537Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T07:28:28.963Z - INFO - Test Suite is Starting
+2025-07-08T07:28:30.305Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:28:36.915Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:28:37.054Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-36-918.png
+2025-07-08T07:28:38.331Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:28:38.479Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-38-333.png
+2025-07-08T07:28:39.374Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:28:39.494Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-39-374.png
+2025-07-08T07:28:40.394Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:28:40.539Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-40-397.png
+2025-07-08T07:28:41.421Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:28:41.557Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-41-423.png
+2025-07-08T07:28:42.737Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:28:42.859Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-28-26\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-28-42-737.png
+2025-07-08T07:28:43.115Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:28:43.190Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:29:07.797Z - INFO - Test Suite is Starting
+2025-07-08T07:29:08.303Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:29:13.095Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:29:13.246Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-13-099.png
+2025-07-08T07:29:14.536Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:29:14.672Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-14-537.png
+2025-07-08T07:29:15.575Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:29:15.709Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-15-575.png
+2025-07-08T07:29:16.605Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:29:16.740Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-16-606.png
+2025-07-08T07:29:17.622Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:29:17.757Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-17-623.png
+2025-07-08T07:29:18.936Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:29:19.072Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-29-05\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-29-18-937.png
+2025-07-08T07:29:19.315Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:29:19.367Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:51:22.762Z - INFO - Test Suite is Starting
+2025-07-08T07:51:23.735Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:51:30.970Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:51:31.109Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-30-971.png
+2025-07-08T07:51:32.380Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:51:32.516Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-32-381.png
+2025-07-08T07:51:33.416Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:51:33.562Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-33-417.png
+2025-07-08T07:51:34.456Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:51:34.576Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-34-458.png
+2025-07-08T07:51:35.477Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:51:35.598Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-35-479.png
+2025-07-08T07:51:36.785Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:51:36.921Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-51-20\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-51-36-786.png
+2025-07-08T07:51:37.173Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:51:37.257Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:52:13.952Z - INFO - Test Suite is Starting
+2025-07-08T07:52:14.575Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:52:19.465Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:52:19.627Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-19-467.png
+2025-07-08T07:52:20.897Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:52:21.118Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-20-899.png
+2025-07-08T07:52:21.922Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:52:22.071Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-21-923.png
+2025-07-08T07:52:22.945Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:52:23.082Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-22-946.png
+2025-07-08T07:52:23.977Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:52:24.126Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-23-978.png
+2025-07-08T07:52:25.281Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:52:25.411Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-52-11\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_15-52-25-282.png
+2025-07-08T07:52:25.667Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:52:25.731Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T07:53:29.037Z - INFO - Test Suite is Starting
+2025-07-08T07:53:29.775Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T07:53:34.181Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:53:34.320Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-34-182.png
+2025-07-08T07:53:35.579Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:53:35.719Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-35-580.png
+2025-07-08T07:53:36.615Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:53:36.746Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-36-616.png
+2025-07-08T07:53:37.635Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:53:37.756Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-37-636.png
+2025-07-08T07:53:38.664Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:53:38.795Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-38-665.png
+2025-07-08T07:53:39.950Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:53:40.071Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-53-26\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_15-53-39-951.png
+2025-07-08T07:53:40.319Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T07:53:40.375Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T07:58:40.765Z - INFO - Test Suite is Starting
+2025-07-08T07:58:41.641Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T07:58:46.051Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T07:58:46.203Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-46-052.png
+2025-07-08T07:58:47.508Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T07:58:47.669Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-47-510.png
+2025-07-08T07:58:48.543Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T07:58:48.681Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-48-545.png
+2025-07-08T07:58:49.581Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T07:58:49.733Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-49-582.png
+2025-07-08T07:58:50.629Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T07:58:50.761Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-50-631.png
+2025-07-08T07:58:51.951Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T07:58:52.086Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-58-38\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_15-58-51-953.png
+2025-07-08T07:58:52.377Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T07:58:52.484Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T07:59:58.048Z - INFO - Test Suite is Starting
+2025-07-08T07:59:58.882Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:00:03.306Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:00:03.471Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-03-310.png
+2025-07-08T08:00:04.770Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:00:04.905Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-04-771.png
+2025-07-08T08:00:05.796Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:00:05.946Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-05-798.png
+2025-07-08T08:00:06.836Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:00:06.969Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-06-839.png
+2025-07-08T08:00:07.877Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:00:07.999Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-07-878.png
+2025-07-08T08:00:09.176Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:00:09.299Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_15-59-56\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-00-09-178.png
+2025-07-08T08:00:09.553Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:00:09.657Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:04:05.596Z - INFO - Test Suite is Starting
+2025-07-08T08:04:06.518Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:04:11.513Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:04:11.702Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-11-515.png
+2025-07-08T08:04:13.026Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:04:13.231Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-13-027.png
+2025-07-08T08:04:14.071Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:04:14.277Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-14-078.png
+2025-07-08T08:04:15.186Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:04:15.373Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-15-190.png
+2025-07-08T08:04:16.227Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:04:16.371Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-16-228.png
+2025-07-08T08:04:17.546Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:04:17.670Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-04-03\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-04-17-547.png
+2025-07-08T08:04:17.923Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:04:18.018Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:07:55.241Z - INFO - Test Suite is Starting
+2025-07-08T08:07:55.243Z - INFO - Test Suite is Starting
+2025-07-08T08:07:55.247Z - INFO - Test Suite is Starting
+2025-07-08T08:07:55.248Z - INFO - Test Suite is Starting
+2025-07-08T08:07:57.717Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:07:57.836Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:07:58.177Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:07:58.319Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:08:04.510Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:08:04.510Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:08:04.510Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:08:04.511Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:08:04.780Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-04-515.png
+2025-07-08T08:08:04.782Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-04-515.png
+2025-07-08T08:08:04.790Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-04-513.png
+2025-07-08T08:08:04.793Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-08-04-516.png
+2025-07-08T08:08:05.227Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:08:05.368Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:08:06.223Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:08:06.266Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:08:06.274Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:08:06.422Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-06-224.png
+2025-07-08T08:08:06.505Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-06-275.png
+2025-07-08T08:08:06.520Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-06-274.png
+2025-07-08T08:08:07.253Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:08:07.325Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:08:07.341Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:08:07.409Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-07-254.png
+2025-07-08T08:08:07.473Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-07-326.png
+2025-07-08T08:08:07.485Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-07-342.png
+2025-07-08T08:08:08.281Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:08:08.344Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:08:08.376Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:08:08.440Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-08-283.png
+2025-07-08T08:08:08.501Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-08-346.png
+2025-07-08T08:08:08.534Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-08-378.png
+2025-07-08T08:08:09.319Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:08:09.381Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:08:09.413Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:08:09.474Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-09-320.png
+2025-07-08T08:08:09.550Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-09-383.png
+2025-07-08T08:08:09.578Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-09-415.png
+2025-07-08T08:08:10.677Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:08:10.764Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:08:10.781Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:08:10.857Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-08-10-678.png
+2025-07-08T08:08:10.925Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-08-10-767.png
+2025-07-08T08:08:10.944Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-07-50\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-08-10-783.png
+2025-07-08T08:08:11.142Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:08:11.197Z - INFO - The Suite is completed: Verify successful user registration in UI
+2025-07-08T08:08:11.303Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:08:11.372Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:08:11.375Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:08:11.470Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:09:16.235Z - INFO - Test Suite is Starting
+2025-07-08T08:09:16.952Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:09:24.150Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:09:24.289Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-24-154.png
+2025-07-08T08:09:25.560Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:09:25.682Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-25-561.png
+2025-07-08T08:09:26.598Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:09:26.736Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-26-600.png
+2025-07-08T08:09:27.625Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:09:27.744Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-27-627.png
+2025-07-08T08:09:28.655Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:09:28.775Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-28-656.png
+2025-07-08T08:09:29.938Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:09:30.061Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-14\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-29-940.png
+2025-07-08T08:09:30.310Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:09:30.365Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:09:46.662Z - INFO - Test Suite is Starting
+2025-07-08T08:09:46.668Z - INFO - Test Suite is Starting
+2025-07-08T08:09:46.681Z - INFO - Test Suite is Starting
+2025-07-08T08:09:46.687Z - INFO - Test Suite is Starting
+2025-07-08T08:09:48.131Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:09:48.374Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:09:48.398Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:09:48.695Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:09:52.928Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:09:53.081Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:09:53.139Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-52-939.png
+2025-07-08T08:09:53.251Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-53-084.png
+2025-07-08T08:09:54.089Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:09:54.135Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:09:54.250Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-09-54-091.png
+2025-07-08T08:09:54.313Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-54-137.png
+2025-07-08T08:09:54.509Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:09:54.571Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:09:54.713Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-54-511.png
+2025-07-08T08:09:54.768Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-54-577.png
+2025-07-08T08:09:55.560Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:09:55.623Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:09:55.653Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:09:55.733Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:09:55.744Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-55-562.png
+2025-07-08T08:09:55.819Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-55-625.png
+2025-07-08T08:09:55.835Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-09-55-655.png
+2025-07-08T08:09:55.908Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-55-735.png
+2025-07-08T08:09:56.580Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:09:56.656Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:09:56.702Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:09:56.748Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-56-581.png
+2025-07-08T08:09:56.781Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:09:56.833Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-56-657.png
+2025-07-08T08:09:56.873Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-09-56-704.png
+2025-07-08T08:09:56.938Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-56-782.png
+2025-07-08T08:09:57.615Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:09:57.687Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:09:57.733Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:09:57.760Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-57-616.png
+2025-07-08T08:09:57.802Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:09:57.847Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-57-688.png
+2025-07-08T08:09:57.921Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-09-57-735.png
+2025-07-08T08:09:57.991Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-57-806.png
+2025-07-08T08:09:58.772Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:09:58.833Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:09:58.922Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-09-58-773.png
+2025-07-08T08:09:58.993Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:09:58.994Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-09-58-834.png
+2025-07-08T08:09:59.050Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:09:59.163Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-09-58-995.png
+2025-07-08T08:09:59.216Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-09-59-051.png
+2025-07-08T08:09:59.438Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:09:59.512Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:09:59.514Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:09:59.561Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:10:00.135Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:10:00.220Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:10:00.291Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-10-00-136.png
+2025-07-08T08:10:00.358Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-09-44\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-10-00-221.png
+2025-07-08T08:10:00.589Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:10:00.643Z - INFO - The Suite is completed: Verify successful user registration in UI
+2025-07-08T08:10:00.657Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:10:00.794Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:16:24.074Z - INFO - Test Suite is Starting
+2025-07-08T08:16:25.063Z - INFO - The test is running: Verify user registration with invalid email format in UI
+2025-07-08T08:16:29.556Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:16:29.707Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-29-558.png
+2025-07-08T08:16:31.000Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:16:31.139Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-31-001.png
+2025-07-08T08:16:32.026Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:16:32.162Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-32-028.png
+2025-07-08T08:16:33.051Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:16:33.182Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-33-053.png
+2025-07-08T08:16:34.081Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:16:34.217Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-34-082.png
+2025-07-08T08:16:35.373Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:16:35.493Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-16-22\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-16-35-374.png
+2025-07-08T08:16:35.763Z - INFO - The test completed successfully: Verify user registration with invalid email format in UI
+2025-07-08T08:16:35.825Z - INFO - The Suite is completed: Verify user registration with invalid email format in UI
+2025-07-08T08:22:54.136Z - INFO - Test Suite is Starting
+2025-07-08T08:22:54.178Z - INFO - Test Suite is Starting
+2025-07-08T08:22:54.252Z - INFO - Test Suite is Starting
+2025-07-08T08:22:56.162Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:22:56.162Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:22:56.282Z - INFO - The test is running: Verify user registration with invalid email format in UI
+2025-07-08T08:23:00.734Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:23:00.734Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:23:00.734Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:23:00.942Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-00-738.png
+2025-07-08T08:23:00.957Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-00-737.png
+2025-07-08T08:23:00.964Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-00-737.png
+2025-07-08T08:23:02.269Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:23:02.301Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:23:02.325Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:23:02.442Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-02-270.png
+2025-07-08T08:23:02.518Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-02-307.png
+2025-07-08T08:23:02.528Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-02-332.png
+2025-07-08T08:23:03.303Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:23:03.349Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:23:03.381Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:23:03.466Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-03-304.png
+2025-07-08T08:23:03.522Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-03-351.png
+2025-07-08T08:23:03.551Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-03-383.png
+2025-07-08T08:23:04.334Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:23:04.382Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:23:04.414Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:23:04.486Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-04-336.png
+2025-07-08T08:23:04.540Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-04-383.png
+2025-07-08T08:23:04.570Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-04-415.png
+2025-07-08T08:23:05.366Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:23:05.412Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:23:05.442Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:23:05.497Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-05-367.png
+2025-07-08T08:23:05.548Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-05-414.png
+2025-07-08T08:23:05.606Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-05-443.png
+2025-07-08T08:23:06.666Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:23:06.727Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:23:06.795Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-23-06-667.png
+2025-07-08T08:23:06.804Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:23:06.956Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-23-06-805.png
+2025-07-08T08:23:07.059Z - INFO - The test completed successfully: Verify user registration with invalid email format in UI
+2025-07-08T08:23:07.142Z - INFO - The Suite is completed: Verify user registration with invalid email format in UI
+2025-07-08T08:23:07.307Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:23:07.514Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-23-06-728.png
+2025-07-08T08:23:07.563Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:23:07.848Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:23:07.902Z - INFO - The Suite is completed: Verify successful user registration in UI
+2025-07-08T08:23:09.921Z - INFO - Test Suite is Starting
+2025-07-08T08:23:10.539Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:23:12.017Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:23:12.156Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-12-018.png
+2025-07-08T08:23:13.431Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:23:13.578Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-13-432.png
+2025-07-08T08:23:14.456Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:23:14.581Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-14-457.png
+2025-07-08T08:23:15.140Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:23:15.284Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-15-142.png
+2025-07-08T08:23:15.480Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:23:15.638Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-15-482.png
+2025-07-08T08:23:16.506Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:23:16.585Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:23:16.648Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-16-507.png
+2025-07-08T08:23:16.719Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-16-586.png
+2025-07-08T08:23:17.609Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:23:17.744Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-17-610.png
+2025-07-08T08:23:17.841Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:23:17.963Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-23-17-842.png
+2025-07-08T08:23:18.219Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:23:18.254Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:23:18.638Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:23:18.776Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-18-641.png
+2025-07-08T08:23:19.671Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:23:19.796Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-19-673.png
+2025-07-08T08:23:20.976Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:23:21.111Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-22-51\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-23-20-977.png
+2025-07-08T08:23:21.359Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:23:21.444Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:25:15.908Z - INFO - Test Suite is Starting
+2025-07-08T08:25:15.946Z - INFO - Test Suite is Starting
+2025-07-08T08:25:15.966Z - INFO - Test Suite is Starting
+2025-07-08T08:25:17.633Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:25:17.737Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:25:17.929Z - INFO - The test is running: Verify user registration with invalid email format in UI
+2025-07-08T08:25:22.106Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:25:22.231Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:25:22.299Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-22-108.png
+2025-07-08T08:25:22.341Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:25:22.393Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-22-234.png
+2025-07-08T08:25:22.520Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-22-342.png
+2025-07-08T08:25:23.664Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:25:23.758Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:25:23.823Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-23-666.png
+2025-07-08T08:25:23.867Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:25:23.907Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-23-760.png
+2025-07-08T08:25:24.022Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-23-868.png
+2025-07-08T08:25:24.701Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:25:24.796Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:25:24.850Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-24-702.png
+2025-07-08T08:25:24.887Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:25:24.962Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-24-797.png
+2025-07-08T08:25:25.024Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-24-889.png
+2025-07-08T08:25:25.729Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:25:25.821Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:25:25.885Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-25-730.png
+2025-07-08T08:25:25.913Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:25:25.961Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-25-822.png
+2025-07-08T08:25:26.060Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-25-915.png
+2025-07-08T08:25:26.761Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:25:26.853Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:25:26.903Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-26-763.png
+2025-07-08T08:25:26.930Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:25:27.021Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-26-854.png
+2025-07-08T08:25:27.120Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-26-932.png
+2025-07-08T08:25:28.112Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:25:28.208Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:25:28.268Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-25-28-113.png
+2025-07-08T08:25:28.271Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:25:28.369Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-25-28-210.png
+2025-07-08T08:25:28.439Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-25-28-273.png
+2025-07-08T08:25:29.909Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:25:30.119Z - INFO - The test completed successfully: Verify user registration with invalid email format in UI
+2025-07-08T08:25:30.137Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:25:30.204Z - INFO - The Suite is completed: Verify user registration with invalid email format in UI
+2025-07-08T08:25:30.630Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:25:30.799Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:25:34.459Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:25:34.600Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-34-460.png
+2025-07-08T08:25:35.055Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:25:35.200Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-35-057.png
+2025-07-08T08:25:35.909Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:25:36.067Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-35-910.png
+2025-07-08T08:25:36.480Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:25:36.608Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-36-481.png
+2025-07-08T08:25:36.945Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:25:37.068Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-36-947.png
+2025-07-08T08:25:37.509Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:25:37.648Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-37-512.png
+2025-07-08T08:25:37.974Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:25:38.131Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-37-975.png
+2025-07-08T08:25:38.533Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:25:38.686Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-38-534.png
+2025-07-08T08:25:38.999Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:25:39.174Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-39-001.png
+2025-07-08T08:25:39.558Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:25:39.691Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-39-560.png
+2025-07-08T08:25:40.360Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:25:40.483Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-25-40-362.png
+2025-07-08T08:25:40.751Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:25:40.780Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:25:40.844Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:25:40.990Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-25-13\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-25-40-845.png
+2025-07-08T08:25:41.274Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:25:41.309Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:31:36.693Z - INFO - Test Suite is Starting
+2025-07-08T08:31:36.696Z - INFO - Test Suite is Starting
+2025-07-08T08:31:36.746Z - INFO - Test Suite is Starting
+2025-07-08T08:31:36.812Z - INFO - Test Suite is Starting
+2025-07-08T08:31:36.834Z - INFO - Test Suite is Starting
+2025-07-08T08:31:40.448Z - INFO - The test is running: Verify user registration with invalid email format in UI
+2025-07-08T08:31:40.459Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:31:40.475Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:31:40.706Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:31:40.807Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:31:46.191Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:31:46.190Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:31:46.330Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:31:46.331Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:31:46.364Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:31:46.413Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-46-193.png
+2025-07-08T08:31:46.425Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-31-46-195.png
+2025-07-08T08:31:46.548Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-46-335.png
+2025-07-08T08:31:46.553Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-46-333.png
+2025-07-08T08:31:46.592Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-46-372.png
+2025-07-08T08:31:47.040Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:31:47.114Z - INFO - The Suite is completed: Verify successful user registration in UI
+2025-07-08T08:31:47.901Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:31:47.980Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:31:48.009Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:31:48.027Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:31:48.092Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-47-903.png
+2025-07-08T08:31:48.159Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-47-982.png
+2025-07-08T08:31:48.231Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-48-015.png
+2025-07-08T08:31:48.249Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-48-029.png
+2025-07-08T08:31:48.931Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:31:49.007Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:31:49.068Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:31:49.102Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:31:49.104Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-48-932.png
+2025-07-08T08:31:49.188Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-49-009.png
+2025-07-08T08:31:49.266Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-49-070.png
+2025-07-08T08:31:49.301Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-49-106.png
+2025-07-08T08:31:49.957Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:31:50.036Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:31:50.107Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-49-959.png
+2025-07-08T08:31:50.112Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:31:50.145Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:31:50.174Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-50-037.png
+2025-07-08T08:31:50.275Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-50-113.png
+2025-07-08T08:31:50.298Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-50-147.png
+2025-07-08T08:31:50.998Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:31:51.063Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:31:51.139Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:31:51.144Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-50-999.png
+2025-07-08T08:31:51.170Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:31:51.220Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-51-065.png
+2025-07-08T08:31:51.315Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-51-142.png
+2025-07-08T08:31:51.332Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-51-171.png
+2025-07-08T08:31:52.348Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:31:52.472Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:31:52.485Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-31-52-349.png
+2025-07-08T08:31:52.518Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:31:52.552Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:31:52.641Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-31-52-473.png
+2025-07-08T08:31:52.687Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-31-52-520.png
+2025-07-08T08:31:52.734Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-31-33\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-31-52-554.png
+2025-07-08T08:31:52.821Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:31:52.879Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:31:52.996Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:31:53.100Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:31:53.125Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:31:53.178Z - INFO - The test completed successfully: Verify user registration with invalid email format in UI
+2025-07-08T08:31:53.221Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:31:53.275Z - INFO - The Suite is completed: Verify user registration with invalid email format in UI
+2025-07-08T08:32:15.815Z - INFO - Test Suite is Starting
+2025-07-08T08:32:15.820Z - INFO - Test Suite is Starting
+2025-07-08T08:32:15.821Z - INFO - Test Suite is Starting
+2025-07-08T08:32:15.846Z - INFO - Test Suite is Starting
+2025-07-08T08:32:15.909Z - INFO - Test Suite is Starting
+2025-07-08T08:32:17.815Z - INFO - The test is running: Verify user registration with invalid email format in UI
+2025-07-08T08:32:17.892Z - INFO - The test is running: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:32:17.938Z - INFO - The test is running: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:32:18.149Z - INFO - The test is running: Verify user registration with existing email in UI
+2025-07-08T08:32:18.514Z - INFO - The test is running: Verify successful user registration in UI
+2025-07-08T08:32:23.235Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:32:23.422Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:32:23.511Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-23-238.png
+2025-07-08T08:32:23.658Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-23-425.png
+2025-07-08T08:32:23.767Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:32:23.989Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:32:24.018Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-23-771.png
+2025-07-08T08:32:24.069Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-08T08:32:24.261Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-23-993.png
+2025-07-08T08:32:24.344Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-24-073.png
+2025-07-08T08:32:25.023Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:32:25.133Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:32:25.267Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-25-025.png
+2025-07-08T08:32:25.390Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-25-137.png
+2025-07-08T08:32:25.473Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:32:25.683Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-25-475.png
+2025-07-08T08:32:25.798Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:32:25.860Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-08T08:32:25.997Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-25-800.png
+2025-07-08T08:32:26.051Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-25-863.png
+2025-07-08T08:32:26.091Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:32:26.196Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:32:26.285Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-26-093.png
+2025-07-08T08:32:26.414Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-26-198.png
+2025-07-08T08:32:26.520Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:32:26.678Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-26-522.png
+2025-07-08T08:32:26.830Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:32:26.908Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-08T08:32:27.015Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-26-831.png
+2025-07-08T08:32:27.080Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-26-910.png
+2025-07-08T08:32:27.128Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:32:27.220Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:32:27.316Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-27-131.png
+2025-07-08T08:32:27.410Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-27-222.png
+2025-07-08T08:32:27.568Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:32:27.746Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-27-569.png
+2025-07-08T08:32:27.852Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:32:27.939Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-08T08:32:28.014Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-27-854.png
+2025-07-08T08:32:28.127Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-27-941.png
+2025-07-08T08:32:28.171Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:32:28.247Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:32:28.349Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-28-172.png
+2025-07-08T08:32:28.445Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-28-249.png
+2025-07-08T08:32:28.608Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:32:28.767Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-28-610.png
+2025-07-08T08:32:28.888Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:32:28.963Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-08T08:32:29.156Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-28-889.png
+2025-07-08T08:32:29.164Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-28-964.png
+2025-07-08T08:32:29.586Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:32:29.662Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:32:29.719Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with invalid email format in UI\2025-07-08_16-32-29-587.png
+2025-07-08T08:32:29.817Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with missing mandatory fields in UI\2025-07-08_16-32-29-664.png
+2025-07-08T08:32:29.963Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:32:30.037Z - INFO - The test completed successfully: Verify user registration with invalid email format in UI
+2025-07-08T08:32:30.114Z - INFO - The Suite is completed: Verify user registration with invalid email format in UI
+2025-07-08T08:32:30.151Z - INFO - The test completed successfully: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:32:30.157Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify successful user registration in UI\2025-07-08_16-32-29-965.png
+2025-07-08T08:32:30.298Z - INFO - The Suite is completed: Verify user registration with missing mandatory fields in UI
+2025-07-08T08:32:30.349Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:32:30.383Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-08T08:32:30.652Z - INFO - The test completed successfully: Verify successful user registration in UI
+2025-07-08T08:32:30.669Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with existing email in UI\2025-07-08_16-32-30-415.png
+2025-07-08T08:32:30.683Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-08_16-32-12\Verify User Registration functionality via UI\Verify user registration with firstname exceeding 20 characters in UI\2025-07-08_16-32-30-354.png
+2025-07-08T08:32:30.751Z - INFO - The Suite is completed: Verify successful user registration in UI
+2025-07-08T08:32:31.113Z - INFO - The test completed successfully: Verify user registration with existing email in UI
+2025-07-08T08:32:31.197Z - INFO - The Suite is completed: Verify user registration with existing email in UI
+2025-07-08T08:32:31.213Z - INFO - The test completed successfully: Verify user registration with firstname exceeding 20 characters in UI
+2025-07-08T08:32:31.320Z - INFO - The Suite is completed: Verify user registration with firstname exceeding 20 characters in UI

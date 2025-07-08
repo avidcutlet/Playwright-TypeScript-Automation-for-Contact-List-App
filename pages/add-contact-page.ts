@@ -21,6 +21,7 @@ export class AddContactPage {
     private countryTxt: Locator;
     private submitBtn: Locator;
     private cancelBtn: Locator;
+    private errorMessage: Locator;
 
     constructor(page: Page) {
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
@@ -37,9 +38,10 @@ export class AddContactPage {
         this.cityTxt = page.getByRole('textbox', { name: 'City:' });
         this.stateProvinceTxt = page.getByRole('textbox', { name: 'State or Province:' });
         this.postalCodeTxt = page.getByRole('textbox', { name: 'Postal Code:' });
-        this.countryTxt = page.locator("#country");
-        this.submitBtn = page.locator("#submit");
-        this.cancelBtn = page.locator("#cancel");
+        this.countryTxt = page.getByRole('textbox', { name: 'Country:' });
+        this.submitBtn = page.getByRole('button', { name: 'Submit' });
+        this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
+        this.errorMessage = page.getByText('User validation failed:');
     }
 
     // Return Add Contact Header Locator
@@ -100,6 +102,11 @@ export class AddContactPage {
     // Input country
     async enterCountry(country: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.countryTxt, country);
+    }
+
+    // Return error message
+    async verifyErrorMessage(): Promise<string | null> {
+        return await this.errorMessage.textContent();
     }
 
     // Click submit

@@ -1,4 +1,28 @@
 {
+    "UserRegExistingEmail": {
+        "firstName": "AnotherFName",
+        "lastName": "AnotherLName",
+        "email": "vonwebster@gmail.com",
+        "password": "Pass123!"
+    },
+    "UserRegEmptyFirstName": {
+        "firstName": "",
+        "lastName": "AnotherLName",
+        "email": "vonwebster@gmail.com",
+        "password": "Pass123!"
+    },
+    "UserRegExceedFirstNameLimit": {
+        "firstName": "AnotherFNameAnotherFName",
+        "lastName": "AnotherLName",
+        "email": "vonwebster@gmail.com",
+        "password": "Pass123!"
+    },
+    "UserRegInvalidEmail": {
+        "firstName": "AnotherFName",
+        "lastName": "AnotherLName",
+        "email": "vonwebster@gmail",
+        "password": "Pass123!"
+    },
     "EditContactDetails": {
         "firstName": "Test Edited",
         "lastName": "Last Edited"
@@ -10,5 +34,12 @@
         "AddContactPageHeader": "Add Contact",
         "EditContactPageHeader": "Edit Contact",
         "ContactDetailsPageHeader": "Contact Details"
+    },
+    "ErrorMessage": {
+        "existingEmail": "Email address is already in use",
+        "emptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
+        "exceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+        "invalidEmail": "User validation failed: email: Email is invalid"
     }
+
 }

@@ -21,6 +21,7 @@ export class EditContactPage {
     private countryTxt: Locator;
     private submitBtn: Locator;
     private cancelBtn: Locator;
+    private errorMessage: Locator;
 
     constructor(page: Page) {
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
@@ -40,6 +41,7 @@ export class EditContactPage {
         this.countryTxt = page.getByRole('textbox', { name: 'Country:' });
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
+        this.errorMessage = page.getByText('Validation failed:');
     }
 
     // Return edit contact header locator
@@ -100,6 +102,11 @@ export class EditContactPage {
     // Input country
     async enterCountry(country: string) {
         await this.elementKeyboardActionUtil.inputElementText(this.countryTxt, country);
+    }
+
+    // Returns error message
+    async verifyErrorMessage(): Promise<string | null> {
+        return await this.errorMessage.textContent();
     }
 
     // Clear firstname field

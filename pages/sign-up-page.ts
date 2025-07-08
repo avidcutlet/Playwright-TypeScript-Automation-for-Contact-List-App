@@ -14,6 +14,8 @@ export class SignUpPage {
     private passwordTxt: Locator;
     private submitBtn: Locator;
     private cancelBtn: Locator;
+    private errorMessage: Locator;
+    private existingEmailErrorMessage: Locator;
 
     constructor(page: Page) {
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
@@ -26,11 +28,13 @@ export class SignUpPage {
         this.passwordTxt = page.getByRole('textbox', { name: 'Password' });
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
+        this.errorMessage = page.getByText('User validation failed:');
+        this.existingEmailErrorMessage = page.getByText('Email address is already in');
     }
 
     // Return add user header locator
-    async verifyAddUserHeader(): Promise<Locator> {
-        return this.addUserHeader;
+    async verifyAddUserHeader(): Promise<string | null> {
+        return await this.addUserHeader.textContent();
     }
 
     // Input firstname
@@ -51,6 +55,16 @@ export class SignUpPage {
     // Input password
     async enterPassword(password: string): Promise<void> {
         await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
+    }
+
+    // Returns error message
+    async verifyErrorMessage(): Promise<string | null> {
+        return await this.errorMessage.textContent();
+    }
+
+    // Returns existing email error message
+    async verifyExistingEmailErrorMessage(): Promise<string | null> {
+        return await this.existingEmailErrorMessage.textContent();
     }
 
     // Click submit

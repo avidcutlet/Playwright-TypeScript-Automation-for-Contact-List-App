@@ -18,8 +18,8 @@ export class ContactListPage {
     }
 
     // Return contact list
-    async verifyContactListHeader(): Promise<Locator> {
-        return this.contactListHeader;
+    async verifyContactListHeader(): Promise<string | null> {
+        return await this.contactListHeader.textContent();
     }
 
     // Click add contact

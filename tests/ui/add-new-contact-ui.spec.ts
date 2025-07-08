@@ -19,7 +19,6 @@ initializeTestHooks().setupHooks();
 
 test.describe('Contact Management - Add New Contact via UI @Regression @ALL @UI @tagToSkipInProd3', () => {
 
-
   test.beforeEach(async () => {
     await label(LabelName.PARENT_SUITE, "Regression");
     await label(LabelName.SUITE, "Add New Contact via UI");

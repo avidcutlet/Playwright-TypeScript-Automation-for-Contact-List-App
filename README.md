@@ -159,11 +159,15 @@ Defined in `package.json`:
 Click the ▶️ icon beside the test to run it.
 
 ## Parallel Execution Configuration
-To run tests in parallel, update the `workers` property in `playwright.config.ts`:
+
+To run tests in parallel, update the `workers` property in `playwright.config.ts`.
+
+Currently, the configuration is set up to run **3 parallel workers when executed in a Continuous Integration (CI) environment**, and **5 parallel workers when run locally or outside of a CI environment**.
+
 ```ts
-workers: 6, // Example: run 6 parallel workers
+// Runs 3 workers in CI, 5 workers locally/non-CI
+workers: process.env.CI ? 3 : 5, 
 ```
-Tip: Adjust based on available CPU cores.
 
 ## Firefox and WebKit Screen Size Configuration
 
