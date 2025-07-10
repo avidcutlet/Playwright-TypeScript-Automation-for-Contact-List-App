@@ -1,0 +1,37 @@
+2025-07-10T07:48:43.392Z - INFO - Test Suite is Starting
+
+2025-07-10T07:48:45.156Z - INFO - The test is running: TC2 - Registration with Existing Email
+
+2025-07-10T07:48:51.016Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-07-10T07:48:51.422Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-51-019.png
+
+2025-07-10T07:48:52.815Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-07-10T07:48:53.103Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-52-816.png
+
+2025-07-10T07:48:53.861Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-07-10T07:48:54.033Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-53-862.png
+
+2025-07-10T07:48:54.893Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-07-10T07:48:55.069Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-54-894.png
+
+2025-07-10T07:48:55.924Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-07-10T07:48:56.087Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-55-925.png
+
+2025-07-10T07:48:57.344Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-07-10T07:48:57.471Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-57-346.png
+
+...............Flag1
+...............Flag2
+...............Flag5 Email address is already in use
+...............Flag6 Email address is already in use
+...............Flag4
+2025-07-10T07:48:57.820Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+
+2025-07-10T07:48:57.898Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+

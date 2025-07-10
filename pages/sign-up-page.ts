@@ -57,14 +57,14 @@ export class SignUpPage {
         await this.elementKeyboardActionUtil.inputElementText(this.passwordTxt, password);
     }
 
-    // Returns error message
-    async verifyErrorMessage(): Promise<string | null> {
-        return await this.errorMessage.textContent();
-    }
-
-    // Returns existing email error message
-    async verifyExistingEmailErrorMessage(): Promise<string | null> {
-        return await this.existingEmailErrorMessage.textContent();
+    // Returns error message by key
+    async getErrorMessageByKey(key: string): Promise<string | null> {
+        switch (key) {
+            case 'existingEmail':
+            return this.existingEmailErrorMessage.textContent();
+            default:
+            return this.errorMessage.textContent();
+        }
     }
 
     // Click submit

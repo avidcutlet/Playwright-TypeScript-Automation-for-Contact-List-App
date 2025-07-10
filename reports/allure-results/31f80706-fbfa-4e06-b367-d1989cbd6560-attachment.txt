@@ -1,0 +1,37 @@
+2025-07-10T07:48:43.392Z - INFO - Test Suite is Starting
+
+2025-07-10T07:48:45.174Z - INFO - The test is running: TC5 - Invalid Email Format
+
+2025-07-10T07:48:51.438Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-07-10T07:48:51.659Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-51-440.png
+
+2025-07-10T07:48:53.043Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-07-10T07:48:53.219Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-53-044.png
+
+2025-07-10T07:48:54.106Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-07-10T07:48:54.239Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-54-107.png
+
+2025-07-10T07:48:55.143Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-07-10T07:48:55.297Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-55-146.png
+
+2025-07-10T07:48:56.178Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-07-10T07:48:56.338Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-56-180.png
+
+2025-07-10T07:48:57.523Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-07-10T07:48:57.680Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-57-524.png
+
+...............Flag1
+...............Flag2
+...............Flag5 User validation failed: email: Email is invalid
+...............Flag6 User validation failed: email: Email is invalid
+...............Flag4
+2025-07-10T07:48:58.118Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+
+2025-07-10T07:48:58.187Z - INFO - The Suite is completed: TC5 - Invalid Email Format
+

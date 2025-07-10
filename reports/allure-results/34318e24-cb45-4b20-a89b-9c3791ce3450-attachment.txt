@@ -1,0 +1,37 @@
+2025-07-10T07:48:43.363Z - INFO - Test Suite is Starting
+
+2025-07-10T07:48:45.410Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+
+2025-07-10T07:48:51.535Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-07-10T07:48:51.933Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-51-537.png
+
+2025-07-10T07:48:53.225Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-07-10T07:48:53.362Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-53-226.png
+
+2025-07-10T07:48:54.242Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-07-10T07:48:54.383Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-54-243.png
+
+2025-07-10T07:48:55.260Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-07-10T07:48:55.419Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-55-261.png
+
+2025-07-10T07:48:56.287Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-07-10T07:48:56.463Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-56-288.png
+
+2025-07-10T07:48:57.619Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-07-10T07:48:57.794Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-57-622.png
+
+...............Flag1
+...............Flag2
+...............Flag5 User validation failed: firstName: Path `firstName` is required.
+...............Flag6 User validation failed: firstName: Path `firstName` is required.
+...............Flag4
+2025-07-10T07:48:58.214Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+
+2025-07-10T07:48:58.311Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+

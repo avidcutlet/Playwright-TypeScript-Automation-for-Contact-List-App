@@ -1,0 +1,33 @@
+2025-07-10T07:48:43.380Z - INFO - Test Suite is Starting
+
+2025-07-10T07:48:45.084Z - INFO - The test is running: TC1 - Successful User Registration
+
+2025-07-10T07:48:51.093Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+
+2025-07-10T07:48:51.508Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-51-094.png
+
+2025-07-10T07:48:52.880Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+
+2025-07-10T07:48:53.077Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-52-882.png
+
+2025-07-10T07:48:53.912Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+
+2025-07-10T07:48:54.072Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-53-913.png
+
+2025-07-10T07:48:54.946Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+
+2025-07-10T07:48:55.102Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-54-948.png
+
+2025-07-10T07:48:55.976Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+
+2025-07-10T07:48:56.132Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-55-978.png
+
+2025-07-10T07:48:57.361Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+
+2025-07-10T07:48:57.756Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-57-363.png
+
+...............Flag1
+2025-07-10T07:48:58.118Z - INFO - The test completed successfully: TC1 - Successful User Registration
+
+2025-07-10T07:48:58.189Z - INFO - The Suite is completed: TC1 - Successful User Registration
+

@@ -1,0 +1,434 @@
+2025-07-10T07:17:31.995Z - INFO - Test Suite is Starting
+2025-07-10T07:17:31.984Z - INFO - Test Suite is Starting
+2025-07-10T07:17:32.006Z - INFO - Test Suite is Starting
+2025-07-10T07:17:32.021Z - INFO - Test Suite is Starting
+2025-07-10T07:17:32.039Z - INFO - Test Suite is Starting
+2025-07-10T07:17:34.951Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:17:34.968Z - INFO - The test is running: TC1 - Successful User Registration
+2025-07-10T07:17:35.071Z - INFO - The test is running: TC5 - Invalid Email Format
+2025-07-10T07:17:35.089Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:17:35.461Z - INFO - The test is running: TC4 - First Name exceeds 20 chars
+2025-07-10T07:17:42.697Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:17:42.963Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-42-699.png
+2025-07-10T07:17:43.207Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:17:43.392Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-43-211.png
+2025-07-10T07:17:43.475Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:17:43.565Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:17:43.666Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-43-479.png
+2025-07-10T07:17:43.822Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-43-570.png
+2025-07-10T07:17:44.357Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:17:44.562Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:17:44.569Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-44-360.png
+2025-07-10T07:17:44.783Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-44-565.png
+2025-07-10T07:17:44.823Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:17:45.052Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-44-826.png
+2025-07-10T07:17:45.093Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:17:45.278Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:17:45.321Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-45-095.png
+2025-07-10T07:17:45.386Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:17:45.498Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-45-280.png
+2025-07-10T07:17:45.630Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-45-388.png
+2025-07-10T07:17:45.874Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:17:46.102Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-45-876.png
+2025-07-10T07:17:46.140Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:17:46.239Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:17:46.309Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:17:46.314Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-46-142.png
+2025-07-10T07:17:46.421Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:17:46.431Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-46-241.png
+2025-07-10T07:17:46.512Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-46-313.png
+2025-07-10T07:17:46.615Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-46-425.png
+2025-07-10T07:17:46.903Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:17:47.077Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-46-904.png
+2025-07-10T07:17:47.186Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:17:47.271Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:17:47.351Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-47-187.png
+2025-07-10T07:17:47.352Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:17:47.450Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-47-272.png
+2025-07-10T07:17:47.464Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:17:47.533Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-47-356.png
+2025-07-10T07:17:47.622Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-47-466.png
+2025-07-10T07:17:47.939Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:17:48.099Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-47-941.png
+2025-07-10T07:17:48.220Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:17:48.302Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:17:48.383Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-48-221.png
+2025-07-10T07:17:48.396Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:17:48.486Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-48-304.png
+2025-07-10T07:17:48.594Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-48-398.png
+2025-07-10T07:17:48.854Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:17:48.985Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-17-48-855.png
+2025-07-10T07:17:49.332Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:17:49.331Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:17:49.497Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-49-333.png
+2025-07-10T07:17:49.496Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-17-49-332.png
+2025-07-10T07:17:49.618Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:17:49.768Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:17:49.767Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-17-49-619.png
+2025-07-10T07:17:49.915Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-17-49-768.png
+2025-07-10T07:17:50.111Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+2025-07-10T07:17:50.183Z - INFO - The Suite is completed: TC5 - Invalid Email Format
+2025-07-10T07:17:50.737Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:17:50.894Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-17-27\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-17-50-740.png
+2025-07-10T07:17:50.933Z - INFO - The test completed successfully: TC4 - First Name exceeds 20 chars
+2025-07-10T07:17:51.009Z - INFO - The Suite is completed: TC4 - First Name exceeds 20 chars
+2025-07-10T07:17:51.344Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:17:51.394Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:17:51.731Z - INFO - The test completed successfully: TC1 - Successful User Registration
+2025-07-10T07:17:51.769Z - INFO - The Suite is completed: TC1 - Successful User Registration
+2025-07-10T07:20:37.731Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:20:37.758Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:21:09.641Z - INFO - Test Suite is Starting
+2025-07-10T07:21:10.329Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:21:16.317Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:21:16.464Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-16-319.png
+2025-07-10T07:21:17.738Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:21:17.885Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-17-740.png
+2025-07-10T07:21:18.772Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:21:18.908Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-18-773.png
+2025-07-10T07:21:19.802Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:21:19.944Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-19-805.png
+2025-07-10T07:21:20.835Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:21:20.965Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-20-838.png
+2025-07-10T07:21:22.159Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:21:22.293Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-21-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-21-22-161.png
+2025-07-10T07:21:33.068Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:21:33.102Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:25:09.299Z - INFO - Test Suite is Starting
+2025-07-10T07:25:10.500Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:25:15.710Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:25:15.844Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-15-711.png
+2025-07-10T07:25:17.121Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:25:17.251Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-17-124.png
+2025-07-10T07:25:18.153Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:25:18.293Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-18-155.png
+2025-07-10T07:25:19.185Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:25:19.323Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-19-187.png
+2025-07-10T07:25:20.218Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:25:20.342Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-20-219.png
+2025-07-10T07:25:21.515Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:25:21.646Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-25-07\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-25-21-516.png
+2025-07-10T07:27:08.206Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:27:08.253Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:27:15.307Z - INFO - Test Suite is Starting
+2025-07-10T07:27:15.828Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:27:21.953Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:27:22.105Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-21-955.png
+2025-07-10T07:27:23.392Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:27:23.533Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-23-393.png
+2025-07-10T07:27:24.425Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:27:24.567Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-24-426.png
+2025-07-10T07:27:25.457Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:27:25.595Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-25-459.png
+2025-07-10T07:27:26.489Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:27:26.632Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-26-492.png
+2025-07-10T07:27:27.801Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:27:27.927Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-27-13\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-27-27-802.png
+2025-07-10T07:28:35.780Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:28:35.819Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:28:43.804Z - INFO - Test Suite is Starting
+2025-07-10T07:28:44.426Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:28:50.153Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:28:50.301Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-50-157.png
+2025-07-10T07:28:51.573Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:28:51.709Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-51-575.png
+2025-07-10T07:28:52.608Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:28:52.748Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-52-609.png
+2025-07-10T07:28:53.631Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:28:53.782Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-53-632.png
+2025-07-10T07:28:54.653Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:28:54.801Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-54-655.png
+2025-07-10T07:28:55.985Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:28:56.129Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-28-42\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-28-55-985.png
+2025-07-10T07:28:56.463Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:28:56.519Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:30:39.475Z - INFO - Test Suite is Starting
+2025-07-10T07:30:40.111Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:30:45.784Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:30:45.929Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-45-787.png
+2025-07-10T07:30:47.227Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:30:47.371Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-47-228.png
+2025-07-10T07:30:48.251Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:30:48.382Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-48-252.png
+2025-07-10T07:30:49.288Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:30:49.484Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-49-303.png
+2025-07-10T07:30:50.373Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:30:50.499Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-50-375.png
+2025-07-10T07:30:51.673Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:30:51.815Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-30-37\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-30-51-675.png
+2025-07-10T07:31:15.835Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:31:15.883Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:31:29.850Z - INFO - Test Suite is Starting
+2025-07-10T07:31:30.512Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:31:36.509Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:31:36.651Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-36-510.png
+2025-07-10T07:31:37.917Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:31:38.049Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-37-920.png
+2025-07-10T07:31:38.948Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:31:39.078Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-38-949.png
+2025-07-10T07:31:39.964Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:31:40.091Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-39-966.png
+2025-07-10T07:31:40.988Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:31:41.136Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-40-992.png
+2025-07-10T07:31:42.302Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:31:42.431Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-31-28\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-31-42-304.png
+2025-07-10T07:32:14.714Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:32:14.758Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:32:21.500Z - INFO - Test Suite is Starting
+2025-07-10T07:32:22.056Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:32:28.944Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:32:29.097Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-28-948.png
+2025-07-10T07:32:30.385Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:32:30.529Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-30-386.png
+2025-07-10T07:32:31.417Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:32:31.557Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-31-420.png
+2025-07-10T07:32:32.445Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:32:32.570Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-32-447.png
+2025-07-10T07:32:33.479Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:32:33.593Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-33-481.png
+2025-07-10T07:32:34.763Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:32:34.891Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-32-19\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-32-34-764.png
+2025-07-10T07:36:33.387Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:36:33.433Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:36:42.436Z - INFO - Test Suite is Starting
+2025-07-10T07:36:43.024Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:36:48.751Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:36:48.907Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-48-756.png
+2025-07-10T07:36:50.210Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:36:50.349Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-50-212.png
+2025-07-10T07:36:51.244Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:36:51.380Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-51-245.png
+2025-07-10T07:36:52.275Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:36:52.414Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-52-278.png
+2025-07-10T07:36:53.307Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:36:53.431Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-53-310.png
+2025-07-10T07:36:54.590Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:36:54.956Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-36-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-36-54-593.png
+2025-07-10T07:37:51.149Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:37:51.185Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:44:24.700Z - INFO - Test Suite is Starting
+2025-07-10T07:44:25.528Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:44:31.537Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:44:31.966Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-31-539.png
+2025-07-10T07:44:33.248Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:44:33.395Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-33-249.png
+2025-07-10T07:44:34.281Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:44:34.422Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-34-282.png
+2025-07-10T07:44:35.315Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:44:35.447Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-35-316.png
+2025-07-10T07:44:36.349Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:44:36.477Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-36-352.png
+2025-07-10T07:44:37.667Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:44:37.793Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-44-22\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-44-37-669.png
+2025-07-10T07:44:38.056Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:44:38.100Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:46:32.918Z - INFO - Test Suite is Starting
+2025-07-10T07:46:32.930Z - INFO - Test Suite is Starting
+2025-07-10T07:46:32.935Z - INFO - Test Suite is Starting
+2025-07-10T07:46:32.949Z - INFO - Test Suite is Starting
+2025-07-10T07:46:33.027Z - INFO - Test Suite is Starting
+2025-07-10T07:46:35.904Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:46:36.005Z - INFO - The test is running: TC1 - Successful User Registration
+2025-07-10T07:46:36.020Z - INFO - The test is running: TC5 - Invalid Email Format
+2025-07-10T07:46:36.110Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:46:36.136Z - INFO - The test is running: TC4 - First Name exceeds 20 chars
+2025-07-10T07:46:41.274Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:46:41.274Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:46:41.424Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:46:41.457Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:46:41.501Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:46:41.576Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-41-276.png
+2025-07-10T07:46:41.585Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-46-41-276.png
+2025-07-10T07:46:41.682Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-46-41-426.png
+2025-07-10T07:46:41.731Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-46-41-459.png
+2025-07-10T07:46:41.740Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-41-508.png
+2025-07-10T07:46:42.005Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:46:42.136Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:46:42.153Z - INFO - The test completed successfully: TC4 - First Name exceeds 20 chars
+2025-07-10T07:46:42.319Z - INFO - The Suite is completed: TC4 - First Name exceeds 20 chars
+2025-07-10T07:46:42.391Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:46:42.484Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:46:43.108Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:46:43.182Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:46:43.349Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-43-112.png
+2025-07-10T07:46:43.364Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-43-186.png
+2025-07-10T07:46:44.172Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:46:44.226Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:46:44.353Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-44-173.png
+2025-07-10T07:46:44.381Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-44-227.png
+2025-07-10T07:46:45.204Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:46:45.260Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:46:45.362Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-45-205.png
+2025-07-10T07:46:45.405Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-45-261.png
+2025-07-10T07:46:46.242Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:46:46.291Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:46:46.388Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-46-243.png
+2025-07-10T07:46:46.419Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-46-292.png
+2025-07-10T07:46:47.588Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:46:47.607Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:46:47.751Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-46-47-609.png
+2025-07-10T07:46:48.031Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+2025-07-10T07:46:48.042Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-46-29\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-46-47-589.png
+2025-07-10T07:46:48.086Z - INFO - The Suite is completed: TC5 - Invalid Email Format
+2025-07-10T07:46:48.383Z - INFO - The test completed successfully: TC1 - Successful User Registration
+2025-07-10T07:46:48.437Z - INFO - The Suite is completed: TC1 - Successful User Registration
+2025-07-10T07:47:11.271Z - INFO - Test Suite is Starting
+2025-07-10T07:47:11.286Z - INFO - Test Suite is Starting
+2025-07-10T07:47:11.327Z - INFO - Test Suite is Starting
+2025-07-10T07:47:11.327Z - INFO - Test Suite is Starting
+2025-07-10T07:47:11.344Z - INFO - Test Suite is Starting
+2025-07-10T07:47:12.986Z - INFO - The test is running: TC4 - First Name exceeds 20 chars
+2025-07-10T07:47:13.239Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:47:13.326Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:47:13.393Z - INFO - The test is running: TC5 - Invalid Email Format
+2025-07-10T07:47:13.525Z - INFO - The test is running: TC1 - Successful User Registration
+2025-07-10T07:47:20.343Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:47:20.379Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:47:20.522Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:47:20.520Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:47:20.529Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-20-347.png
+2025-07-10T07:47:20.533Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:47:20.574Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-20-382.png
+2025-07-10T07:47:20.732Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-20-523.png
+2025-07-10T07:47:20.755Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-20-524.png
+2025-07-10T07:47:20.775Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-20-535.png
+2025-07-10T07:47:21.949Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:47:22.008Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:47:22.091Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:47:22.150Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:47:22.184Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:47:22.241Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-21-950.png
+2025-07-10T07:47:22.250Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-22-014.png
+2025-07-10T07:47:22.298Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-22-093.png
+2025-07-10T07:47:22.365Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-22-155.png
+2025-07-10T07:47:22.384Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-22-197.png
+2025-07-10T07:47:22.985Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:47:23.048Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:47:23.141Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:47:23.162Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-22-986.png
+2025-07-10T07:47:23.216Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:47:23.238Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-23-049.png
+2025-07-10T07:47:23.245Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:47:23.327Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-23-142.png
+2025-07-10T07:47:23.423Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-23-246.png
+2025-07-10T07:47:23.426Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-23-236.png
+2025-07-10T07:47:24.032Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:47:24.073Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:47:24.169Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-24-034.png
+2025-07-10T07:47:24.175Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:47:24.229Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-24-076.png
+2025-07-10T07:47:24.272Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:47:24.288Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:47:24.338Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-24-177.png
+2025-07-10T07:47:24.462Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-24-274.png
+2025-07-10T07:47:24.468Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-24-291.png
+2025-07-10T07:47:25.068Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:47:25.106Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:47:25.202Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:47:25.231Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-25-068.png
+2025-07-10T07:47:25.265Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-25-108.png
+2025-07-10T07:47:25.300Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:47:25.316Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:47:25.380Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-25-203.png
+2025-07-10T07:47:25.528Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-25-318.png
+2025-07-10T07:47:25.567Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-25-301.png
+2025-07-10T07:47:26.471Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:47:26.489Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:47:26.569Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:47:26.659Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-47-26-491.png
+2025-07-10T07:47:26.704Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:47:26.718Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-47-26-571.png
+2025-07-10T07:47:26.733Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:47:26.860Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-47-26-473.png
+2025-07-10T07:47:26.900Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-47-26-708.png
+2025-07-10T07:47:26.944Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-47-08\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-47-26-734.png
+2025-07-10T07:47:27.045Z - INFO - The test completed successfully: TC4 - First Name exceeds 20 chars
+2025-07-10T07:47:27.065Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+2025-07-10T07:47:27.173Z - INFO - The Suite is completed: TC4 - First Name exceeds 20 chars
+2025-07-10T07:47:27.185Z - INFO - The Suite is completed: TC5 - Invalid Email Format
+2025-07-10T07:47:27.284Z - INFO - The test completed successfully: TC1 - Successful User Registration
+2025-07-10T07:47:27.343Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:47:27.348Z - INFO - The Suite is completed: TC1 - Successful User Registration
+2025-07-10T07:47:27.428Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:47:27.429Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:47:27.498Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:48:43.363Z - INFO - Test Suite is Starting
+2025-07-10T07:48:43.380Z - INFO - Test Suite is Starting
+2025-07-10T07:48:43.392Z - INFO - Test Suite is Starting
+2025-07-10T07:48:43.392Z - INFO - Test Suite is Starting
+2025-07-10T07:48:43.396Z - INFO - Test Suite is Starting
+2025-07-10T07:48:45.084Z - INFO - The test is running: TC1 - Successful User Registration
+2025-07-10T07:48:45.156Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-10T07:48:45.174Z - INFO - The test is running: TC5 - Invalid Email Format
+2025-07-10T07:48:45.210Z - INFO - The test is running: TC4 - First Name exceeds 20 chars
+2025-07-10T07:48:45.410Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:48:51.016Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:48:51.093Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:48:51.418Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:48:51.422Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-51-019.png
+2025-07-10T07:48:51.438Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:48:51.508Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-51-094.png
+2025-07-10T07:48:51.535Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-10T07:48:51.629Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-51-420.png
+2025-07-10T07:48:51.659Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-51-440.png
+2025-07-10T07:48:51.933Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-51-537.png
+2025-07-10T07:48:52.815Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:48:52.880Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:48:52.980Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:48:53.043Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:48:53.077Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-52-882.png
+2025-07-10T07:48:53.103Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-52-816.png
+2025-07-10T07:48:53.166Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-52-981.png
+2025-07-10T07:48:53.219Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-53-044.png
+2025-07-10T07:48:53.225Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-10T07:48:53.362Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-53-226.png
+2025-07-10T07:48:53.861Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:48:53.912Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:48:54.003Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:48:54.033Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-53-862.png
+2025-07-10T07:48:54.072Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-53-913.png
+2025-07-10T07:48:54.106Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:48:54.152Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-54-004.png
+2025-07-10T07:48:54.239Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-54-107.png
+2025-07-10T07:48:54.242Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-10T07:48:54.383Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-54-243.png
+2025-07-10T07:48:54.893Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:48:54.946Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:48:55.025Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:48:55.069Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-54-894.png
+2025-07-10T07:48:55.102Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-54-948.png
+2025-07-10T07:48:55.143Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:48:55.184Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-55-026.png
+2025-07-10T07:48:55.260Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-10T07:48:55.297Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-55-146.png
+2025-07-10T07:48:55.419Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-55-261.png
+2025-07-10T07:48:55.924Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:48:55.976Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:48:56.056Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:48:56.087Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-55-925.png
+2025-07-10T07:48:56.132Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-55-978.png
+2025-07-10T07:48:56.178Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:48:56.217Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-56-057.png
+2025-07-10T07:48:56.287Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-10T07:48:56.338Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-56-180.png
+2025-07-10T07:48:56.463Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-56-288.png
+2025-07-10T07:48:57.344Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:48:57.361Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:48:57.429Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:48:57.471Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-10_15-48-57-346.png
+2025-07-10T07:48:57.523Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:48:57.571Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-10_15-48-57-430.png
+2025-07-10T07:48:57.619Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-10T07:48:57.680Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-10_15-48-57-524.png
+2025-07-10T07:48:57.756Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-10_15-48-57-363.png
+2025-07-10T07:48:57.794Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-10_15-48-40\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-10_15-48-57-622.png
+2025-07-10T07:48:57.820Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-10T07:48:57.898Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-10T07:48:57.918Z - INFO - The test completed successfully: TC4 - First Name exceeds 20 chars
+2025-07-10T07:48:57.964Z - INFO - The Suite is completed: TC4 - First Name exceeds 20 chars
+2025-07-10T07:48:58.118Z - INFO - The test completed successfully: TC1 - Successful User Registration
+2025-07-10T07:48:58.118Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+2025-07-10T07:48:58.187Z - INFO - The Suite is completed: TC5 - Invalid Email Format
+2025-07-10T07:48:58.189Z - INFO - The Suite is completed: TC1 - Successful User Registration
+2025-07-10T07:48:58.214Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-10T07:48:58.311Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)

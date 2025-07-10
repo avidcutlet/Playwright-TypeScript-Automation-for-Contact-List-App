@@ -1,31 +1,31 @@
 {
     "UserRegExistingEmail": {
-        "firstName": "AnotherFName",
-        "lastName": "AnotherLName",
-        "email": "vonwebster@gmail.com",
+        "firstName": "Existing",
+        "lastName": "Email",
+        "email": "testui01@gmail.com",
         "password": "Pass123!"
     },
     "UserRegEmptyFirstName": {
         "firstName": "",
-        "lastName": "AnotherLName",
-        "email": "vonwebster@gmail.com",
+        "lastName": "EmptyFirstName",
+        "email": "testui01@gmail.com",
         "password": "Pass123!"
     },
     "UserRegExceedFirstNameLimit": {
-        "firstName": "AnotherFNameAnotherFName",
-        "lastName": "AnotherLName",
-        "email": "vonwebster@gmail.com",
+        "firstName": "ThisStringExceed20Chars",
+        "lastName": "ExceedString",
+        "email": "testui01@gmail.com",
         "password": "Pass123!"
     },
     "UserRegInvalidEmail": {
-        "firstName": "AnotherFName",
-        "lastName": "AnotherLName",
-        "email": "vonwebster@gmail",
+        "firstName": "Invalid",
+        "lastName": "Email",
+        "email": "testui01@gmail",
         "password": "Pass123!"
     },
     "EditContactDetails": {
-        "firstName": "Test Edited",
-        "lastName": "Last Edited"
+        "firstName": "Edited FirstName",
+        "lastName": "Edited LastName"
     },
     "Header": {
         "LoginPageHeader": "Contact List App",
