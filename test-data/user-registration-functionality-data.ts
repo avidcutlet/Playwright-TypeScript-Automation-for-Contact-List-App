@@ -31,7 +31,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegEmptyFirstName',
-    expectedErrorKey: 'emptyFirstName',
+    expectedErrorKey: 'userRegEmptyFirstName',
     expectError: true,
   },
   {
@@ -39,7 +39,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegExceedFirstNameLimit',
-    expectedErrorKey: 'exceedFirstNameLimit',
+    expectedErrorKey: 'userRegExceedFirstNameLimit',
     expectError: true,
     isDynamicError: true,
   },
@@ -48,7 +48,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegInvalidEmail',
-    expectedErrorKey: 'invalidEmail',
+    expectedErrorKey: 'userRegInvalidEmail',
     expectError: true,
   },
 ];

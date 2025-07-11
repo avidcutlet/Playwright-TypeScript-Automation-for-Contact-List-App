@@ -10,7 +10,7 @@ import { LoginPage } from '@pages/login-page';
 import { SignUpPage } from '@pages/sign-up-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
-import { userRegistrationTestCases } from '@testData/user-registration-data';
+import { userRegistrationTestCases } from '@testData/user-registration-functionality-data';
 
 const { label, LabelName, displayName, feature } = require('allure-js-commons');
 const dataSetUI = new DatasetUtil('ui');

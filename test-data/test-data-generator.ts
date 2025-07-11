@@ -17,7 +17,7 @@ export function generateContactData() {
   const city = faker.location.city();
   const stateProvince = faker.location.state();
   const postalCode = faker.location.zipCode();
-  const country = faker.location.country();
+  const country = shortenCountryName(faker.location.country());
   const password = faker.internet.password({ length: 12 });
 
   return {
@@ -34,4 +34,12 @@ export function generateContactData() {
     country,
     password,
   };
+
+  // Shorten Country names that exceeds to 40 Characters
+  function shortenCountryName(country: string) {
+    let trimmedCountry = country.length > 40
+      ? country.split(' ').slice(0, 2).join(' ')
+      : country;
+   return trimmedCountry;
+  }
 }

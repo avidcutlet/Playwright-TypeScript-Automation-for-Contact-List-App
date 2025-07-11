@@ -41,12 +41,12 @@ export class AddContactPage {
         this.countryTxt = page.getByRole('textbox', { name: 'Country:' });
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
-        this.errorMessage = page.getByText('User validation failed:');
+        this.errorMessage = page.getByText('Contact validation failed:');
     }
 
-    // Return Add Contact Header Locator
-    async verifyAddContactHeader(): Promise<Locator> {
-        return this.addContactHeader;
+    // Return Add Contact Header Text
+    async verifyAddContactHeader(): Promise<string | null> {
+        return this.addContactHeader.textContent();
     }
 
     // Input firstname

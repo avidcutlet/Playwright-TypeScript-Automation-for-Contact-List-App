@@ -23,9 +23,52 @@
         "email": "testui01@gmail",
         "password": "Pass123!"
     },
+    "ContactRegEmptyFirstName": {
+        "firstName": "",
+        "lastName": "EmptyFirstName",
+        "email": "emptyFirstName@example.com",
+        "birthdate": "1986-01-01",
+        "phone": "5184685410",
+        "street1": "197 Ernie Corn",
+        "street2": "Suite 001",
+        "city": "Lake Darkpink",
+        "stateProvince": "Virginia",
+        "postalCode": "5552",
+        "country": "Faroe Islands"
+    },
+    "ContactRegExceedFirstNameLimit": {
+        "firstName": "ThisStringExceed20Chars",
+        "lastName": "ExceedString",
+        "email": "exceedString@example.com",
+        "birthdate": "1986-01-01",
+        "phone": "5184685410",
+        "street1": "197 Ernie Corn",
+        "street2": "Suite 001",
+        "city": "Lake Darkpink",
+        "stateProvince": "Virginia",
+        "postalCode": "5552",
+        "country": "Faroe Islands"
+    },
+    "ContactRegInvalidEmail": {
+        "firstName": "Invalid",
+        "lastName": "Email",
+        "email": "invalid@email",
+        "birthdate": "1986-01-01",
+        "phone": "5184685410",
+        "street1": "197 Ernie Corn",
+        "street2": "Suite 001",
+        "city": "Lake Darkpink",
+        "stateProvince": "Virginia",
+        "postalCode": "5552",
+        "country": "Faroe Islands"
+    },
     "EditContactDetails": {
         "firstName": "Edited FirstName",
         "lastName": "Edited LastName"
+    },
+    "UserLogin": {
+        "email": "vonwebster@gmail.com",
+        "pass": "pass123"
     },
     "Header": {
         "LoginPageHeader": "Contact List App",
@@ -37,9 +80,12 @@
     },
     "ErrorMessage": {
         "existingEmail": "Email address is already in use",
-        "emptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
-        "exceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
-        "invalidEmail": "User validation failed: email: Email is invalid"
+        "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
+        "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+        "userRegInvalidEmail": "User validation failed: email: Email is invalid",
+        "contactRegEmptyFirstName": "Contact validation failed: firstName: Path `firstName` is required.",
+        "contactRegExceedFirstNameLimit": "Contact validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+        "contactRegInvalidEmail": "Contact validation failed: email: Email is invalid"
     }
 
 }

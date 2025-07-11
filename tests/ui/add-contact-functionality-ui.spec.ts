@@ -1,0 +1,123 @@
+import { test, expect } from '@playwright/test';
+
+import { initializeTestHooks } from '@hooks/web-hook';
+
+import AllureAttachScreenshot from '@utils/allure-report-util';
+import DatasetUtil from '@utils/test-data-util';
+
+import { AddContactPage } from '@pages/add-contact-page';
+import { ContactListPage } from '@pages/contact-list-page';
+import { LoginPage } from '@pages/login-page';
+import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
+import { generateContactData } from '@testData/test-data-generator';
+import { contactRegistrationTestCases } from '@testData/add-contact-functionality-data';
+
+
+const { label, LabelName, displayName, feature } = require('allure-js-commons');
+const dataSetUI = new DatasetUtil('ui');
+const attach = new AllureAttachScreenshot();
+initializeTestHooks().setupHooks();
+
+test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI @tagToSkipInProd3', () => {
+  for (const testCase of contactRegistrationTestCases) {
+    test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
+      await label(LabelName.SUITE, testCase.subSuite);
+      await displayName(`${testCase.displayName}`);
+      await feature("UI");
+
+      const loginPage = new LoginPage(page);
+      const contactListPage = new ContactListPage(page);
+      const addContactPage = new AddContactPage(page);
+      const reusableScripts = new ReusableHelpers(page);
+      
+      const fakerData = generateContactData();
+      const contactListPageHeader: string = dataSetUI.getTestData('Header', 'ContactListPageHeader');
+      const addContactPageHeader: string = dataSetUI.getTestData('Header', 'AddContactPageHeader');
+      
+      await loginPage.clickSignUp();
+      await reusableScripts.enterSignUpCredentials(
+        fakerData.firstName,
+        fakerData.lastName,
+        fakerData.email,
+        fakerData.password
+      );
+      await loginPage.clickSubmit();
+      const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
+      expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
+      
+      await attach.withAllureStep(page, 'Step 1 - Click Add Contact Button', async () => {
+        await contactListPage.clickAddContact();
+      });
+      
+      await attach.withAllureStep(page, 'Step 2 - Verify Add Contact Page', async () => {
+        const addContactPageHeaderTxt = await addContactPage.verifyAddContactHeader();
+        expect(addContactPageHeaderTxt).toBe(addContactPageHeader);
+      });
+
+      const userData = testCase.testDataKey === 'faker'
+      ? generateContactData()
+      : {
+          firstName: dataSetUI.getTestData(testCase.testDataKey, 'firstName'),
+          lastName: dataSetUI.getTestData(testCase.testDataKey, 'lastName'),
+          email: dataSetUI.getTestData(testCase.testDataKey, 'email'),
+          birthdate: dataSetUI.getTestData(testCase.testDataKey, 'birthdate'),
+          phone: dataSetUI.getTestData(testCase.testDataKey, 'phone'),
+          street1: dataSetUI.getTestData(testCase.testDataKey, 'street1'),
+          street2: dataSetUI.getTestData(testCase.testDataKey, 'street2'),
+          city: dataSetUI.getTestData(testCase.testDataKey, 'city'),
+          stateProvince: dataSetUI.getTestData(testCase.testDataKey, 'stateProvince'),
+          postalCode: dataSetUI.getTestData(testCase.testDataKey, 'postalCode'),
+          country: dataSetUI.getTestData(testCase.testDataKey, 'country')
+        }
+
+      await attach.withAllureStep(page, 'Step 3 - Fill in Credentials for New Contact', async () => {
+        await reusableScripts.enterAddContactCredentials(
+          userData.firstName,
+          userData.lastName,
+          userData.email,
+          userData.birthdate,
+          userData.phone,
+          userData.street1,
+          userData.street2,
+          userData.city,
+          userData.stateProvince,
+          userData.postalCode,
+          userData.country
+        );
+      });
+
+      await attach.withAllureStep(page, 'Step 4 - Click Submit Button', async () => {
+        await addContactPage.clickSubmit();
+      });
+      
+      if (!testCase.expectError) {
+        const contactListHeader = dataSetUI.getTestData('Header', testCase.expectedHeader!);
+
+        await attach.withAllureStep(page, 'Verify Success Page Header', async () => {
+          const result = await contactListPage.verifyContactListHeader();
+          expect(result).toBe(contactListHeader);
+        });
+
+        await attach.withAllureStep(page, 'Verify Added Contact', async () => {
+          expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
+          await expect(page.getByText(`${userData.firstName} ${userData.lastName}`)).toBeVisible();
+        });
+        
+      } else {
+        const expectedError = dataSetUI.getTestData('ErrorMessage', testCase.expectedErrorKey!);
+        
+        await attach.withAllureStep(page, 'Verify Error Message Displayed', async () => {
+          
+          const actualError = await addContactPage.verifyErrorMessage();
+          if (testCase.isDynamicError) {
+            const expected = expectedError.replace('{VALUE}', userData.firstName);
+            expect(actualError).toBe(expected);
+            
+          } else {
+            expect(actualError).toBe(expectedError);
+          }
+        });
+      }
+    });
+  }
+});
