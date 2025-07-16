@@ -12,7 +12,6 @@ import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
 import { contactRegistrationTestCases } from '@testData/add-contact-functionality-data';
 
-
 const { label, LabelName, displayName, feature } = require('allure-js-commons');
 const dataSetUI = new DatasetUtil('ui');
 const attach = new AllureAttachScreenshot();
