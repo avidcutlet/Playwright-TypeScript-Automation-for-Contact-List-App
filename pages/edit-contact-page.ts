@@ -44,9 +44,9 @@ export class EditContactPage {
         this.errorMessage = page.getByText('Validation failed:');
     }
 
-    // Return edit contact header locator
-    async verifyEditContactHeader(): Promise<Locator> {
-        return this.editContactHeader;
+    // Return edit contact header string
+    async verifyEditContactHeader(): Promise<string | null> {
+        return this.editContactHeader.textContent();
     }
 
     // Input firstname
@@ -109,14 +109,45 @@ export class EditContactPage {
         return await this.errorMessage.textContent();
     }
 
-    // Clear firstname field
-    async removeFirstNameText(): Promise<void> {
-        await this.elementKeyboardActionUtil.removeElementText(this.firstNameTxt);
-    }
-
-    // Clear lastname field
-    async removeLastNameText(): Promise<void> {
-        await this.elementKeyboardActionUtil.removeElementText(this.lastNameTxt);
+    // Clear field text
+    async removeText(field: string): Promise<void> {
+      switch(field){
+        case "firstName":
+          await this.elementKeyboardActionUtil.removeElementText(this.firstNameTxt);
+          break;
+        case "lastName":
+          await this.elementKeyboardActionUtil.removeElementText(this.lastNameTxt);
+          break;
+        case "birthdate":
+          await this.elementKeyboardActionUtil.removeElementText(this.birthdateTxt);
+          break;
+        case "email":
+          await this.elementKeyboardActionUtil.removeElementText(this.emailTxt);
+          break;
+        case "phone":
+          await this.elementKeyboardActionUtil.removeElementText(this.phoneTxt);
+          break;
+        case "street1":
+          await this.elementKeyboardActionUtil.removeElementText(this.street1Txt);
+          break;
+        case "street2":
+          await this.elementKeyboardActionUtil.removeElementText(this.street2Txt);
+          break;
+        case "city":
+          await this.elementKeyboardActionUtil.removeElementText(this.cityTxt);
+          break;
+        case "stateProvince":
+          await this.elementKeyboardActionUtil.removeElementText(this.stateProvinceTxt);
+          break;
+        case "postalCode":
+          await this.elementKeyboardActionUtil.removeElementText(this.postalCodeTxt);
+          break;
+        case "country":
+          await this.elementKeyboardActionUtil.removeElementText(this.countryTxt);
+          break;
+        default:
+          break;
+      }
     }
 
     // Click submit

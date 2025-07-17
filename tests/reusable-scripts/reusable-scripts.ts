@@ -25,8 +25,8 @@ export class ReusableHelpers {
     async enterAddContactCredentials(
         firstName: string,
         lastName: string,
-        email: string,
         birthday: string,
+        email: string,
         phone: string,
         address1: string,
         address2: string,
