@@ -26,9 +26,9 @@ export class LoginPage {
         this.signUpBtn = page.getByRole('button', { name: 'Sign up' });
     }
 
-    // Return login header locator
-    async verifyLoginHeader(): Promise<Locator> {
-        return this.loginHeader;
+    // Return login header text
+    async verifyLoginHeader(): Promise<string | null> {
+        return this.loginHeader.textContent();
     }
  
     // Input email

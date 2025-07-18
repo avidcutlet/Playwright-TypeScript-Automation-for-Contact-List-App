@@ -27,12 +27,10 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
       const loginPage = new LoginPage(page);
       const signUpPage = new SignUpPage(page);
       const contactListPage = new ContactListPage(page);
-      const reusableScripts = new ReusableHelpers(page);
 
       const loginHeader = dataSetUI.getTestData('Header', 'LoginPageHeader');
       const signUpHeader = dataSetUI.getTestData('Header', 'SignUpPageHeader');
 
-      // Get test data (faker vs static dataset)
       const userData = testCase.testDataKey === 'faker'
         ? generateContactData()
         : {
@@ -42,7 +40,7 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
             password: dataSetUI.getTestData(testCase.testDataKey, 'password'),
           };
 
-      const loginPageHeaderTxt = await (await loginPage.verifyLoginHeader()).textContent();
+      const loginPageHeaderTxt = await loginPage.verifyLoginHeader();
 
       await attach.withAllureStep(page, 'Click Sign Up Button', async () => {
         expect(loginPageHeaderTxt).toBe(loginHeader);
@@ -55,12 +53,10 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
       });
 
       await attach.withAllureStep(page, 'Fill in Sign Up Form', async () => {
-        await reusableScripts.enterSignUpCredentials(
-          userData.firstName,
-          userData.lastName,
-          userData.email,
-          userData.password
-        );
+        await signUpPage.enterFirstName(userData.firstName);
+        await signUpPage.enterLastName(userData.lastName);
+        await signUpPage.enterEmail(userData.email);
+        await signUpPage.enterPassword(userData.password);
       });
 
       await attach.withAllureStep(page, 'Click Submit Button', async () => {
@@ -79,7 +75,6 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
         const expectedError = dataSetUI.getTestData('ErrorMessage', testCase.expectedErrorKey!);
         
         await attach.withAllureStep(page, 'Verify Error Message Displayed', async () => {
-
           const actualError = await signUpPage.getErrorMessageByKey(testCase.expectedErrorKey!);
           if (testCase.isDynamicError) {
             const expected = expectedError.replace('{VALUE}', userData.firstName);
@@ -88,7 +83,6 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
           } else {
             expect(actualError).toBe(expectedError);
           }
-
         });
       }
     });

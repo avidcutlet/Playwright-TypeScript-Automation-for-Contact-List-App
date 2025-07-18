@@ -49,7 +49,7 @@ test.describe('Contact Management - Edit Contact via UI @Regression @ALL @UI @Ed
     const fakerData = generateContactData();
     
     await loginPageInstance.clickSignUp();
-    await reusableScripts.enterSignUpCredentials(
+    await reusableScripts.signUpUser(
       fakerData.firstName,
       fakerData.lastName,
       fakerData.email,
@@ -61,7 +61,7 @@ test.describe('Contact Management - Edit Contact via UI @Regression @ALL @UI @Ed
     expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
 
     await contactListPageInstance.clickAddContact();
-    await reusableScripts.enterAddContactCredentials(
+    await reusableScripts.addNewContact(
       fakerData.firstName,
       fakerData.lastName,
       fakerData.email,

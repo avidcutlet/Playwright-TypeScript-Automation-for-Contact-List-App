@@ -61,7 +61,7 @@ test.describe('Create Contact Account in API @Regression @ALL @API', () => {
         
         await attach.withAllureStep(page, 'Step 2 - User is Loggedin in UI', async () => {
             expect(loginPageHeaderTxt).toBe(loginPageHeader);
-            await reusableScripts.enterLoginCredentials(email, password);
+            await reusableScripts.loginUser(email, password);
             await loginPageInstance.clickSubmit();
             const contactListPageHeaderLocator = await contactListPageInstance.verifyContactListHeader();
             const contactListPageHeaderTxt = await contactListPageHeaderLocator.textContent();

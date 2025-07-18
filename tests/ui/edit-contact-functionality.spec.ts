@@ -6,9 +6,7 @@ import AllureAttachScreenshot from '@utils/allure-report-util';
 import DatasetUtil from '@utils/test-data-util';
 
 import { ContactListPage } from '@pages/contact-list-page';
-import { LoginPage } from '@pages/login-page';
 import { EditContactPage } from '@pages/edit-contact-page';
-import { AddContactPage } from '@pages/add-contact-page';
 import { ContactDetailsPage } from '@pages/contact-details-page';
 import { editContactTestCases } from '@testData/edit-contact-functionality-data';
 import { generateContactData } from '@testData/test-data-generator';
@@ -26,37 +24,23 @@ test.describe('Verify Edit Contact functionality via UI @Regression @ALL @TS4 @U
       await displayName(`${testCase.displayName}`);
       await feature("UI");
 
-      const loginPage = new LoginPage(page);
       const contactListPage = new ContactListPage(page);
-      const addContactPage = new AddContactPage(page);
       const contactDetailsPage = new ContactDetailsPage(page);
       const editContactPage = new EditContactPage(page);
       const reusableScripts = new ReusableHelpers(page);
       
       const fakerData = generateContactData();
-      const contactListPageHeader: string = dataSetUI.getTestData('Header', 'ContactListPageHeader');
-      const addContactPageHeader: string = dataSetUI.getTestData('Header', 'AddContactPageHeader');
       const editContactPageHeader: string = dataSetUI.getTestData('Header', 'EditContactPageHeader');
       const contactDetailsPageHeader: string = dataSetUI.getTestData('Header', 'ContactDetailsPageHeader');
       
-      await loginPage.clickSignUp();
-      await reusableScripts.enterSignUpCredentials(
+      await reusableScripts.signUpUser(
         fakerData.firstName,
         fakerData.lastName,
         fakerData.email,
         fakerData.password
       );
-      await loginPage.clickSubmit();
-      const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
-      expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
       
-      await contactListPage.clickAddContact();
-      
-      const addContactPageHeaderTxt = await addContactPage.verifyAddContactHeader();
-      expect(addContactPageHeaderTxt).toBe(addContactPageHeader);
-
-      
-      await reusableScripts.enterAddContactCredentials(
+      await reusableScripts.addNewContact(
         fakerData.firstName,
         fakerData.lastName,
         fakerData.birthdate,
@@ -69,12 +53,6 @@ test.describe('Verify Edit Contact functionality via UI @Regression @ALL @TS4 @U
         fakerData.postalCode,
         fakerData.country
       );
-      await addContactPage.clickSubmit();
-      
-      const result = await contactListPage.verifyContactListHeader();
-      expect(result).toBe(contactListPageHeader);
-      
-      expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
       await contactListPage.clickContactByName(fakerData.firstName + ' ' + fakerData.lastName);
       
       await attach.withAllureStep(page, 'Step 1 - Click Edit Contact', async () => {

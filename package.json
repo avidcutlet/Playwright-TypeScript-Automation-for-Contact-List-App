@@ -27,6 +27,7 @@
     "@types/axios": "^0.9.36",
     "@types/date-fns": "^2.5.3",
     "@types/dotenv": "^6.1.1",
+    "@types/fs-extra": "^11.0.4",
     "@types/loglevel": "^1.5.4",
     "@types/node": "^24.0.3",
     "allure-js-commons": "^3.2.1",
@@ -40,6 +41,7 @@
   "dependencies": {
     "axios": "^1.10.0",
     "date-fns": "^4.1.0",
+    "fs-extra": "^11.3.0",
     "loglevel": "^1.9.2"
   }
 }

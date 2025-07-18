@@ -36,84 +36,75 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS3 @UI
       const addContactPageHeader: string = dataSetUI.getTestData('Header', 'AddContactPageHeader');
       const contactDetailsPageHeader: string = dataSetUI.getTestData('Header', 'ContactDetailsPageHeader');
 
-      
-      await loginPage.clickSignUp();
-      await reusableScripts.enterSignUpCredentials(
+      await reusableScripts.signUpUser(
         fakerData.firstName,
         fakerData.lastName,
         fakerData.email,
         fakerData.password
       );
-      await loginPage.clickSubmit();
-      const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
       
-      await attach.withAllureStep(page, 'Step 1 - Navigate to Contact list page', async () => {
-        expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
-      });
-
-      await attach.withAllureStep(page, 'Step 2 - Click Add Contact Button', async () => {
+      await attach.withAllureStep(page, 'Step 1 - Click Add Contact Button', async () => {
         await contactListPage.clickAddContact();
       });
       
-      await attach.withAllureStep(page, 'Step 3 - Verify Add Contact Page', async () => {
+      await attach.withAllureStep(page, 'Step 2 - Verify Add Contact Page', async () => {
         const addContactPageHeaderTxt = await addContactPage.verifyAddContactHeader();
         expect(addContactPageHeaderTxt).toBe(addContactPageHeader);
       });
 
     const userData = generateContactData();
 
-      await attach.withAllureStep(page, 'Step 4 - Fill in Credentials for New Contact', async () => {
-      await reusableScripts.enterAddContactCredentials(
-        userData.firstName,
-        userData.lastName,
-        userData.email,
-        userData.birthdate,
-        userData.phone,
-        userData.street1,
-        userData.street2,
-        userData.city,
-        userData.stateProvince,
-        userData.postalCode,
-        userData.country
-        );
-      });
+    await attach.withAllureStep(page, 'Step 3 - Fill in Credentials for New Contact', async () => {
+      await addContactPage.enterFirstName(userData.firstName);
+      await addContactPage.enterLastName(userData.lastName);
+      await addContactPage.enterBirthdate(userData.birthdate);
+      await addContactPage.enterEmail(userData.email);
+      await addContactPage.enterPhone(userData.phone);
+      await addContactPage.enterStreet1(userData.street1);
+      await addContactPage.enterStreet2(userData.street2);
+      await addContactPage.enterCity(userData.city);
+      await addContactPage.enterStateProvince(userData.stateProvince);
+      await addContactPage.enterPostalCode(userData.postalCode);
+      await addContactPage.enterCountry(userData.country);
+    });
 
-      await attach.withAllureStep(page, 'Step 4 - Click Submit Button', async () => {
-        await addContactPage.clickSubmit();
-      });
+    await attach.withAllureStep(page, 'Step 4 - Click Submit Button', async () => {
+      await addContactPage.clickSubmit();
+    });
 
-      await attach.withAllureStep(page, 'Step 5 - Verify Contact List Page Header', async () => {
-        const result = await contactListPage.verifyContactListHeader();
-        expect(result).toBe(contactListPageHeader);
-      });
+    await attach.withAllureStep(page, 'Step 5 - Verify Contact List Page Header', async () => {
+      const result = await contactListPage.verifyContactListHeader();
+      expect(result).toBe(contactListPageHeader);
+    });
 
-      if (testCase.displayUserDetails) {
-          await attach.withAllureStep(page, 'Step 6 - Click Added Contact by Name', async () => {
-              await contactListPage.clickContactByName(userData.firstName + ' ' + userData.lastName);
-        });
+    if (testCase.displayUserDetails) {
+        await attach.withAllureStep(page, 'Step 6 - Click Added Contact by Name', async () => {
+            await contactListPage.clickContactByName(userData.firstName + ' ' + userData.lastName);
+      });
         
-        await attach.withAllureStep(page, 'Step 7 - Verify Contact Details Page', async () => {
-            const result = await contactDetailsPage.verifyContactDetailsHeader();
-            expect(result).toBe(contactDetailsPageHeader);
-        });
+      await attach.withAllureStep(page, 'Step 7 - Verify Contact Details Page', async () => {
+          const result = await contactDetailsPage.verifyContactDetailsHeader();
+          expect(result).toBe(contactDetailsPageHeader);
+      });
         
-        await attach.withAllureStep(page, 'Step 8 - Verify Added Contact Details', async () => {
-            await expect(await contactDetailsPage.getFirstNameLocator(userData.firstName)).toBeVisible();
-            await expect(await contactDetailsPage.getLastNameLocator(userData.lastName)).toBeVisible();
-            await expect(await contactDetailsPage.getEmailLocator(userData.email)).toBeVisible();
-            await expect(await contactDetailsPage.getBirthdateLocator(userData.birthdate)).toBeVisible();
-            await expect(await contactDetailsPage.getPhoneLocator(userData.phone)).toBeVisible();
-            await expect(await contactDetailsPage.getStreet1Locator(userData.street1)).toBeVisible();
-            await expect(await contactDetailsPage.getStreet2Locator(userData.street2)).toBeVisible();
-            await expect(await contactDetailsPage.getCityLocator(userData.city)).toBeVisible();
-            await expect(await contactDetailsPage.getStateProvinceLocator(userData.stateProvince)).toBeVisible();
-            await expect(await contactDetailsPage.getPostalCodeLocator(userData.postalCode)).toBeVisible();
-            await expect(await contactDetailsPage.getCountryLocator(userData.country)).toBeVisible();
-        });
+      await attach.withAllureStep(page, 'Step 8 - Verify Added Contact Details', async () => {
+          await expect(await contactDetailsPage.getFirstNameLocator(userData.firstName)).toBeVisible();
+          await expect(await contactDetailsPage.getLastNameLocator(userData.lastName)).toBeVisible();
+          await expect(await contactDetailsPage.getEmailLocator(userData.email)).toBeVisible();
+          await expect(await contactDetailsPage.getBirthdateLocator(userData.birthdate)).toBeVisible();
+          await expect(await contactDetailsPage.getPhoneLocator(userData.phone)).toBeVisible();
+          await expect(await contactDetailsPage.getStreet1Locator(userData.street1)).toBeVisible();
+          await expect(await contactDetailsPage.getStreet2Locator(userData.street2)).toBeVisible();
+          await expect(await contactDetailsPage.getCityLocator(userData.city)).toBeVisible();
+          await expect(await contactDetailsPage.getStateProvinceLocator(userData.stateProvince)).toBeVisible();
+          await expect(await contactDetailsPage.getPostalCodeLocator(userData.postalCode)).toBeVisible();
+          await expect(await contactDetailsPage.getCountryLocator(userData.country)).toBeVisible();
+      });
     } else {
         await attach.withAllureStep(page, 'Step 6 - Verify Added Contact', async () => {
-            expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
-            await expect(page.getByText(`${userData.firstName} ${userData.lastName}`)).toBeVisible();
+          const result = await contactListPage.verifyContactListHeader();
+          expect(result).toBe(contactListPageHeader);
+          await expect(page.getByText(`${userData.firstName} ${userData.lastName}`)).toBeVisible();
         });
       }
     });

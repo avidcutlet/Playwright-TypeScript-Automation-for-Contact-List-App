@@ -47,7 +47,7 @@ test.describe('Create User Account in API @Regression @ALL @API', () => {
         
         await attach.withAllureStep(page, 'Step 1 - Fill in Login Credentials', async () => {
             expect(loginPageHeaderTxt).toBe(loginPageHeader);
-            await reusableScripts.enterLoginCredentials(email, password);
+            await reusableScripts.loginUser(email, password);
         });
         
         await attach.withAllureStep(page, 'Step 2 - Click Submit Button', async () => {

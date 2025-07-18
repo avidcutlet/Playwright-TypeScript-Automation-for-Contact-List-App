@@ -7,7 +7,6 @@ import DatasetUtil from '@utils/test-data-util';
 
 import { AddContactPage } from '@pages/add-contact-page';
 import { ContactListPage } from '@pages/contact-list-page';
-import { LoginPage } from '@pages/login-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
 import { contactRegistrationTestCases } from '@testData/add-contact-functionality-data';
@@ -24,7 +23,6 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
       await displayName(`${testCase.displayName}`);
       await feature("UI");
 
-      const loginPage = new LoginPage(page);
       const contactListPage = new ContactListPage(page);
       const addContactPage = new AddContactPage(page);
       const reusableScripts = new ReusableHelpers(page);
@@ -33,16 +31,12 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
       const contactListPageHeader: string = dataSetUI.getTestData('Header', 'ContactListPageHeader');
       const addContactPageHeader: string = dataSetUI.getTestData('Header', 'AddContactPageHeader');
       
-      await loginPage.clickSignUp();
-      await reusableScripts.enterSignUpCredentials(
+      await reusableScripts.signUpUser(
         fakerData.firstName,
         fakerData.lastName,
         fakerData.email,
         fakerData.password
       );
-      await loginPage.clickSubmit();
-      const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
-      expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
       
       await attach.withAllureStep(page, 'Step 1 - Click Add Contact Button', async () => {
         await contactListPage.clickAddContact();
@@ -67,22 +61,20 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
           stateProvince: dataSetUI.getTestData(testCase.testDataKey, 'stateProvince'),
           postalCode: dataSetUI.getTestData(testCase.testDataKey, 'postalCode'),
           country: dataSetUI.getTestData(testCase.testDataKey, 'country')
-        }
+        };
 
       await attach.withAllureStep(page, 'Step 3 - Fill in Credentials for New Contact', async () => {
-        await reusableScripts.enterAddContactCredentials(
-          userData.firstName,
-          userData.lastName,
-          userData.email,
-          userData.birthdate,
-          userData.phone,
-          userData.street1,
-          userData.street2,
-          userData.city,
-          userData.stateProvince,
-          userData.postalCode,
-          userData.country
-        );
+        await addContactPage.enterFirstName(userData.firstName);
+        await addContactPage.enterLastName(userData.lastName);
+        await addContactPage.enterBirthdate(userData.birthdate);
+        await addContactPage.enterEmail(userData.email);
+        await addContactPage.enterPhone(userData.phone);
+        await addContactPage.enterStreet1(userData.street1);
+        await addContactPage.enterStreet2(userData.street2);
+        await addContactPage.enterCity(userData.city);
+        await addContactPage.enterStateProvince(userData.stateProvince);
+        await addContactPage.enterPostalCode(userData.postalCode);
+        await addContactPage.enterCountry(userData.country);
       });
 
       await attach.withAllureStep(page, 'Step 4 - Click Submit Button', async () => {
@@ -98,6 +90,7 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
         });
 
         await attach.withAllureStep(page, 'Verify Added Contact', async () => {
+          const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
           expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
           await expect(page.getByText(`${userData.firstName} ${userData.lastName}`)).toBeVisible();
         });

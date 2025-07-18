@@ -1,0 +1,702 @@
+2025-07-18T01:42:58.183Z - INFO - Test Suite is Starting
+2025-07-18T01:42:58.183Z - INFO - Test Suite is Starting
+2025-07-18T01:42:58.183Z - INFO - Test Suite is Starting
+2025-07-18T01:42:58.196Z - INFO - Test Suite is Starting
+2025-07-18T01:42:58.183Z - INFO - Test Suite is Starting
+2025-07-18T01:43:00.944Z - INFO - The test is running: TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit
+2025-07-18T01:43:00.958Z - INFO - The test is running: TC10 - Verify successful contact appears in the contact list
+2025-07-18T01:43:01.360Z - INFO - The test is running: TC9 - Verify failed adding a contact with invalid email format
+2025-07-18T01:43:01.893Z - INFO - The test is running: TC6 - Verify successful adding a contact
+2025-07-18T01:43:02.004Z - INFO - The test is running: TC7 - Verify failed adding a contact with firstname field left blank
+2025-07-18T01:43:09.160Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:09.161Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:09.161Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:09.161Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:09.176Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:09.500Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-09-164.png
+2025-07-18T01:43:09.501Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-09-164.png
+2025-07-18T01:43:09.501Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-09-179.png
+2025-07-18T01:43:09.502Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-09-162.png
+2025-07-18T01:43:09.503Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-09-163.png
+2025-07-18T01:43:10.280Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:10.297Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:10.297Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:10.296Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:10.303Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:10.533Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-10-281.png
+2025-07-18T01:43:10.669Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-10-301.png
+2025-07-18T01:43:10.681Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-10-299.png
+2025-07-18T01:43:10.744Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-10-319.png
+2025-07-18T01:43:10.745Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-10-299.png
+2025-07-18T01:43:11.349Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:11.403Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:11.434Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:11.452Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:11.579Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:11.615Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-11-352.png
+2025-07-18T01:43:11.708Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-11-419.png
+2025-07-18T01:43:11.784Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-11-436.png
+2025-07-18T01:43:11.899Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-11-580.png
+2025-07-18T01:43:11.933Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-11-459.png
+2025-07-18T01:43:12.403Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:12.515Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:12.564Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:12.676Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:12.690Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-12-410.png
+2025-07-18T01:43:12.717Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:12.800Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-12-522.png
+2025-07-18T01:43:12.950Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-12-574.png
+2025-07-18T01:43:13.002Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-12-691.png
+2025-07-18T01:43:13.051Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-12-728.png
+2025-07-18T01:43:13.479Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:13.602Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:13.666Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-13-480.png
+2025-07-18T01:43:13.693Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:13.778Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-13-603.png
+2025-07-18T01:43:13.787Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:13.848Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:13.873Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-13-694.png
+2025-07-18T01:43:13.965Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-13-787.png
+2025-07-18T01:43:14.021Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-13-849.png
+2025-07-18T01:43:14.551Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:14.675Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:14.726Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-14-552.png
+2025-07-18T01:43:14.753Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:14.846Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:14.859Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-14-676.png
+2025-07-18T01:43:14.924Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:14.962Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-14-755.png
+2025-07-18T01:43:15.054Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-14-847.png
+2025-07-18T01:43:15.121Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-14-925.png
+2025-07-18T01:43:18.051Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:18.099Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:18.221Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-18-052.png
+2025-07-18T01:43:18.292Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-18-101.png
+2025-07-18T01:43:18.300Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:18.331Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:18.409Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:18.514Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-18-303.png
+2025-07-18T01:43:18.561Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-18-332.png
+2025-07-18T01:43:18.657Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-18-410.png
+2025-07-18T01:43:19.684Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:19.761Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:19.841Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-19-685.png
+2025-07-18T01:43:19.921Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-19-763.png
+2025-07-18T01:43:19.980Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:20.043Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:20.122Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:20.176Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-19-982.png
+2025-07-18T01:43:20.227Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-20-044.png
+2025-07-18T01:43:20.310Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-20-124.png
+2025-07-18T01:43:20.709Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:20.786Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:20.850Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-20-710.png
+2025-07-18T01:43:20.944Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-20-787.png
+2025-07-18T01:43:21.018Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:21.082Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:21.160Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:21.193Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-21-019.png
+2025-07-18T01:43:21.264Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-21-085.png
+2025-07-18T01:43:21.319Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-21-161.png
+2025-07-18T01:43:21.736Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:21.814Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:21.888Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-21-737.png
+2025-07-18T01:43:21.972Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-21-815.png
+2025-07-18T01:43:22.048Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:22.111Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:22.187Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:22.206Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-22-049.png
+2025-07-18T01:43:22.276Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-22-117.png
+2025-07-18T01:43:22.367Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-22-188.png
+2025-07-18T01:43:22.762Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:22.840Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:22.913Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-22-763.png
+2025-07-18T01:43:22.967Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-22-842.png
+2025-07-18T01:43:23.073Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:23.151Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:23.210Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-23-074.png
+2025-07-18T01:43:23.229Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:23.312Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-23-152.png
+2025-07-18T01:43:23.382Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-23-230.png
+2025-07-18T01:43:23.791Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:23.868Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:23.946Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-23-792.png
+2025-07-18T01:43:24.010Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-23-869.png
+2025-07-18T01:43:24.097Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:24.175Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:24.254Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:24.260Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-24-099.png
+2025-07-18T01:43:24.338Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-24-177.png
+2025-07-18T01:43:24.407Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-24-255.png
+2025-07-18T01:43:24.811Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:24.905Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:24.963Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-24-813.png
+2025-07-18T01:43:25.046Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-24-906.png
+2025-07-18T01:43:25.123Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:25.215Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:25.273Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-25-124.png
+2025-07-18T01:43:25.279Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:25.369Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-25-216.png
+2025-07-18T01:43:25.435Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-25-282.png
+2025-07-18T01:43:25.838Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:25.931Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:25.966Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-25-839.png
+2025-07-18T01:43:26.070Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-25-933.png
+2025-07-18T01:43:26.150Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:26.243Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:26.299Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-26-150.png
+2025-07-18T01:43:26.304Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:26.410Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-26-244.png
+2025-07-18T01:43:26.461Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-26-305.png
+2025-07-18T01:43:26.862Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:26.955Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:27.018Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-26-863.png
+2025-07-18T01:43:27.106Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-26-956.png
+2025-07-18T01:43:27.172Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:27.266Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:27.314Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-27-173.png
+2025-07-18T01:43:27.343Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:27.441Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-27-266.png
+2025-07-18T01:43:27.516Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-27-344.png
+2025-07-18T01:43:27.884Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:27.978Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:28.015Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-27-886.png
+2025-07-18T01:43:28.122Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-27-979.png
+2025-07-18T01:43:28.195Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:28.287Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:28.345Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-28-196.png
+2025-07-18T01:43:28.365Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:28.434Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-28-288.png
+2025-07-18T01:43:28.508Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-28-366.png
+2025-07-18T01:43:28.919Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:29.001Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:29.089Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-28-919.png
+2025-07-18T01:43:29.220Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:29.244Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-29-002.png
+2025-07-18T01:43:29.316Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:29.391Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:29.486Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-29-246.png
+2025-07-18T01:43:29.556Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-29-317.png
+2025-07-18T01:43:29.591Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-29-392.png
+2025-07-18T01:43:29.948Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:30.071Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:30.084Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-29-950.png
+2025-07-18T01:43:30.226Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-30-072.png
+2025-07-18T01:43:30.306Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:30.370Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:30.430Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:30.465Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-30-306.png
+2025-07-18T01:43:30.543Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-30-374.png
+2025-07-18T01:43:30.601Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-30-431.png
+2025-07-18T01:43:31.271Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:31.410Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:31.429Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC7 - Verify failed adding a contact with firstname field left blank\2025-07-18_09-43-31-272.png
+2025-07-18T01:43:31.688Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:31.706Z - INFO - The test completed successfully: TC7 - Verify failed adding a contact with firstname field left blank
+2025-07-18T01:43:31.752Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:31.796Z - INFO - The Suite is completed: TC7 - Verify failed adding a contact with firstname field left blank
+2025-07-18T01:43:31.827Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:31.861Z - INFO - Test Suite is Starting
+2025-07-18T01:43:31.868Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-31-689.png
+2025-07-18T01:43:31.948Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC9 - Verify failed adding a contact with invalid email format\2025-07-18_09-43-31-755.png
+2025-07-18T01:43:32.133Z - INFO - The test is running: TC11 - Verify successful viewing contact details
+2025-07-18T01:43:32.327Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC10 - Verify successful contact appears in the contact list\2025-07-18_09-43-31-411.png
+2025-07-18T01:43:32.411Z - INFO - The test completed successfully: TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit
+2025-07-18T01:43:32.480Z - INFO - The test completed successfully: TC9 - Verify failed adding a contact with invalid email format
+2025-07-18T01:43:32.483Z - INFO - The Suite is completed: TC8 - Verify failed adding a contact with firstname field exceeds 20 characters limit
+2025-07-18T01:43:32.566Z - INFO - The Suite is completed: TC9 - Verify failed adding a contact with invalid email format
+2025-07-18T01:43:32.608Z - INFO - Test Suite is Starting
+2025-07-18T01:43:32.612Z - INFO - Test Suite is Starting
+2025-07-18T01:43:33.080Z - INFO - The test is running: TC12 - Verify successful updating of an existing contact
+2025-07-18T01:43:33.160Z - INFO - The test is running: TC13 - Verify failed updating of an existing contact with firstname field left blank
+2025-07-18T01:43:33.196Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC6 - Verify successful adding a contact\2025-07-18_09-43-31-828.png
+2025-07-18T01:43:33.395Z - INFO - The test completed successfully: TC10 - Verify successful contact appears in the contact list
+2025-07-18T01:43:33.466Z - INFO - The Suite is completed: TC10 - Verify successful contact appears in the contact list
+2025-07-18T01:43:33.510Z - INFO - Test Suite is Starting
+2025-07-18T01:43:33.734Z - INFO - The test is running: TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit
+2025-07-18T01:43:33.945Z - INFO - The test completed successfully: TC6 - Verify successful adding a contact
+2025-07-18T01:43:34.027Z - INFO - The Suite is completed: TC6 - Verify successful adding a contact
+2025-07-18T01:43:34.082Z - INFO - Test Suite is Starting
+2025-07-18T01:43:34.260Z - INFO - The test is running: TC15 - Verify failed updating a contact with invalid email
+2025-07-18T01:43:36.654Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:36.808Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-36-655.png
+2025-07-18T01:43:37.601Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:37.694Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:37.741Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:37.770Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-37-602.png
+2025-07-18T01:43:37.865Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-37-695.png
+2025-07-18T01:43:37.933Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-37-743.png
+2025-07-18T01:43:38.316Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:38.464Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-38-317.png
+2025-07-18T01:43:38.640Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:38.717Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:38.774Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-38-642.png
+2025-07-18T01:43:38.797Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:38.873Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-38-718.png
+2025-07-18T01:43:38.919Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:43:38.955Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-38-799.png
+2025-07-18T01:43:39.068Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-38-921.png
+2025-07-18T01:43:39.351Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:39.505Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-39-353.png
+2025-07-18T01:43:39.662Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:39.738Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:39.791Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-39-663.png
+2025-07-18T01:43:39.816Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:39.905Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-39-739.png
+2025-07-18T01:43:39.954Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:43:39.976Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-39-817.png
+2025-07-18T01:43:40.105Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-39-955.png
+2025-07-18T01:43:40.375Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:40.499Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-40-376.png
+2025-07-18T01:43:40.685Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:40.763Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:40.838Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-40-686.png
+2025-07-18T01:43:40.841Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:40.916Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-40-764.png
+2025-07-18T01:43:40.972Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-40-843.png
+2025-07-18T01:43:40.982Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:43:41.126Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-40-983.png
+2025-07-18T01:43:41.400Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:41.537Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-41-402.png
+2025-07-18T01:43:41.709Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:41.816Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:41.839Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-41-710.png
+2025-07-18T01:43:41.863Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:41.966Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-41-817.png
+2025-07-18T01:43:41.991Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-41-864.png
+2025-07-18T01:43:42.016Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:43:42.157Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-42-017.png
+2025-07-18T01:43:42.421Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:42.551Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-42-422.png
+2025-07-18T01:43:42.764Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:42.917Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:43.041Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:43:43.175Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-43-042.png
+2025-07-18T01:43:43.473Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:43.614Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-43-473.png
+2025-07-18T01:43:44.097Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:44.244Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-44-097.png
+2025-07-18T01:43:44.499Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-42-765.png
+2025-07-18T01:43:44.669Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:44.783Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-42-918.png
+2025-07-18T01:43:44.846Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-44-670.png
+2025-07-18T01:43:45.043Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:45.227Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-45-046.png
+2025-07-18T01:43:45.292Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:45.451Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-45-294.png
+2025-07-18T01:43:46.015Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:46.093Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:46.170Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:46.195Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-46-016.png
+2025-07-18T01:43:46.258Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-46-095.png
+2025-07-18T01:43:46.310Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-46-171.png
+2025-07-18T01:43:46.342Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:46.469Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-46-343.png
+2025-07-18T01:43:46.528Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Add a New Contact' })
+2025-07-18T01:43:46.665Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-46-529.png
+2025-07-18T01:43:47.054Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:47.130Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:47.194Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:47.209Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-47-056.png
+2025-07-18T01:43:47.283Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-47-132.png
+2025-07-18T01:43:47.340Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-47-195.png
+2025-07-18T01:43:47.365Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:47.501Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-47-366.png
+2025-07-18T01:43:47.566Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* First Name:' })
+2025-07-18T01:43:47.695Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-47-567.png
+2025-07-18T01:43:48.081Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:48.159Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:48.220Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:48.234Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-48-082.png
+2025-07-18T01:43:48.320Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-48-160.png
+2025-07-18T01:43:48.379Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-48-221.png
+2025-07-18T01:43:48.393Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:48.535Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-48-393.png
+2025-07-18T01:43:48.591Z - INFO - FILLED DATA INTO getByRole('textbox', { name: '* Last Name:' })
+2025-07-18T01:43:48.731Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-48-592.png
+2025-07-18T01:43:49.102Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:49.181Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:49.258Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:49.260Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-49-103.png
+2025-07-18T01:43:49.331Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-49-182.png
+2025-07-18T01:43:49.414Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:49.423Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-49-259.png
+2025-07-18T01:43:49.592Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-49-415.png
+2025-07-18T01:43:49.615Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:43:49.762Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-49-616.png
+2025-07-18T01:43:50.129Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:50.206Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:50.286Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:50.287Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-50-130.png
+2025-07-18T01:43:50.374Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-50-207.png
+2025-07-18T01:43:50.437Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-50-288.png
+2025-07-18T01:43:50.441Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:50.583Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-50-442.png
+2025-07-18T01:43:50.641Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:43:50.782Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-50-642.png
+2025-07-18T01:43:51.150Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:51.227Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:51.289Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-51-151.png
+2025-07-18T01:43:51.307Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:51.381Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-51-228.png
+2025-07-18T01:43:51.452Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-51-308.png
+2025-07-18T01:43:51.462Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:51.598Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-51-463.png
+2025-07-18T01:43:51.661Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:43:51.783Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-51-662.png
+2025-07-18T01:43:52.172Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:52.249Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:52.327Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:52.339Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-52-173.png
+2025-07-18T01:43:52.417Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-52-249.png
+2025-07-18T01:43:52.481Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:52.493Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-52-328.png
+2025-07-18T01:43:52.638Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-52-482.png
+2025-07-18T01:43:52.685Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:43:52.809Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-52-686.png
+2025-07-18T01:43:53.190Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:53.283Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:53.344Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-53-192.png
+2025-07-18T01:43:53.360Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:53.438Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-53-284.png
+2025-07-18T01:43:53.493Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-53-361.png
+2025-07-18T01:43:53.515Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:53.651Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-53-517.png
+2025-07-18T01:43:53.703Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:43:53.841Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-53-704.png
+2025-07-18T01:43:54.210Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:54.302Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:54.354Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-54-212.png
+2025-07-18T01:43:54.380Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:54.440Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-54-302.png
+2025-07-18T01:43:54.512Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-54-381.png
+2025-07-18T01:43:54.536Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:54.675Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-54-537.png
+2025-07-18T01:43:54.721Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:43:54.860Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-54-722.png
+2025-07-18T01:43:55.231Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:55.323Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:55.372Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-55-233.png
+2025-07-18T01:43:55.401Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:55.485Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-55-325.png
+2025-07-18T01:43:55.552Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-55-403.png
+2025-07-18T01:43:55.557Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:55.685Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-55-558.png
+2025-07-18T01:43:55.745Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:43:55.868Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-55-746.png
+2025-07-18T01:43:56.257Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:56.350Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:56.405Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-56-258.png
+2025-07-18T01:43:56.428Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:56.503Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-56-351.png
+2025-07-18T01:43:56.558Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-56-428.png
+2025-07-18T01:43:56.583Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:56.723Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-56-585.png
+2025-07-18T01:43:56.770Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:43:56.909Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-56-771.png
+2025-07-18T01:43:57.287Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:57.398Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:57.443Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-57-288.png
+2025-07-18T01:43:57.630Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:57.738Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:57.775Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-43-57-631.png
+2025-07-18T01:43:57.785Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:43:57.887Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-43-57-739.png
+2025-07-18T01:43:57.939Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-57-786.png
+2025-07-18T01:43:58.343Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:58.488Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-57-400.png
+2025-07-18T01:43:58.831Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:43:59.377Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-43-58-344.png
+2025-07-18T01:43:59.954Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Fae Lindgren' })
+2025-07-18T01:44:00.152Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-43-59-955.png
+2025-07-18T01:44:00.270Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-43-58-832.png
+2025-07-18T01:44:00.666Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Myron Quigley' })
+2025-07-18T01:44:00.839Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Add Contact functionality via UI\TC11 - Verify successful viewing contact details\2025-07-18_09-44-00-667.png
+2025-07-18T01:44:01.314Z - INFO - The test completed successfully: TC11 - Verify successful viewing contact details
+2025-07-18T01:44:01.356Z - INFO - The Suite is completed: TC11 - Verify successful viewing contact details
+2025-07-18T01:44:01.382Z - INFO - Test Suite is Starting
+2025-07-18T01:44:01.395Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Noah Mann' })
+2025-07-18T01:44:01.467Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Edit Contact' })
+2025-07-18T01:44:01.498Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Annalise Cummerata' })
+2025-07-18T01:44:01.578Z - INFO - The test is running: TC1 - Successful User Registration
+2025-07-18T01:44:01.641Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-01-397.png
+2025-07-18T01:44:01.765Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-01-468.png
+2025-07-18T01:44:01.823Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-01-508.png
+2025-07-18T01:44:01.929Z - INFO - CLICKED ON ELEMENT getByRole('cell', { name: 'Loyce Dibbert' })
+2025-07-18T01:44:02.103Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-01-930.png
+2025-07-18T01:44:02.847Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Edit Contact' })
+2025-07-18T01:44:02.971Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:03.019Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Edit Contact' })
+2025-07-18T01:44:03.026Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-02-848.png
+2025-07-18T01:44:03.149Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-02-972.png
+2025-07-18T01:44:03.219Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-03-020.png
+2025-07-18T01:44:03.343Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Edit Contact' })
+2025-07-18T01:44:03.507Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-03-344.png
+2025-07-18T01:44:04.034Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:04.217Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:04.244Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-04-035.png
+2025-07-18T01:44:04.375Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-04-218.png
+2025-07-18T01:44:04.418Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:04.547Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-04-419.png
+2025-07-18T01:44:04.728Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:04.877Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-04-729.png
+2025-07-18T01:44:05.100Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:05.228Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-05-101.png
+2025-07-18T01:44:05.238Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:05.381Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-05-242.png
+2025-07-18T01:44:05.439Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:05.587Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-05-441.png
+2025-07-18T01:44:05.751Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name:' })
+2025-07-18T01:44:05.886Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-05-752.png
+2025-07-18T01:44:06.123Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:06.232Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:44:06.263Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:06.280Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-06-124.png
+2025-07-18T01:44:06.412Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-06-234.png
+2025-07-18T01:44:06.427Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-06-264.png
+2025-07-18T01:44:06.478Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:06.644Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-06-479.png
+2025-07-18T01:44:06.773Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:06.920Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-06-774.png
+2025-07-18T01:44:07.148Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:07.271Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-07-149.png
+2025-07-18T01:44:07.288Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:07.440Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-07-290.png
+2025-07-18T01:44:07.507Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:07.649Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-07-508.png
+2025-07-18T01:44:07.757Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:44:07.803Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name:' })
+2025-07-18T01:44:07.923Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-07-758.png
+2025-07-18T01:44:07.975Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-07-805.png
+2025-07-18T01:44:08.176Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:08.317Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-08-177.png
+2025-07-18T01:44:08.317Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:08.438Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-08-318.png
+2025-07-18T01:44:08.534Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:08.659Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-08-535.png
+2025-07-18T01:44:08.786Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:44:08.833Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:08.920Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-08-787.png
+2025-07-18T01:44:08.966Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-08-834.png
+2025-07-18T01:44:09.205Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:09.345Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:09.349Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-09-206.png
+2025-07-18T01:44:09.483Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-09-346.png
+2025-07-18T01:44:09.564Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:09.714Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-09-564.png
+2025-07-18T01:44:09.810Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:44:09.858Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Date of Birth:' })
+2025-07-18T01:44:09.971Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-09-812.png
+2025-07-18T01:44:10.027Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-09-859.png
+2025-07-18T01:44:10.231Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:10.353Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-10-233.png
+2025-07-18T01:44:10.371Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:10.509Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-10-372.png
+2025-07-18T01:44:10.590Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:10.730Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-10-590.png
+2025-07-18T01:44:10.841Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:44:10.888Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:10.986Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-10-842.png
+2025-07-18T01:44:11.046Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-10-888.png
+2025-07-18T01:44:11.261Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:11.385Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-11-262.png
+2025-07-18T01:44:11.401Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:11.525Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-11-402.png
+2025-07-18T01:44:11.618Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:11.748Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-11-619.png
+2025-07-18T01:44:11.913Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email:' })
+2025-07-18T01:44:12.036Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-11-915.png
+2025-07-18T01:44:12.161Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:12.287Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:12.427Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:12.444Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-12-288.png
+2025-07-18T01:44:12.577Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-12-427.png
+2025-07-18T01:44:12.648Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:12.769Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-12-648.png
+2025-07-18T01:44:12.944Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:13.066Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-12-945.png
+2025-07-18T01:44:13.264Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC1 - Successful User Registration\2025-07-18_09-44-12-162.png
+2025-07-18T01:44:13.321Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:13.457Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:13.478Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-13-323.png
+2025-07-18T01:44:13.562Z - INFO - The test completed successfully: TC1 - Successful User Registration
+2025-07-18T01:44:13.602Z - INFO - The Suite is completed: TC1 - Successful User Registration
+2025-07-18T01:44:13.615Z - INFO - Test Suite is Starting
+2025-07-18T01:44:13.616Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-13-458.png
+2025-07-18T01:44:13.674Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:13.781Z - INFO - The test is running: TC2 - Registration with Existing Email
+2025-07-18T01:44:13.858Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-13-675.png
+2025-07-18T01:44:13.969Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Phone:' })
+2025-07-18T01:44:14.118Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-13-970.png
+2025-07-18T01:44:14.344Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:14.490Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-14-345.png
+2025-07-18T01:44:14.500Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:14.643Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-14-501.png
+2025-07-18T01:44:14.717Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:14.858Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-14-718.png
+2025-07-18T01:44:14.994Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:15.130Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-14-995.png
+2025-07-18T01:44:15.368Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:15.515Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-15-369.png
+2025-07-18T01:44:15.524Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:15.677Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-15-525.png
+2025-07-18T01:44:15.745Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:15.870Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-15-746.png
+2025-07-18T01:44:16.011Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 1:' })
+2025-07-18T01:44:16.135Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-16-012.png
+2025-07-18T01:44:16.397Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:16.555Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-16-398.png
+2025-07-18T01:44:16.565Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:16.727Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-16-566.png
+2025-07-18T01:44:16.765Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:16.922Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-16-766.png
+2025-07-18T01:44:17.030Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:17.175Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-17-031.png
+2025-07-18T01:44:17.433Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:17.586Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:17.608Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-17-434.png
+2025-07-18T01:44:17.790Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:17.793Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-17-588.png
+2025-07-18T01:44:17.987Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-17-791.png
+2025-07-18T01:44:18.055Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Street Address 2:' })
+2025-07-18T01:44:18.217Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-18-056.png
+2025-07-18T01:44:18.303Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:44:18.460Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:18.495Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-18-305.png
+2025-07-18T01:44:18.623Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-18-461.png
+2025-07-18T01:44:18.632Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:18.814Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-18-633.png
+2025-07-18T01:44:18.818Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:18.970Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-18-819.png
+2025-07-18T01:44:19.081Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:19.224Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-19-082.png
+2025-07-18T01:44:19.485Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:19.620Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-19-486.png
+2025-07-18T01:44:19.656Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:19.780Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-19-657.png
+2025-07-18T01:44:19.845Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:19.862Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:44:20.013Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-19-846.png
+2025-07-18T01:44:20.023Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-19-863.png
+2025-07-18T01:44:20.095Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'City:' })
+2025-07-18T01:44:20.237Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-20-096.png
+2025-07-18T01:44:20.517Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:20.678Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-20-517.png
+2025-07-18T01:44:20.687Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:20.837Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-20-688.png
+2025-07-18T01:44:20.874Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:20.889Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:44:21.030Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-20-890.png
+2025-07-18T01:44:21.037Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-20-875.png
+2025-07-18T01:44:21.123Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:21.269Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-21-124.png
+2025-07-18T01:44:21.546Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:21.707Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-21-547.png
+2025-07-18T01:44:21.717Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:21.885Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-21-718.png
+2025-07-18T01:44:21.906Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:21.921Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:44:22.071Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-21-907.png
+2025-07-18T01:44:22.085Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-21-922.png
+2025-07-18T01:44:22.153Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'State or Province:' })
+2025-07-18T01:44:22.282Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-22-154.png
+2025-07-18T01:44:22.573Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:22.712Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-22-574.png
+2025-07-18T01:44:22.744Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:22.882Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-22-744.png
+2025-07-18T01:44:22.932Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:22.962Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:44:23.087Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-22-933.png
+2025-07-18T01:44:23.120Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-22-964.png
+2025-07-18T01:44:23.179Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:23.335Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-23-180.png
+2025-07-18T01:44:23.595Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:23.745Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-23-596.png
+2025-07-18T01:44:23.767Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:23.896Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-23-768.png
+2025-07-18T01:44:23.954Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:24.116Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-23-955.png
+2025-07-18T01:44:24.200Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Postal Code:' })
+2025-07-18T01:44:24.308Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:24.346Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-24-201.png
+2025-07-18T01:44:24.438Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC2 - Registration with Existing Email\2025-07-18_09-44-24-309.png
+2025-07-18T01:44:24.619Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:24.710Z - INFO - The test completed successfully: TC2 - Registration with Existing Email
+2025-07-18T01:44:24.739Z - INFO - The Suite is completed: TC2 - Registration with Existing Email
+2025-07-18T01:44:24.755Z - INFO - Test Suite is Starting
+2025-07-18T01:44:24.771Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-24-620.png
+2025-07-18T01:44:24.792Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:24.923Z - INFO - The test is running: TC3 - Missing Mandatory Field (First Name)
+2025-07-18T01:44:24.994Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:25.017Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-24-794.png
+2025-07-18T01:44:25.181Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-24-995.png
+2025-07-18T01:44:25.224Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:25.374Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-25-225.png
+2025-07-18T01:44:25.823Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:25.952Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-25-824.png
+2025-07-18T01:44:26.029Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:26.060Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:26.197Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-26-030.png
+2025-07-18T01:44:26.225Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC12 - Verify successful updating of an existing contact\2025-07-18_09-44-26-061.png
+2025-07-18T01:44:26.247Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Country:' })
+2025-07-18T01:44:26.395Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-26-248.png
+2025-07-18T01:44:27.145Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:27.296Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit\2025-07-18_09-44-27-146.png
+2025-07-18T01:44:27.380Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:27.532Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC13 - Verify failed updating of an existing contact with firstname field left blank\2025-07-18_09-44-27-381.png
+2025-07-18T01:44:27.581Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:27.594Z - INFO - The test completed successfully: TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit
+2025-07-18T01:44:27.667Z - INFO - The Suite is completed: TC14 - Verify failed updating of an existing contact with firstname field exceeds 20 characters limit
+2025-07-18T01:44:27.745Z - INFO - Test Suite is Starting
+2025-07-18T01:44:27.757Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify Edit Contact functionality via UI\TC15 - Verify failed updating a contact with invalid email\2025-07-18_09-44-27-582.png
+2025-07-18T01:44:27.931Z - INFO - The test is running: TC4 - First Name exceeds 20 chars
+2025-07-18T01:44:27.968Z - INFO - The test completed successfully: TC13 - Verify failed updating of an existing contact with firstname field left blank
+2025-07-18T01:44:28.002Z - INFO - The test completed successfully: TC12 - Verify successful updating of an existing contact
+2025-07-18T01:44:28.051Z - INFO - The Suite is completed: TC13 - Verify failed updating of an existing contact with firstname field left blank
+2025-07-18T01:44:28.115Z - INFO - The Suite is completed: TC12 - Verify successful updating of an existing contact
+2025-07-18T01:44:28.173Z - INFO - Test Suite is Starting
+2025-07-18T01:44:28.268Z - INFO - The test completed successfully: TC15 - Verify failed updating a contact with invalid email
+2025-07-18T01:44:28.395Z - INFO - The Suite is completed: TC15 - Verify failed updating a contact with invalid email
+2025-07-18T01:44:28.512Z - INFO - The test is running: TC5 - Invalid Email Format
+2025-07-18T01:44:29.983Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:44:30.140Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-29-984.png
+2025-07-18T01:44:31.441Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:44:31.599Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-31-442.png
+2025-07-18T01:44:32.471Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:44:32.518Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:44:32.634Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-32-473.png
+2025-07-18T01:44:32.671Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-32-520.png
+2025-07-18T01:44:33.125Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Sign up' })
+2025-07-18T01:44:33.249Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-33-126.png
+2025-07-18T01:44:33.498Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:44:33.623Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-33-499.png
+2025-07-18T01:44:33.946Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:44:34.070Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-33-948.png
+2025-07-18T01:44:34.523Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:44:34.538Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'First Name' })
+2025-07-18T01:44:34.667Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-34-524.png
+2025-07-18T01:44:34.685Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-34-539.png
+2025-07-18T01:44:34.969Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:44:35.112Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-34-970.png
+2025-07-18T01:44:35.560Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Last Name' })
+2025-07-18T01:44:35.688Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-35-561.png
+2025-07-18T01:44:35.838Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:35.980Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC3 - Missing Mandatory Field (First Name)\2025-07-18_09-44-35-839.png
+2025-07-18T01:44:35.996Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:44:36.145Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-35-998.png
+2025-07-18T01:44:36.265Z - INFO - The test completed successfully: TC3 - Missing Mandatory Field (First Name)
+2025-07-18T01:44:36.298Z - INFO - The Suite is completed: TC3 - Missing Mandatory Field (First Name)
+2025-07-18T01:44:36.588Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-18T01:44:36.733Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-36-590.png
+2025-07-18T01:44:37.021Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:44:37.163Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-37-022.png
+2025-07-18T01:44:37.613Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-18T01:44:37.735Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-37-614.png
+2025-07-18T01:44:38.331Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:38.453Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC4 - First Name exceeds 20 chars\2025-07-18_09-44-38-332.png
+2025-07-18T01:44:38.687Z - INFO - The test completed successfully: TC4 - First Name exceeds 20 chars
+2025-07-18T01:44:38.724Z - INFO - The Suite is completed: TC4 - First Name exceeds 20 chars
+2025-07-18T01:44:38.897Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-18T01:44:39.064Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Contact_List_Playwright_Typescript_Automation\reports\screenshots\2025-07-18_09-42-54\Verify User Registration functionality via UI\TC5 - Invalid Email Format\2025-07-18_09-44-38-898.png
+2025-07-18T01:44:39.374Z - INFO - The test completed successfully: TC5 - Invalid Email Format
+2025-07-18T01:44:39.405Z - INFO - The Suite is completed: TC5 - Invalid Email Format

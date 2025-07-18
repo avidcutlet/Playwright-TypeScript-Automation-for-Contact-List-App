@@ -145,6 +145,27 @@ To run a specific tag using webkit, use the following commands:
 npm run test:webkit:tag @ALL
 ```
 
+### Run Multiple Specific Tags File by Browser
+To run a specific tag using chromium, use the following commands:
+```bash
+npm run test:chromium:tag "@TS1|@TS2|@TS3|@TS4"
+```
+
+To run a specific tag using firefox, use the following commands:
+```bash
+npm run test:firefox:tag "@TS1|@TS2|@TS3|@TS4"
+```
+
+To run a specific tag using edge, use the following commands:
+```bash
+npm run test:edge:tag "@TS1|@TS2|@TS3|@TS4"
+```
+
+To run a specific tag using webkit, use the following commands:
+```bash
+npm run test:webkit:tag "@TS1|@TS2|@TS3|@TS4"
+```
+
 ## Running Tests in UI Mode
 To open Playwright’s interactive UI mode:
 ```bash

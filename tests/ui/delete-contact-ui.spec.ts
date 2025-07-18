@@ -40,7 +40,7 @@ test.describe('Contact Management - Delete Contact via UI @Regression @ALL @UI @
     const fakerData = generateContactData();
     
     await loginPageInstance.clickSignUp();
-    await reusableScripts.enterSignUpCredentials(
+    await reusableScripts.signUpUser(
       fakerData.firstName,
       fakerData.lastName,
       fakerData.email,
@@ -53,7 +53,7 @@ test.describe('Contact Management - Delete Contact via UI @Regression @ALL @UI @
 
 
     await contactListPageInstance.clickAddContact();
-    await reusableScripts.enterAddContactCredentials(
+    await reusableScripts.addNewContact(
       fakerData.firstName,
       fakerData.lastName,
       fakerData.email,
