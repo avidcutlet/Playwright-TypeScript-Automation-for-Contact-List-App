@@ -4,6 +4,7 @@ import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
 export class AddContactPage {
+    private page: Page;
     private elementKeyboardActionUtil: ElementKeyboardActionUtil;
     private elementMouseActionUtil: ElementMouseActionUtil;
 
@@ -22,8 +23,11 @@ export class AddContactPage {
     private submitBtn: Locator;
     private cancelBtn: Locator;
     private errorMessage: Locator;
+    
+    private addContactURLRegex: RegExp;
 
     constructor(page: Page) {
+        this.page = page;
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
@@ -42,11 +46,18 @@ export class AddContactPage {
         this.submitBtn = page.getByRole('button', { name: 'Submit' });
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
         this.errorMessage = page.getByText('Contact validation failed:');
+
+        this.addContactURLRegex = /.*\/addContact/;
     }
 
     // Return Add Contact Header Text
     async verifyAddContactHeader(): Promise<string | null> {
         return this.addContactHeader.textContent();
+    }
+
+    // Wait for the URL to contain '/addContact'
+    async waitForAddContactPageLoad(): Promise<void> {
+      await this.page.waitForURL(this.addContactURLRegex);
     }
 
     // Input firstname

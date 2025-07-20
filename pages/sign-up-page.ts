@@ -4,6 +4,7 @@ import { ElementKeyboardActionUtil } from '@utils/element-keyboard-action-util';
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
 export class SignUpPage {
+    private page: Page;
     private elementKeyboardActionUtil: ElementKeyboardActionUtil; 
     private elementMouseActionUtil: ElementMouseActionUtil;
 
@@ -17,7 +18,10 @@ export class SignUpPage {
     private errorMessage: Locator;
     private existingEmailErrorMessage: Locator;
 
+    private addUserURLRegex: RegExp;
+
     constructor(page: Page) {
+        this.page = page;
         this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
         this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
@@ -30,11 +34,18 @@ export class SignUpPage {
         this.cancelBtn = page.getByRole('button', { name: 'Cancel' });
         this.errorMessage = page.getByText('User validation failed:');
         this.existingEmailErrorMessage = page.getByText('Email address is already in');
+
+        this.addUserURLRegex = /.*\/addUser/;
     }
 
     // Return add user header locator
     async verifyAddUserHeader(): Promise<string | null> {
         return await this.addUserHeader.textContent();
+    }
+
+    // Wait for the URL to contain '/addUser'
+    async waitForAddUserPageLoad(): Promise<void> {
+      await this.page.waitForURL(this.addUserURLRegex);
     }
 
     // Input firstname

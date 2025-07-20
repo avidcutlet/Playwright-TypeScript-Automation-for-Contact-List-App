@@ -1,41 +1,52 @@
 {
-    "AddInvalidContactData": { 
-        "firstName": "Andrew",
-        "lastName": "C",
-        "birthdate": "",
-        "email": "super.com",
-        "phone": "",
-        "street1": "",
-        "street2": "",
-        "city": "",
-        "stateProvince": "",
-        "postalCode": "",
-        "country": ""
-    },
-
-    "EditContactInvalidData": [
-        { 
-        "firstName": "Test Edit",
-        "lastName": ""
-        }
-    ],
-
-    "URL": {
-        "URL": "https://thinking-tester-contact-list.herokuapp.com"
-    },
-
-    "Auth": {
-        "Token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2MwMGQzOGQ3NWQ3NTAwMTM2MWExY2UiLCJpYXQiOjE3NTExNTIyOTh9.RaR4TZ_DbAXWCGiKOHGVTHnBHcZX0trNlwMiewG0Dz4"
-    },
-
-    "Response": {
-        "CreatedStatus": "201",
-        "InvalidRequest": "400"
-    },
-
-    "jsonFileName": {
-        "CreateUser": "create user",
-        "CreateContact": "create contact",
-        "CreateInvalidContact": "create invalid contact"
+  "AddInvalidContactData": { 
+    "firstName": "Andrew",
+    "lastName": "C",
+    "birthdate": "",
+    "email": "super.com",
+    "phone": "",
+    "street1": "",
+    "street2": "",
+    "city": "",
+    "stateProvince": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "EditContactInvalidData": [
+    { 
+    "firstName": "Test Edit",
+    "lastName": ""
     }
+  ],
+
+  "URL": {
+    "URL": "https://thinking-tester-contact-list.herokuapp.com"
+  },
+
+  "Auth": {
+    "Token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2MwMGQzOGQ3NWQ3NTAwMTM2MWExY2UiLCJpYXQiOjE3NTExNTIyOTh9.RaR4TZ_DbAXWCGiKOHGVTHnBHcZX0trNlwMiewG0Dz4"
+  },
+
+  "Response": {
+    "CreatedStatus": "201",
+    "InvalidRequest": "400"
+  },
+
+  "jsonFileName": {
+    "CreateUser": "create user",
+    "CreateContact": "create contact",
+    "CreateInvalidContact": "create invalid contact"
+  },
+  "ErrorMessage": {
+    "existingEmail": "Email address is already in use",
+    "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
+    "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "userRegInvalidEmail": "User validation failed: email: Email is invalid",
+    "contactRegEmptyFirstName": "Contact validation failed: firstName: Path `firstName` is required.",
+    "contactRegExceedFirstNameLimit": "Contact validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "contactRegInvalidEmail": "Contact validation failed: email: Email is invalid",
+    "editContactEmptyFirstName": "Validation failed: firstName: Path `firstName` is required.",
+    "editContactExceedFirstNameLimit": "Validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "editContactInvalidEmail": "Validation failed: email: Email is invalid"
+  }
 }

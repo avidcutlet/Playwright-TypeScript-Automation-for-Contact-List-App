@@ -32,6 +32,7 @@ export class ReusableHelpers {
       await this.loginPage.enterEmail(email);
       await this.loginPage.enterPassword(password);
       await this.loginPage.clickSubmit();
+      await this.contactListPage.waitForContactListPageLoad();
       const result = await this.contactListPage.verifyContactListHeader();
       expect(result).toBe(this.contactListPageHeader);
     }
@@ -50,7 +51,9 @@ export class ReusableHelpers {
         postalCode: string,
         country: string
       ): Promise<void> {
+        await this.contactListPage.waitForContactListPageLoad();
         await this.contactListPage.clickAddContact();
+        await this.addContactPage.waitForAddContactPageLoad();
         const addContactPageHeaderTxt = await this.addContactPage.verifyAddContactHeader();
         expect(addContactPageHeaderTxt).toBe(this.addContactPageHeader);
         await this.addContactPage.enterFirstName(firstName);
@@ -65,6 +68,7 @@ export class ReusableHelpers {
         await this.addContactPage.enterPostalCode(postalCode);
         await this.addContactPage.enterCountry(country);
         await this.addContactPage.clickSubmit();
+        await this.contactListPage.waitForContactListPageLoad();
         const result = await this.contactListPage.verifyContactListHeader();
         expect(result).toBe(this.contactListPageHeader);
       }
@@ -72,11 +76,13 @@ export class ReusableHelpers {
       // Go to sign up page, fill in sign up fields, and verify successful sign up
       async signUpUser(firstName: string, lastName: string, email: string, password: string): Promise<void> {
         await this.loginPage.clickSignUp();
+        await this.signUpPage.waitForAddUserPageLoad();
         await this.signUpPage.enterFirstName(firstName);
         await this.signUpPage.enterLastName(lastName);
         await this.signUpPage.enterEmail(email);
         await this.signUpPage.enterPassword(password);
         await this.signUpPage.clickSubmit();
+        await this.contactListPage.waitForContactListPageLoad();
         const result = await this.contactListPage.verifyContactListHeader();
         expect(result).toBe(this.contactListPageHeader);
       }

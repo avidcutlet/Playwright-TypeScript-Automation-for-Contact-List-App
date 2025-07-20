@@ -8,19 +8,19 @@
     "UserRegEmptyFirstName": {
         "firstName": "",
         "lastName": "EmptyFirstName",
-        "email": "testui01@gmail.com",
+        "email": "emptyFirstName@gmail.com",
         "password": "Pass123!"
     },
     "UserRegExceedFirstNameLimit": {
         "firstName": "ThisStringExceed20Chars",
         "lastName": "ExceedString",
-        "email": "testui01@gmail.com",
+        "email": "exceedString@gmail.com",
         "password": "Pass123!"
     },
     "UserRegInvalidEmail": {
         "firstName": "Invalid",
         "lastName": "Email",
-        "email": "testui01@gmail",
+        "email": "invalid@gmail",
         "password": "Pass123!"
     },
     "ContactRegEmptyFirstName": {

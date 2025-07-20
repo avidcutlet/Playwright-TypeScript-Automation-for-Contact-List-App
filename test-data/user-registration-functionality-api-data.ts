@@ -1,4 +1,4 @@
-export interface UserRegistrationTestCase {
+export interface UserRegAPITestCase {
   name: string;
   subSuite: string;
   displayName: string;
@@ -9,9 +9,9 @@ export interface UserRegistrationTestCase {
   isDynamicError?: boolean;
 }
 
-export const userRegistrationTestCases: UserRegistrationTestCase[] = [
+export const userRegAPITestCases: UserRegAPITestCase[] = [
   {
-    name: 'TC1 - Successful User Registration',
+    name: 'TC19 - Successful User Registration via API',
     subSuite: 'Successful User Registration',
     displayName: 'Add New User - Success',
     testDataKey: 'faker',
@@ -19,7 +19,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     expectError: false,
   },
   {
-    name: 'TC2 - Registration with Existing Email',
+    name: 'TC20 - Registration with Existing Email via API',
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegExistingEmail',
@@ -27,7 +27,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     expectError: true,
   },
   {
-    name: 'TC3 - Missing Mandatory Field (First Name)',
+    name: 'TC21 - Missing Mandatory Field (First Name) via API',
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegEmptyFirstName',
@@ -35,7 +35,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     expectError: true,
   },
   {
-    name: 'TC4 - First Name exceeds 20 chars',
+    name: 'TC22 - First Name exceeds 20 chars via API',
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegExceedFirstNameLimit',
@@ -44,7 +44,7 @@ export const userRegistrationTestCases: UserRegistrationTestCase[] = [
     isDynamicError: true,
   },
   {
-    name: 'TC5 - Invalid Email Format',
+    name: 'TC23 - Invalid Email Format via API',
     subSuite: 'Unsuccessful User Registration',
     displayName: 'Add New User - Unsuccess',
     testDataKey: 'UserRegInvalidEmail',
