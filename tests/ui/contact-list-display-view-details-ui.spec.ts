@@ -8,7 +8,6 @@ import DatasetUtil from '@utils/test-data-util';
 import { AddContactPage } from '@pages/add-contact-page';
 import { ContactListPage } from '@pages/contact-list-page';
 import { ContactDetailsPage } from '@pages/contact-details-page';
-import { LoginPage } from '@pages/login-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
 import { contactListDisplayTestCases } from '@testData/contact-list-display-view-details-data';
@@ -18,14 +17,13 @@ const dataSetUI = new DatasetUtil('ui');
 const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
 
-test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS3 @UI @tagToSkipInProd3', () => {
+test.describe('Verify Add Contact functionality via UI @Regression @ALL @UI @TS3 @tagToSkipInProd3', () => {
   for (const testCase of contactListDisplayTestCases) {
     test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
       await label(LabelName.SUITE, testCase.subSuite);
       await displayName(`${testCase.displayName}`);
       await feature("UI");
 
-      const loginPage = new LoginPage(page);
       const contactListPage = new ContactListPage(page);
       const addContactPage = new AddContactPage(page);
       const contactDetailsPage = new ContactDetailsPage(page);
@@ -48,8 +46,8 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS3 @UI
       });
       
       await attach.withAllureStep(page, 'Step 2 - Verify Add Contact Page', async () => {
-        const addContactPageHeaderTxt = await addContactPage.verifyAddContactHeader();
-        expect(addContactPageHeaderTxt).toBe(addContactPageHeader);
+        const result = await addContactPage.verifyAddContactHeader();
+        expect(result).toBe(addContactPageHeader);
       });
 
     const userData = generateContactData();

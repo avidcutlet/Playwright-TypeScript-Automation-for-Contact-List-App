@@ -40,16 +40,16 @@ test.describe('Verify User Registration functionality via UI @Regression @ALL @U
             password: dataSetUI.getTestData(testCase.testDataKey, 'password'),
           };
 
-      const loginPageHeaderTxt = await loginPage.verifyLoginHeader();
+      const result = await loginPage.verifyLoginHeader();
 
       await attach.withAllureStep(page, 'Click Sign Up Button', async () => {
-        expect(loginPageHeaderTxt).toBe(loginHeader);
+        expect(result).toBe(loginHeader);
         await loginPage.clickSignUp();
       });
 
       await attach.withAllureStep(page, 'User is on Add User Page', async () => {
-        const signUpPageHeaderResult = await signUpPage.verifyAddUserHeader();
-        expect(signUpPageHeaderResult).toBe(signUpHeader);
+        const result = await signUpPage.verifyAddUserHeader();
+        expect(result).toBe(signUpHeader);
       });
 
       await attach.withAllureStep(page, 'Fill in Sign Up Form', async () => {

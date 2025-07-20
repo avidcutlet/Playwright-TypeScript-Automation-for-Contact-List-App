@@ -17,7 +17,7 @@ const dataSetUI = new DatasetUtil('ui');
 const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
 
-test.describe('Verify Edit Contact functionality via UI @Regression @ALL @TS4 @UI @tagToSkipInProd3', () => {
+test.describe('Verify Edit Contact functionality via UI @Regression @ALL @UI @TS4 @tagToSkipInProd3', () => {
   for (const testCase of editContactTestCases) {
     test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
       await label(LabelName.SUITE, testCase.subSuite);

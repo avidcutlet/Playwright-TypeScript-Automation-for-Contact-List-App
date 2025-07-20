@@ -16,7 +16,7 @@ const dataSetUI = new DatasetUtil('ui');
 const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
 
-test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI @tagToSkipInProd3', () => {
+test.describe('Verify Add Contact functionality via UI @Regression @ALL @UI @TS2 @tagToSkipInProd3', () => {
   for (const testCase of contactRegistrationTestCases) {
     test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
       await label(LabelName.SUITE, testCase.subSuite);
@@ -43,8 +43,8 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
       });
       
       await attach.withAllureStep(page, 'Step 2 - Verify Add Contact Page', async () => {
-        const addContactPageHeaderTxt = await addContactPage.verifyAddContactHeader();
-        expect(addContactPageHeaderTxt).toBe(addContactPageHeader);
+        const result = await addContactPage.verifyAddContactHeader();
+        expect(result).toBe(addContactPageHeader);
       });
 
       const userData = testCase.testDataKey === 'faker'
@@ -90,8 +90,8 @@ test.describe('Verify Add Contact functionality via UI @Regression @ALL @TS2 @UI
         });
 
         await attach.withAllureStep(page, 'Verify Added Contact', async () => {
-          const contactListPageHeaderTxt = await contactListPage.verifyContactListHeader();
-          expect(contactListPageHeaderTxt).toBe(contactListPageHeader);
+          const result = await contactListPage.verifyContactListHeader();
+          expect(result).toBe(contactListPageHeader);
           await expect(page.getByText(`${userData.firstName} ${userData.lastName}`)).toBeVisible();
         });
         
