@@ -10,7 +10,7 @@ import { ContactListPage } from '@pages/contact-list-page';
 import { ContactDetailsPage } from '@pages/contact-details-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
-import { contactListDisplayTestCases } from '@testData/contact-list-display-view-details-data';
+import { contactListDisplayTestCases } from '@testData/contact-list-display-view-details-ui-data';
 
 const { label, LabelName, displayName, feature } = require('allure-js-commons');
 const dataSetUI = new DatasetUtil('ui');

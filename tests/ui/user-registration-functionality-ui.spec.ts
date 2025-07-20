@@ -8,9 +8,8 @@ import DatasetUtil from '@utils/test-data-util';
 import { ContactListPage } from '@pages/contact-list-page';
 import { LoginPage } from '@pages/login-page';
 import { SignUpPage } from '@pages/sign-up-page';
-import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
-import { userRegistrationTestCases } from '@testData/user-registration-functionality-data';
+import { userRegUITestCases } from '@testData/user-registration-functionality-ui-data';
 
 const { label, LabelName, displayName, feature } = require('allure-js-commons');
 const dataSetUI = new DatasetUtil('ui');
@@ -18,7 +17,7 @@ const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
 
 test.describe('Verify User Registration functionality via UI @Regression @ALL @UI @TS1 @UserRegistration @tagToSkipInProd3', () => {
-  for (const testCase of userRegistrationTestCases) {
+  for (const testCase of userRegUITestCases) {
     test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
       await label(LabelName.SUB_SUITE, testCase.subSuite);
       await displayName(testCase.displayName);

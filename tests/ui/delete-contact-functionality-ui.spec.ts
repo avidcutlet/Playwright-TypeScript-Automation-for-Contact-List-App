@@ -9,7 +9,7 @@ import { ContactDetailsPage } from '@pages/contact-details-page';
 import { ContactListPage } from '@pages/contact-list-page';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 import { generateContactData } from '@testData/test-data-generator';
-import { deleteContactTestCases } from '@testData/delete-contact-functionality-data';
+import { deleteContactTestCases } from '@testData/delete-contact-functionality-ui-data';
 
 const { label, LabelName, displayName, feature } = require('allure-js-commons');
 const datasetUI = new DatasetUtil('ui');

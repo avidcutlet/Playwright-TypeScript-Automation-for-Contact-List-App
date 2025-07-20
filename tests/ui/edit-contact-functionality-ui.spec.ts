@@ -8,7 +8,7 @@ import DatasetUtil from '@utils/test-data-util';
 import { ContactListPage } from '@pages/contact-list-page';
 import { EditContactPage } from '@pages/edit-contact-page';
 import { ContactDetailsPage } from '@pages/contact-details-page';
-import { editContactTestCases } from '@testData/edit-contact-functionality-data';
+import { editContactTestCases } from '@testData/edit-contact-functionality-ui-data';
 import { generateContactData } from '@testData/test-data-generator';
 import { ReusableHelpers } from '@reusableScripts/reusable-scripts';
 
