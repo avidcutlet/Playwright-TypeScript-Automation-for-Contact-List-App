@@ -1,4 +1,8 @@
 {
+  "UserLoginEmptyCredentials": {
+    "email": "",
+    "password": ""
+  },
   "AddInvalidContactData": { 
     "firstName": "Andrew",
     "lastName": "C",
@@ -28,8 +32,10 @@
   },
 
   "Response": {
+    "LoginStatus": "200",
     "CreatedStatus": "201",
-    "InvalidRequest": "400"
+    "InvalidRequest": "400",
+    "Unauthorized": "401"
   },
 
   "jsonFileName": {
@@ -38,6 +44,7 @@
     "CreateInvalidContact": "create invalid contact"
   },
   "ErrorMessage": {
+
     "existingEmail": "Email address is already in use",
     "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
     "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",

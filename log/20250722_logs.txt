@@ -1,0 +1,285 @@
+2025-07-22T01:56:16.391Z - INFO - Test Suite is Starting
+2025-07-22T01:56:17.376Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T01:56:24.039Z - INFO - User data: {
+  "user": {
+    "_id": "687eefc67bc5660015e3b9ee",
+    "firstName": "Cordelia",
+    "lastName": "Hegmann",
+    "email": "cordelia_hegmann71@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZWZjNjdiYzU2NjAwMTVlM2I5ZWUiLCJpYXQiOjE3NTMxNDkzODJ9.71XEBmCjaIlAWqh7TbRKqHE6JaBrhN6DhURWIoqVuAQ"
+}
+2025-07-22T01:56:54.378Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 503
+2025-07-22T01:56:54.380Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T01:56:54.458Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T01:58:47.995Z - INFO - Test Suite is Starting
+2025-07-22T01:58:48.617Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T01:58:54.022Z - INFO - User data: {
+  "user": {
+    "_id": "687ef05c40c4990015bf6d1d",
+    "firstName": "Carley",
+    "lastName": "Senger",
+    "email": "carley.senger@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZjA1YzQwYzQ5OTAwMTViZjZkMWQiLCJpYXQiOjE3NTMxNDk1MzJ9.bmD3n8W_VuX2SsbTNbVI1qmnOAYeqjjSYQb8U3z8Deg"
+}
+2025-07-22T01:59:24.334Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 503
+2025-07-22T01:59:24.337Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T01:59:24.404Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T01:59:47.694Z - INFO - Test Suite is Starting
+2025-07-22T01:59:48.341Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:00:20.354Z - INFO - User data: {
+  "user": {
+    "_id": "687ef0b340c4990015bf6d1f",
+    "firstName": "Tatyana",
+    "lastName": "Wintheiser",
+    "email": "tatyana.wintheiser@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZjBiMzQwYzQ5OTAwMTViZjZkMWYiLCJpYXQiOjE3NTMxNDk2MTl9.j7DsMEqeRU_VXdVJFHyItBmEu0LdvuDjV33WJkP8KgI"
+}
+2025-07-22T02:00:50.701Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 503
+2025-07-22T02:00:50.705Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:02:54.043Z - INFO - Test Suite is Starting
+2025-07-22T02:02:54.709Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:03:11.644Z - INFO - User data: {
+  "user": {
+    "_id": "687ef15e7bc5660015e3b9f7",
+    "firstName": "Grayce",
+    "lastName": "Jacobson",
+    "email": "grayce.jacobson@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZjE1ZTdiYzU2NjAwMTVlM2I5ZjciLCJpYXQiOjE3NTMxNDk3OTB9.zQyHKhyygwCfF1uSuiHIo1Ov19dK1AC8kL6rZIUSPks"
+}
+2025-07-22T02:03:41.971Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 503
+2025-07-22T02:03:41.975Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:03:42.059Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T02:06:01.176Z - INFO - Test Suite is Starting
+2025-07-22T02:06:01.726Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:06:07.040Z - INFO - User data: {
+  "user": {
+    "_id": "687ef20d40c4990015bf6d2d",
+    "firstName": "Kari",
+    "lastName": "Barrows",
+    "email": "kari.barrows@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZjIwZDQwYzQ5OTAwMTViZjZkMmQiLCJpYXQiOjE3NTMxNDk5NjV9.OILWI9JtzFnkC9mPW5tA8U4tiyN-7kFaVK5ZlKXZVpg"
+}
+2025-07-22T02:07:32.807Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 503
+2025-07-22T02:07:32.813Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:07:32.911Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T02:10:30.099Z - INFO - Test Suite is Starting
+2025-07-22T02:10:30.948Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:10:37.304Z - INFO - User data: {
+  "user": {
+    "_id": "687ef31b40c4990015bf6d30",
+    "firstName": "Ines",
+    "lastName": "Auer-Zemlak",
+    "email": "ines_auer-zemlak98@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZjMxYjQwYzQ5OTAwMTViZjZkMzAiLCJpYXQiOjE3NTMxNTAyMzV9.J7jOUStoQuxMsS9WYuVGISTOqM0Nh0XUHofnmxdlfyA"
+}
+2025-07-22T02:46:56.746Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION write ECONNABORTED
+2025-07-22T02:47:03.273Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:47:19.633Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T02:50:24.369Z - INFO - Test Suite is Starting
+2025-07-22T02:50:25.476Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:50:32.399Z - INFO - User data: {
+  "user": {
+    "_id": "687efc767bc5660015e3b9fd",
+    "firstName": "Janelle",
+    "lastName": "Gleason",
+    "email": "janelle_gleason@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmM3NjdiYzU2NjAwMTVlM2I5ZmQiLCJpYXQiOjE3NTMxNTI2MzB9.pwZLiZLwOOatg3gztvBs8xSUusmIMHLYO5bWdwBcOE4"
+}
+2025-07-22T02:56:13.134Z - INFO - Test Suite is Starting
+2025-07-22T02:56:13.829Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:56:20.376Z - INFO - User data: {
+  "user": {
+    "_id": "687efdd240c4990015bf6d38",
+    "firstName": "Abby",
+    "lastName": "Harris",
+    "email": "abby.harris88@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmRkMjQwYzQ5OTAwMTViZjZkMzgiLCJpYXQiOjE3NTMxNTI5Nzh9.fm_XFCEq04DOXyw-tuIgNAOLRd1w7sFAEI7g6zzw4Mg"
+}
+2025-07-22T02:56:20.833Z - INFO - User data: {
+  "user": {
+    "_id": "687efdd240c4990015bf6d38",
+    "firstName": "Abby",
+    "lastName": "Harris",
+    "email": "abby.harris88@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmRkMjQwYzQ5OTAwMTViZjZkMzgiLCJpYXQiOjE3NTMxNTI5Nzl9.avV3xi3d3C6Y8c9tk0xwB5Y1S25rAxO7Jxmh0f0Yugg"
+}
+2025-07-22T02:56:20.994Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:56:21.037Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T02:56:52.600Z - INFO - Test Suite is Starting
+2025-07-22T02:56:53.193Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:57:00.613Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T02:57:00.613Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T02:57:00.769Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:57:00.816Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:57:23.446Z - INFO - Test Suite is Starting
+2025-07-22T02:57:23.994Z - INFO - The test is running: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T02:57:30.888Z - INFO - User data: {
+  "user": {
+    "_id": "687efe1940c4990015bf6d3a",
+    "firstName": "Sibyl",
+    "lastName": "Jacobs",
+    "email": "sibyl.jacobs@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmUxOTQwYzQ5OTAwMTViZjZkM2EiLCJpYXQiOjE3NTMxNTMwNDl9.nY3aluKYhbewcJpok672QxXvs7O5GsHuGXOsZsVCfw4"
+}
+2025-07-22T02:57:31.353Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T02:57:31.353Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T02:57:31.502Z - INFO - The test completed successfully: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T02:57:31.549Z - INFO - The Suite is completed: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T02:58:06.742Z - INFO - Test Suite is Starting
+2025-07-22T02:58:06.738Z - INFO - Test Suite is Starting
+2025-07-22T02:58:06.784Z - INFO - Test Suite is Starting
+2025-07-22T02:58:07.826Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T02:58:08.023Z - INFO - The test is running: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T02:58:08.186Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:58:13.928Z - INFO - User data: {
+  "user": {
+    "_id": "687efe447bc5660015e3ba01",
+    "firstName": "Clifton",
+    "lastName": "Mosciski",
+    "email": "clifton_mosciski@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmU0NDdiYzU2NjAwMTVlM2JhMDEiLCJpYXQiOjE3NTMxNTMwOTJ9.9qOM-4DOlAsKG9e8BxD5S0BlmWsNB8LRk3WQMLOvZbk"
+}
+2025-07-22T02:58:14.271Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T02:58:14.271Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T02:58:14.347Z - INFO - User data: {
+  "user": {
+    "_id": "687efe447bc5660015e3ba01",
+    "firstName": "Clifton",
+    "lastName": "Mosciski",
+    "email": "clifton_mosciski@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmU0NDdiYzU2NjAwMTVlM2JhMDEiLCJpYXQiOjE3NTMxNTMwOTJ9.9qOM-4DOlAsKG9e8BxD5S0BlmWsNB8LRk3WQMLOvZbk"
+}
+2025-07-22T02:58:14.584Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:58:14.656Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T02:58:14.706Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T02:58:14.730Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T02:58:14.896Z - INFO - User data: {
+  "user": {
+    "_id": "687efe457bc5660015e3ba03",
+    "firstName": "Isaac",
+    "lastName": "Bartoletti",
+    "email": "isaac.bartoletti@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmU0NTdiYzU2NjAwMTVlM2JhMDMiLCJpYXQiOjE3NTMxNTMwOTN9.m6kBx5qgi9-mbMiQDLnw8VFhgiq8emxLJVAgwshGwBE"
+}
+2025-07-22T02:58:15.351Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T02:58:15.351Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T02:58:15.565Z - INFO - The test completed successfully: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T02:58:15.617Z - INFO - The Suite is completed: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:01:32.343Z - INFO - Test Suite is Starting
+2025-07-22T03:01:32.364Z - INFO - Test Suite is Starting
+2025-07-22T03:01:32.377Z - INFO - Test Suite is Starting
+2025-07-22T03:01:34.840Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T03:01:34.839Z - INFO - The test is running: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:01:34.869Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:01:43.660Z - INFO - User data: {
+  "user": {
+    "_id": "687eff167bc5660015e3ba08",
+    "firstName": "Adriana",
+    "lastName": "Kuphal",
+    "email": "adriana_kuphal44@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmYxNjdiYzU2NjAwMTVlM2JhMDgiLCJpYXQiOjE3NTMxNTMzMDJ9.UD8d5KVPR3CyJ-TTk-zcj9Qkzg6f1fIXr5HlpMdmgZU"
+}
+2025-07-22T03:01:43.683Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T03:01:43.703Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:01:43.683Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T03:01:43.747Z - INFO - User data: {
+  "user": {
+    "_id": "687eff1640c4990015bf6d3d",
+    "firstName": "Kory",
+    "lastName": "Roberts",
+    "email": "kory.roberts@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmYxNjQwYzQ5OTAwMTViZjZkM2QiLCJpYXQiOjE3NTMxNTMzMDJ9.zHAQ7E9r0TpxHqkV0o1GDn1pEPWKzVfK_G1mhV0Ojug"
+}
+2025-07-22T03:01:43.788Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:01:44.115Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T03:01:44.125Z - INFO - The test completed successfully: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:01:44.115Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T03:01:44.171Z - INFO - The Suite is completed: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:01:44.181Z - INFO - User data: {
+  "user": {
+    "_id": "687eff1640c4990015bf6d3d",
+    "firstName": "Kory",
+    "lastName": "Roberts",
+    "email": "kory.roberts@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdlZmYxNjQwYzQ5OTAwMTViZjZkM2QiLCJpYXQiOjE3NTMxNTMzMDJ9.zHAQ7E9r0TpxHqkV0o1GDn1pEPWKzVfK_G1mhV0Ojug"
+}
+2025-07-22T03:01:44.189Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T03:01:44.244Z - INFO - The Suite is completed: TC24 - Successful User Login via API
+2025-07-22T03:19:20.228Z - INFO - Test Suite is Starting
+2025-07-22T03:19:20.236Z - INFO - Test Suite is Starting
+2025-07-22T03:19:20.242Z - INFO - Test Suite is Starting
+2025-07-22T03:19:22.496Z - INFO - The test is running: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:19:22.501Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:19:22.516Z - INFO - The test is running: TC24 - Successful User Login via API
+2025-07-22T03:19:30.664Z - INFO - User data: {
+  "user": {
+    "_id": "687f034140c4990015bf6d71",
+    "firstName": "Arlo",
+    "lastName": "O'Hara",
+    "email": "arlo.ohara@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdmMDM0MTQwYzQ5OTAwMTViZjZkNzEiLCJpYXQiOjE3NTMxNTQzNjl9.2V7ADGinapiUhtkcKLv21M0kp1wiQH4gfm26NqGJOaQ"
+}
+2025-07-22T03:19:31.007Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T03:19:31.007Z - INFO - User data: {
+  "user": {
+    "_id": "687f034140c4990015bf6d73",
+    "firstName": "Tiffany",
+    "lastName": "Koch",
+    "email": "tiffany.koch@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdmMDM0MTQwYzQ5OTAwMTViZjZkNzMiLCJpYXQiOjE3NTMxNTQzNjl9.MuM5RSprzn6jTV3KNDQmQqehvDqZ_2rkYBD9PE2YBfU"
+}
+2025-07-22T03:19:31.030Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:19:31.007Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T03:19:31.116Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-22T03:19:31.221Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-22T03:19:31.232Z - INFO - The test completed successfully: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:19:31.221Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-22T03:19:31.288Z - INFO - The Suite is completed: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-22T03:19:31.449Z - INFO - User data: {
+  "user": {
+    "_id": "687f034140c4990015bf6d73",
+    "firstName": "Tiffany",
+    "lastName": "Koch",
+    "email": "tiffany.koch@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdmMDM0MTQwYzQ5OTAwMTViZjZkNzMiLCJpYXQiOjE3NTMxNTQzNjl9.MuM5RSprzn6jTV3KNDQmQqehvDqZ_2rkYBD9PE2YBfU"
+}
+2025-07-22T03:19:31.460Z - INFO - The test completed successfully: TC24 - Successful User Login via API
+2025-07-22T03:19:31.534Z - INFO - The Suite is completed: TC24 - Successful User Login via API
