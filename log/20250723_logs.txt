@@ -1,0 +1,298 @@
+2025-07-23T03:21:23.619Z - INFO - Test Suite is Starting
+2025-07-23T03:21:24.640Z - INFO - The test is running: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:21:33.017Z - INFO - User data: {
+  "user": {
+    "_id": "6880553cb9cbc800152c0be4",
+    "firstName": "Karolann",
+    "lastName": "Pollich",
+    "email": "karolann.pollich@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTUzY2I5Y2JjODAwMTUyYzBiZTQiLCJpYXQiOjE3NTMyNDA4OTJ9.g2QUku4KGn4n6nppfE2obadyA6fd1sIglk6JnloOnhc"
+}
+2025-07-23T03:21:33.479Z - INFO - User data: {
+  "_id": "6880553cb9cbc800152c0be6",
+  "firstName": "Brendon",
+  "lastName": "Franecki",
+  "birthdate": "1957-03-24",
+  "email": "brendon.franecki@example.com",
+  "phone": "2460848677",
+  "street1": "5071 Kiehn Path",
+  "street2": "Apt. 590",
+  "city": "Stantonboro",
+  "stateProvince": "Alaska",
+  "postalCode": "74535-9025",
+  "country": "Democratic Republic of the Congo",
+  "owner": "6880553cb9cbc800152c0be4",
+  "__v": 0
+}
+2025-07-23T03:21:33.489Z - INFO - The test completed successfully: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:21:33.552Z - INFO - The Suite is completed: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:21:58.298Z - INFO - Test Suite is Starting
+2025-07-23T03:21:58.819Z - INFO - The test is running: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:22:07.093Z - INFO - User data: {
+  "user": {
+    "_id": "6880555eb9cbc800152c0beb",
+    "firstName": "Heath",
+    "lastName": "Hand",
+    "email": "heath_hand@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTU1ZWI5Y2JjODAwMTUyYzBiZWIiLCJpYXQiOjE3NTMyNDA5MjZ9.yOaqAGReQDQt71YwQILvtbWhBUtd-fvcdi3ime7GU3I"
+}
+2025-07-23T03:22:07.591Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:22:07.600Z - INFO - The test completed successfully: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:22:07.592Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:22:07.667Z - INFO - The Suite is completed: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:22:21.871Z - INFO - Test Suite is Starting
+2025-07-23T03:22:22.416Z - INFO - The test is running: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:22:29.610Z - INFO - User data: {
+  "user": {
+    "_id": "6880557443fdf90015ed6d1a",
+    "firstName": "Aliyah",
+    "lastName": "Hartmann",
+    "email": "aliyah.hartmann95@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTU3NDQzZmRmOTAwMTVlZDZkMWEiLCJpYXQiOjE3NTMyNDA5NDh9.3L5x34rGW-Emm_04VgASp0rsyzmKjJYAKLDIUeIBT3k"
+}
+2025-07-23T03:22:30.105Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:22:30.112Z - INFO - The test completed successfully: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:22:30.105Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:22:30.195Z - INFO - The Suite is completed: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:22:40.802Z - INFO - Test Suite is Starting
+2025-07-23T03:22:41.317Z - INFO - The test is running: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:22:48.438Z - INFO - User data: {
+  "user": {
+    "_id": "68805587b9cbc800152c0bf3",
+    "firstName": "Jovan",
+    "lastName": "Leffler",
+    "email": "jovan_leffler@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTU4N2I5Y2JjODAwMTUyYzBiZjMiLCJpYXQiOjE3NTMyNDA5Njd9.s865pHyq8gH1nMsQXGdH66r29IIyAQPSORtMyfWSMBE"
+}
+2025-07-23T03:22:48.945Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:22:48.952Z - INFO - The test completed successfully: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:22:48.945Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:22:49.017Z - INFO - The Suite is completed: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:22:57.655Z - INFO - Test Suite is Starting
+2025-07-23T03:22:58.264Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:23:05.265Z - INFO - User data: {
+  "user": {
+    "_id": "6880559843fdf90015ed6d22",
+    "firstName": "Keira",
+    "lastName": "Luettgen",
+    "email": "keira.luettgen97@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTU5ODQzZmRmOTAwMTVlZDZkMjIiLCJpYXQiOjE3NTMyNDA5ODR9.BstzQbdRpVqyot6kErrUK0gpOIPi3W8nEgm7JcIn5Yw"
+}
+2025-07-23T03:23:05.760Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-23T03:23:05.760Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 401\",\n  \"status\": \"401\"\n}"
+2025-07-23T03:23:05.944Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:23:06.025Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:08.561Z - INFO - Test Suite is Starting
+2025-07-23T03:26:09.460Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:16.315Z - INFO - User data: {
+  "user": {
+    "_id": "6880565743fdf90015ed6d35",
+    "firstName": "Carlee",
+    "lastName": "Welch",
+    "email": "carlee_welch@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY1NzQzZmRmOTAwMTVlZDZkMzUiLCJpYXQiOjE3NTMyNDExNzV9.iTijeSbpmtHa8gyp1LJ8ebXc0x8uiP4LCDP8z8u_Evo"
+}
+2025-07-23T03:26:16.759Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-23T03:26:16.766Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:16.760Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 401\",\n  \"status\": \"401\"\n}"
+2025-07-23T03:26:16.860Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:40.052Z - INFO - Test Suite is Starting
+2025-07-23T03:26:40.056Z - INFO - Test Suite is Starting
+2025-07-23T03:26:40.112Z - INFO - Test Suite is Starting
+2025-07-23T03:26:40.116Z - INFO - Test Suite is Starting
+2025-07-23T03:26:40.179Z - INFO - Test Suite is Starting
+2025-07-23T03:26:42.232Z - INFO - The test is running: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:26:43.397Z - INFO - The test is running: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:26:43.406Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:43.408Z - INFO - The test is running: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:26:43.714Z - INFO - The test is running: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:26:49.137Z - INFO - User data: {
+  "user": {
+    "_id": "6880567843fdf90015ed6d40",
+    "firstName": "Gloria",
+    "lastName": "Blanda",
+    "email": "gloria_blanda55@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY3ODQzZmRmOTAwMTVlZDZkNDAiLCJpYXQiOjE3NTMyNDEyMDh9.JZ_96E8Y0cV1JFwQ2qI2ZotvQk3PgXFxkrEcm6EIzkY"
+}
+2025-07-23T03:26:49.646Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:26:49.665Z - INFO - The test completed successfully: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:26:49.646Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:26:49.771Z - INFO - The Suite is completed: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:26:50.029Z - INFO - User data: {
+  "user": {
+    "_id": "68805679b9cbc800152c0c0b",
+    "firstName": "Lyric",
+    "lastName": "Flatley",
+    "email": "lyric.flatley@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY3OWI5Y2JjODAwMTUyYzBjMGIiLCJpYXQiOjE3NTMyNDEyMDl9.BypApBVXhSHJkHoiDWmoU9WiQQK2fzd5qzUA3Nw6geY"
+}
+2025-07-23T03:26:50.055Z - INFO - User data: {
+  "user": {
+    "_id": "6880567943fdf90015ed6d43",
+    "firstName": "Reyes",
+    "lastName": "Barton",
+    "email": "reyes.barton25@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY3OTQzZmRmOTAwMTVlZDZkNDMiLCJpYXQiOjE3NTMyNDEyMDl9.hWBYwo3GhjCstaqfB8QkQkfYdbsHXu04_MZikE6MiT0"
+}
+2025-07-23T03:26:50.395Z - INFO - User data: {
+  "user": {
+    "_id": "68805679b9cbc800152c0c0d",
+    "firstName": "Devin",
+    "lastName": "Konopelski",
+    "email": "devin.konopelski@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY3OWI5Y2JjODAwMTUyYzBjMGQiLCJpYXQiOjE3NTMyNDEyMDl9.O1Fwex-cefUkQuSFNcA8-G0mHJIDzVo_j4_onMx5vcQ"
+}
+2025-07-23T03:26:50.397Z - INFO - User data: {
+  "user": {
+    "_id": "68805679b9cbc800152c0c0e",
+    "firstName": "Lexi",
+    "lastName": "Thiel",
+    "email": "lexi_thiel@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNTY3OWI5Y2JjODAwMTUyYzBjMGUiLCJpYXQiOjE3NTMyNDEyMDl9.rlGG3LTxBctSgc7ovHhYYZ0YnlVq2RbIhTSMWxTBEKk"
+}
+2025-07-23T03:26:50.498Z - INFO - User data: {
+  "_id": "6880567943fdf90015ed6d45",
+  "firstName": "Missouri",
+  "lastName": "Bins",
+  "birthdate": "1951-08-29",
+  "email": "missouri.bins@example.com",
+  "phone": "0703183101",
+  "street1": "115 Kovacek Locks",
+  "street2": "Suite 781",
+  "city": "North Opal",
+  "stateProvince": "New Hampshire",
+  "postalCode": "22310-5662",
+  "country": "San Marino",
+  "owner": "6880567943fdf90015ed6d43",
+  "__v": 0
+}
+2025-07-23T03:26:50.503Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-23T03:26:50.511Z - INFO - The test completed successfully: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:26:50.519Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:50.503Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 401\",\n  \"status\": \"401\"\n}"
+2025-07-23T03:26:50.602Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:26:50.605Z - INFO - The Suite is completed: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:26:50.882Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:26:50.887Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:26:50.902Z - INFO - The test completed successfully: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:26:50.888Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:26:50.909Z - INFO - The test completed successfully: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:26:50.882Z - INFO - Error RESPONSE from API: "{\n  \"errorData\": \"Request failed with status code 400\",\n  \"status\": \"400\"\n}"
+2025-07-23T03:26:50.989Z - INFO - The Suite is completed: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:26:51.089Z - INFO - The Suite is completed: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:35:51.826Z - INFO - Test Suite is Starting
+2025-07-23T03:35:51.832Z - INFO - Test Suite is Starting
+2025-07-23T03:35:51.841Z - INFO - Test Suite is Starting
+2025-07-23T03:35:51.882Z - INFO - Test Suite is Starting
+2025-07-23T03:35:51.931Z - INFO - Test Suite is Starting
+2025-07-23T03:35:54.613Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:35:54.612Z - INFO - The test is running: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:35:54.951Z - INFO - The test is running: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:35:55.022Z - INFO - The test is running: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:35:55.039Z - INFO - The test is running: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:36:01.686Z - INFO - User data: {
+  "user": {
+    "_id": "688058a143fdf90015ed6d71",
+    "firstName": "Maye",
+    "lastName": "Metz",
+    "email": "maye_metz25@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNThhMTQzZmRmOTAwMTVlZDZkNzEiLCJpYXQiOjE3NTMyNDE3NjF9.ZzhAQ4Q7T67xLrb8BEfBNVzKZEXsRqlfynILrONGSFE"
+}
+2025-07-23T03:36:01.726Z - INFO - User data: {
+  "user": {
+    "_id": "688058a143fdf90015ed6d72",
+    "firstName": "Agnes",
+    "lastName": "Schroeder",
+    "email": "agnes_schroeder@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNThhMTQzZmRmOTAwMTVlZDZkNzIiLCJpYXQiOjE3NTMyNDE3NjF9.FKvUkeSslkrHEgXytBYVpqjKevh9EmcXYLovYer0ntU"
+}
+2025-07-23T03:36:01.818Z - INFO - User data: {
+  "user": {
+    "_id": "688058a1b9cbc800152c0c24",
+    "firstName": "Reese",
+    "lastName": "Hills",
+    "email": "reese_hills@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNThhMWI5Y2JjODAwMTUyYzBjMjQiLCJpYXQiOjE3NTMyNDE3NjF9.lB6TKo0zpeymRiNjpvfXHVMSbXlOaeipHTnudAaxf_M"
+}
+2025-07-23T03:36:02.237Z - INFO - User data: {
+  "_id": "688058a143fdf90015ed6d76",
+  "firstName": "Dariana",
+  "lastName": "Parisian",
+  "birthdate": "1954-04-30",
+  "email": "dariana.parisian65@example.com",
+  "phone": "1073558327",
+  "street1": "8556 Clark Street",
+  "street2": "Suite 544",
+  "city": "Demarcoborough",
+  "stateProvince": "South Carolina",
+  "postalCode": "80413-2546",
+  "country": "American Samoa",
+  "owner": "688058a143fdf90015ed6d72",
+  "__v": 0
+}
+2025-07-23T03:36:02.243Z - INFO - User data: {
+  "user": {
+    "_id": "688058a1b9cbc800152c0c26",
+    "firstName": "Orin",
+    "lastName": "Kshlerin",
+    "email": "orin_kshlerin64@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNThhMWI5Y2JjODAwMTUyYzBjMjYiLCJpYXQiOjE3NTMyNDE3NjF9.uGqyUe9WSUMFs367c9_E5w6upZ-SeQSXZHJ2Ja_3URg"
+}
+2025-07-23T03:36:02.250Z - INFO - The test completed successfully: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:36:02.279Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:36:02.300Z - INFO - The test completed successfully: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:36:02.279Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Contact validation failed: email: Email is invalid\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:36:02.333Z - INFO - The Suite is completed: TC27 - Verify successful creation of a contact via API
+2025-07-23T03:36:02.391Z - INFO - The Suite is completed: TC30 - Verify failed contact creation with invalid email format via API
+2025-07-23T03:36:02.503Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:36:02.631Z - INFO - The test completed successfully: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:36:02.508Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Contact validation failed: firstName: Path `firstName` is required.\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:36:02.726Z - INFO - The Suite is completed: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-23T03:36:02.733Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:36:02.743Z - INFO - The test completed successfully: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:36:02.733Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Contact validation failed: firstName: Path `firstName` (`ThisStringExceed20Chars`) is longer than the maximum allowed length (20).\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:36:02.858Z - INFO - The Suite is completed: TC29 - Verify failed contact creation with firstname field exceeds 20 characters limit via API
+2025-07-23T03:36:03.116Z - INFO - User data: {
+  "user": {
+    "_id": "688058a2b9cbc800152c0c28",
+    "firstName": "Jerod",
+    "lastName": "Botsford",
+    "email": "jerod_botsford@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNThhMmI5Y2JjODAwMTUyYzBjMjgiLCJpYXQiOjE3NTMyNDE3NjJ9.hFnX-ZF5XIydz0NAkNXdFweYPf9CoerR-4re82c1PAY"
+}
+2025-07-23T03:36:03.538Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-23T03:36:03.548Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:36:03.538Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-23T03:36:03.608Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API

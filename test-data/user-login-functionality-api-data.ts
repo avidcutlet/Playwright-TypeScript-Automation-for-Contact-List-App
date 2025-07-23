@@ -3,7 +3,6 @@ export interface UserLoginAPITestCase {
   subSuite: string;
   displayName: string;
   testDataKey?: string;
-  expectedHeader?: string;
   expectedErrorKey?: string;
   expectError: boolean;
   createUser: boolean;
@@ -15,7 +14,6 @@ export const userLoginAPITestCases: UserLoginAPITestCase[] = [
     subSuite: 'Successful User Login',
     displayName: 'Login User - Success',
     testDataKey: 'faker',
-    expectedHeader: 'ContactListPageHeader',
     expectError: false,
     createUser: true,
   },

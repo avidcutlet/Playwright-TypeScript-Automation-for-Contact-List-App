@@ -14,12 +14,21 @@ const fakerData = generateContactData();
 const CONTACT_LIST = axios.create({ baseURL: process.env.BASE_URL || dataSetAPI.getTestData('URL', 'URL') });
 
 // Contact Creation function
-export async function creationOfContact(): Promise<{ fullName: string; responseData: string; responseStatus: string}> {
+export async function creationOfContact(): Promise<{ createdContact: string; responseData: string; responseStatus: string}> {
     try {
         const dataSetAPIToken = new DatasetUtil('tokenforcreatecontact');
         const authToken: string = dataSetAPIToken.getTestData('token');
         const firstName: string = fakerData.firstName;
         const lastName: string = fakerData.lastName;
+        const birthdate: string = fakerData.birthdate;
+        const email: string = fakerData.email;
+        const phone: string = fakerData.phone;
+        const street1: string = fakerData.street1;
+        const street2: string = fakerData.street2;
+        const city: string = fakerData.city;
+        const stateProvince: string = fakerData.stateProvince;
+        const postalCode: string = fakerData.postalCode;
+        const country: string = fakerData.country;
         
         // Check on runtime if value of keys within are all string.
         interface CreateContactResponse {
@@ -41,15 +50,15 @@ export async function creationOfContact(): Promise<{ fullName: string; responseD
         const newContactData = {
             firstName,
             lastName,
-            birthdate: fakerData.birthdate,
-            email: fakerData.email,
-            phone: fakerData.phone,
-            street1: fakerData.street1,
-            street2: fakerData.street2,
-            city: fakerData.city,
-            stateProvince: fakerData.stateProvince,
-            postalCode: fakerData.postalCode,
-            country: fakerData.country,
+            birthdate,
+            email,
+            phone,
+            street1,
+            street2,
+            city,
+            stateProvince,
+            postalCode,
+            country,
         };
 
         const response = await CONTACT_LIST.post<CreateContactResponse>('/contacts', newContactData, {
@@ -64,11 +73,24 @@ export async function creationOfContact(): Promise<{ fullName: string; responseD
 
         const responseData: string = JSON.stringify(response.data, null, 2);
         const responseStatus: string = JSON.stringify(response.status, null, 2);
-        const fullName: string = `${firstName} ${lastName}`;
+        const createdContact: string = JSON.stringify({
+          firstName,
+          lastName,
+          birthdate,
+          email,
+          phone,
+          street1,
+          street2,
+          city,
+          stateProvince,
+          postalCode,
+          country,
+        }, null, 2);
+
         logginUtil.logMessage("info", `User data: ${JSON.stringify(response.data, null, 2)}`);
 
         // Returns object with key-value pair, if keys aren't explicitly defined the variable name of value will be the same key
-        return { fullName, responseData, responseStatus };
+        return { createdContact, responseData, responseStatus };
 
     } catch (error: any) {
         logginUtil.logMessage("error", EXCEPTION_API_MESSAGE(error));
@@ -77,78 +99,85 @@ export async function creationOfContact(): Promise<{ fullName: string; responseD
 }
 
 // Invalid Contact Creation function
-export async function invalidCreationOfContact(): Promise<{ responseData: string; responseStatus: string;} | undefined> {
-    try {
-        const dataSetAPIToken = new DatasetUtil('tokenforcreateinvalidcontact');
-        const firstName: string = dataSetAPI.getTestData('AddInvalidContactData', 'firstName');
-        const lastName: string = dataSetAPI.getTestData('AddInvalidContactData', 'lastName');
-        const authToken: string = dataSetAPIToken.getTestData('token');
-        const birthdate: string = dataSetAPI.getTestData('AddInvalidContactData', 'birthdate');
-        const email: string = dataSetAPI.getTestData('AddInvalidContactData', 'email');
-        const phone: string = dataSetAPI.getTestData('AddInvalidContactData', 'phone');
-        const street1: string = dataSetAPI.getTestData('AddInvalidContactData', 'street1');
-        const street2: string = dataSetAPI.getTestData('AddInvalidContactData', 'street2');
-        const city: string = dataSetAPI.getTestData('AddInvalidContactData', 'city');
-        const stateProvince: string = dataSetAPI.getTestData('AddInvalidContactData', 'stateProvince');
-        const postalCode: string = dataSetAPI.getTestData('AddInvalidContactData', 'postalCode');
-        const country: string = dataSetAPI.getTestData('AddInvalidContactData', 'country');
-        
-        // Check on runtime if value of keys within are all string.
-        interface CreateInvalidContactResponse {
-            _id: string;
-            firstName: string;
-            lastName: string;
-            birthdate: string;
-            email: string;
-            phone: string;
-            street1: string;
-            street2: string;
-            city: string;
-            stateProvince: string;
-            postalCode: string;
-            country: string;
-        }
-        
-        const invalidContactData = {
-            firstName,
-            lastName,
-            birthdate,
-            email,
-            phone,
-            street1,
-            street2,
-            city,
-            stateProvince,
-            postalCode,
-            country,
-        };
-        
-        await CONTACT_LIST.post<CreateInvalidContactResponse>('/contacts', invalidContactData, {
-            headers: {
-                'Authorization': `Bearer ${authToken}`,
-                'Content-Type': 'application/json', // Often good practice to explicitly set this
-            },
-        });
-        
-    } catch (error: any) {
-        if (error.response) {
-            const responseStatus: string = JSON.stringify(error.status, null, 2);
-            const responseData: string = JSON.stringify({ errorData: error.message, status: responseStatus }, null, 2);
- 
-            const createdContactFilePath: string = path.join(process.cwd(), 'api-tokens', 'api-invalid-contact-created.json');
-            
-            fs.writeFileSync(
-                createdContactFilePath,
-                JSON.stringify({
-                    errorData: responseData,
-                    status: responseStatus,
-                }, null, 2)
-            );
-            
-            logginUtil.logMessage("info", `Invalid Creation of User - RESPONSE status: ${responseStatus}`);
-            logginUtil.logMessage("info", `Error RESPONSE from API: ${JSON.stringify(responseData, null, 2)}`);
+export async function invalidCreationOfContact(
+  firstName: string,
+  lastName: string,
+  birthdate: string,
+  email: string,
+  phone: string,
+  street1: string,
+  street2: string,
+  city: string,
+  stateProvince: string,
+  postalCode: string,
+  country: string,
+  authToken: string
+): Promise<{ errorResponseData: string; errorResponseStatus: string;} | undefined> {
+  try {
 
-            return { responseData, responseStatus };
-        }
+    
+    // Check on runtime if value of keys within are all string.
+    interface CreateInvalidContactResponse {
+      _id: string;
+      firstName: string;
+      lastName: string;
+      birthdate: string;
+      email: string;
+      phone: string;
+      street1: string;
+      street2: string;
+      city: string;
+      stateProvince: string;
+      postalCode: string;
+      country: string;
     }
+    
+    const invalidContactData = {
+      firstName,
+      lastName,
+      birthdate,
+      email,
+      phone,
+      street1,
+      street2,
+      city,
+      stateProvince,
+      postalCode,
+      country,
+    };
+    
+    await CONTACT_LIST.post<CreateInvalidContactResponse>('/contacts', invalidContactData, {
+      headers: {
+        'Authorization': `Bearer ${authToken}`,
+        'Content-Type': 'application/json', // Often good practice to explicitly set this
+      },
+    });
+      
+  } catch (error: any) {
+    if (error.response) {
+      const errorResponseMessage: string = error.response.data.message;
+      const errorResponseStatus: string = JSON.stringify(error.status, null, 2);
+      const errorResponseData: string = JSON.stringify({ 
+        httpErrorMessage: error.message,
+        errorMessage: errorResponseMessage,
+        responseStatus: errorResponseStatus
+      }, null, 2);
+
+      const createdContactFilePath: string = path.join(process.cwd(), 'api-tokens', 'api-invalid-contact-created.json');
+      
+      fs.writeFileSync(
+        createdContactFilePath,
+        JSON.stringify({
+          httpErrorMessage: error.message,
+          errorData: errorResponseData,
+          status: errorResponseStatus,
+        }, null, 2)
+      );
+      
+      logginUtil.logMessage("info", `Invalid Creation of User - RESPONSE status: ${errorResponseStatus}`);
+      logginUtil.logMessage("info", `Error RESPONSE from API: ${JSON.stringify(errorResponseData, null, 2)}`);
+
+      return { errorResponseData, errorResponseStatus };
+    }
+  }
 }

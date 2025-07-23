@@ -3,6 +3,58 @@
     "email": "",
     "password": ""
   },
+  "AddContactEmptyFirstName": {
+    "firstName": "",
+    "lastName": "EmptyFirstName",
+    "email": "emptyFirstName@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "AddContactExceedFirstNameLimit": {
+    "firstName": "ThisStringExceed20Chars",
+    "lastName": "ExceedString",
+    "email": "exceedString@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "AddContactInvalidEmail": {
+      "firstName": "Invalid",
+      "lastName": "Email",
+      "email": "invalid@email",
+      "birthdate": "1986-01-01",
+      "phone": "5184685410",
+      "street1": "197 Ernie Corn",
+      "street2": "Suite 001",
+      "city": "Lake Darkpink",
+      "stateProvince": "Virginia",
+      "postalCode": "5552",
+      "country": "Faroe Islands"
+  },
+  "AddContactWithoutAuthToken": {
+      "firstName": "Invalid",
+      "lastName": "Email",
+      "email": "invalid@email",
+      "birthdate": "1986-01-01",
+      "phone": "5184685410",
+      "street1": "197 Ernie Corn",
+      "street2": "Suite 001",
+      "city": "Lake Darkpink",
+      "stateProvince": "Virginia",
+      "postalCode": "5552",
+      "country": "Faroe Islands"
+  },
   "AddInvalidContactData": { 
     "firstName": "Andrew",
     "lastName": "C",
@@ -18,17 +70,18 @@
   },
   "EditContactInvalidData": [
     { 
-    "firstName": "Test Edit",
-    "lastName": ""
+      "firstName": "Test Edit",
+      "lastName": ""
     }
   ],
-
+  
   "URL": {
     "URL": "https://thinking-tester-contact-list.herokuapp.com"
   },
-
+  
   "Auth": {
-    "Token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2MwMGQzOGQ3NWQ3NTAwMTM2MWExY2UiLCJpYXQiOjE3NTExNTIyOTh9.RaR4TZ_DbAXWCGiKOHGVTHnBHcZX0trNlwMiewG0Dz4"
+    "Token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2MwMGQzOGQ3NWQ3NTAwMTM2MWExY2UiLCJpYXQiOjE3NTExNTIyOTh9.RaR4TZ_DbAXWCGiKOHGVTHnBHcZX0trNlwMiewG0Dz4",
+    "InvalidToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2MwMGQzOGQ3NWQ3NTAwMTM2MWExY2UiLCJpYXQiOjE3NTExNTIyOTh9.RaR4TZ_DbAXWCGiKOHGVTHnBHcZX0trNlwMiewG0Dz5"
   },
 
   "Response": {
@@ -44,7 +97,6 @@
     "CreateInvalidContact": "create invalid contact"
   },
   "ErrorMessage": {
-
     "existingEmail": "Email address is already in use",
     "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
     "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
@@ -54,6 +106,10 @@
     "contactRegInvalidEmail": "Contact validation failed: email: Email is invalid",
     "editContactEmptyFirstName": "Validation failed: firstName: Path `firstName` is required.",
     "editContactExceedFirstNameLimit": "Validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
-    "editContactInvalidEmail": "Validation failed: email: Email is invalid"
+    "editContactInvalidEmail": "Validation failed: email: Email is invalid",
+    "addContactEmptyFirstName": "Contact validation failed: firstName: Path `firstName` is required.",
+    "addContactExceedFirstNameLimit": "Contact validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "addContacdtInvalidEmail": "Contact validation failed: email: Email is invalid",
+    "addNewContactWithoutAuthToken": "Please authenticate."
   }
 }

@@ -3,7 +3,6 @@ export interface UserRegAPITestCase {
   subSuite: string;
   displayName: string;
   testDataKey: string;
-  expectedHeader?: string;
   expectedErrorKey?: string;
   expectError: boolean;
   isDynamicError?: boolean;
@@ -15,7 +14,6 @@ export const userRegAPITestCases: UserRegAPITestCase[] = [
     subSuite: 'Successful User Registration',
     displayName: 'Add New User - Success',
     testDataKey: 'faker',
-    expectedHeader: 'ContactListPageHeader',
     expectError: false,
   },
   {
