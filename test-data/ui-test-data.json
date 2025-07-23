@@ -1,155 +1,154 @@
 {
-    "UserRegExistingEmail": {
-        "firstName": "Existing",
-        "lastName": "Email",
-        "email": "testui01@gmail.com",
-        "password": "Pass123!"
-    },
-    "UserRegEmptyFirstName": {
-        "firstName": "",
-        "lastName": "EmptyFirstName",
-        "email": "emptyFirstName@gmail.com",
-        "password": "Pass123!"
-    },
-    "UserRegExceedFirstNameLimit": {
-        "firstName": "ThisStringExceed20Chars",
-        "lastName": "ExceedString",
-        "email": "exceedString@gmail.com",
-        "password": "Pass123!"
-    },
-    "UserRegInvalidEmail": {
-        "firstName": "Invalid",
-        "lastName": "Email",
-        "email": "invalid@gmail",
-        "password": "Pass123!"
-    },
-    "ContactRegEmptyFirstName": {
-        "firstName": "",
-        "lastName": "EmptyFirstName",
-        "email": "emptyFirstName@example.com",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "ContactRegExceedFirstNameLimit": {
-        "firstName": "ThisStringExceed20Chars",
-        "lastName": "ExceedString",
-        "email": "exceedString@example.com",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "ContactRegInvalidEmail": {
-        "firstName": "Invalid",
-        "lastName": "Email",
-        "email": "invalid@email",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "EditContactDetails": {
-        "firstName": "Edited FirstName",
-        "lastName": "Edited LastName",
-        "email": "editedEmail@example.com",
-        "birthdate": "1900-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "EditContactEmptyFirstName": {
-        "firstName": "",
-        "lastName": "EmptyFirstName",
-        "email": "emptyFirstName@example.com",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "EditContactExceedFirstNameLimit": {
-        "firstName": "ThisStringExceed20Chars",
-        "lastName": "ExceedString",
-        "email": "exceedString@example.com",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "EditContactInvalidEmail": {
-        "firstName": "Invalid",
-        "lastName": "Email",
-        "email": "invalid@email",
-        "birthdate": "1986-01-01",
-        "phone": "5184685410",
-        "street1": "197 Ernie Corn",
-        "street2": "Suite 001",
-        "city": "Lake Darkpink",
-        "stateProvince": "Virginia",
-        "postalCode": "5552",
-        "country": "Faroe Islands"
-    },
-    "UserLogin": {
-        "email": "vonwebster@gmail.com",
-        "pass": "pass123"
-    },
-    "Header": {
-        "LoginPageHeader": "Contact List App",
-        "SignUpPageHeader": "Add User",
-        "ContactListPageHeader": "Contact List",
-        "AddContactPageHeader": "Add Contact",
-        "EditContactPageHeader": "Edit Contact",
-        "ContactDetailsPageHeader": "Contact Details"
-    },
-    "Fields": {
-      "firstName": "firstName",
-      "lastName": "lastName",
-      "email": "email",
-      "birthdate": "birthdate",
-      "phone": "phone",
-      "street1": "street1",
-      "street2": "street2",
-      "city": "city",
-      "stateProvince": "stateProvince",
-      "postalCode": "postalCode",
-      "country": "country"
-    },
-    "ErrorMessage": {
-        "existingEmail": "Email address is already in use",
-        "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
-        "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
-        "userRegInvalidEmail": "User validation failed: email: Email is invalid",
-        "contactRegEmptyFirstName": "Contact validation failed: firstName: Path `firstName` is required.",
-        "contactRegExceedFirstNameLimit": "Contact validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
-        "contactRegInvalidEmail": "Contact validation failed: email: Email is invalid",
-        "editContactEmptyFirstName": "Validation failed: firstName: Path `firstName` is required.",
-        "editContactExceedFirstNameLimit": "Validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
-        "editContactInvalidEmail": "Validation failed: email: Email is invalid"
-    }
-
+  "UserRegExistingEmail": {
+    "firstName": "Existing",
+    "lastName": "Email",
+    "email": "testui01@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegEmptyFirstName": {
+    "firstName": "",
+    "lastName": "EmptyFirstName",
+    "email": "emptyFirstName@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegExceedFirstNameLimit": {
+    "firstName": "ThisStringExceed20Chars",
+    "lastName": "ExceedString",
+    "email": "exceedString@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegInvalidEmail": {
+    "firstName": "Invalid",
+    "lastName": "Email",
+    "email": "invalid@gmail",
+    "password": "Pass123!"
+  },
+  "ContactRegEmptyFirstName": {
+    "firstName": "",
+    "lastName": "EmptyFirstName",
+    "email": "emptyFirstName@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "ContactRegExceedFirstNameLimit": {
+    "firstName": "ThisStringExceed20Chars",
+    "lastName": "ExceedString",
+    "email": "exceedString@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "ContactRegInvalidEmail": {
+    "firstName": "Invalid",
+    "lastName": "Email",
+    "email": "invalid@email",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "EditContactDetails": {
+    "firstName": "Edited FirstName",
+    "lastName": "Edited LastName",
+    "email": "editedEmail@example.com",
+    "birthdate": "1900-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "EditContactEmptyFirstName": {
+    "firstName": "",
+    "lastName": "EmptyFirstName",
+    "email": "emptyFirstName@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "EditContactExceedFirstNameLimit": {
+    "firstName": "ThisStringExceed20Chars",
+    "lastName": "ExceedString",
+    "email": "exceedString@example.com",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "EditContactInvalidEmail": {
+    "firstName": "Invalid",
+    "lastName": "Email",
+    "email": "invalid@email",
+    "birthdate": "1986-01-01",
+    "phone": "5184685410",
+    "street1": "197 Ernie Corn",
+    "street2": "Suite 001",
+    "city": "Lake Darkpink",
+    "stateProvince": "Virginia",
+    "postalCode": "5552",
+    "country": "Faroe Islands"
+  },
+  "UserLogin": {
+    "email": "vonwebster@gmail.com",
+    "pass": "pass123"
+  },
+  "Header": {
+    "LoginPageHeader": "Contact List App",
+    "SignUpPageHeader": "Add User",
+    "ContactListPageHeader": "Contact List",
+    "AddContactPageHeader": "Add Contact",
+    "EditContactPageHeader": "Edit Contact",
+    "ContactDetailsPageHeader": "Contact Details"
+  },
+  "Fields": {
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "email": "email",
+  "birthdate": "birthdate",
+  "phone": "phone",
+  "street1": "street1",
+  "street2": "street2",
+  "city": "city",
+  "stateProvince": "stateProvince",
+  "postalCode": "postalCode",
+  "country": "country"
+  },
+  "ErrorMessage": {
+    "existingEmail": "Email address is already in use",
+    "userRegEmptyFirstName": "User validation failed: firstName: Path `firstName` is required.",
+    "userRegExceedFirstNameLimit": "User validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "userRegInvalidEmail": "User validation failed: email: Email is invalid",
+    "contactRegEmptyFirstName": "Contact validation failed: firstName: Path `firstName` is required.",
+    "contactRegExceedFirstNameLimit": "Contact validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "contactRegInvalidEmail": "Contact validation failed: email: Email is invalid",
+    "editContactEmptyFirstName": "Validation failed: firstName: Path `firstName` is required.",
+    "editContactExceedFirstNameLimit": "Validation failed: firstName: Path `firstName` (`{VALUE}`) is longer than the maximum allowed length (20).",
+    "editContactInvalidEmail": "Validation failed: email: Email is invalid"
+  }
 }

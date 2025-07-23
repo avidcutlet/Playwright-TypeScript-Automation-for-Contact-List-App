@@ -53,10 +53,10 @@ test.describe('Verify User Registration functionality via API @Regression @ALL @
           expect(result).toBe(contactListPageHeader);
         });
       } else {
-        const firstName: string = dataSetUI.getTestData(testCase.testDataKey, 'firstName');
-        const lastName: string = dataSetUI.getTestData(testCase.testDataKey, 'lastName');
-        const email: string = dataSetUI.getTestData(testCase.testDataKey, 'email');
-        const password: string = dataSetUI.getTestData(testCase.testDataKey, 'password');
+        const firstName: string = dataSetAPI.getTestData(testCase.testDataKey, 'firstName');
+        const lastName: string = dataSetAPI.getTestData(testCase.testDataKey, 'lastName');
+        const email: string = dataSetAPI.getTestData(testCase.testDataKey, 'email');
+        const password: string = dataSetAPI.getTestData(testCase.testDataKey, 'password');
 
         const invalidUserResponse = await invalidCreationOfUser(firstName, lastName, email, password);
         const errorResponseData = invalidUserResponse?.errorResponseData;

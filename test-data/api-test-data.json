@@ -3,6 +3,30 @@
     "email": "",
     "password": ""
   },
+    "UserRegExistingEmail": {
+    "firstName": "Existing",
+    "lastName": "Email",
+    "email": "testui01@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegEmptyFirstName": {
+    "firstName": "",
+    "lastName": "EmptyFirstName",
+    "email": "emptyFirstName@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegExceedFirstNameLimit": {
+    "firstName": "ThisStringExceed20Chars",
+    "lastName": "ExceedString",
+    "email": "exceedString@gmail.com",
+    "password": "Pass123!"
+  },
+  "UserRegInvalidEmail": {
+    "firstName": "Invalid",
+    "lastName": "Email",
+    "email": "invalid@gmail",
+    "password": "Pass123!"
+  },
   "AddContactEmptyFirstName": {
     "firstName": "",
     "lastName": "EmptyFirstName",

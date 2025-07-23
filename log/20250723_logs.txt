@@ -296,3 +296,53 @@
 2025-07-23T03:36:03.548Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
 2025-07-23T03:36:03.538Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
 2025-07-23T03:36:03.608Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-23T03:47:59.097Z - INFO - Test Suite is Starting
+2025-07-23T03:47:59.098Z - INFO - Test Suite is Starting
+2025-07-23T03:47:59.160Z - INFO - Test Suite is Starting
+2025-07-23T03:47:59.178Z - INFO - Test Suite is Starting
+2025-07-23T03:47:59.342Z - INFO - Test Suite is Starting
+2025-07-23T03:48:02.257Z - INFO - The test is running: TC21 - Missing Mandatory Field (First Name) via API
+2025-07-23T03:48:02.251Z - INFO - The test is running: TC20 - Registration with Existing Email via API
+2025-07-23T03:48:02.255Z - INFO - The test is running: TC19 - Successful User Registration via API
+2025-07-23T03:48:02.258Z - INFO - The test is running: TC22 - First Name exceeds 20 chars via API
+2025-07-23T03:48:02.567Z - INFO - The test is running: TC23 - Invalid Email Format via API
+2025-07-23T03:48:12.361Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:48:12.376Z - INFO - The test completed successfully: TC20 - Registration with Existing Email via API
+2025-07-23T03:48:12.362Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Email address is already in use\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:48:12.402Z - INFO - User data: {
+  "user": {
+    "_id": "68805b7b43fdf90015ed6d8f",
+    "firstName": "Jean",
+    "lastName": "Dietrich",
+    "email": "jean_dietrich1@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODgwNWI3YjQzZmRmOTAwMTVlZDZkOGYiLCJpYXQiOjE3NTMyNDI0OTF9.Gi1LGGJqfteaD-bSn7VQiJdcYb1Zm3RE1tM_yxpDHDQ"
+}
+2025-07-23T03:48:12.493Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:48:12.497Z - INFO - The Suite is completed: TC20 - Registration with Existing Email via API
+2025-07-23T03:48:12.516Z - INFO - The test completed successfully: TC23 - Invalid Email Format via API
+2025-07-23T03:48:12.496Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"User validation failed: email: Email is invalid\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:48:12.523Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:48:12.620Z - INFO - The test completed successfully: TC22 - First Name exceeds 20 chars via API
+2025-07-23T03:48:12.523Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"User validation failed: firstName: Path `firstName` (`ThisStringExceed20Chars`) is longer than the maximum allowed length (20).\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:48:12.669Z - INFO - The Suite is completed: TC23 - Invalid Email Format via API
+2025-07-23T03:48:12.862Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-23T03:48:12.947Z - INFO - The Suite is completed: TC22 - First Name exceeds 20 chars via API
+2025-07-23T03:48:13.003Z - INFO - The test completed successfully: TC21 - Missing Mandatory Field (First Name) via API
+2025-07-23T03:48:12.862Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"User validation failed: firstName: Path `firstName` is required.\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-23T03:48:13.216Z - INFO - The Suite is completed: TC21 - Missing Mandatory Field (First Name) via API
+2025-07-23T03:48:13.872Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Email' })
+2025-07-23T03:48:13.875Z - ERROR - No folders found
+2025-07-23T03:48:13.875Z - ERROR - Error retrieving latest folder:
+2025-07-23T03:48:13.875Z - ERROR - Unable to determine the latest folder for screenshots.
+2025-07-23T03:48:14.905Z - INFO - FILLED DATA INTO getByRole('textbox', { name: 'Password' })
+2025-07-23T03:48:14.906Z - ERROR - No folders found
+2025-07-23T03:48:14.906Z - ERROR - Error retrieving latest folder:
+2025-07-23T03:48:14.906Z - ERROR - Unable to determine the latest folder for screenshots.
+2025-07-23T03:48:16.151Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Submit' })
+2025-07-23T03:48:16.151Z - ERROR - No folders found
+2025-07-23T03:48:16.151Z - ERROR - Error retrieving latest folder:
+2025-07-23T03:48:16.151Z - ERROR - Unable to determine the latest folder for screenshots.
+2025-07-23T03:48:18.212Z - INFO - The test completed successfully: TC19 - Successful User Registration via API
+2025-07-23T03:48:18.277Z - INFO - The Suite is completed: TC19 - Successful User Registration via API
