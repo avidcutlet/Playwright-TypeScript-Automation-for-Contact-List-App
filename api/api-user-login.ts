@@ -1,6 +1,6 @@
-import axios, { create } from 'axios';
-import fs from 'fs';
+import axios from 'axios';
 import path from 'path';
+import fs from 'fs';
 
 import DatasetUtil from '@utils/test-data-util';
 import { LoggingUtility } from '@utils/logger-util';
@@ -14,7 +14,7 @@ const fakerData = generateContactData();
 const CONTACT_LIST = axios.create({ baseURL: process.env.BASE_URL || dataSetAPI.getTestData('URL', 'URL') });
 
 // User Login function
-export async function userLogin(email: string, password: string): Promise<{ loginResponseData: string; loginResponseStatus: string}> {
+export async function userLogin(email: string, password: string): Promise<{ loggedInToken: string, loginResponseData: string; loginResponseStatus: string}> {
   try {
     
     // Check on compile time if user's and token's properties and value of keys within those properties are all string.
@@ -28,18 +28,29 @@ export async function userLogin(email: string, password: string): Promise<{ logi
       };
       token: string;
     }
+
+    const response = await CONTACT_LIST.post<LoginResponse>(
+      '/users/login',
+      {
+        email,
+        password,
+      },
+      {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+
     
-    const response = await CONTACT_LIST.post<LoginResponse>('/users/login', {
-      email,
-      password,
-    });
-    
+    const loggedInToken: string = response.data.token;
+    console.log('---------loggedInToken: ', loggedInToken);
     const loginResponseData: string = JSON.stringify(response.data, null, 2);
     const loginResponseStatus: string = JSON.stringify(response.status, null, 2);
     loggingUtil.logMessage("info", `User data: ${JSON.stringify(response.data, null, 2)}`);
     
     // Returns object with key-value pair, if keys aren't explicitly defined the variable name of value will be the same key
-    return { loginResponseData, loginResponseStatus };
+    return { loggedInToken, loginResponseData, loginResponseStatus };
     
   } catch (error: any) {
     loggingUtil.logMessage("error", EXCEPTION_API_MESSAGE(error));

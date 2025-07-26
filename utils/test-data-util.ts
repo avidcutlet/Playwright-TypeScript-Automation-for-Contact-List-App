@@ -16,21 +16,32 @@ export class DatasetUtil {
 
     // Get test data path
     private getTestDataPath(): string {
-        /** Dynamically resolve the test data path based on the type (UI or API). */
-        let fileName: string;
-        if (this.testDataType === 'api'){
-            fileName = 'api-test-data.json';
-        
-        }else if(this.testDataType === 'ui'){
-            fileName = 'ui-test-data.json';
+      /** Dynamically resolve the test data path based on the type (UI or API). */
+      let fileName: string;
+      switch (this.testDataType) {
+        case 'api':
+          fileName = 'api-test-data.json';
+          break;
+        case 'ui':
+          fileName = 'ui-test-data.json';
+          break;
+        case 'tokenforcreatecontact':
+          fileName = '../api-tokens/api-user-for-create-contact.json';
+          break;
+        case 'tokenforcreateinvalidcontact':
+          fileName = '../api-tokens/api-user-for-create-invalid-contact.json';
+          break;
+        case 'tokenforcontactlist':
+          fileName = '../api-tokens/api-user-for-contact-list.json';
+          break;
+        case 'tokenforspecificcontact':
+          fileName = '../api-tokens/api-user-for-specific-contact.json';
+          break;
+        default:
+          throw new Error(`Unknown test data type: ${this.testDataType}`);
+      }
 
-        }else if (this.testDataType === 'tokenforcreatecontact') {
-            fileName = '../api-tokens/api-user-for-create-contact.json';
-            
-        }else if (this.testDataType === 'tokenforcreateinvalidcontact'){
-            fileName = '../api-tokens/api-user-for-create-invalid-contact.json';
-        }
-        return path.join(process.cwd(), 'test-data', fileName!);
+      return path.join(process.cwd(), 'test-data', fileName!);
     }
 
     // Check test data path

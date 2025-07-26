@@ -68,8 +68,8 @@
   },
   "AddContactWithoutAuthToken": {
       "firstName": "Invalid",
-      "lastName": "Email",
-      "email": "invalid@email",
+      "lastName": "authToken",
+      "email": "invalid@token.com",
       "birthdate": "1986-01-01",
       "phone": "5184685410",
       "street1": "197 Ernie Corn",
@@ -109,16 +109,23 @@
   },
 
   "Response": {
-    "LoginStatus": "200",
+    "OKStatus": "200",
     "CreatedStatus": "201",
     "InvalidRequest": "400",
     "Unauthorized": "401"
   },
-
-  "jsonFileName": {
+  "CreateJsonFileName": {
     "CreateUser": "create user",
     "CreateContact": "create contact",
-    "CreateInvalidContact": "create invalid contact"
+    "CreateInvalidContact": "create invalid contact",
+    "ContactList": "contact list",
+    "SpecificContact": "specific contact"
+  },
+  "ReadJsonFileName": {
+    "CreateContact": "tokenforcreatecontact",
+    "CreateInvalidContact": "tokenforcreateinvalidcontact",
+    "ContactList": "tokenforcontactlist",
+    "SpecificContact": "tokenforspecificcontact"
   },
   "ErrorMessage": {
     "existingEmail": "Email address is already in use",

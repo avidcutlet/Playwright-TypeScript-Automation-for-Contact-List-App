@@ -30,7 +30,12 @@ test.describe('Verify User Registration functionality via API @Regression @ALL @
         const createdStatus: string = dataSetAPI.getTestData('Response', 'CreatedStatus');
         const loginPageHeader: string = dataSetUI.getTestData('Header', 'LoginPageHeader');
         const contactListPageHeader: string = dataSetUI.getTestData('Header', 'ContactListPageHeader');
-        const { email, password, responseData, responseStatus } = await creationOfUser(null);
+        const {
+          email,
+          password,
+          responseData,
+          responseStatus
+        } = await creationOfUser();
   
         expect(responseStatus).toBe(createdStatus);
   
@@ -58,11 +63,19 @@ test.describe('Verify User Registration functionality via API @Regression @ALL @
         const email: string = dataSetAPI.getTestData(testCase.testDataKey, 'email');
         const password: string = dataSetAPI.getTestData(testCase.testDataKey, 'password');
 
+        const credentialsToJson = {
+          firstName,
+          lastName,
+          email,
+        }
+        
+        await attach.withAllureStep(page, 'Step 1 - Creation of Invalid User via API', async () => {}, credentialsToJson ?? {});
+
         const invalidUserResponse = await invalidCreationOfUser(firstName, lastName, email, password);
         const errorResponseData = invalidUserResponse?.errorResponseData;
         const errorResponseMessage = invalidUserResponse?.errorResponseMessage;
-        
-        await attach.withAllureStep(page, 'Step 1 - Creation of Invalid User via API', async () => {
+
+        await attach.withAllureStep(page, 'Step 2 - Verify Error Message of Invalid User via API', async () => {
           const expectedErrorMessage = dataSetAPI.getTestData('ErrorMessage', testCase.expectedErrorKey!);
           const invalidRequest: string = dataSetAPI.getTestData('Response', 'InvalidRequest');
           const errorResponseStatus = invalidUserResponse?.errorResponseStatus;

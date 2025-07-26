@@ -8,8 +8,10 @@ import DatasetUtil from '@utils/test-data-util';
 import { userLogin, invalidUserLogin } from '@api/api-user-login';
 import { creationOfUser } from '@api/api-create-user-account';
 import { userLoginAPITestCases } from '@testData/user-login-functionality-api-data';
+import { generateContactData } from '@testData/test-data-generator';
 
-import { label, LabelName, displayName, feature } from 'allure-js-commons';
+const { label, LabelName, displayName, feature } = require('allure-js-commons');
+const fakerData = generateContactData();
 const dataSetAPI = new DatasetUtil('api');
 const attach = new AllureAttachScreenshot();
 initializeTestHooks().setupHooks();
@@ -22,34 +24,41 @@ test.describe('Verify User Login functionality via API @Regression @ALL @API @TS
       await feature("API");
       
       const unauthorized: string = dataSetAPI.getTestData('Response', 'Unauthorized');
-
+      
       if (testCase.createUser) {
         const createdStatus: string = dataSetAPI.getTestData('Response', 'CreatedStatus');
+
+        const createdCredentials = {
+            firstName: fakerData.firstName,
+            lastName: fakerData.lastName,
+            email: fakerData.email,
+            password: fakerData.password,
+          }
         
-        const { email, password, responseStatus } = await creationOfUser(null);
+        const { responseStatus } = await creationOfUser({...createdCredentials});
         expect(responseStatus).toBe(createdStatus);
 
         if (testCase.expectError) {
           const incorrectPassword: string = dataSetAPI.getTestData('UserLoginEmptyCredentials', 'password');
-          const invalidLoginResult = await invalidUserLogin(email, incorrectPassword);
+          const invalidLoginResult = await invalidUserLogin(createdCredentials.email, incorrectPassword);
           const errorLoginResponseData = invalidLoginResult?.errorLoginResponseData;
           const errorLoginResponseStatus = invalidLoginResult?.errorLoginResponseStatus;
           
-          const credentials = JSON.stringify({ email, incorrectPassword }, null, 2);
+          const credentials = JSON.stringify({ email: createdCredentials.email, incorrectPassword: incorrectPassword }, null, 2);
           await attach.withAllureStep(page, 'Step 1 - Login of Invalid User', async () => {}, credentials ?? {});
           
           await attach.withAllureStep(page, 'Step 2 - Verify Failed Login of Invalid User', async () => {
             expect(errorLoginResponseStatus).toBe(unauthorized);
           }, errorLoginResponseData ?? {});
         } else {
-          const loggedinStatus: string = dataSetAPI.getTestData('Response', 'LoginStatus');
-          const { loginResponseData, loginResponseStatus } = await userLogin(email, password);
+          const okStatus: string = dataSetAPI.getTestData('Response', 'OKStatus');
+          const { loginResponseData, loginResponseStatus } = await userLogin(createdCredentials.email, createdCredentials.password);
           
-          const credentials = JSON.stringify({ email, password }, null, 2);
+          const credentials = JSON.stringify({ email: createdCredentials.email, password: createdCredentials.password }, null, 2);
           await attach.withAllureStep(page, 'Step 1 - Login of Valid User', async () => {}, credentials ?? {});
           
           await attach.withAllureStep(page, 'Step 2 - Verify Success Login of Valid User', async () => {
-            expect(loginResponseStatus).toBe(loggedinStatus);
+            expect(loginResponseStatus).toBe(okStatus);
           }, loginResponseData ?? {});
         }
       } else {
