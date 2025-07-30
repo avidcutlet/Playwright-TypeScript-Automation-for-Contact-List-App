@@ -18,7 +18,7 @@ const attach = new AllureAttachScreenshot();
 const fakerData = generateContactData();
 initializeTestHooks().setupHooks();
 
-test.describe('Verify Contact List display & View Details via API @Regression @ALL @API @TS9', () => {
+test.describe('Verify Contact List display & View Details via API @Regression @ALL @API @TS10', () => {
   for (const testCase of getContactAPITestCases) {
     test(`${testCase.name} @${testCase.name.split(' ')[0]}`, async ({ page }) => {
       await label(LabelName.SUITE, testCase.subSuite);

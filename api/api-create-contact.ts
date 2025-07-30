@@ -154,7 +154,7 @@ export async function invalidCreationOfContact(
       
   } catch (error: any) {
     if (error.response) {
-      const errorResponseMessage: string = error.response.data.message;
+      const errorResponseMessage: string = error.response.data.message ?? error.response.data;
       const errorResponseStatus: string = JSON.stringify(error.status, null, 2);
       const errorResponseData: string = JSON.stringify({ 
         httpErrorMessage: error.message,

@@ -62,7 +62,7 @@ export async function userLogin(email: string, password: string): Promise<{ logg
 export async function invalidUserLogin(email: string, password: string): Promise<{ errorLoginResponseData: string; errorLoginResponseMessage: string; errorLoginResponseStatus: string} | undefined> {
   try {
     
-    // Check on compilte time if user's and token's properties and value of keys within those properties are all string.
+    // Check on compile time if user's and token's properties and value of keys within those properties are all string.
     interface LoginResponse {
       user: {
         _id: string;
@@ -80,7 +80,7 @@ export async function invalidUserLogin(email: string, password: string): Promise
     });
     
   } catch (error: any) {
-    const errorLoginResponseMessage: string = error.response.data.message;
+    const errorLoginResponseMessage: string = error.response.statusText;
     const errorLoginResponseStatus: string = JSON.stringify(error.status, null, 2);
     const errorLoginResponseData: string = JSON.stringify({ 
       httpErrorMessage: error.message,

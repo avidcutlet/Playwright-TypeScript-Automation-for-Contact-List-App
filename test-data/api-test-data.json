@@ -3,7 +3,7 @@
     "email": "",
     "password": ""
   },
-    "UserRegExistingEmail": {
+  "UserRegExistingEmail": {
     "firstName": "Existing",
     "lastName": "Email",
     "email": "testui01@gmail.com",
@@ -91,6 +91,27 @@
     "stateProvince": "",
     "postalCode": "",
     "country": ""
+  },
+  "UpdateFullContact": {
+      "firstName": "UpdatedFName",
+      "lastName": "UpdatedLName",
+      "email": "fullUpdate@details.com",
+      "birthdate": "1999-01-01",
+      "phone": "1234567890",
+      "street1": "Updated 197 Ernie Corn",
+      "street2": "Updated Suite 001",
+      "city": "Updated Lake Darkpink",
+      "stateProvince": "Updated Virginia",
+      "postalCode": "5552",
+      "country": "Updated Faroe Islands"
+  },
+  "UpdatePartialContact": {
+      "firstName": "UpdatedFName",
+      "lastName": "UpdatedLName",
+      "email": "partialUpdate@details.com"
+  },
+  "NonExistentContactID": {
+    "id": "abcdef123456"
   },
   "EditContactInvalidData": [
     { 

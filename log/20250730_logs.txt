@@ -1,0 +1,947 @@
+2025-07-30T13:33:14.788Z - INFO - Test Suite is Starting
+2025-07-30T13:33:16.027Z - INFO - The test is running: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T13:33:24.577Z - INFO - User data: {
+  "user": {
+    "_id": "688a1f2312bafb0015f2b39b",
+    "firstName": "Nona",
+    "lastName": "MacGyver",
+    "email": "nona.macgyver12@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMWYyMzEyYmFmYjAwMTVmMmIzOWIiLCJpYXQiOjE3NTM4ODI0MDN9.fFTT78VXG3sh-_eONU5j2_DfqrPFnD8x0xzo177yMOg"
+}
+2025-07-30T13:33:25.099Z - INFO - User data: {
+  "user": {
+    "_id": "688a1f2312bafb0015f2b39b",
+    "firstName": "Nona",
+    "lastName": "MacGyver",
+    "email": "nona.macgyver12@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMWYyMzEyYmFmYjAwMTVmMmIzOWIiLCJpYXQiOjE3NTM4ODI0MDR9.SG9NGHBBDCS9NPA0wZfH2Fz9UiqKFSAJBTCYAAKEDM8"
+}
+2025-07-30T13:33:25.569Z - INFO - User data: {
+  "_id": "688a1f2412bafb0015f2b39d",
+  "firstName": "Greyson",
+  "lastName": "Kutch",
+  "birthdate": "1985-04-04",
+  "email": "greyson.kutch14@example.com",
+  "phone": "8926471782",
+  "street1": "25828 Lacey Dam",
+  "street2": "Suite 285",
+  "city": "North Darrell",
+  "stateProvince": "Nevada",
+  "postalCode": "52993",
+  "country": "Greece",
+  "owner": "688a1f2312bafb0015f2b39b",
+  "__v": 0
+}
+2025-07-30T13:33:26.046Z - INFO - User data: {
+  "_id": "688a1f2412bafb0015f2b39d",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1999-01-01",
+  "email": "fullupdated@details.com",
+  "phone": "1234567890",
+  "street1": "Updated 197 Ernie Corn",
+  "street2": "Updated Suite 001",
+  "city": "Updated Lake Darkpink",
+  "stateProvince": "Updated Virginia",
+  "postalCode": "5552",
+  "country": "Updated Faroe Islands",
+  "owner": "688a1f2312bafb0015f2b39b",
+  "__v": 0
+}
+2025-07-30T13:33:26.052Z - INFO - The test completed successfully: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T13:33:26.123Z - INFO - The Suite is completed: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T13:47:10.083Z - INFO - Test Suite is Starting
+2025-07-30T13:47:11.048Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T13:47:30.239Z - INFO - User data: {
+  "user": {
+    "_id": "688a22715838690015a41f80",
+    "firstName": "Alexandra",
+    "lastName": "Rodriguez-Sauer",
+    "email": "alexandra.rodriguez-sauer59@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjI3MTU4Mzg2OTAwMTVhNDFmODAiLCJpYXQiOjE3NTM4ODMyNDl9.rNLOmkKczT1w-K-T7MmQZj4qn88t_uGxZFlncGwOi-M"
+}
+2025-07-30T13:47:31.228Z - INFO - User data: {
+  "user": {
+    "_id": "688a22715838690015a41f80",
+    "firstName": "Alexandra",
+    "lastName": "Rodriguez-Sauer",
+    "email": "alexandra.rodriguez-sauer59@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjI3MTU4Mzg2OTAwMTVhNDFmODAiLCJpYXQiOjE3NTM4ODMyNTB9.DxC-b2TaMB2afD6IcaBVOcaxHXLV5rZSqRYTawW-UbA"
+}
+2025-07-30T13:47:32.421Z - INFO - User data: {
+  "_id": "688a22735838690015a41f82",
+  "firstName": "Eulah",
+  "lastName": "McDermott",
+  "birthdate": "2006-06-16",
+  "email": "eulah.mcdermott@example.com",
+  "phone": "4329781626",
+  "street1": "10605 Parisian Bypass",
+  "street2": "Apt. 331",
+  "city": "McKenzieburgh",
+  "stateProvince": "Maine",
+  "postalCode": "64516-8131",
+  "country": "Antarctica",
+  "owner": "688a22715838690015a41f80",
+  "__v": 0
+}
+2025-07-30T13:47:32.435Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T13:47:32.533Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T13:48:07.873Z - INFO - Test Suite is Starting
+2025-07-30T13:48:09.300Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T13:48:17.476Z - INFO - User data: {
+  "user": {
+    "_id": "688a22a012bafb0015f2b46c",
+    "firstName": "Devonte",
+    "lastName": "Prosacco-Ziemann",
+    "email": "devonte.prosacco-ziemann@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjJhMDEyYmFmYjAwMTVmMmI0NmMiLCJpYXQiOjE3NTM4ODMyOTZ9.8jfd5e1EjnMhWjyI-1SH3wd9v4yhYIUu_SbqF4S7ChU"
+}
+2025-07-30T13:48:17.967Z - INFO - User data: {
+  "user": {
+    "_id": "688a22a012bafb0015f2b46c",
+    "firstName": "Devonte",
+    "lastName": "Prosacco-Ziemann",
+    "email": "devonte.prosacco-ziemann@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjJhMDEyYmFmYjAwMTVmMmI0NmMiLCJpYXQiOjE3NTM4ODMyOTd9.to8ZFSROuRFeZVN_lZKfLt1KP5cwTUH-BwjaqbsfiMs"
+}
+2025-07-30T13:48:18.472Z - INFO - User data: {
+  "_id": "688a22a15838690015a41f83",
+  "firstName": "Ambrose",
+  "lastName": "Frami",
+  "birthdate": "1967-09-12",
+  "email": "ambrose_frami99@example.com",
+  "phone": "7994897114",
+  "street1": "75607 Otto Ways",
+  "street2": "Apt. 268",
+  "city": "Cadenborough",
+  "stateProvince": "Massachusetts",
+  "postalCode": "83308",
+  "country": "Madagascar",
+  "owner": "688a22a012bafb0015f2b46c",
+  "__v": 0
+}
+2025-07-30T13:48:18.972Z - INFO - User data: {
+  "_id": "688a22a15838690015a41f83",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1967-09-12",
+  "email": "partialupdate@details.com",
+  "phone": "7994897114",
+  "street1": "75607 Otto Ways",
+  "street2": "Apt. 268",
+  "city": "Cadenborough",
+  "stateProvince": "Massachusetts",
+  "postalCode": "83308",
+  "country": "Madagascar",
+  "owner": "688a22a012bafb0015f2b46c",
+  "__v": 0
+}
+2025-07-30T13:48:18.977Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T13:48:19.052Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:03:52.884Z - INFO - Test Suite is Starting
+2025-07-30T14:03:54.248Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:04:04.704Z - INFO - User data: {
+  "user": {
+    "_id": "688a26535838690015a42007",
+    "firstName": "Missouri",
+    "lastName": "Raynor",
+    "email": "missouri_raynor75@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjY1MzU4Mzg2OTAwMTVhNDIwMDciLCJpYXQiOjE3NTM4ODQyNDN9.P9EOq57C5_pKKT-eN6tWS4bpDPspv3uCUxXVFEw-6A4"
+}
+2025-07-30T14:04:05.236Z - INFO - User data: {
+  "user": {
+    "_id": "688a26535838690015a42007",
+    "firstName": "Missouri",
+    "lastName": "Raynor",
+    "email": "missouri_raynor75@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjY1MzU4Mzg2OTAwMTVhNDIwMDciLCJpYXQiOjE3NTM4ODQyNDR9.f4xrJLLzfM-cWQBACeGuxJofYelZuiQDEKCbtzEWaIM"
+}
+2025-07-30T14:04:05.241Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:04:05.331Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:05:01.528Z - INFO - Test Suite is Starting
+2025-07-30T14:05:02.424Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:05:11.947Z - INFO - User data: {
+  "user": {
+    "_id": "688a269712bafb0015f2b4ee",
+    "firstName": "Leanne",
+    "lastName": "Treutel",
+    "email": "leanne.treutel@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjY5NzEyYmFmYjAwMTVmMmI0ZWUiLCJpYXQiOjE3NTM4ODQzMTF9.SiaCK9JzXHmU3SMD8Yb9sYndqimkDDM8141j1gp_k3g"
+}
+2025-07-30T14:05:13.685Z - INFO - User data: {
+  "user": {
+    "_id": "688a269712bafb0015f2b4ee",
+    "firstName": "Leanne",
+    "lastName": "Treutel",
+    "email": "leanne.treutel@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjY5NzEyYmFmYjAwMTVmMmI0ZWUiLCJpYXQiOjE3NTM4ODQzMTF9.SiaCK9JzXHmU3SMD8Yb9sYndqimkDDM8141j1gp_k3g"
+}
+2025-07-30T14:05:14.210Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:05:14.210Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:05:14.397Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:05:14.458Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:06:42.966Z - INFO - Test Suite is Starting
+2025-07-30T14:06:43.777Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:06:55.299Z - INFO - User data: {
+  "user": {
+    "_id": "688a26fb12bafb0015f2b4f2",
+    "firstName": "Lonny",
+    "lastName": "Fisher",
+    "email": "lonny.fisher8@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjZmYjEyYmFmYjAwMTVmMmI0ZjIiLCJpYXQiOjE3NTM4ODQ0MTF9.OfyOqF9SAN6dcwh5KPNjz04yUahOMHnTOhf3xWNnNXU"
+}
+2025-07-30T14:06:55.854Z - INFO - User data: {
+  "user": {
+    "_id": "688a26fb12bafb0015f2b4f2",
+    "firstName": "Lonny",
+    "lastName": "Fisher",
+    "email": "lonny.fisher8@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjZmYjEyYmFmYjAwMTVmMmI0ZjIiLCJpYXQiOjE3NTM4ODQ0MTV9.1Q4RqVu9Xv4eYk2mFqlUSOvRRhk8I1VcCR-cdf5rpl4"
+}
+2025-07-30T14:06:56.388Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:06:56.395Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:06:56.388Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:06:56.462Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:08:22.188Z - INFO - Test Suite is Starting
+2025-07-30T14:08:22.198Z - INFO - Test Suite is Starting
+2025-07-30T14:08:22.202Z - INFO - Test Suite is Starting
+2025-07-30T14:08:23.797Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:08:24.423Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:08:24.438Z - INFO - The test is running: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:08:33.041Z - INFO - User data: {
+  "user": {
+    "_id": "688a27605838690015a42012",
+    "firstName": "Robbie",
+    "lastName": "Strosin",
+    "email": "robbie.strosin@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjc2MDU4Mzg2OTAwMTVhNDIwMTIiLCJpYXQiOjE3NTM4ODQ1MTJ9.NS1LJe7lDHIi1DNivOGlMnvD8qc2mhzeEq1-FErjnXE"
+}
+2025-07-30T14:08:33.623Z - INFO - User data: {
+  "user": {
+    "_id": "688a27605838690015a42012",
+    "firstName": "Robbie",
+    "lastName": "Strosin",
+    "email": "robbie.strosin@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjc2MDU4Mzg2OTAwMTVhNDIwMTIiLCJpYXQiOjE3NTM4ODQ1MTJ9.NS1LJe7lDHIi1DNivOGlMnvD8qc2mhzeEq1-FErjnXE"
+}
+2025-07-30T14:08:33.740Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 400
+2025-07-30T14:08:33.748Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:08:33.860Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:08:34.128Z - INFO - User data: {
+  "_id": "688a27615838690015a42015",
+  "firstName": "Camren",
+  "lastName": "MacGyver",
+  "birthdate": "1974-11-09",
+  "email": "camren_macgyver@example.com",
+  "phone": "3375914384",
+  "street1": "2282 Dax Run",
+  "street2": "Apt. 562",
+  "city": "Donnaboro",
+  "stateProvince": "North Dakota",
+  "postalCode": "99797-7444",
+  "country": "Saudi Arabia",
+  "owner": "688a27605838690015a42012",
+  "__v": 0
+}
+2025-07-30T14:08:34.643Z - INFO - User data: {
+  "_id": "688a27615838690015a42015",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1999-01-01",
+  "email": "fullupdate@details.com",
+  "phone": "1234567890",
+  "street1": "Updated 197 Ernie Corn",
+  "street2": "Updated Suite 001",
+  "city": "Updated Lake Darkpink",
+  "stateProvince": "Updated Virginia",
+  "postalCode": "5552",
+  "country": "Updated Faroe Islands",
+  "owner": "688a27605838690015a42012",
+  "__v": 0
+}
+2025-07-30T14:08:34.648Z - INFO - The test completed successfully: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:08:34.698Z - INFO - The Suite is completed: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:08:36.639Z - INFO - User data: {
+  "user": {
+    "_id": "688a27635838690015a42016",
+    "firstName": "Celia",
+    "lastName": "Pfeffer",
+    "email": "celia.pfeffer98@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjc2MzU4Mzg2OTAwMTVhNDIwMTYiLCJpYXQiOjE3NTM4ODQ1MTV9.LAF7qeko-IF43h6q_SGsAuz7rq8xv_eaeEp8Ojzh06I"
+}
+2025-07-30T14:08:37.204Z - INFO - User data: {
+  "user": {
+    "_id": "688a27635838690015a42016",
+    "firstName": "Celia",
+    "lastName": "Pfeffer",
+    "email": "celia.pfeffer98@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjc2MzU4Mzg2OTAwMTVhNDIwMTYiLCJpYXQiOjE3NTM4ODQ1MTZ9.6FLkWQYMluvBrOfh1-93qFR46dFxscWiZ5tit8zqB5I"
+}
+2025-07-30T14:08:37.740Z - INFO - User data: {
+  "_id": "688a276412bafb0015f2b4f7",
+  "firstName": "Celestino",
+  "lastName": "Hermann",
+  "birthdate": "1970-04-04",
+  "email": "celestino.hermann88@example.com",
+  "phone": "8315951046",
+  "street1": "208 Will Walks",
+  "street2": "Apt. 265",
+  "city": "Sporerboro",
+  "stateProvince": "Iowa",
+  "postalCode": "67254-9425",
+  "country": "Togo",
+  "owner": "688a27635838690015a42016",
+  "__v": 0
+}
+2025-07-30T14:08:38.276Z - INFO - User data: {
+  "_id": "688a276412bafb0015f2b4f7",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1970-04-04",
+  "email": "partialupdate@details.com",
+  "phone": "8315951046",
+  "street1": "208 Will Walks",
+  "street2": "Apt. 265",
+  "city": "Sporerboro",
+  "stateProvince": "Iowa",
+  "postalCode": "67254-9425",
+  "country": "Togo",
+  "owner": "688a27635838690015a42016",
+  "__v": 0
+}
+2025-07-30T14:08:38.280Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:08:38.317Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:09:31.090Z - INFO - Test Suite is Starting
+2025-07-30T14:09:31.636Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:09:47.900Z - INFO - User data: {
+  "user": {
+    "_id": "688a27a912bafb0015f2b4fc",
+    "firstName": "Bradly",
+    "lastName": "Rowe",
+    "email": "bradly.rowe98@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdhOTEyYmFmYjAwMTVmMmI0ZmMiLCJpYXQiOjE3NTM4ODQ1ODV9.fbCpGtGYUuEdUiUo3jhG3LkgoZcWa2r7iADHXcqtQqU"
+}
+2025-07-30T14:09:48.432Z - INFO - User data: {
+  "user": {
+    "_id": "688a27a912bafb0015f2b4fc",
+    "firstName": "Bradly",
+    "lastName": "Rowe",
+    "email": "bradly.rowe98@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdhOTEyYmFmYjAwMTVmMmI0ZmMiLCJpYXQiOjE3NTM4ODQ1ODd9.OBDQfLNQpJKMc5qhFuciP4tM_me71yhbm_R8OkIIxXY"
+}
+2025-07-30T14:09:50.201Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:09:50.210Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:09:50.201Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:09:50.273Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:10:02.531Z - INFO - Test Suite is Starting
+2025-07-30T14:10:02.537Z - INFO - Test Suite is Starting
+2025-07-30T14:10:02.539Z - INFO - Test Suite is Starting
+2025-07-30T14:10:03.500Z - INFO - The test is running: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:10:03.902Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:10:04.016Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:10:12.180Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c312bafb0015f2b4fe",
+    "firstName": "Ray",
+    "lastName": "Lueilwitz",
+    "email": "ray.lueilwitz@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjMzEyYmFmYjAwMTVmMmI0ZmUiLCJpYXQiOjE3NTM4ODQ2MTF9.W-P65uyIXrN0y54qLE5eJ6RTnhL2coxLI4jOvx4YSOc"
+}
+2025-07-30T14:10:12.705Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c312bafb0015f2b4fe",
+    "firstName": "Ray",
+    "lastName": "Lueilwitz",
+    "email": "ray.lueilwitz@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjMzEyYmFmYjAwMTVmMmI0ZmUiLCJpYXQiOjE3NTM4ODQ2MTF9.W-P65uyIXrN0y54qLE5eJ6RTnhL2coxLI4jOvx4YSOc"
+}
+2025-07-30T14:10:13.263Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:10:13.282Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:10:13.264Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:10:13.402Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:10:15.297Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c55838690015a42019",
+    "firstName": "Janice",
+    "lastName": "Dach",
+    "email": "janice.dach@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjNTU4Mzg2OTAwMTVhNDIwMTkiLCJpYXQiOjE3NTM4ODQ2MTN9.7QmIXG_mFuWcb6Vn-m4YL0_JdQuedI2uah9I3N2ROyA"
+}
+2025-07-30T14:10:15.829Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c55838690015a42019",
+    "firstName": "Janice",
+    "lastName": "Dach",
+    "email": "janice.dach@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjNTU4Mzg2OTAwMTVhNDIwMTkiLCJpYXQiOjE3NTM4ODQ2MTV9.Tmh3GSk9tCNz5DIf29OKpxgtU8OjwvMrLSk4BAjSbu0"
+}
+2025-07-30T14:10:16.329Z - INFO - User data: {
+  "_id": "688a27c712bafb0015f2b502",
+  "firstName": "Elyssa",
+  "lastName": "Rodriguez",
+  "birthdate": "1977-12-20",
+  "email": "elyssa_rodriguez@example.com",
+  "phone": "3362782632",
+  "street1": "83655 Wintheiser Wells",
+  "street2": "Apt. 210",
+  "city": "Whiteview",
+  "stateProvince": "Nebraska",
+  "postalCode": "09305",
+  "country": "Germany",
+  "owner": "688a27c55838690015a42019",
+  "__v": 0
+}
+2025-07-30T14:10:16.602Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c75838690015a4201b",
+    "firstName": "Dane",
+    "lastName": "Jaskolski",
+    "email": "dane.jaskolski@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjNzU4Mzg2OTAwMTVhNDIwMWIiLCJpYXQiOjE3NTM4ODQ2MTV9.95AFA2ihz4bUDVXekWO576LPOzL35a6pGg3GidHI3dg"
+}
+2025-07-30T14:10:16.831Z - INFO - User data: {
+  "_id": "688a27c712bafb0015f2b502",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1999-01-01",
+  "email": "fullupdate@details.com",
+  "phone": "1234567890",
+  "street1": "Updated 197 Ernie Corn",
+  "street2": "Updated Suite 001",
+  "city": "Updated Lake Darkpink",
+  "stateProvince": "Updated Virginia",
+  "postalCode": "5552",
+  "country": "Updated Faroe Islands",
+  "owner": "688a27c55838690015a42019",
+  "__v": 0
+}
+2025-07-30T14:10:16.835Z - INFO - The test completed successfully: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:10:16.876Z - INFO - The Suite is completed: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:10:17.133Z - INFO - User data: {
+  "user": {
+    "_id": "688a27c75838690015a4201b",
+    "firstName": "Dane",
+    "lastName": "Jaskolski",
+    "email": "dane.jaskolski@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjdjNzU4Mzg2OTAwMTVhNDIwMWIiLCJpYXQiOjE3NTM4ODQ2MTZ9.Rpkk2QbHGpVNjU6rphKtYu2EjiBI7TM68--pALHJ0FA"
+}
+2025-07-30T14:10:17.637Z - INFO - User data: {
+  "_id": "688a27c812bafb0015f2b504",
+  "firstName": "Amelia",
+  "lastName": "Jacobson",
+  "birthdate": "1978-08-31",
+  "email": "amelia.jacobson19@example.com",
+  "phone": "0672727598",
+  "street1": "77956 Old Military Road",
+  "street2": "Suite 666",
+  "city": "Deshawnland",
+  "stateProvince": "Wyoming",
+  "postalCode": "31823",
+  "country": "Norway",
+  "owner": "688a27c75838690015a4201b",
+  "__v": 0
+}
+2025-07-30T14:10:18.160Z - INFO - User data: {
+  "_id": "688a27c812bafb0015f2b504",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1978-08-31",
+  "email": "partialupdate@details.com",
+  "phone": "0672727598",
+  "street1": "77956 Old Military Road",
+  "street2": "Suite 666",
+  "city": "Deshawnland",
+  "stateProvince": "Wyoming",
+  "postalCode": "31823",
+  "country": "Norway",
+  "owner": "688a27c75838690015a4201b",
+  "__v": 0
+}
+2025-07-30T14:10:18.164Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:10:18.225Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:13:20.593Z - INFO - Test Suite is Starting
+2025-07-30T14:13:21.937Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:13:31.785Z - INFO - User data: {
+  "user": {
+    "_id": "688a288b12bafb0015f2b506",
+    "firstName": "Robert",
+    "lastName": "Leffler",
+    "email": "robert_leffler@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjg4YjEyYmFmYjAwMTVmMmI1MDYiLCJpYXQiOjE3NTM4ODQ4MTF9.1d0h38pUWaUFtZhkMi0KoZcqtkogtqFTROEfUlWsVBI"
+}
+2025-07-30T14:13:43.930Z - INFO - User data: {
+  "user": {
+    "_id": "688a288b12bafb0015f2b506",
+    "firstName": "Robert",
+    "lastName": "Leffler",
+    "email": "robert_leffler@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjg4YjEyYmFmYjAwMTVmMmI1MDYiLCJpYXQiOjE3NTM4ODQ4MTF9.1d0h38pUWaUFtZhkMi0KoZcqtkogtqFTROEfUlWsVBI"
+}
+2025-07-30T14:13:44.468Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:13:44.478Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:13:44.468Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:13:44.569Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:14:17.210Z - INFO - Test Suite is Starting
+2025-07-30T14:14:18.188Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:14:29.524Z - INFO - User data: {
+  "user": {
+    "_id": "688a28c45838690015a42022",
+    "firstName": "Collin",
+    "lastName": "Lueilwitz",
+    "email": "collin_lueilwitz@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjhjNDU4Mzg2OTAwMTVhNDIwMjIiLCJpYXQiOjE3NTM4ODQ4Njh9.bHz-YE-PlPHD0AYAM8tyf0yWiNnVPLf9poqNeQZZy2k"
+}
+2025-07-30T14:14:30.059Z - INFO - User data: {
+  "user": {
+    "_id": "688a28c45838690015a42022",
+    "firstName": "Collin",
+    "lastName": "Lueilwitz",
+    "email": "collin_lueilwitz@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjhjNDU4Mzg2OTAwMTVhNDIwMjIiLCJpYXQiOjE3NTM4ODQ4Njl9.-sHKrHQ6AUwMWGpEQZhGWUC7MeQBeTCxqziOSbjOGBo"
+}
+2025-07-30T14:14:30.596Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:14:30.609Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:14:30.597Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:14:30.711Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:15:07.426Z - INFO - Test Suite is Starting
+2025-07-30T14:15:08.304Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:15:17.049Z - INFO - User data: {
+  "user": {
+    "_id": "688a28f35838690015a42024",
+    "firstName": "Arthur",
+    "lastName": "Gleason",
+    "email": "arthur_gleason@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjhmMzU4Mzg2OTAwMTVhNDIwMjQiLCJpYXQiOjE3NTM4ODQ5MTV9.vYUU-5u4qkzQqoLhsO3KhCJ8kry-W126ZPzgsjtnSYw"
+}
+2025-07-30T14:15:17.594Z - INFO - User data: {
+  "user": {
+    "_id": "688a28f35838690015a42024",
+    "firstName": "Arthur",
+    "lastName": "Gleason",
+    "email": "arthur_gleason@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjhmMzU4Mzg2OTAwMTVhNDIwMjQiLCJpYXQiOjE3NTM4ODQ5MTZ9.aj_gGvOCfstp1UMf0kZ89BZVxeMHzplKEwS3FFwClZs"
+}
+2025-07-30T14:17:38.847Z - INFO - Test Suite is Starting
+2025-07-30T14:17:39.851Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:17:50.263Z - INFO - User data: {
+  "user": {
+    "_id": "688a298c12bafb0015f2b50e",
+    "firstName": "Lori",
+    "lastName": "Kuhic",
+    "email": "lori_kuhic@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjk4YzEyYmFmYjAwMTVmMmI1MGUiLCJpYXQiOjE3NTM4ODUwNjh9.EqNpHjFZ9Ojk2IDbVeyGrAs68DEwTYI-HLadMRidQ5U"
+}
+2025-07-30T14:17:50.794Z - INFO - User data: {
+  "user": {
+    "_id": "688a298c12bafb0015f2b50e",
+    "firstName": "Lori",
+    "lastName": "Kuhic",
+    "email": "lori_kuhic@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjk4YzEyYmFmYjAwMTVmMmI1MGUiLCJpYXQiOjE3NTM4ODUwNzB9.i4MFyvsYzpwoItvDx6POt29Ys2PlaUQndXeM8XYv_ZE"
+}
+2025-07-30T14:17:51.378Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:17:51.392Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:17:51.378Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Invalid Contact ID\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:17:51.458Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:18:23.446Z - INFO - Test Suite is Starting
+2025-07-30T14:18:23.993Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:18:31.766Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-30T14:18:31.782Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:18:31.766Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:18:31.841Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:19:07.046Z - INFO - Test Suite is Starting
+2025-07-30T14:19:07.851Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:19:18.139Z - INFO - User data: {
+  "user": {
+    "_id": "688a29e512bafb0015f2b559",
+    "firstName": "Lavada",
+    "lastName": "Morar",
+    "email": "lavada_morar@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjllNTEyYmFmYjAwMTVmMmI1NTkiLCJpYXQiOjE3NTM4ODUxNTd9.9x_zDGuwm5WB6FJsYmXP3hoOOpbn85q34I3Pc0UDP2o"
+}
+2025-07-30T14:19:18.656Z - INFO - User data: {
+  "user": {
+    "_id": "688a29e512bafb0015f2b559",
+    "firstName": "Lavada",
+    "lastName": "Morar",
+    "email": "lavada_morar@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMjllNTEyYmFmYjAwMTVmMmI1NTkiLCJpYXQiOjE3NTM4ODUxNTd9.9x_zDGuwm5WB6FJsYmXP3hoOOpbn85q34I3Pc0UDP2o"
+}
+2025-07-30T14:19:19.149Z - INFO - User data: {
+  "_id": "688a29e65838690015a4205b",
+  "firstName": "Freeda",
+  "lastName": "Huels",
+  "birthdate": "1961-12-15",
+  "email": "freeda_huels47@example.com",
+  "phone": "3822667994",
+  "street1": "230 Margret Lake",
+  "street2": "Suite 374",
+  "city": "Crookstown",
+  "stateProvince": "New Jersey",
+  "postalCode": "62743",
+  "country": "Chile",
+  "owner": "688a29e512bafb0015f2b559",
+  "__v": 0
+}
+2025-07-30T14:19:19.654Z - INFO - User data: {
+  "_id": "688a29e65838690015a4205b",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1961-12-15",
+  "email": "partialupdate@details.com",
+  "phone": "3822667994",
+  "street1": "230 Margret Lake",
+  "street2": "Suite 374",
+  "city": "Crookstown",
+  "stateProvince": "New Jersey",
+  "postalCode": "62743",
+  "country": "Chile",
+  "owner": "688a29e512bafb0015f2b559",
+  "__v": 0
+}
+2025-07-30T14:19:19.660Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:19:19.707Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:19:42.484Z - INFO - Test Suite is Starting
+2025-07-30T14:19:43.193Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:19:52.242Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-30T14:19:52.254Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:19:52.243Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": \"\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:19:52.331Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:21:12.988Z - INFO - Test Suite is Starting
+2025-07-30T14:21:13.830Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:23:22.337Z - INFO - Test Suite is Starting
+2025-07-30T14:23:23.053Z - INFO - The test is running: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:23:30.306Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-30T14:23:30.327Z - INFO - The test completed successfully: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:23:30.306Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": \"Unauthorized\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:23:30.406Z - INFO - The Suite is completed: TC25 - Failed User Login with Empty Credentials via API
+2025-07-30T14:23:42.490Z - INFO - Test Suite is Starting
+2025-07-30T14:23:43.361Z - INFO - The test is running: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-30T14:23:51.602Z - INFO - User data: {
+  "user": {
+    "_id": "688a2af65838690015a42061",
+    "firstName": "Alison",
+    "lastName": "Goldner",
+    "email": "alison_goldner6@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmFmNjU4Mzg2OTAwMTVhNDIwNjEiLCJpYXQiOjE3NTM4ODU0MzB9.T0lglRg-8IILDF5m71k4Y2qcLGwMncMRiM_jLo2oDRI"
+}
+2025-07-30T14:23:52.192Z - INFO - Invalid User Login - RESPONSE status: 401
+2025-07-30T14:23:52.206Z - INFO - The test completed successfully: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-30T14:23:52.192Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": \"Unauthorized\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:23:52.264Z - INFO - The Suite is completed: TC26 - Failed User Login with Incorrect Password for Valid Email via API
+2025-07-30T14:24:56.027Z - INFO - Test Suite is Starting
+2025-07-30T14:24:56.898Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:25:03.732Z - INFO - User data: {
+  "user": {
+    "_id": "688a2b3e5838690015a42064",
+    "firstName": "Carter",
+    "lastName": "Paucek",
+    "email": "carter_paucek@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmIzZTU4Mzg2OTAwMTVhNDIwNjQiLCJpYXQiOjE3NTM4ODU1MDN9.SDya2nsVLNs4nrgsf26lt0bmtpPkr8qX86sYwonYGxU"
+}
+2025-07-30T14:25:04.211Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-30T14:25:04.220Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:25:04.211Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:25:04.269Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:26:11.645Z - INFO - Test Suite is Starting
+2025-07-30T14:26:12.440Z - INFO - The test is running: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-30T14:26:20.666Z - INFO - User data: {
+  "user": {
+    "_id": "688a2b8b12bafb0015f2b55e",
+    "firstName": "Opal",
+    "lastName": "Krajcik",
+    "email": "opal.krajcik6@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmI4YjEyYmFmYjAwMTVmMmI1NWUiLCJpYXQiOjE3NTM4ODU1Nzl9.kNB0AdbxZ5AX6LLITVxKnXMDQ0twCRTZ_bFlfIIqasw"
+}
+2025-07-30T14:26:21.210Z - INFO - Invalid Creation of User - RESPONSE status: 400
+2025-07-30T14:26:21.225Z - INFO - The test completed successfully: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-30T14:26:21.210Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Contact validation failed: firstName: Path `firstName` is required.\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:26:21.290Z - INFO - The Suite is completed: TC28 - Verify failed contact creation with empty firstname via API
+2025-07-30T14:26:44.264Z - INFO - Test Suite is Starting
+2025-07-30T14:26:44.998Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:26:53.573Z - INFO - User data: {
+  "user": {
+    "_id": "688a2bac12bafb0015f2b560",
+    "firstName": "Lenora",
+    "lastName": "Fay",
+    "email": "lenora_fay9@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmJhYzEyYmFmYjAwMTVmMmI1NjAiLCJpYXQiOjE3NTM4ODU2MTJ9.Mckg_2DAF9vbIOnjsEeXDHHLNi375i_Rmo_7Mblvxx8"
+}
+2025-07-30T14:26:54.075Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-30T14:26:54.082Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:26:54.075Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:26:54.119Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:27:24.117Z - INFO - Test Suite is Starting
+2025-07-30T14:27:25.000Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:27:31.630Z - INFO - User data: {
+  "user": {
+    "_id": "688a2bd212bafb0015f2b562",
+    "firstName": "Sherwood",
+    "lastName": "Mueller",
+    "email": "sherwood_mueller69@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmJkMjEyYmFmYjAwMTVmMmI1NjIiLCJpYXQiOjE3NTM4ODU2NTB9.b9IKJkjVsI9OqrHXwWnnf5SEQk4WRPzMZKMYcSA6yiU"
+}
+2025-07-30T14:30:00.349Z - INFO - Test Suite is Starting
+2025-07-30T14:30:00.946Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:07.519Z - INFO - User data: {
+  "user": {
+    "_id": "688a2c6e5838690015a42069",
+    "firstName": "Nichole",
+    "lastName": "Thompson",
+    "email": "nichole_thompson55@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmM2ZTU4Mzg2OTAwMTVhNDIwNjkiLCJpYXQiOjE3NTM4ODU4MDZ9.yTnjwd-mffzT5J42hSSLQY292Izl4EXfKxkadZk4gUI"
+}
+2025-07-30T14:30:07.995Z - INFO - Invalid Creation of User - RESPONSE status: undefined
+2025-07-30T14:30:07.995Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": {\n    \"error\": \"Please authenticate.\"\n  }\n}"
+2025-07-30T14:30:08.159Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:08.215Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:23.256Z - INFO - Test Suite is Starting
+2025-07-30T14:30:23.776Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:30.443Z - INFO - User data: {
+  "user": {
+    "_id": "688a2c8512bafb0015f2b566",
+    "firstName": "Halie",
+    "lastName": "Franecki",
+    "email": "halie.franecki12@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmM4NTEyYmFmYjAwMTVmMmI1NjYiLCJpYXQiOjE3NTM4ODU4Mjl9.VkuF5q9UxKeHTC8EQmM4dXlMubt_JPovwmFjZ9tzZyw"
+}
+2025-07-30T14:30:30.920Z - INFO - Invalid Creation of User - RESPONSE status: undefined
+2025-07-30T14:30:30.920Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": {\n    \"error\": \"Please authenticate.\"\n  }\n}"
+2025-07-30T14:30:31.109Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:31.170Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:49.552Z - INFO - Test Suite is Starting
+2025-07-30T14:30:50.112Z - INFO - The test is running: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:58.053Z - INFO - User data: {
+  "user": {
+    "_id": "688a2ca112bafb0015f2b569",
+    "firstName": "Lucy",
+    "lastName": "Heller",
+    "email": "lucy_heller@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNhMTEyYmFmYjAwMTVmMmI1NjkiLCJpYXQiOjE3NTM4ODU4NTd9._fH3mrZqwbS94_R1OZOvujxEHOp0C6OR-hcT9hKh3TQ"
+}
+2025-07-30T14:30:58.542Z - INFO - Invalid Creation of User - RESPONSE status: 401
+2025-07-30T14:30:58.550Z - INFO - The test completed successfully: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:30:58.542Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 401\",\n  \"errorMessage\": {\n    \"error\": \"Please authenticate.\"\n  },\n  \"responseStatus\": \"401\"\n}"
+2025-07-30T14:30:58.588Z - INFO - The Suite is completed: TC31 - Verify failed contact creation without authorization token via API
+2025-07-30T14:31:38.762Z - INFO - Test Suite is Starting
+2025-07-30T14:31:38.767Z - INFO - Test Suite is Starting
+2025-07-30T14:31:38.789Z - INFO - Test Suite is Starting
+2025-07-30T14:31:39.850Z - INFO - The test is running: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:31:39.931Z - INFO - The test is running: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:31:40.221Z - INFO - The test is running: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:31:46.727Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd112bafb0015f2b56b",
+    "firstName": "Savannah",
+    "lastName": "Langosh",
+    "email": "savannah.langosh84@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMTEyYmFmYjAwMTVmMmI1NmIiLCJpYXQiOjE3NTM4ODU5MDV9.eTB90t6YX6y67KK0l-0g3B-IeKU-XUtjfc66KRvIWR0"
+}
+2025-07-30T14:31:47.062Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd25838690015a4206f",
+    "firstName": "Emerald",
+    "lastName": "Pacocha",
+    "email": "emerald_pacocha@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMjU4Mzg2OTAwMTVhNDIwNmYiLCJpYXQiOjE3NTM4ODU5MDZ9.uPFnGYya_CLAbFKF_VXimYEKZsJaKX1sIjP-fLyKYKI"
+}
+2025-07-30T14:31:47.065Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd25838690015a42070",
+    "firstName": "Paolo",
+    "lastName": "Bergstrom",
+    "email": "paolo_bergstrom68@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMjU4Mzg2OTAwMTVhNDIwNzAiLCJpYXQiOjE3NTM4ODU5MDZ9.ENg6uJYQp8-NayrjlerNjwCUSJv7Loru_bZBXzMqWDk"
+}
+2025-07-30T14:31:47.225Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd112bafb0015f2b56b",
+    "firstName": "Savannah",
+    "lastName": "Langosh",
+    "email": "savannah.langosh84@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMTEyYmFmYjAwMTVmMmI1NmIiLCJpYXQiOjE3NTM4ODU5MDZ9.0TC0qR7iZkhAl885e24tECxE1bz5RS5qBLP5qoMPJNc"
+}
+2025-07-30T14:31:47.536Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd25838690015a42070",
+    "firstName": "Paolo",
+    "lastName": "Bergstrom",
+    "email": "paolo_bergstrom68@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMjU4Mzg2OTAwMTVhNDIwNzAiLCJpYXQiOjE3NTM4ODU5MDZ9.ENg6uJYQp8-NayrjlerNjwCUSJv7Loru_bZBXzMqWDk"
+}
+2025-07-30T14:31:47.552Z - INFO - User data: {
+  "user": {
+    "_id": "688a2cd25838690015a4206f",
+    "firstName": "Emerald",
+    "lastName": "Pacocha",
+    "email": "emerald_pacocha@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhhMmNkMjU4Mzg2OTAwMTVhNDIwNmYiLCJpYXQiOjE3NTM4ODU5MDZ9.uPFnGYya_CLAbFKF_VXimYEKZsJaKX1sIjP-fLyKYKI"
+}
+2025-07-30T14:31:47.659Z - INFO - User data: {
+  "_id": "688a2cd212bafb0015f2b56d",
+  "firstName": "Electa",
+  "lastName": "Ferry",
+  "birthdate": "1952-04-18",
+  "email": "electa_ferry@example.com",
+  "phone": "5216816199",
+  "street1": "49939 Old State Road",
+  "street2": "Suite 471",
+  "city": "Altenwerthchester",
+  "stateProvince": "Maine",
+  "postalCode": "09779",
+  "country": "Tokelau",
+  "owner": "688a2cd112bafb0015f2b56b",
+  "__v": 0
+}
+2025-07-30T14:31:48.019Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-30T14:31:48.025Z - INFO - The test completed successfully: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:31:48.019Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Invalid Contact ID\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-30T14:31:48.033Z - INFO - User data: {
+  "_id": "688a2cd312bafb0015f2b56e",
+  "firstName": "Lon",
+  "lastName": "Lynch",
+  "birthdate": "1985-03-22",
+  "email": "lon_lynch@example.com",
+  "phone": "3036489722",
+  "street1": "189 Woodlands",
+  "street2": "Apt. 283",
+  "city": "Destanycester",
+  "stateProvince": "Ohio",
+  "postalCode": "55118-7821",
+  "country": "Uganda",
+  "owner": "688a2cd25838690015a4206f",
+  "__v": 0
+}
+2025-07-30T14:31:48.070Z - INFO - The Suite is completed: TC36 - Verify failed update of non-existent contact via API
+2025-07-30T14:31:48.179Z - INFO - User data: {
+  "_id": "688a2cd212bafb0015f2b56d",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1999-01-01",
+  "email": "fullupdate@details.com",
+  "phone": "1234567890",
+  "street1": "Updated 197 Ernie Corn",
+  "street2": "Updated Suite 001",
+  "city": "Updated Lake Darkpink",
+  "stateProvince": "Updated Virginia",
+  "postalCode": "5552",
+  "country": "Updated Faroe Islands",
+  "owner": "688a2cd112bafb0015f2b56b",
+  "__v": 0
+}
+2025-07-30T14:31:48.185Z - INFO - The test completed successfully: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:31:48.235Z - INFO - The Suite is completed: TC34 - Verify successful update of a contact (PUT) via API
+2025-07-30T14:31:48.502Z - INFO - User data: {
+  "_id": "688a2cd312bafb0015f2b56e",
+  "firstName": "UpdatedFName",
+  "lastName": "UpdatedLName",
+  "birthdate": "1985-03-22",
+  "email": "partialupdate@details.com",
+  "phone": "3036489722",
+  "street1": "189 Woodlands",
+  "street2": "Apt. 283",
+  "city": "Destanycester",
+  "stateProvince": "Ohio",
+  "postalCode": "55118-7821",
+  "country": "Uganda",
+  "owner": "688a2cd25838690015a4206f",
+  "__v": 0
+}
+2025-07-30T14:31:48.507Z - INFO - The test completed successfully: TC35 - Verify successful partial update of a contact (PATCH) via API
+2025-07-30T14:31:48.592Z - INFO - The Suite is completed: TC35 - Verify successful partial update of a contact (PATCH) via API
