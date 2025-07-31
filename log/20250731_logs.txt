@@ -846,3 +846,378 @@
 2025-07-31T07:03:24.256Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
 2025-07-31T07:03:24.251Z - INFO - Error RESPONSE from API: "{\n  \"contactId\": \"688b153a1bd5550015ea9999\",\n  \"httpErrorMessage\": \"Request failed with status code 404\",\n  \"errorMessage\": \"Not Found\",\n  \"responseStatus\": \"404\"\n}"
 2025-07-31T07:03:24.302Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:48:27.671Z - INFO - Test Suite is Starting
+2025-07-31T07:48:28.870Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T07:48:38.560Z - INFO - User data: {
+  "user": {
+    "_id": "688b1fd5ad958c001573f229",
+    "firstName": "Kayleigh",
+    "lastName": "Satterfield",
+    "email": "kayleigh_satterfield@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMWZkNWFkOTU4YzAwMTU3M2YyMjkiLCJpYXQiOjE3NTM5NDgxMTd9.MH3xDPnTWHQ0fAPd-1sdvXTFWrEzz3WOBqSFb6Ext1A"
+}
+2025-07-31T07:48:38.989Z - INFO - User data: {
+  "user": {
+    "_id": "688b1fd5ad958c001573f229",
+    "firstName": "Kayleigh",
+    "lastName": "Satterfield",
+    "email": "kayleigh_satterfield@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMWZkNWFkOTU4YzAwMTU3M2YyMjkiLCJpYXQiOjE3NTM5NDgxMTh9.bTEeblqj3B0Eiw1y6bySFpe-Yl66eDHOyeG1XuN0FDs"
+}
+2025-07-31T07:48:39.458Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T07:48:39.463Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T07:48:39.648Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T07:52:31.974Z - INFO - Test Suite is Starting
+2025-07-31T07:52:32.912Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T07:52:41.821Z - INFO - User data: {
+  "user": {
+    "_id": "688b20c91bd5550015ea99ab",
+    "firstName": "Cali",
+    "lastName": "Ward",
+    "email": "cali.ward@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjBjOTFiZDU1NTAwMTVlYTk5YWIiLCJpYXQiOjE3NTM5NDgzNjF9.GWxvj0caucPgMDI1DPCZC_PYkzAL5RE5re2k-MME_SU"
+}
+2025-07-31T07:52:42.346Z - INFO - User data: {
+  "user": {
+    "_id": "688b20c91bd5550015ea99ab",
+    "firstName": "Cali",
+    "lastName": "Ward",
+    "email": "cali.ward@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjBjOTFiZDU1NTAwMTVlYTk5YWIiLCJpYXQiOjE3NTM5NDgzNjF9.GWxvj0caucPgMDI1DPCZC_PYkzAL5RE5re2k-MME_SU"
+}
+2025-07-31T07:52:42.880Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T07:52:42.882Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T07:52:43.031Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T07:57:14.565Z - INFO - Test Suite is Starting
+2025-07-31T07:57:16.076Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T07:57:23.808Z - INFO - User data: {
+  "user": {
+    "_id": "688b21e31bd5550015ea99b1",
+    "firstName": "Caitlyn",
+    "lastName": "Swaniawski",
+    "email": "caitlyn.swaniawski83@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjFlMzFiZDU1NTAwMTVlYTk5YjEiLCJpYXQiOjE3NTM5NDg2NDN9.02prMIOG_xq3rIUy4ZLtY58HU8xwnCSNGpQw1j6Y-JA"
+}
+2025-07-31T07:57:24.263Z - INFO - User data: {
+  "user": {
+    "_id": "688b21e31bd5550015ea99b1",
+    "firstName": "Caitlyn",
+    "lastName": "Swaniawski",
+    "email": "caitlyn.swaniawski83@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjFlMzFiZDU1NTAwMTVlYTk5YjEiLCJpYXQiOjE3NTM5NDg2NDN9.02prMIOG_xq3rIUy4ZLtY58HU8xwnCSNGpQw1j6Y-JA"
+}
+2025-07-31T07:57:24.691Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T07:57:24.693Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T07:57:24.784Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:03:35.486Z - INFO - Test Suite is Starting
+2025-07-31T08:03:36.598Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:03:43.197Z - INFO - User data: {
+  "user": {
+    "_id": "688b235e1bd5550015ea99bb",
+    "firstName": "Ulises",
+    "lastName": "Kiehn",
+    "email": "ulises.kiehn@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjM1ZTFiZDU1NTAwMTVlYTk5YmIiLCJpYXQiOjE3NTM5NDkwMjJ9.gdd8z2f31ArJOu9H79DpEFA_M7VG63QOrV3-o3rkxu0"
+}
+2025-07-31T08:03:43.653Z - INFO - User data: {
+  "user": {
+    "_id": "688b235e1bd5550015ea99bb",
+    "firstName": "Ulises",
+    "lastName": "Kiehn",
+    "email": "ulises.kiehn@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjM1ZTFiZDU1NTAwMTVlYTk5YmIiLCJpYXQiOjE3NTM5NDkwMjN9.9Qwz4c_WVpBEumgUe5ZjGVPAVVakw0dnyoO7NBcXy5w"
+}
+2025-07-31T08:03:44.104Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:03:44.106Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:03:44.241Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:05:27.281Z - INFO - Test Suite is Starting
+2025-07-31T08:05:28.242Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:05:34.843Z - INFO - User data: {
+  "user": {
+    "_id": "688b23ce1bd5550015ea99bd",
+    "firstName": "Ona",
+    "lastName": "Runolfsson",
+    "email": "ona.runolfsson@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjNjZTFiZDU1NTAwMTVlYTk5YmQiLCJpYXQiOjE3NTM5NDkxMzR9.xH-Ek10SJ2jRYCAqIMeXX5xkFbte1Plc3v6Ib0s0g8k"
+}
+2025-07-31T08:05:35.339Z - INFO - User data: {
+  "user": {
+    "_id": "688b23ce1bd5550015ea99bd",
+    "firstName": "Ona",
+    "lastName": "Runolfsson",
+    "email": "ona.runolfsson@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjNjZTFiZDU1NTAwMTVlYTk5YmQiLCJpYXQiOjE3NTM5NDkxMzR9.xH-Ek10SJ2jRYCAqIMeXX5xkFbte1Plc3v6Ib0s0g8k"
+}
+2025-07-31T08:05:35.845Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:05:35.847Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:05:36.000Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:12:49.794Z - INFO - Test Suite is Starting
+2025-07-31T08:12:50.772Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:12:58.877Z - INFO - User data: {
+  "user": {
+    "_id": "688b258aad958c001573f23c",
+    "firstName": "Winston",
+    "lastName": "Collier",
+    "email": "winston.collier79@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjU4YWFkOTU4YzAwMTU3M2YyM2MiLCJpYXQiOjE3NTM5NDk1Nzh9.j8YNusfXX227B-QwPiUK9awrAbUJVLj5hB6N2v1R_MQ"
+}
+2025-07-31T08:12:59.360Z - INFO - User data: {
+  "user": {
+    "_id": "688b258aad958c001573f23c",
+    "firstName": "Winston",
+    "lastName": "Collier",
+    "email": "winston.collier79@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjU4YWFkOTU4YzAwMTU3M2YyM2MiLCJpYXQiOjE3NTM5NDk1Nzh9.j8YNusfXX227B-QwPiUK9awrAbUJVLj5hB6N2v1R_MQ"
+}
+2025-07-31T08:12:59.835Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:12:59.837Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:12:59.904Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:15:31.619Z - INFO - Test Suite is Starting
+2025-07-31T08:15:32.556Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:15:38.779Z - INFO - User data: {
+  "user": {
+    "_id": "688b262aad958c001573f23f",
+    "firstName": "Johanna",
+    "lastName": "Walsh",
+    "email": "johanna.walsh@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjYyYWFkOTU4YzAwMTU3M2YyM2YiLCJpYXQiOjE3NTM5NDk3Mzh9.T1tVo1KB_9vRrOkrdwUSOSoff_6ub6ChKkc_gUwW_d8"
+}
+2025-07-31T08:15:39.203Z - INFO - User data: {
+  "user": {
+    "_id": "688b262aad958c001573f23f",
+    "firstName": "Johanna",
+    "lastName": "Walsh",
+    "email": "johanna.walsh@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjYyYWFkOTU4YzAwMTU3M2YyM2YiLCJpYXQiOjE3NTM5NDk3Mzh9.T1tVo1KB_9vRrOkrdwUSOSoff_6ub6ChKkc_gUwW_d8"
+}
+2025-07-31T08:15:39.621Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:15:39.623Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:15:39.720Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:16:47.471Z - INFO - Test Suite is Starting
+2025-07-31T08:16:48.061Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:16:54.057Z - INFO - User data: {
+  "user": {
+    "_id": "688b2675ad958c001573f241",
+    "firstName": "Sabina",
+    "lastName": "Deckow",
+    "email": "sabina_deckow@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjY3NWFkOTU4YzAwMTU3M2YyNDEiLCJpYXQiOjE3NTM5NDk4MTN9.sPnSWTNkh_ikLThB-7z9rqcjK3Dkzn-1lPqWb_hUJOI"
+}
+2025-07-31T08:16:54.438Z - INFO - User data: {
+  "user": {
+    "_id": "688b2675ad958c001573f241",
+    "firstName": "Sabina",
+    "lastName": "Deckow",
+    "email": "sabina_deckow@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjY3NWFkOTU4YzAwMTU3M2YyNDEiLCJpYXQiOjE3NTM5NDk4MTN9.sPnSWTNkh_ikLThB-7z9rqcjK3Dkzn-1lPqWb_hUJOI"
+}
+2025-07-31T08:16:54.818Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:16:54.820Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:16:54.920Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:18:43.987Z - INFO - Test Suite is Starting
+2025-07-31T08:18:45.276Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:18:50.956Z - INFO - User data: {
+  "user": {
+    "_id": "688b26ea1bd5550015ea99c8",
+    "firstName": "Jade",
+    "lastName": "Watsica",
+    "email": "jade.watsica@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjZlYTFiZDU1NTAwMTVlYTk5YzgiLCJpYXQiOjE3NTM5NDk5MzB9.a-5gMrr0759Y4Qqg-IlLN_bsafJubBVPccQX98KGTiU"
+}
+2025-07-31T08:18:51.329Z - INFO - User data: {
+  "user": {
+    "_id": "688b26ea1bd5550015ea99c8",
+    "firstName": "Jade",
+    "lastName": "Watsica",
+    "email": "jade.watsica@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjZlYTFiZDU1NTAwMTVlYTk5YzgiLCJpYXQiOjE3NTM5NDk5MzB9.a-5gMrr0759Y4Qqg-IlLN_bsafJubBVPccQX98KGTiU"
+}
+2025-07-31T08:18:51.757Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:18:51.760Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:18:51.856Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:21:04.486Z - INFO - Test Suite is Starting
+2025-07-31T08:21:05.430Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:21:11.426Z - INFO - User data: {
+  "user": {
+    "_id": "688b27761bd5550015ea99cd",
+    "firstName": "Ike",
+    "lastName": "Friesen",
+    "email": "ike.friesen@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjc3NjFiZDU1NTAwMTVlYTk5Y2QiLCJpYXQiOjE3NTM5NTAwNzB9.5a3zHBr8vHZXgsImJHUinGmkuPeheom4MndFQGuGUWA"
+}
+2025-07-31T08:21:11.823Z - INFO - User data: {
+  "user": {
+    "_id": "688b27761bd5550015ea99cd",
+    "firstName": "Ike",
+    "lastName": "Friesen",
+    "email": "ike.friesen@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjc3NjFiZDU1NTAwMTVlYTk5Y2QiLCJpYXQiOjE3NTM5NTAwNzF9.Xbw1R8i0_Z13zji82e6Mwig9iqLPU9dz30znf8wjqOs"
+}
+2025-07-31T08:21:12.175Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:21:12.177Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:21:12.331Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:21:50.282Z - INFO - Test Suite is Starting
+2025-07-31T08:21:51.026Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:21:57.041Z - INFO - User data: {
+  "user": {
+    "_id": "688b27a4ad958c001573f247",
+    "firstName": "Mertie",
+    "lastName": "Senger",
+    "email": "mertie_senger88@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjdhNGFkOTU4YzAwMTU3M2YyNDciLCJpYXQiOjE3NTM5NTAxMTZ9.c8u3ERlaRgZaODOKGonQHAwk9bPZi8BnY5yOFXyXkTg"
+}
+2025-07-31T08:21:57.428Z - INFO - User data: {
+  "user": {
+    "_id": "688b27a4ad958c001573f247",
+    "firstName": "Mertie",
+    "lastName": "Senger",
+    "email": "mertie_senger88@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjdhNGFkOTU4YzAwMTU3M2YyNDciLCJpYXQiOjE3NTM5NTAxMTZ9.c8u3ERlaRgZaODOKGonQHAwk9bPZi8BnY5yOFXyXkTg"
+}
+2025-07-31T08:21:57.780Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:21:57.782Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:21:57.910Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:24:28.573Z - INFO - Test Suite is Starting
+2025-07-31T08:24:29.481Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:24:34.663Z - INFO - User data: {
+  "user": {
+    "_id": "688b2842ad958c001573f24a",
+    "firstName": "Niko",
+    "lastName": "Schoen",
+    "email": "niko.schoen13@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjg0MmFkOTU4YzAwMTU3M2YyNGEiLCJpYXQiOjE3NTM5NTAyNzR9.cazNsZlW5ln_qHfS3BzoB2j3R_AAKi-dyo6JGsKFQBE"
+}
+2025-07-31T08:24:35.007Z - INFO - User data: {
+  "user": {
+    "_id": "688b2842ad958c001573f24a",
+    "firstName": "Niko",
+    "lastName": "Schoen",
+    "email": "niko.schoen13@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjg0MmFkOTU4YzAwMTU3M2YyNGEiLCJpYXQiOjE3NTM5NTAyNzR9.cazNsZlW5ln_qHfS3BzoB2j3R_AAKi-dyo6JGsKFQBE"
+}
+2025-07-31T08:24:35.397Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:24:35.398Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:24:35.547Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:25:16.950Z - INFO - Test Suite is Starting
+2025-07-31T08:25:17.862Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:25:23.811Z - INFO - User data: {
+  "user": {
+    "_id": "688b2873ad958c001573f24d",
+    "firstName": "Orin",
+    "lastName": "Lind",
+    "email": "orin.lind23@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjg3M2FkOTU4YzAwMTU3M2YyNGQiLCJpYXQiOjE3NTM5NTAzMjN9.Cu8C3fVOzCf8SVM_sZ3aaXW_WgMCMubCSZuJ4naeNhU"
+}
+2025-07-31T08:25:24.148Z - INFO - User data: {
+  "user": {
+    "_id": "688b2873ad958c001573f24d",
+    "firstName": "Orin",
+    "lastName": "Lind",
+    "email": "orin.lind23@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMjg3M2FkOTU4YzAwMTU3M2YyNGQiLCJpYXQiOjE3NTM5NTAzMjN9.Cu8C3fVOzCf8SVM_sZ3aaXW_WgMCMubCSZuJ4naeNhU"
+}
+2025-07-31T08:25:24.480Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:25:24.482Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:25:24.577Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:34:54.246Z - INFO - Test Suite is Starting
+2025-07-31T08:34:55.684Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:35:03.884Z - INFO - User data: {
+  "user": {
+    "_id": "688b2ab7ad958c001573f25c",
+    "firstName": "Granville",
+    "lastName": "Donnelly",
+    "email": "granville.donnelly80@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMmFiN2FkOTU4YzAwMTU3M2YyNWMiLCJpYXQiOjE3NTM5NTA5MDN9.J5nok5DsAhXRRHELwXd69SmkQe6S8BQjCMjpa9uBP9I"
+}
+2025-07-31T08:35:04.300Z - INFO - User data: {
+  "user": {
+    "_id": "688b2ab7ad958c001573f25c",
+    "firstName": "Granville",
+    "lastName": "Donnelly",
+    "email": "granville.donnelly80@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMmFiN2FkOTU4YzAwMTU3M2YyNWMiLCJpYXQiOjE3NTM5NTA5MDN9.J5nok5DsAhXRRHELwXd69SmkQe6S8BQjCMjpa9uBP9I"
+}
+2025-07-31T08:35:04.723Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION Request failed with status code 401
+2025-07-31T08:35:04.725Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:35:04.802Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
+2025-07-31T08:49:49.778Z - INFO - Test Suite is Starting
+2025-07-31T08:49:51.015Z - INFO - The test is running: TC39 - Successful User Logout via API
+2025-07-31T08:49:56.730Z - INFO - User data: {
+  "user": {
+    "_id": "688b2e341bd5550015ea99eb",
+    "firstName": "Aron",
+    "lastName": "Stroman",
+    "email": "aron.stroman23@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMmUzNDFiZDU1NTAwMTVlYTk5ZWIiLCJpYXQiOjE3NTM5NTE3OTZ9.qndFCTsKfmbC9tP2ZE2t9g4o9LbhchWMx42KbVwPZU4"
+}
+2025-07-31T08:49:57.139Z - INFO - User data: {
+  "user": {
+    "_id": "688b2e341bd5550015ea99eb",
+    "firstName": "Aron",
+    "lastName": "Stroman",
+    "email": "aron.stroman23@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMmUzNDFiZDU1NTAwMTVlYTk5ZWIiLCJpYXQiOjE3NTM5NTE3OTZ9.qndFCTsKfmbC9tP2ZE2t9g4o9LbhchWMx42KbVwPZU4"
+}
+2025-07-31T08:49:57.444Z - INFO - User data: ""
+2025-07-31T08:49:57.447Z - INFO - The test completed successfully: TC39 - Successful User Logout via API
+2025-07-31T08:49:57.507Z - INFO - The Suite is completed: TC39 - Successful User Logout via API
