@@ -42,7 +42,6 @@ export async function userLogin(email: string, password: string): Promise<{ logg
 
     
     const loggedInToken: string = response.data.token;
-    console.log('---------loggedInToken: ', loggedInToken);
     const loginResponseData: string = JSON.stringify(response.data, null, 2);
     const loginResponseStatus: string = JSON.stringify(response.status, null, 2);
     loggingUtil.logMessage("info", `User data: ${JSON.stringify(response.data, null, 2)}`);
