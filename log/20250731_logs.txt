@@ -1,0 +1,848 @@
+2025-07-31T05:58:05.503Z - INFO - Test Suite is Starting
+2025-07-31T05:58:06.835Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T05:58:15.149Z - INFO - User data: {
+  "user": {
+    "_id": "688b05f6ad958c001573f1db",
+    "firstName": "Wayne",
+    "lastName": "Rowe",
+    "email": "wayne.rowe6@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDVmNmFkOTU4YzAwMTU3M2YxZGIiLCJpYXQiOjE3NTM5NDE0OTR9.gMnvfkTUvgNrMnEP3t617-y5JV5fi3aaqaFziPsXRik"
+}
+2025-07-31T05:58:15.579Z - INFO - User data: {
+  "user": {
+    "_id": "688b05f6ad958c001573f1db",
+    "firstName": "Wayne",
+    "lastName": "Rowe",
+    "email": "wayne.rowe6@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDVmNmFkOTU4YzAwMTU3M2YxZGIiLCJpYXQiOjE3NTM5NDE0OTV9.GpTRGKAcNNoJDBIq1uVxU6rRSN6KYQWv8EztShbUqqM"
+}
+2025-07-31T05:58:15.997Z - INFO - User data: {
+  "_id": "688b05f7ad958c001573f1dd",
+  "firstName": "Karen",
+  "lastName": "Ferry",
+  "birthdate": "2006-11-23",
+  "email": "karen_ferry46@example.com",
+  "phone": "7772296963",
+  "street1": "43464 McClure Lodge",
+  "street2": "Apt. 332",
+  "city": "Amarillo",
+  "stateProvince": "Delaware",
+  "postalCode": "73425-7383",
+  "country": "Tuvalu",
+  "owner": "688b05f6ad958c001573f1db",
+  "__v": 0
+}
+2025-07-31T05:58:16.387Z - INFO - User data: [
+  {
+    "_id": "688b05f7ad958c001573f1dd",
+    "firstName": "Karen",
+    "lastName": "Ferry",
+    "birthdate": "2006-11-23",
+    "email": "karen_ferry46@example.com",
+    "phone": "7772296963",
+    "street1": "43464 McClure Lodge",
+    "street2": "Apt. 332",
+    "city": "Amarillo",
+    "stateProvince": "Delaware",
+    "postalCode": "73425-7383",
+    "country": "Tuvalu",
+    "owner": "688b05f6ad958c001573f1db",
+    "__v": 0
+  }
+]
+2025-07-31T05:58:16.824Z - INFO - User data: {
+  "_id": "688b05f7ad958c001573f1dd",
+  "firstName": "Karen",
+  "lastName": "Ferry",
+  "birthdate": "2006-11-23",
+  "email": "karen_ferry46@example.com",
+  "phone": "7772296963",
+  "street1": "43464 McClure Lodge",
+  "street2": "Apt. 332",
+  "city": "Amarillo",
+  "stateProvince": "Delaware",
+  "postalCode": "73425-7383",
+  "country": "Tuvalu",
+  "owner": "688b05f6ad958c001573f1db",
+  "__v": 0
+}
+2025-07-31T05:58:16.830Z - INFO - The test completed successfully: TC37 - Verify successful deletion of a contact via API
+2025-07-31T05:58:16.929Z - INFO - The Suite is completed: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:12:06.697Z - INFO - Test Suite is Starting
+2025-07-31T06:12:07.783Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:12:15.197Z - INFO - User data: {
+  "user": {
+    "_id": "688b093ead958c001573f1e9",
+    "firstName": "Merritt",
+    "lastName": "Schoen",
+    "email": "merritt_schoen92@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDkzZWFkOTU4YzAwMTU3M2YxZTkiLCJpYXQiOjE3NTM5NDIzMzR9.Uk9RQ5j5szT4Kia5pc_zsaiQJuIdOdV_GZ88f3st-y0"
+}
+2025-07-31T06:12:15.697Z - INFO - User data: {
+  "user": {
+    "_id": "688b093ead958c001573f1e9",
+    "firstName": "Merritt",
+    "lastName": "Schoen",
+    "email": "merritt_schoen92@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDkzZWFkOTU4YzAwMTU3M2YxZTkiLCJpYXQiOjE3NTM5NDIzMzV9.0EqVjff7cqdsVN6d5ZXn-Ixeugxo4PKoCBbT33KQY2Y"
+}
+2025-07-31T06:12:16.177Z - INFO - User data: {
+  "_id": "688b093f1bd5550015ea9955",
+  "firstName": "Justen",
+  "lastName": "Quitzon",
+  "birthdate": "1993-09-23",
+  "email": "justen.quitzon@example.com",
+  "phone": "8948727972",
+  "street1": "279 Karen Rue",
+  "street2": "Suite 595",
+  "city": "East Lansing",
+  "stateProvince": "Louisiana",
+  "postalCode": "51645-8659",
+  "country": "Guinea",
+  "owner": "688b093ead958c001573f1e9",
+  "__v": 0
+}
+2025-07-31T06:14:30.039Z - INFO - User data: [
+  {
+    "_id": "688b093f1bd5550015ea9955",
+    "firstName": "Justen",
+    "lastName": "Quitzon",
+    "birthdate": "1993-09-23",
+    "email": "justen.quitzon@example.com",
+    "phone": "8948727972",
+    "street1": "279 Karen Rue",
+    "street2": "Suite 595",
+    "city": "East Lansing",
+    "stateProvince": "Louisiana",
+    "postalCode": "51645-8659",
+    "country": "Guinea",
+    "owner": "688b093ead958c001573f1e9",
+    "__v": 0
+  }
+]
+2025-07-31T06:14:30.085Z - ERROR - AN ERROR OCCURRED IN API TRANSACTION socket hang up
+2025-07-31T06:14:30.089Z - INFO - The test completed successfully: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:14:30.237Z - INFO - The Suite is completed: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:14:51.136Z - INFO - Test Suite is Starting
+2025-07-31T06:14:51.975Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:15:01.669Z - INFO - User data: {
+  "user": {
+    "_id": "688b09e51bd5550015ea9957",
+    "firstName": "Pattie",
+    "lastName": "Stiedemann",
+    "email": "pattie_stiedemann@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDllNTFiZDU1NTAwMTVlYTk5NTciLCJpYXQiOjE3NTM5NDI1MDF9.QX8gr63Xw0ud6j3UFNJyY7qaaZcbpGyTeo2KkcJ9SKw"
+}
+2025-07-31T06:15:02.155Z - INFO - User data: {
+  "user": {
+    "_id": "688b09e51bd5550015ea9957",
+    "firstName": "Pattie",
+    "lastName": "Stiedemann",
+    "email": "pattie_stiedemann@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMDllNTFiZDU1NTAwMTVlYTk5NTciLCJpYXQiOjE3NTM5NDI1MDF9.QX8gr63Xw0ud6j3UFNJyY7qaaZcbpGyTeo2KkcJ9SKw"
+}
+2025-07-31T06:15:02.611Z - INFO - User data: {
+  "_id": "688b09e6ad958c001573f1ec",
+  "firstName": "Kiarra",
+  "lastName": "Kuhic",
+  "birthdate": "1952-09-27",
+  "email": "kiarra_kuhic4@example.com",
+  "phone": "1947119143",
+  "street1": "59998 W Grand Avenue",
+  "street2": "Apt. 852",
+  "city": "Fort Aprilfurt",
+  "stateProvince": "Texas",
+  "postalCode": "34290",
+  "country": "Palau",
+  "owner": "688b09e51bd5550015ea9957",
+  "__v": 0
+}
+2025-07-31T06:15:03.043Z - INFO - User data: [
+  {
+    "_id": "688b09e6ad958c001573f1ec",
+    "firstName": "Kiarra",
+    "lastName": "Kuhic",
+    "birthdate": "1952-09-27",
+    "email": "kiarra_kuhic4@example.com",
+    "phone": "1947119143",
+    "street1": "59998 W Grand Avenue",
+    "street2": "Apt. 852",
+    "city": "Fort Aprilfurt",
+    "stateProvince": "Texas",
+    "postalCode": "34290",
+    "country": "Palau",
+    "owner": "688b09e51bd5550015ea9957",
+    "__v": 0
+  }
+]
+2025-07-31T06:18:31.178Z - INFO - Test Suite is Starting
+2025-07-31T06:18:31.202Z - INFO - Test Suite is Starting
+2025-07-31T06:18:33.302Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:18:33.302Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:18:34.777Z - INFO - The test completed successfully: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:18:34.807Z - INFO - The Suite is completed: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:18:35.689Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:18:35.703Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:18:47.890Z - INFO - Test Suite is Starting
+2025-07-31T06:18:48.701Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:18:58.117Z - INFO - User data: {
+  "user": {
+    "_id": "688b0ad11bd5550015ea995e",
+    "firstName": "Ruthie",
+    "lastName": "Bogan",
+    "email": "ruthie_bogan25@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMGFkMTFiZDU1NTAwMTVlYTk5NWUiLCJpYXQiOjE3NTM5NDI3Mzd9.JcS3kPmmWbvtjJpQh1MUhQiY1FHGlIia9aZirgKvSgg"
+}
+2025-07-31T06:18:58.650Z - INFO - User data: {
+  "user": {
+    "_id": "688b0ad11bd5550015ea995e",
+    "firstName": "Ruthie",
+    "lastName": "Bogan",
+    "email": "ruthie_bogan25@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMGFkMTFiZDU1NTAwMTVlYTk5NWUiLCJpYXQiOjE3NTM5NDI3Mzh9.hczRz5a8VvK4cYRF0p1nkOOU8Pb0eY60VVaMYCcZlWI"
+}
+2025-07-31T06:18:59.106Z - INFO - User data: {
+  "_id": "688b0ad21bd5550015ea9961",
+  "firstName": "Alejandrin",
+  "lastName": "Balistreri",
+  "birthdate": "1948-12-12",
+  "email": "alejandrin_balistreri85@example.com",
+  "phone": "5070074774",
+  "street1": "38086 Abshire Keys",
+  "street2": "Apt. 124",
+  "city": "East Deangelofort",
+  "stateProvince": "Wyoming",
+  "postalCode": "32803",
+  "country": "Dominican Republic",
+  "owner": "688b0ad11bd5550015ea995e",
+  "__v": 0
+}
+2025-07-31T06:18:59.517Z - INFO - User data: [
+  {
+    "_id": "688b0ad21bd5550015ea9961",
+    "firstName": "Alejandrin",
+    "lastName": "Balistreri",
+    "birthdate": "1948-12-12",
+    "email": "alejandrin_balistreri85@example.com",
+    "phone": "5070074774",
+    "street1": "38086 Abshire Keys",
+    "street2": "Apt. 124",
+    "city": "East Deangelofort",
+    "stateProvince": "Wyoming",
+    "postalCode": "32803",
+    "country": "Dominican Republic",
+    "owner": "688b0ad11bd5550015ea995e",
+    "__v": 0
+  }
+]
+2025-07-31T06:19:24.770Z - INFO - User data: "Contact deleted"
+2025-07-31T06:19:24.779Z - INFO - The test completed successfully: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:19:24.877Z - INFO - The Suite is completed: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:19:43.985Z - INFO - Test Suite is Starting
+2025-07-31T06:19:44.586Z - INFO - The test is running: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:19:52.840Z - INFO - User data: {
+  "user": {
+    "_id": "688b0b081bd5550015ea9962",
+    "firstName": "Laurel",
+    "lastName": "Grady",
+    "email": "laurel_grady22@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMGIwODFiZDU1NTAwMTVlYTk5NjIiLCJpYXQiOjE3NTM5NDI3OTJ9.lU2PeACp_PAcMUsROuH7mVu-1pKGF2oIYvmA8i0o6JQ"
+}
+2025-07-31T06:19:53.323Z - INFO - User data: {
+  "user": {
+    "_id": "688b0b081bd5550015ea9962",
+    "firstName": "Laurel",
+    "lastName": "Grady",
+    "email": "laurel_grady22@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMGIwODFiZDU1NTAwMTVlYTk5NjIiLCJpYXQiOjE3NTM5NDI3OTJ9.lU2PeACp_PAcMUsROuH7mVu-1pKGF2oIYvmA8i0o6JQ"
+}
+2025-07-31T06:19:53.799Z - INFO - User data: {
+  "_id": "688b0b091bd5550015ea9965",
+  "firstName": "Rogers",
+  "lastName": "Rice",
+  "birthdate": "1980-10-12",
+  "email": "rogers.rice4@example.com",
+  "phone": "4685615062",
+  "street1": "1060 Richmond Inlet",
+  "street2": "Apt. 417",
+  "city": "Carterchester",
+  "stateProvince": "California",
+  "postalCode": "86092-0856",
+  "country": "Curacao",
+  "owner": "688b0b081bd5550015ea9962",
+  "__v": 0
+}
+2025-07-31T06:19:54.272Z - INFO - User data: [
+  {
+    "_id": "688b0b091bd5550015ea9965",
+    "firstName": "Rogers",
+    "lastName": "Rice",
+    "birthdate": "1980-10-12",
+    "email": "rogers.rice4@example.com",
+    "phone": "4685615062",
+    "street1": "1060 Richmond Inlet",
+    "street2": "Apt. 417",
+    "city": "Carterchester",
+    "stateProvince": "California",
+    "postalCode": "86092-0856",
+    "country": "Curacao",
+    "owner": "688b0b081bd5550015ea9962",
+    "__v": 0
+  }
+]
+2025-07-31T06:19:54.845Z - INFO - User data: "Contact deleted"
+2025-07-31T06:19:54.852Z - INFO - The test completed successfully: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:19:54.917Z - INFO - The Suite is completed: TC37 - Verify successful deletion of a contact via API
+2025-07-31T06:41:10.813Z - INFO - Test Suite is Starting
+2025-07-31T06:41:11.759Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:41:22.592Z - INFO - User data: {
+  "user": {
+    "_id": "688b10111bd5550015ea996e",
+    "firstName": "Jayne",
+    "lastName": "Ritchie",
+    "email": "jayne.ritchie92@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTAxMTFiZDU1NTAwMTVlYTk5NmUiLCJpYXQiOjE3NTM5NDQwODF9.pSAQjr0SgzgvuzvoKRKm9vZw0fZF5WjrpHhoqwC6tAw"
+}
+2025-07-31T06:41:23.080Z - INFO - User data: {
+  "user": {
+    "_id": "688b10111bd5550015ea996e",
+    "firstName": "Jayne",
+    "lastName": "Ritchie",
+    "email": "jayne.ritchie92@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTAxMTFiZDU1NTAwMTVlYTk5NmUiLCJpYXQiOjE3NTM5NDQwODJ9.2hggwPtvVLvuQ8HVghK5Ud_Wrus756uJFY_KOz0DASQ"
+}
+2025-07-31T06:41:23.552Z - INFO - User data: {
+  "_id": "688b10121bd5550015ea9970",
+  "firstName": "Benedict",
+  "lastName": "Towne",
+  "birthdate": "1978-09-14",
+  "email": "benedict_towne@example.com",
+  "phone": "1978918521",
+  "street1": "43840 Sawayn Land",
+  "street2": "Suite 892",
+  "city": "Enterprise",
+  "stateProvince": "Utah",
+  "postalCode": "72778",
+  "country": "Sudan",
+  "owner": "688b10111bd5550015ea996e",
+  "__v": 0
+}
+2025-07-31T06:41:24.003Z - INFO - User data: [
+  {
+    "_id": "688b10121bd5550015ea9970",
+    "firstName": "Benedict",
+    "lastName": "Towne",
+    "birthdate": "1978-09-14",
+    "email": "benedict_towne@example.com",
+    "phone": "1978918521",
+    "street1": "43840 Sawayn Land",
+    "street2": "Suite 892",
+    "city": "Enterprise",
+    "stateProvince": "Utah",
+    "postalCode": "72778",
+    "country": "Sudan",
+    "owner": "688b10111bd5550015ea996e",
+    "__v": 0
+  }
+]
+2025-07-31T06:41:24.495Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-31T06:41:24.496Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Invalid Contact ID\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-31T06:41:24.669Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:41:24.757Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:45:41.971Z - INFO - Test Suite is Starting
+2025-07-31T06:45:42.849Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:45:51.198Z - INFO - User data: {
+  "user": {
+    "_id": "688b111e1bd5550015ea9973",
+    "firstName": "Meaghan",
+    "lastName": "Mitchell",
+    "email": "meaghan.mitchell@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTExZTFiZDU1NTAwMTVlYTk5NzMiLCJpYXQiOjE3NTM5NDQzNTB9.EnoVikYRh-ON_lXdgqCpQjbPb8-gt-ltSibXxMl5MTY"
+}
+2025-07-31T06:45:51.960Z - INFO - User data: {
+  "user": {
+    "_id": "688b111e1bd5550015ea9973",
+    "firstName": "Meaghan",
+    "lastName": "Mitchell",
+    "email": "meaghan.mitchell@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTExZTFiZDU1NTAwMTVlYTk5NzMiLCJpYXQiOjE3NTM5NDQzNTF9.iNXUYjcUFDvEUAypF79yjCXjYBP_IyZK7BXhdqhbNOk"
+}
+2025-07-31T06:45:52.415Z - INFO - User data: {
+  "_id": "688b111fad958c001573f1fc",
+  "firstName": "Audra",
+  "lastName": "Osinski",
+  "birthdate": "1946-03-07",
+  "email": "audra_osinski@example.com",
+  "phone": "8619443722",
+  "street1": "2525 W 12th Street",
+  "street2": "Suite 496",
+  "city": "Hemet",
+  "stateProvince": "Delaware",
+  "postalCode": "81264-2562",
+  "country": "Chad",
+  "owner": "688b111e1bd5550015ea9973",
+  "__v": 0
+}
+2025-07-31T06:45:52.822Z - INFO - User data: [
+  {
+    "_id": "688b111fad958c001573f1fc",
+    "firstName": "Audra",
+    "lastName": "Osinski",
+    "birthdate": "1946-03-07",
+    "email": "audra_osinski@example.com",
+    "phone": "8619443722",
+    "street1": "2525 W 12th Street",
+    "street2": "Suite 496",
+    "city": "Hemet",
+    "stateProvince": "Delaware",
+    "postalCode": "81264-2562",
+    "country": "Chad",
+    "owner": "688b111e1bd5550015ea9973",
+    "__v": 0
+  }
+]
+2025-07-31T06:45:53.273Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-31T06:45:53.273Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Invalid Contact ID\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-31T06:45:53.439Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:45:53.542Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:51:29.179Z - INFO - Test Suite is Starting
+2025-07-31T06:51:30.226Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:51:49.937Z - INFO - User data: {
+  "user": {
+    "_id": "688b12851bd5550015ea997a",
+    "firstName": "Sebastian",
+    "lastName": "Lynch",
+    "email": "sebastian_lynch@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTI4NTFiZDU1NTAwMTVlYTk5N2EiLCJpYXQiOjE3NTM5NDQ3MDl9.k9XCTGY-gU4G6YgckatP89SGwARP97IVFnb3DBHo3WQ"
+}
+2025-07-31T06:51:50.486Z - INFO - User data: {
+  "user": {
+    "_id": "688b12851bd5550015ea997a",
+    "firstName": "Sebastian",
+    "lastName": "Lynch",
+    "email": "sebastian_lynch@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTI4NTFiZDU1NTAwMTVlYTk5N2EiLCJpYXQiOjE3NTM5NDQ3MDl9.k9XCTGY-gU4G6YgckatP89SGwARP97IVFnb3DBHo3WQ"
+}
+2025-07-31T06:51:51.025Z - INFO - User data: {
+  "_id": "688b12861bd5550015ea997c",
+  "firstName": "Alfonzo",
+  "lastName": "Becker",
+  "birthdate": "1956-12-27",
+  "email": "alfonzo_becker77@example.com",
+  "phone": "4520233442",
+  "street1": "48272 Pleasant Street",
+  "street2": "Suite 766",
+  "city": "Wauwatosa",
+  "stateProvince": "Hawaii",
+  "postalCode": "96023",
+  "country": "British Indian",
+  "owner": "688b12851bd5550015ea997a",
+  "__v": 0
+}
+2025-07-31T06:51:51.472Z - INFO - User data: [
+  {
+    "_id": "688b12861bd5550015ea997c",
+    "firstName": "Alfonzo",
+    "lastName": "Becker",
+    "birthdate": "1956-12-27",
+    "email": "alfonzo_becker77@example.com",
+    "phone": "4520233442",
+    "street1": "48272 Pleasant Street",
+    "street2": "Suite 766",
+    "city": "Wauwatosa",
+    "stateProvince": "Hawaii",
+    "postalCode": "96023",
+    "country": "British Indian",
+    "owner": "688b12851bd5550015ea997a",
+    "__v": 0
+  }
+]
+2025-07-31T06:51:51.927Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-31T06:51:51.927Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 400\",\n  \"errorMessage\": \"Invalid Contact ID\",\n  \"responseStatus\": \"400\"\n}"
+2025-07-31T06:51:52.116Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:51:52.176Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:52:44.733Z - INFO - Test Suite is Starting
+2025-07-31T06:52:46.221Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:52:52.885Z - INFO - User data: {
+  "user": {
+    "_id": "688b12c41bd5550015ea997d",
+    "firstName": "Don",
+    "lastName": "Pouros-Abernathy",
+    "email": "don_pouros-abernathy62@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTJjNDFiZDU1NTAwMTVlYTk5N2QiLCJpYXQiOjE3NTM5NDQ3NzJ9.tQ5v5WB8R25fq2oSN7DK2L7qrX1iOcukZad6xVS_ryw"
+}
+2025-07-31T06:52:53.352Z - INFO - User data: {
+  "user": {
+    "_id": "688b12c41bd5550015ea997d",
+    "firstName": "Don",
+    "lastName": "Pouros-Abernathy",
+    "email": "don_pouros-abernathy62@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTJjNDFiZDU1NTAwMTVlYTk5N2QiLCJpYXQiOjE3NTM5NDQ3NzJ9.tQ5v5WB8R25fq2oSN7DK2L7qrX1iOcukZad6xVS_ryw"
+}
+2025-07-31T06:52:53.775Z - INFO - User data: {
+  "_id": "688b12c51bd5550015ea9980",
+  "firstName": "Golda",
+  "lastName": "Goodwin",
+  "birthdate": "1991-05-18",
+  "email": "golda_goodwin45@example.com",
+  "phone": "1960289624",
+  "street1": "134 Maci Haven",
+  "street2": "Suite 463",
+  "city": "North Adrianna",
+  "stateProvince": "Georgia",
+  "postalCode": "11917",
+  "country": "Estonia",
+  "owner": "688b12c41bd5550015ea997d",
+  "__v": 0
+}
+2025-07-31T06:52:54.178Z - INFO - User data: [
+  {
+    "_id": "688b12c51bd5550015ea9980",
+    "firstName": "Golda",
+    "lastName": "Goodwin",
+    "birthdate": "1991-05-18",
+    "email": "golda_goodwin45@example.com",
+    "phone": "1960289624",
+    "street1": "134 Maci Haven",
+    "street2": "Suite 463",
+    "city": "North Adrianna",
+    "stateProvince": "Georgia",
+    "postalCode": "11917",
+    "country": "Estonia",
+    "owner": "688b12c41bd5550015ea997d",
+    "__v": 0
+  }
+]
+2025-07-31T06:52:59.072Z - INFO - Invalid Contact ID Update - RESPONSE status: 400
+2025-07-31T06:53:58.335Z - INFO - Test Suite is Starting
+2025-07-31T06:53:59.420Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:54:06.028Z - INFO - User data: {
+  "user": {
+    "_id": "688b130dad958c001573f204",
+    "firstName": "Camden",
+    "lastName": "Considine",
+    "email": "camden.considine78@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTMwZGFkOTU4YzAwMTU3M2YyMDQiLCJpYXQiOjE3NTM5NDQ4NDV9.fw3EHmJke68mt4bGtyLYLYJvcJ5y9-3eLcu3Qzt0HOY"
+}
+2025-07-31T06:54:06.499Z - INFO - User data: {
+  "user": {
+    "_id": "688b130dad958c001573f204",
+    "firstName": "Camden",
+    "lastName": "Considine",
+    "email": "camden.considine78@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTMwZGFkOTU4YzAwMTU3M2YyMDQiLCJpYXQiOjE3NTM5NDQ4NDV9.fw3EHmJke68mt4bGtyLYLYJvcJ5y9-3eLcu3Qzt0HOY"
+}
+2025-07-31T06:54:06.942Z - INFO - User data: {
+  "_id": "688b130ead958c001573f206",
+  "firstName": "Bernhard",
+  "lastName": "Brekke",
+  "birthdate": "1990-10-16",
+  "email": "bernhard.brekke79@example.com",
+  "phone": "8048047005",
+  "street1": "7645 Geoffrey Knolls",
+  "street2": "Apt. 862",
+  "city": "Lake Tyshawnchester",
+  "stateProvince": "South Carolina",
+  "postalCode": "34587",
+  "country": "Bonaire, Sint Eustatius and Saba",
+  "owner": "688b130dad958c001573f204",
+  "__v": 0
+}
+2025-07-31T06:54:07.402Z - INFO - User data: [
+  {
+    "_id": "688b130ead958c001573f206",
+    "firstName": "Bernhard",
+    "lastName": "Brekke",
+    "birthdate": "1990-10-16",
+    "email": "bernhard.brekke79@example.com",
+    "phone": "8048047005",
+    "street1": "7645 Geoffrey Knolls",
+    "street2": "Apt. 862",
+    "city": "Lake Tyshawnchester",
+    "stateProvince": "South Carolina",
+    "postalCode": "34587",
+    "country": "Bonaire, Sint Eustatius and Saba",
+    "owner": "688b130dad958c001573f204",
+    "__v": 0
+  }
+]
+2025-07-31T06:56:45.091Z - INFO - Test Suite is Starting
+2025-07-31T06:56:45.801Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:56:55.718Z - INFO - User data: {
+  "user": {
+    "_id": "688b13b71bd5550015ea9983",
+    "firstName": "Wilson",
+    "lastName": "Koch",
+    "email": "wilson.koch@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTNiNzFiZDU1NTAwMTVlYTk5ODMiLCJpYXQiOjE3NTM5NDUwMTV9.BrXbNrxeSnepJ1pEhB2IFgK9EU6wuLTycR7MCxIs6FE"
+}
+2025-07-31T06:56:56.215Z - INFO - User data: {
+  "user": {
+    "_id": "688b13b71bd5550015ea9983",
+    "firstName": "Wilson",
+    "lastName": "Koch",
+    "email": "wilson.koch@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTNiNzFiZDU1NTAwMTVlYTk5ODMiLCJpYXQiOjE3NTM5NDUwMTV9.BrXbNrxeSnepJ1pEhB2IFgK9EU6wuLTycR7MCxIs6FE"
+}
+2025-07-31T06:56:56.669Z - INFO - User data: {
+  "_id": "688b13b8ad958c001573f207",
+  "firstName": "Hilma",
+  "lastName": "Murphy",
+  "birthdate": "1976-10-24",
+  "email": "hilma.murphy69@example.com",
+  "phone": "0375095053",
+  "street1": "42986 N Church Street",
+  "street2": "Suite 164",
+  "city": "Paterson",
+  "stateProvince": "Massachusetts",
+  "postalCode": "70734",
+  "country": "South Georgia",
+  "owner": "688b13b71bd5550015ea9983",
+  "__v": 0
+}
+2025-07-31T06:56:57.115Z - INFO - User data: [
+  {
+    "_id": "688b13b8ad958c001573f207",
+    "firstName": "Hilma",
+    "lastName": "Murphy",
+    "birthdate": "1976-10-24",
+    "email": "hilma.murphy69@example.com",
+    "phone": "0375095053",
+    "street1": "42986 N Church Street",
+    "street2": "Suite 164",
+    "city": "Paterson",
+    "stateProvince": "Massachusetts",
+    "postalCode": "70734",
+    "country": "South Georgia",
+    "owner": "688b13b71bd5550015ea9983",
+    "__v": 0
+  }
+]
+2025-07-31T06:56:57.565Z - INFO - User data: "Contact deleted"
+2025-07-31T06:56:58.036Z - INFO - Invalid Contact ID Update - RESPONSE status: 404
+2025-07-31T06:56:58.044Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:56:58.036Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 404\",\n  \"errorMessage\": \"\",\n  \"responseStatus\": \"404\"\n}"
+2025-07-31T06:56:58.119Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:58:51.260Z - INFO - Test Suite is Starting
+2025-07-31T06:58:52.122Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T06:59:00.308Z - INFO - User data: {
+  "user": {
+    "_id": "688b14331bd5550015ea9986",
+    "firstName": "Fleta",
+    "lastName": "Marks",
+    "email": "fleta.marks32@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTQzMzFiZDU1NTAwMTVlYTk5ODYiLCJpYXQiOjE3NTM5NDUxMzl9.RZSOKhb_qF4zRSbE4efnhoPVtIju-COD3-RL5_T_6RE"
+}
+2025-07-31T06:59:00.771Z - INFO - User data: {
+  "user": {
+    "_id": "688b14331bd5550015ea9986",
+    "firstName": "Fleta",
+    "lastName": "Marks",
+    "email": "fleta.marks32@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTQzMzFiZDU1NTAwMTVlYTk5ODYiLCJpYXQiOjE3NTM5NDUxNDB9.YYcu8KIpSOBhFhIxnZfEIkXByti5a3a0tesbSyaMtC4"
+}
+2025-07-31T06:59:01.199Z - INFO - User data: {
+  "_id": "688b14341bd5550015ea9989",
+  "firstName": "Adonis",
+  "lastName": "Bogan",
+  "birthdate": "1950-08-19",
+  "email": "adonis.bogan27@example.com",
+  "phone": "5515521905",
+  "street1": "302 Danny Run",
+  "street2": "Suite 647",
+  "city": "Kleinboro",
+  "stateProvince": "Alaska",
+  "postalCode": "65604-2080",
+  "country": "Portugal",
+  "owner": "688b14331bd5550015ea9986",
+  "__v": 0
+}
+2025-07-31T06:59:01.626Z - INFO - User data: [
+  {
+    "_id": "688b14341bd5550015ea9989",
+    "firstName": "Adonis",
+    "lastName": "Bogan",
+    "birthdate": "1950-08-19",
+    "email": "adonis.bogan27@example.com",
+    "phone": "5515521905",
+    "street1": "302 Danny Run",
+    "street2": "Suite 647",
+    "city": "Kleinboro",
+    "stateProvince": "Alaska",
+    "postalCode": "65604-2080",
+    "country": "Portugal",
+    "owner": "688b14331bd5550015ea9986",
+    "__v": 0
+  }
+]
+2025-07-31T06:59:17.393Z - INFO - User data: "Contact deleted"
+2025-07-31T07:01:00.898Z - INFO - Test Suite is Starting
+2025-07-31T07:01:01.690Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:01:09.410Z - INFO - User data: {
+  "user": {
+    "_id": "688b14b41bd5550015ea998f",
+    "firstName": "Isabelle",
+    "lastName": "Franecki",
+    "email": "isabelle.franecki@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTRiNDFiZDU1NTAwMTVlYTk5OGYiLCJpYXQiOjE3NTM5NDUyNjh9.aWuhlaP3M-VUsxeOZQQUBsTTv83QQmjDEndXlYI6A1s"
+}
+2025-07-31T07:01:09.922Z - INFO - User data: {
+  "user": {
+    "_id": "688b14b41bd5550015ea998f",
+    "firstName": "Isabelle",
+    "lastName": "Franecki",
+    "email": "isabelle.franecki@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTRiNDFiZDU1NTAwMTVlYTk5OGYiLCJpYXQiOjE3NTM5NDUyNjl9.FOyr70LROj7CcucPxGp1LY3jQ8AwWOAl3jpqjJUaLCA"
+}
+2025-07-31T07:01:10.405Z - INFO - User data: {
+  "_id": "688b14b51bd5550015ea9991",
+  "firstName": "Buford",
+  "lastName": "Conn",
+  "birthdate": "1986-09-27",
+  "email": "buford_conn67@example.com",
+  "phone": "4565226927",
+  "street1": "9100 Gustave Fields",
+  "street2": "Suite 313",
+  "city": "Fort Raleighhaven",
+  "stateProvince": "Maine",
+  "postalCode": "00406",
+  "country": "Maldives",
+  "owner": "688b14b41bd5550015ea998f",
+  "__v": 0
+}
+2025-07-31T07:01:10.923Z - INFO - User data: [
+  {
+    "_id": "688b14b51bd5550015ea9991",
+    "firstName": "Buford",
+    "lastName": "Conn",
+    "birthdate": "1986-09-27",
+    "email": "buford_conn67@example.com",
+    "phone": "4565226927",
+    "street1": "9100 Gustave Fields",
+    "street2": "Suite 313",
+    "city": "Fort Raleighhaven",
+    "stateProvince": "Maine",
+    "postalCode": "00406",
+    "country": "Maldives",
+    "owner": "688b14b41bd5550015ea998f",
+    "__v": 0
+  }
+]
+2025-07-31T07:01:11.360Z - INFO - User data: "Contact deleted"
+2025-07-31T07:01:11.826Z - INFO - Invalid Contact ID Update - RESPONSE status: 404
+2025-07-31T07:01:11.830Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:01:11.826Z - INFO - Error RESPONSE from API: "{\n  \"httpErrorMessage\": \"Request failed with status code 404\",\n  \"errorMessage\": \"Not Found\",\n  \"responseStatus\": \"404\"\n}"
+2025-07-31T07:01:11.893Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:03:14.693Z - INFO - Test Suite is Starting
+2025-07-31T07:03:15.522Z - INFO - The test is running: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:03:22.005Z - INFO - User data: {
+  "user": {
+    "_id": "688b15391bd5550015ea9996",
+    "firstName": "Chelsey",
+    "lastName": "Howe",
+    "email": "chelsey.howe@example.com",
+    "__v": 1
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTUzOTFiZDU1NTAwMTVlYTk5OTYiLCJpYXQiOjE3NTM5NDU0MDF9.CKrvoW-ulzyVdlLkqMeho6cDlLwG851nEyG2TUf1BCY"
+}
+2025-07-31T07:03:22.519Z - INFO - User data: {
+  "user": {
+    "_id": "688b15391bd5550015ea9996",
+    "firstName": "Chelsey",
+    "lastName": "Howe",
+    "email": "chelsey.howe@example.com",
+    "__v": 2
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODhiMTUzOTFiZDU1NTAwMTVlYTk5OTYiLCJpYXQiOjE3NTM5NDU0MDF9.CKrvoW-ulzyVdlLkqMeho6cDlLwG851nEyG2TUf1BCY"
+}
+2025-07-31T07:03:22.936Z - INFO - User data: {
+  "_id": "688b153a1bd5550015ea9999",
+  "firstName": "Delores",
+  "lastName": "Davis",
+  "birthdate": "1987-08-30",
+  "email": "delores_davis@example.com",
+  "phone": "7355139840",
+  "street1": "9102 Abigale Meadows",
+  "street2": "Apt. 592",
+  "city": "Lake Lessieville",
+  "stateProvince": "Illinois",
+  "postalCode": "16980",
+  "country": "Saint Pierre and Miquelon",
+  "owner": "688b15391bd5550015ea9996",
+  "__v": 0
+}
+2025-07-31T07:03:23.350Z - INFO - User data: [
+  {
+    "_id": "688b153a1bd5550015ea9999",
+    "firstName": "Delores",
+    "lastName": "Davis",
+    "birthdate": "1987-08-30",
+    "email": "delores_davis@example.com",
+    "phone": "7355139840",
+    "street1": "9102 Abigale Meadows",
+    "street2": "Apt. 592",
+    "city": "Lake Lessieville",
+    "stateProvince": "Illinois",
+    "postalCode": "16980",
+    "country": "Saint Pierre and Miquelon",
+    "owner": "688b15391bd5550015ea9996",
+    "__v": 0
+  }
+]
+2025-07-31T07:03:23.799Z - INFO - User data: "Contact deleted"
+2025-07-31T07:03:24.251Z - INFO - Invalid Contact ID Update - RESPONSE status: 404
+2025-07-31T07:03:24.256Z - INFO - The test completed successfully: TC38 - Verify failed deletion of a non-existent contact via API
+2025-07-31T07:03:24.251Z - INFO - Error RESPONSE from API: "{\n  \"contactId\": \"688b153a1bd5550015ea9999\",\n  \"httpErrorMessage\": \"Request failed with status code 404\",\n  \"errorMessage\": \"Not Found\",\n  \"responseStatus\": \"404\"\n}"
+2025-07-31T07:03:24.302Z - INFO - The Suite is completed: TC38 - Verify failed deletion of a non-existent contact via API

@@ -1,6 +1,4 @@
 import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
 
 import DatasetUtil from '@utils/test-data-util';
 import { LoggingUtility } from '@utils/logger-util';
